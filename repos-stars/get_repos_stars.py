@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+# Authors: Hy3-preview🧙‍♂️, scillidan🤡
+
 import requests
 import csv
 import time
