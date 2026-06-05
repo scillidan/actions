@@ -114,13 +114,12 @@ for lst in (a, b, c):
         })
 
 # write
-out = Path("dist"); out.mkdir(exist_ok=True)
-with open(out / "iso-216.csv", "w", newline="", encoding="utf-8") as f:
+with open("iso-216.csv", "w", newline="", encoding="utf-8") as f:
     wri = csv.DictWriter(f, fieldnames=["size","width_mm","height_mm","width_in","height_in"])
     wri.writeheader()
     wri.writerows(all_rows)
 
-print("✅  Derived from ISO 216 defining rule → dist/iso-216.csv")
+print("✅  Derived from ISO 216 defining rule → iso-216.csv")
 for r in all_rows:
     print(f"  {r['size']:>4}  {r['width_mm']:>4} × {r['height_mm']:>4} mm"
           f"  ({r['width_in']} × {r['height_in']} in)")

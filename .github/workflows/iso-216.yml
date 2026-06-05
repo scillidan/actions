@@ -14,7 +14,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: iso216
+        working-directory: iso-216
 
     steps:
       - name: Checkout repository
@@ -26,7 +26,7 @@ jobs:
           python-version: "3.12"
 
       - name: Generate ISO 216 CSV
-        run: python gen_iso216.py
+        run: python gen_iso_216.py
 
       - name: Check for changes
         id: check_changes
@@ -50,5 +50,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: iso-216-csv
-          path: iso216/iso-216.csv
+          path: iso-216/iso-216.csv
           retention-days: 30
