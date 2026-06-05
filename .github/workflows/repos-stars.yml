@@ -1,4 +1,4 @@
-name: Get Repos Stars (CSV)
+name: Repos Stars (CSV)
 
 on:
   schedule:
