@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# Authors: GLM-5🧙‍♂️, Hy3-preview🧙‍♂️, scillidan🤡
+
 set -euo pipefail
 
 output_file="${1:-spdx-licenses.csv}"
