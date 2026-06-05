@@ -1,0 +1,54 @@
+name: Generate ISO 216 Paper Sizes
+
+on:
+  # schedule:
+  #   - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: iso216
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate ISO 216 CSV
+        run: python gen_iso216.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git status --porcelain | grep -q "iso-216.csv"; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add iso-216.csv
+          git commit -m "chore: update ISO 216 paper sizes [skip ci]"
+          git push
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iso-216-csv
+          path: iso216/iso-216.csv
+          retention-days: 30
