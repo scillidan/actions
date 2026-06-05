@@ -1,0 +1,110 @@
+name: SPDX Licenses (CSV)
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: spdx-licenses
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Get latest SPDX release
+        id: upstream
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          api="https://api.github.com/repos/spdx/license-list-data/releases/latest"
+          json=$(curl -fsSL \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "$api")
+
+          raw_tag=$(printf '%s' "$json" | jq -r '.tag_name')
+          version=$(printf '%s' "$raw_tag" | sed 's/^v//')
+
+          tarball="https://github.com/spdx/license-list-data/archive/refs/tags/${raw_tag}.tar.gz"
+
+          echo "raw_tag=$raw_tag" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tarball=$tarball" >> "$GITHUB_OUTPUT"
+
+      - name: Check if release already exists
+        id: exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          status=$(curl -s -o /dev/null -w '%{http_code}' \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ steps.upstream.outputs.version }}")
+          echo "exists=$([ "$status" = "200" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Download & extract SPDX data
+        if: steps.exists.outputs.exists != 'true'
+        run: |
+          curl -fsSL "${{ steps.upstream.outputs.tarball }}" -o spdx.tar.gz
+          tar -xzf spdx.tar.gz
+          ls -d license-list-data-*/
+
+      - name: Generate CSV
+        if: steps.exists.outputs.exists != 'true'
+        run: |
+          chmod +x spdx_json_to_csv.sh
+          ./spdx_json_to_csv.sh spdx-licenses.csv
+
+      - name: Generate metadata file
+        if: steps.exists.outputs.exists != 'true'
+        run: |
+          cat > spdx-licenses.meta.json << EOF
+          {
+            "version": "${{ steps.upstream.outputs.version }}",
+            "generated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+            "source": "https://github.com/spdx/license-list-data",
+            "spdx_release_tag": "${{ steps.upstream.outputs.raw_tag }}"
+          }
+          EOF
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git status --porcelain | grep -q "spdx-licenses.csv\|spdx-licenses.meta.json"; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add spdx-licenses.csv spdx-licenses.meta.json
+          git commit -m "chore: update SPDX licenses to ${{ steps.upstream.outputs.version }} [skip ci]"
+          git push
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: spdx-licenses
+          path: |
+            spdx-licenses/spdx-licenses.csv
+            spdx-licenses/spdx-licenses.meta.json
+          retention-days: 30
