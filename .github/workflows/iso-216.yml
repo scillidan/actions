@@ -1,4 +1,4 @@
-name: Generate ISO 216 Paper Sizes
+name: ISO 216 (CSV)
 
 on:
   # schedule:
