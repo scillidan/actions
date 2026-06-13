@@ -1,0 +1,147 @@
+name: CompactGUI - Community Compression Results (CSV)
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (do not commit or push)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: compactgui-database
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl coreutils
+
+      - name: Fetch upstream latest commit
+        id: upstream
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          OWNER="IridiumIO"
+          REPO="CompactGUI"
+          BRANCH="database"
+          FILE="database.json"
+          API="https://api.github.com/repos/${OWNER}/${REPO}/branches/${BRANCH}"
+          SHA=$(curl -fsSL \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "$API" | jq -r '.commit.sha')
+          SHORT_SHA="${SHA:0:7}"
+          RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${SHA}/${FILE}"
+          echo "sha=${SHA}" >> "$GITHUB_OUTPUT"
+          echo "version=${SHORT_SHA}" >> "$GITHUB_OUTPUT"
+          echo "url=${RAW_URL}" >> "$GITHUB_OUTPUT"
+
+      - name: Load last seen upstream commit
+        id: last
+        run: |
+          FILE=".compactgui-upstream-sha"
+          if [ -f "$FILE" ]; then
+            echo "sha=$(cat $FILE)" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Stop if upstream unchanged
+        if: steps.last.outputs.sha == steps.upstream.outputs.sha
+        run: |
+          echo "Upstream has no new commits. Exiting."
+          exit 0
+
+      - name: Clean old artifacts
+        run: |
+          rm -f compactgui-games-full-1.csv compactgui-games-best.csv compactgui-games-full-2.csv compactgui-database.meta.json
+
+      - name: Download database.json
+        run: |
+          curl -fsSL "${{ steps.upstream.outputs.url }}" -o database.json
+
+      - name: Generate CSV
+        run: |
+          chmod +x compactgui_json_to_csv.sh
+          ./compactgui_json_to_csv.sh database.json
+
+      - name: Validate CSV
+        run: |
+          for f in compactgui-games-full-1.csv compactgui-games-best.csv compactgui-games-full-2.csv; do
+            LINES=$(wc -l < "$f")
+            if [ "$LINES" -lt 2 ]; then
+              echo "$f appears empty or invalid"
+              exit 1
+            fi
+            sha256sum "$f"
+          done
+
+      - name: Generate metadata
+        run: |
+          cat > compactgui-database.meta.json << EOF
+          {
+            "version": "${{ steps.upstream.outputs.version }}",
+            "commit": "${{ steps.upstream.outputs.sha }}",
+            "generated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+            "source": "https://github.com/IridiumIO/CompactGUI"
+          }
+          EOF
+
+      - name: Record upstream commit
+        run: |
+          echo "${{ steps.upstream.outputs.sha }}" > .compactgui-upstream-sha
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add .
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: |
+          steps.changes.outputs.changed == 'true' &&
+          inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update CompactGUI database to ${{ steps.upstream.outputs.version }} [skip ci]"
+          git push
+
+      - name: Dry run notice
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "::notice title=Dry Run::Dry run enabled — no commit or push performed"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: compactgui-database-${{ steps.upstream.outputs.version }}
+          path: |
+            compactgui-database/compactgui-games-full-1.csv
+            compactgui-database/compactgui-games-best.csv
+            compactgui-database/compactgui-games-full-2.csv
+            compactgui-database/compactgui-database.meta.json
+          retention-days: 90
