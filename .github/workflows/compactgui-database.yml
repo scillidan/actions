@@ -76,7 +76,7 @@ jobs:
 
       - name: Clean old artifacts
         run: |
-          rm -f database.csv compactgui-database.csv compactgui-database.meta.json
+          rm -f compactgui-games-full-1.csv compactgui-games-best.csv compactgui-games-full-2.csv compactgui-database.meta.json
 
       - name: Download database.json
         run: |
@@ -85,16 +85,18 @@ jobs:
       - name: Generate CSV
         run: |
           chmod +x compactgui_json_to_csv.sh
-          ./compactgui_json_to_csv.sh database.csv
+          ./compactgui_json_to_csv.sh database.json
 
       - name: Validate CSV
         run: |
-          LINES=$(wc -l < database.csv)
-          if [ "$LINES" -lt 2 ]; then
-            echo "CSV appears empty or invalid"
-            exit 1
-          fi
-          sha256sum database.csv
+          for f in compactgui-games-full-1.csv compactgui-games-best.csv compactgui-games-full-2.csv; do
+            LINES=$(wc -l < "$f")
+            if [ "$LINES" -lt 2 ]; then
+              echo "$f appears empty or invalid"
+              exit 1
+            fi
+            sha256sum "$f"
+          done
 
       - name: Generate metadata
         run: |
@@ -141,6 +143,8 @@ jobs:
         with:
           name: compactgui-database-${{ steps.upstream.outputs.version }}
           path: |
-            compactgui-database/database.csv
+            compactgui-database/compactgui-games-full-1.csv
+            compactgui-database/compactgui-games-best.csv
+            compactgui-database/compactgui-games-full-2.csv
             compactgui-database/compactgui-database.meta.json
           retention-days: 90
