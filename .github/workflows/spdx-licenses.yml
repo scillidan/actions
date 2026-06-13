@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (do not commit or push)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -47,31 +56,48 @@ jobs:
           echo "version=$version" >> "$GITHUB_OUTPUT"
           echo "tarball=$tarball" >> "$GITHUB_OUTPUT"
 
-      - name: Check if release already exists
-        id: exists
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Load last seen version
+        id: last
         run: |
-          status=$(curl -s -o /dev/null -w '%{http_code}' \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ steps.upstream.outputs.version }}")
-          echo "exists=$([ "$status" = "200" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          FILE=".spdx-upstream-version"
+          if [ -f "$FILE" ]; then
+            echo "version=$(cat $FILE)" >> "$GITHUB_OUTPUT"
+          else
+            echo "version=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Stop if upstream unchanged
+        if: steps.last.outputs.version == steps.upstream.outputs.version
+        run: |
+          echo "Upstream has no new release. Exiting."
+          exit 0
+
+      - name: Clean old artifacts
+        run: |
+          rm -f spdx-licenses.csv spdx-licenses.meta.json
+          rm -rf license-list-data-*/
 
       - name: Download & extract SPDX data
-        if: steps.exists.outputs.exists != 'true'
         run: |
           curl -fsSL "${{ steps.upstream.outputs.tarball }}" -o spdx.tar.gz
           tar -xzf spdx.tar.gz
           ls -d license-list-data-*/
 
       - name: Generate CSV
-        if: steps.exists.outputs.exists != 'true'
         run: |
           chmod +x spdx_json_to_csv.sh
           ./spdx_json_to_csv.sh spdx-licenses.csv
 
+      - name: Validate CSV
+        run: |
+          LINES=$(wc -l < spdx-licenses.csv)
+          if [ "$LINES" -lt 2 ]; then
+            echo "spdx-licenses.csv appears empty or invalid"
+            exit 1
+          fi
+          sha256sum spdx-licenses.csv
+
       - name: Generate metadata file
-        if: steps.exists.outputs.exists != 'true'
         run: |
           cat > spdx-licenses.meta.json << EOF
           {
@@ -82,29 +108,40 @@ jobs:
           }
           EOF
 
-      - name: Check for changes
-        id: check_changes
+      - name: Record upstream version
         run: |
-          if git status --porcelain | grep -q "spdx-licenses.csv\|spdx-licenses.meta.json"; then
-            echo "changes=true" >> $GITHUB_OUTPUT
+          echo "${{ steps.upstream.outputs.version }}" > .spdx-upstream-version
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add .
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push if changed
-        if: steps.check_changes.outputs.changes == 'true'
+      - name: Commit and push
+        if: |
+          steps.changes.outputs.changed == 'true' &&
+          inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add spdx-licenses.csv spdx-licenses.meta.json
           git commit -m "chore: update SPDX licenses to ${{ steps.upstream.outputs.version }} [skip ci]"
           git push
+
+      - name: Dry run notice
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "::notice title=Dry Run::Dry run enabled — no commit or push performed"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: spdx-licenses
+          name: spdx-licenses-${{ steps.upstream.outputs.version }}
           path: |
             spdx-licenses/spdx-licenses.csv
             spdx-licenses/spdx-licenses.meta.json
-          retention-days: 30
+          retention-days: 90
