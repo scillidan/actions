@@ -13,6 +13,9 @@ on:
         options:
           - "false"
           - "true"
+  push:
+    branches:
+      - compactgui
 
 permissions:
   contents: write
