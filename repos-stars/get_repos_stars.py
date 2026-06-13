@@ -5,6 +5,7 @@
 import requests
 import csv
 import time
+import os
 from typing import Optional
 
 INPUT_FILE = "repos.txt"
@@ -40,7 +41,7 @@ def fetch_stars(repo_url: str, token: Optional[str] = None) -> int:
 
 def main():
 
-    token = None
+    token = os.environ.get("GH_TOKEN")
 
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         repos = [
