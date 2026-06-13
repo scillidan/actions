@@ -4,6 +4,15 @@ on:
   # schedule:
   #   - cron: "0 0 1 * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (do not commit or push)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -28,27 +37,43 @@ jobs:
       - name: Generate ISO 216 CSV
         run: python gen_iso_216.py
 
-      - name: Check for changes
-        id: check_changes
+      - name: Validate CSV
         run: |
-          if git status --porcelain | grep -q "iso-216.csv"; then
-            echo "changes=true" >> $GITHUB_OUTPUT
+          LINES=$(wc -l < iso-216.csv)
+          if [ "$LINES" -lt 2 ]; then
+            echo "iso-216.csv appears empty or invalid"
+            exit 1
+          fi
+          sha256sum iso-216.csv
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add .
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push if changed
-        if: steps.check_changes.outputs.changes == 'true'
+      - name: Commit and push
+        if: |
+          steps.changes.outputs.changed == 'true' &&
+          inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add iso-216.csv
           git commit -m "chore: update ISO 216 paper sizes [skip ci]"
           git push
+
+      - name: Dry run notice
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "::notice title=Dry Run::Dry run enabled — no commit or push performed"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: iso-216-csv
           path: iso-216/iso-216.csv
-          retention-days: 30
+          retention-days: 90
