@@ -37,3 +37,4 @@ https://github.com/RaphGL/Tuckr
 https://github.com/vaibhav-mattoo/cxt
 https://github.com/chojs23/ec
 https://github.com/henriklovhaug/md-tui
+https://github.com/boyter/hashit
