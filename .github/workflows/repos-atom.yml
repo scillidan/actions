@@ -23,7 +23,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: repos-releases
+        working-directory: repos-atom
 
     steps:
       - name: Checkout repository
@@ -38,7 +38,7 @@ jobs:
         uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57  # v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('repos-releases/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('repos-atom/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -79,8 +79,8 @@ jobs:
         with:
           name: repos-tracker-txt
           path: |
-            repos-releases/repos-releases.txt
-            repos-releases/repos-tags.txt
-            repos-releases/repos-commits.txt
+            repos-atom/repos-releases.txt
+            repos-atom/repos-tags.txt
+            repos-atom/repos-commits.txt
           retention-days: 30
           if-no-files-found: ignore
