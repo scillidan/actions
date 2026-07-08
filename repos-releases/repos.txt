@@ -1,9 +1,23 @@
-https://github.com/godotengine/godot
-https://github.com/dialogic-godot/dialogic
-https://github.com/love2d/love
-https://github.com/mulaRahul/keyviz
-https://github.com/rhysd/Shiba
-https://github.com/chaiNNer-org/chaiNNer
-https://github.com/razakadam74/gitmsg
-https://github.com/lllyasviel/stable-diffusion-webui-forge
-https://github.com/openwong2kim/wsnap
+# Repos to track. Format:
+#   <repo_url> - releases    ... only releases
+#   <repo_url> - tags        ... only tags
+#   <repo_url> - commits     ... only commits
+#   <repo_url>               ... track releases, tags AND commits
+# Lines starting with # are comments. Blank lines are ignored.
+
+# Game engines
+https://github.com/godotengine/godot - releases
+https://github.com/dialogic-godot/dialogic - releases
+https://github.com/love2d/love - releases
+
+# Tools
+https://github.com/mulaRahul/keyviz - releases
+https://github.com/rhysd/Shiba - releases
+
+# AI / Image
+https://github.com/chaiNNer-org/chaiNNer - releases
+https://github.com/lllyasviel/stable-diffusion-webui-forge - releases
+
+# Misc
+https://github.com/razakadam74/gitmsg - tags
+https://github.com/openwong2kim/wsnap - releases

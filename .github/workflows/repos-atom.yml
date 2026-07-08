@@ -1,4 +1,4 @@
-name: Repos Releases (TXT)
+name: Repos Atom
 
 on:
   schedule:
@@ -47,30 +47,40 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Track new releases
-        run: python get_repos_releases.py
+      - name: Track new entries
+        run: python repos_atom.py
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git status --porcelain | grep -q "repos-releases.txt"; then
-            echo "changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "changes=false" >> $GITHUB_OUTPUT
-          fi
+          changed=false
+          for ft in releases tags commits; do
+            if git status --porcelain | grep -q "repos-${ft}.txt"; then
+              changed=true
+            fi
+          done
+          echo "changes=${changed}" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed
         if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add repos-releases.txt
-          git commit -m "chore: update repos-releases.txt [skip ci]"
+          for ft in releases tags commits; do
+            if git status --porcelain | grep -q "repos-${ft}.txt"; then
+              git add "repos-${ft}.txt"
+            fi
+          done
+          git commit -m "chore: update repos tracker txt files [skip ci]"
           git push
 
-      - name: Upload artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: repos-releases-txt
-          path: repos-releases/repos-releases.txt
+          name: repos-tracker-txt
+          path: |
+            repos-releases/repos-releases.txt
+            repos-releases/repos-tags.txt
+            repos-releases/repos-commits.txt
           retention-days: 30
+          if-no-files-found: ignore
