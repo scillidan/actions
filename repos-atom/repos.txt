@@ -5,19 +5,16 @@
 #   <repo_url>               ... track releases, tags AND commits
 # Lines starting with # are comments. Blank lines are ignored.
 
-# Game engines
 https://github.com/godotengine/godot - releases
 https://github.com/dialogic-godot/dialogic - releases
 https://github.com/love2d/love - releases
-
-# Tools
 https://github.com/mulaRahul/keyviz - releases
 https://github.com/rhysd/Shiba - releases
-
-# AI / Image
 https://github.com/chaiNNer-org/chaiNNer - releases
 https://github.com/lllyasviel/stable-diffusion-webui-forge - releases
-
-# Misc
-https://github.com/razakadam74/gitmsg - tags
+https://github.com/razakadam74/gitmsg - releases
 https://github.com/openwong2kim/wsnap - releases
+https://github.com/lusingander/serie - releases
+https://github.com/lxgw/LxgwSeal - releases
+
+https://github.com/cheusov/dictd - tags
