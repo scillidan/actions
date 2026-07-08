@@ -1,0 +1,8 @@
+2024-11-16T16:42:26 https://github.com/cheusov/dictd/releases/tag/dictd-1.13.3
+2024-11-16T16:42:26 https://github.com/cheusov/dictd/releases/tag/1.13.3
+2024-11-15T09:22:36 https://github.com/cheusov/dictd/releases/tag/dictd-1.13.2
+2024-11-15T09:22:36 https://github.com/cheusov/dictd/releases/tag/1.13.2
+2021-11-21T12:49:10 https://github.com/cheusov/dictd/releases/tag/dictd-1.13.1
+2021-11-21T12:49:10 https://github.com/cheusov/dictd/releases/tag/1.13.1
+2020-03-27T07:21:31 https://github.com/cheusov/dictd/releases/tag/dictd-1.13.0
+2020-03-27T07:21:31 https://github.com/cheusov/dictd/releases/tag/1.13.0
