@@ -44,3 +44,4 @@ https://github.com/gnomeria/usbtree
 https://github.com/tinesoft/spectatui
 https://github.com/DanielCardonaRojas/codemark
 https://github.com/mrusme/reader
+https://github.com/rcieri/glab-tui
