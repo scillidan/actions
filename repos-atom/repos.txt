@@ -17,6 +17,7 @@ https://github.com/openwong2kim/wsnap - releases
 https://github.com/lusingander/serie - releases
 https://github.com/lxgw/LxgwSeal - releases
 https://github.com/ad-si/Perspec - releases
+https://github.com/hrhrng/readio - releases
 
 https://github.com/cheusov/dictd - tags
 https://github.com/Dushistov/sdcv - tags
