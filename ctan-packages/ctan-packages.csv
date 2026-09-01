@@ -1,0 +1,1119 @@
+pkg,title,topics
+abraces,Asymmetric over-/underbraces in maths,"Tagged PDF – incompatible, Maths symbol, Maths"
+abspos,Absolute placement with coffins,Layout
+academicons,Font containing high quality icons of online academic profiles,"Font, Font TTF, Font symbol, Tagged PDF – partially compatible, Font supp symbol"
+acmart,Class for typesetting publications of ACM,"Journal, Tagged PDF – partially compatible, Computer theory, Class, Computer science, Engineering"
+addfont,Easier use of fonts without LaTeX support,"Font management, Font use"
+adigraph,Augmenting directed graphs,"Diagrams, PGF TikZ"
+adjmulticol,Adjusting margins for multicolumn and single column output,"Layout, Tagged PDF – fully compatible, Multi-column"
+aiplans,A TikZ-based library for drawing POCL plans,"Automata, PGF TikZ, Graphics"
+alchemist,Typeset alchemist and astrological symbols,"Astrology, Unicode, Font supp symbol"
+algorithm2e,Floating algorithm environment with algorithmic keywords,"Pseudo-code, Tagged PDF – incompatible"
+algpseudocodex,Package for typesetting pseudocode,Pseudo-code
+algxpar,Support multiple lines of pseudocode,Pseudo-code
+altsubsup,Subscripts and superscripts with square brackets,"Maths, Subsup position"
+animate,Create PDF and SVG animations from graphics files and inline graphics,Graphics motion
+annot-pro,"Create text, stamp and file attachment annotations","Adobe Distiller, PDF features"
+annotate-equations,Easily annotate math equations using TikZ,"Decoration, Maths, PGF TikZ"
+archaeologie,A citation-style which covers rules of the German Archaeological Institute,"Humanities, Std conform, BibLaTeX"
+argumentation,Create abstract argumentation frameworks via TikZ,"PGF TikZ, Graphics, Diagrams"
+arsclassica,A different view of the ClassicThesis package,Dissertation
+association-matrix,LaTeX support for creating association matrices,"Matrix, Table"
+asternote,Annotation symbols enclosed in square brackets and marked with an asterisk,"Japanese, Footnote"
+asymptote-by-example-zh-cn,Asymptote by example,Chinese documentation
+asymptote-manual-zh-cn,A Chinese translation of the asymptote manual,Chinese documentation
+attachfile,Attach arbitrary files to a PDF document,"Tagged PDF – incompatible, PDF features"
+automata,"Finite state machines, graphs and trees in MetaPost",Automata
+awesomebox,"Draw admonition blocks in your documents, illustrated with FontAwesome icons","Boxing, Tagged PDF – partially compatible"
+bagpipe,Support for typesetting bagpipe music,Music
+bardiag,LaTeX package for drawing bar diagrams,Charts
+barracuda,Draw barcodes with Lua,Barcode
+battleship,A LaTeX style file for typesetting Battleship logic puzzles,"PGF TikZ, Games"
+bboldx,Extension of the bbold package with a Blackboard Bold alphabet,"BBD Font, Font, Font support, Font Type1, Maths Font, Tagged PDF – partially compatible"
+bchart,Draw simple bar charts in LaTeX,"PGF TikZ, Tagged PDF – incompatible, Charts"
+bclogo,Creating colourful boxes with logos,"Logo, Boxing, Tagged PDF – unsupported"
+beamertheme-arguelles,"Simple, typographic beamer theme",Presentation
+beamerthemecelestia,A modern and elegant Beamer theme,Presentation
+bearwear,Shirts to dress TikZbears,"Amusements, Tagged PDF – fully compatible, PGF TikZ, Graphics"
+bg,Annotate backgammon matches and positions,Games
+bib2qr,Cite BibTeX entries with QR codes,"QR Code, BibLaTeX"
+biber,A BibTeX replacement for users of BibLaTeX,Bibliography
+biblatex,Sophisticated Bibliographies in LaTeX,"BibLaTeX, Bibliography, Tagged PDF – partially compatible"
+biblatex-license,Add license data to the bibliography,"BibLaTeX, Licence management"
+biblatex-manuscripts-philology,Manage classical manuscripts with BibLaTeX,"BibLaTeX, Humanities"
+biblatex-philosophy,Styles for using BibLaTeX for work in philosophy,"BibLaTeX, Humanities, Philosophy"
+biblatex-publist,BibLaTeX bibliography support for publication lists,BibLaTeX
+biblatex-realauthor,Indicate the real author of a work,BibLaTeX
+biblatex-source-division,References by <q>division</q> in classical sources,BibLaTeX
+bibleref,Format bible citations,"Label and References, Theology"
+bibletext,Insert Bible passages by their reference,Theology
+bibtex,Process bibliographies (bib files) for LaTeX or other formats,"Tagged PDF – fully compatible, BibTeX documentation, Bibliography, BibTeX Support"
+bicaption,Support for bilingual captions,"Caption, Tagged PDF – incompatible"
+binarytree,Drawing binary trees using TikZ,"PGF TikZ, Graphics in TeX, Tree"
+biochemistry-colors,"Colors used to display amino acids, nucleotides, sugars or atoms in biochemistry",Colour
+bitpattern,Typeset bit pattern diagrams,"Computer science, Engineering, Comp net"
+bizcard,Typeset business cards,File card
+blochsphere,Draw pseudo-3D diagrams of Bloch spheres,"PGF TikZ, Physics"
+blockdraw_mp,"Block diagrams and bond graphs, with MetaPost",Block Diagrams
+bloques,Generate control diagrams,Control Diagrams
+blowup,Upscale or downscale all pages of a document,"Tagged PDF – fully compatible, Typesetting"
+blox,"Draw block diagrams, using TikZ","Block Diagrams, PGF TikZ, Graphics"
+bodegraph,"Draw Bode, Nyquist and Black plots with gnuplot and TikZ","PGF TikZ, Graphics plot, Engineering"
+bodeplot,"Draw Bode, Nyquist and Nichols plots with gnuplot or pgfplots","Graphics plot, PGF TikZ, Engineering"
+boites,Boxes that may break across pages,"Boxing, Box breaking, Tagged PDF – incompatible, Decoration"
+bondgraphs,"Draws bond graphs in LaTeX, using PGF/TikZ","PGF TikZ, Diagrams"
+bootstrapicons,Icons from the framework Bootstrap,"Graphics symbols, Logo"
+bracealign,Align braces under and over math expressions,"Maths, Parentheses management, Tagged PDF – fully compatible"
+braids,Draw braid diagrams with PGF/TikZ,"PGF TikZ, Diagrams, Maths, Tagged PDF – fully compatible, Graphics"
+broydensolve,Solve a system of equations with Broyden’s good method,"Tagged PDF – fully compatible, Graphics, PGF TikZ"
+bundledoc,Bundle together all the files needed to build a LaTeX document,"Bundle, Archival"
+businesscard-qrcode,Business cards with QR-Code,"QR Code, File card, Class, XeTeX"
+byo-twemojis,<q>Build your own twemojis</q> with TikZ,"PGF TikZ, Graphics, Amusements"
+byrne,Typeset geometric proofs in the style of Oliver Byrne’s 1847 edition of Euclid’s Elements,"Graphics METAPOST, LuaTeX, Graphics"
+bytefield,Create illustrations for network protocol specifications,"Comp net, Engineering, Tagged PDF – incompatible, Computer science"
+calcage,"Calculate the age of something, in years",Date time
+calctab,Language for numeric tables,Calculation
+calculation,"Typesetting reasoned calculations, also called calculational proofs","Proof, Maths"
+calculator,Use LaTeX as a scientific calculator,"Calculation, Maths, Tagged PDF – fully compatible"
+callouts,Put simple annotations and notes inside a picture,"PGF TikZ, Graphics"
+canoniclayout,Create canonical page layouts with memoir,Geometry
+cardgame,Typeset custom playing cards for printing,"Cards, Games"
+catechis,Macros for typesetting catechisms,Theology
+causets,Draw causal set (Hasse) diagrams,"Math Diagrams, Graphics, Maths, PGF TikZ"
+ccicons,LaTeX support for Creative Commons icons,"Tagged PDF – partially compatible, Font, Font Type1, Font symbol"
+cclicenses,Typeset Creative Commons licence logos,Logo
+cellprops,"Accept CSS-like selectors in tabular, array, …",Table
+celtic,A TikZ library for drawing celtic knots,"PGF TikZ, Graphics"
+censor,Tools for producing redacted documents,"Security, Tagged PDF – incompatible"
+changelayout,Change the layout of individual pages and their text,Geometry adjust
+changelog,Typesetting keepachangelog.com style changelogs,"Document Management, Version control, Tagged PDF – fully compatible"
+changes,Manual change markup,"Editorial, Document tool, Tagged PDF – incompatible"
+char2path,A LaTeX package that converts characters into TikZ paths,PGF TikZ
+chatui,"Typeset AI chat transcripts as terminal, web, or desktop chat UIs",Quotation
+chemformula,Command for typesetting chemical formulas and reactions,"Tagged PDF – incompatible, Chemistry"
+chemobabel,"Convert chemical structures from ChemDraw, MDL molfile or SMILES using Open Babel","Graphics, Foreign import, Chemistry"
+chempid,Draw Piping and Instrumentation diagrams using TikZ via PGF,"Diagrams, PGF TikZ, Chemistry, Block Diagrams"
+chemplants,Symbology to draw chemical plants with TikZ,"Chemistry, Flow Diagrams, PGF TikZ, Graphics"
+chemschemex,Typeset and cross-reference chemical schemes based on TikZ code,Chemistry
+chess-problem-diagrams,A package for typesetting chess problem diagrams,"Games, Chess, Tagged PDF – incompatible"
+chessboard,Print chess boards,"Chess, Games, Tagged PDF – incompatible"
+chickenize,Use Lua callbacks for <q>interesting</q> textual effects,"Typesetting, LuaTeX, Games"
+chinesechess,Typeset Chinese chess with l3draw,"Games, Chinese, Chess"
+chordbox,Draw chord diagrams,"PGF TikZ, Music, Chords"
+chroma,A reference book of LaTeX colours,"Colour, Documentation"
+chronology,Provides a horizontal timeline,"PGF TikZ, Tagged PDF – incompatible, Planning, Calendar"
+circledsteps,Typeset circled numbers,"Numbers, Tagged PDF – partially compatible"
+circledtext,Create circled text,"Graphics symbols, Tagged PDF – partially compatible"
+circuit-macros,M4 macros for electric circuit diagrams,"Electronic, Circuit Diagram"
+circuitikz,Draw electrical networks with TikZ,"Electronic, Circuit Diagram, PGF TikZ, Graphics"
+circularglyphs,A circular glyphs alphabet,"Font, PGF TikZ"
+citation-style-language,Bibliography formatting with Citation Style Language,"Bibliography, Use Lua, Tagged PDF – incompatible"
+citeright,Specify accurate natbib citations for diverse naming conventions,Cite support
+classics,Cite classic works,"Humanities, Cite support"
+classicthesis,A <q>classically styled</q> thesis package,Dissertation
+cleveref,Intelligent cross-referencing,"Tagged PDF – partially compatible, Label and References"
+clipboard,Copy and paste into and across documents,"Quotation import, Tagged PDF – fully compatible"
+cloze,A LuaLaTeX package for creating cloze texts,"Exam, LuaTeX"
+clrstrip,Place contents into a full width colour strip,"Tagged PDF – incompatible, Colour"
+cmarrows,MetaPost arrows and braces in the Computer Modern style,Graphics symbols
+cmll,Symbols for linear logic,"Font, Maths Font, MF Font, Font Type1, Tagged PDF – partially compatible"
+codedoc,LaTeX code and documentation in LaTeX-format file,Documentation support
+codehigh,Highlight code and demos with l3regex and LPeg,"Syntax highlight, Use LuaTeX, Tagged PDF – incompatible, Listing"
+coffeestains,Add coffee stains to documents,"Graphics, PGF TikZ, Amusements"
+colorframed,Fix color problems with the package <q>framed</q>,"Tagged PDF – incompatible, Decoration"
+colorspace,Provides PDF color spaces,Colour
+colortab,Shade cells of tables and halign,"Colour, Table"
+colortbl,Add colour to LaTeX tables,"Tagged PDF – fully compatible, Colour, Table"
+commutative-diagrams,CoDi: Commutative Diagrams for TeX,"PGF TikZ, Maths, Commutative Diagrams, Math Diagrams, Diagrams, Graphics"
+comprehensive,Symbols accessible from LaTeX,"LaTeX Reference, Font index"
+context-collating-marks,Environment to place collating marks on the spine of a section,"Book publication, ConTeXt"
+context-handlecsv,Data merging for automatic document creation,"CSV support, ConTeXt"
+context-visualcounter,Visual display of ConTeXt counters,ConTeXt
+contour,Print a coloured contour around text,"Colour, Decoration, Tagged PDF – incompatible"
+coop-writing,Support for Cooperative Writing and editorial comments,Editorial
+copyrightbox,Provide copyright notices for images in a document,Typesetting
+countwords,"Exact word counts, stored in LaTeX counters, using Lua","LuaTeX, Word count"
+crbox,Boxes with crossed corners,"Decoration, Boxing, Typesetting"
+crefthe,Cross referencing with proper definite articles and declensions,Label and References
+crop,Support for cropmarks,"Tagged PDF – incompatible, Layout page"
+crossrefenum,Smart typesetting of enumerated cross-references for various TeX formats,"ConTeXt, Label and References"
+crossword,Typeset crossword puzzles,"Crossword puzzle, Sudoku, Tagged PDF – incompatible, Games"
+crosswrd,Macros for typesetting crossword puzzles,"Games, Crossword puzzle"
+css-colors,Named colors for web-safe design,Colour
+ctable,Flexible typesetting of table and figure floats using key/value directives,"Float, Tagged PDF – incompatible, Table"
+ctex,LaTeX classes and packages for Chinese typesetting,"Class, Book publication, Chinese, Tagged PDF – incompatible"
+cutwin,"Cut a window in a paragraph, typeset material in it","Tagged PDF – partially compatible, Text flow"
+dashbox,Draw dashed boxes,"Boxing, Tagged PDF – incompatible"
+dataref,Manage references to experimental data,"Label and References, Data manipulation"
+datax,Import individual data from script files,Data import
+datestamp,Fixed date-stamps with LuaLaTeX,"LuaTeX, Date time"
+datetime2,"Formats for dates, times and time zones","Date time, Multi-lingual, Tagged PDF – fully compatible"
+dbshow,"A package to store and display data with custom filters, orders, and styles","Data preparation, Data display, Data selection"
+dcpic,Commutative diagrams in a LaTeX and TeX documents,Commutative Diagrams
+ddphonism,"Dodecaphonic diagrams: twelve-tone matrices, clock diagrams, etc","Diagrams, Music, PGF TikZ"
+debate,Debates between reviewers,Notes
+decision-table,An easy way to create Decision Model and Notation decision tables,"Table, Planning, Diagrams"
+derivative,Nice and easy derivatives,"Maths, Tagged PDF – fully compatible"
+diabetes-logbook,A logbook for people with type one diabetes,"Document template, Data display"
+diadia,Package to keep a diabetes diary,Data display
+diagmac2,"Diagram macros, using pict2e","Graphics in TeX, Commutative Diagrams"
+dialogl,Macros for constructing interactive LaTeX scripts,Macro support
+dijkstra,Dijkstra's shortest-path algorithm for LaTeX,"Maths, Automata, Tagged PDF – fully compatible"
+dirtree,Display trees in the style of windows explorer,"Tree, Tagged PDF – incompatible"
+ditaa,Use ditaa diagrams within LaTeX documents,Diagrams
+dnaseq,Format DNA base sequences,Mol bio
+doclicense,Support for putting documents under a license,"Tagged PDF – partially compatible, Licence management"
+domaincoloring,Draw colored represenations of complex functions,"Graphics plot function, Graphics, Tagged PDF – fully compatible, LuaTeX, Colour, Graphics include, Graphics EPS/PDF, Maths, Graphics plot"
+download,Allow LaTeX to download files using an external process,External code
+dpcircling,Decorated text boxes using TikZ,"Decoration, Boxing, PGF TikZ"
+draftcopy,Identify draft copies,Editorial
+draftmark,Put draft marks on selected pages,Editorial
+drawmatrix,Draw visual representations of matrices in LaTeX,"PGF TikZ, Matrix, Diagrams"
+dsptricks,Macros for Digital Signal Processing plots,PSTricks
+ducksay,Draw ASCII art of animals saying a specified message,"Games, Tagged PDF – incompatible, Graphics, Amusements"
+duotenzor,Drawing package for circuit and duotensor diagrams,"Graphics, Diagrams, PGF TikZ, Circuit Diagram"
+dvgloss,Facilities for setting interlinear glossed text,Linguistic
+dynkin-diagrams,"Draw Dynkin, Coxeter, and Satake diagrams using TikZ","PGF TikZ, Graphics, Diagrams"
+ean13isbn,Print EAN13 for ISBN,"Barcode, Std conform"
+easing,Smooth interpolation functions for pgfmath,"Calculation, Graphics, Graphics support, PGF TikZ"
+econlipsum,Generate sentences from economic articles,"Tagged PDF – fully compatible, Dummy generator"
+egpeirce,Draw existential graphs invented by Charles S. Peirce,"PSTricks, Philosophy, Logic, Diagrams"
+eigo,Comprehensive tools for creating Go (Weiqi/Baduk) game diagrams in LaTeX,"Go, Games, PGF TikZ"
+einfart,Write your articles in a simple and clear way,"Class, Multi-lingual, Article-like"
+ellipse,Draw ellipses and elliptical arcs using the standard LaTeX2e picture environment,Graphics
+eltex,Simple circuit diagrams in LaTeX picture mode,Circuit Diagram
+elzcards,"Typeset business cards, index cards and flash cards easily",Cards
+emarks,Named mark registers with e-TeX,Typesetting
+embedall,Embed source files into the generated PDF,"Archival, PDF features"
+embedfile,Embed files into PDF,"PDF features, Tagged PDF – fully compatible"
+emerald,Support for the free emerald city fontwerks fonts,"Calligraphic Font, Novelty Font"
+emo,Emoji for all (LaTeX engines),"Graphics, Tagged PDF – partially compatible, Graphics use"
+emoji,Use emoji characters in (Lua)LaTeX,"Graphics, Graphics use, LuaTeX, Tagged PDF – partially compatible"
+emojicite,Add emojis to citations,"LuaTeX, Graphics use, Cite support"
+emotion,Make emojis more easy to use in XeLaTeX and LuaLaTeX,Text symbol
+enumext,Enumerate exercise sheets,"List enumerate, Tagged PDF – fully compatible, Exercise, List"
+enumsub,Aligned inline sublists for enumitem,"List, List enumerate"
+epigraph,A package for typesetting epigraphs,"Epigram, Tagged PDF – partially compatible"
+epigraph-keys,Epigraphs using key values,"Epigram, Tagged PDF – incompatible"
+epsdice,A scalable dice <q>font</q>,"Tagged PDF – partially compatible, Graphics use"
+euclidean-lattice,Draw two-dimensional Euclidean lattices with TikZ,"Graphics, Maths, PGF TikZ"
+euclideangeometry,Draw geometrical constructions,"Graphics, Tagged PDF – incompatible, Maths"
+evenpage,Ensure that the total number of pages is even,Blank page
+everypage,Provide hooks to be run on every page of a document,"Defer stuff, Tagged PDF – fully compatible"
+exam,Package for typesetting exam scripts,"Class, Tagged PDF – incompatible, Exam"
+exam-zh,LaTeX template for Chinese exams,"XeTeX, Exam, Chinese"
+exercises,Typeset exercises and solutions with automatic addition of points,Exercise
+exesheet,Typesetting exercise or exam sheets,"Class, Exercise, Exam, Teaching"
+exframe,Framework for exercise problems,"Exam, Exercise"
+expdlist,Expanded description environments,List described
+expressg,"Diagrams consisting of boxes, lines, and annotations","Graphics in TeX, Diagrams"
+extract,Write selected parts of a document to a separate file,Editorial
+ezedits,Commands for tracking document changes and notes,"Editorial, Notes"
+fadingimage,Add full width fading pictures at the top or bottom of a page,"PGF TikZ, Graphics include, Background"
+familytree,Draw family trees,"Diagrams, Genealogy, Tree"
+fancybox,Variants of \fbox and other games with boxes,"Boxing, Tagged PDF – incompatible"
+fancylabel,Complex labelling with LaTeX,"Label and References, Chemistry"
+fancypar,Decoration of individual paragraphs,"Decoration, Tagged PDF – incompatible"
+fancyqr,Fancy QR-Codes with TikZ,"PGF TikZ, QR Code"
+fast-diagram,Easy generation of FAST diagrams,"PGF TikZ, Diagrams"
+fbox,Extended \fbox macro from standard LaTeX,"Boxing, Tagged PDF – incompatible"
+fcolumn,Typesetting financial tables,"Table, Tagged PDF – fully compatible"
+featpost,MetaPost macros for 3D,3D Graphics
+ffcode,Fixed-font code blocks formatted nicely,"Verbatim, Listing, Line numbers"
+fgruler,Draw rulers on the foreground or in the text,Misc support
+figchild,Pictures for creating children’s activities,"Teaching, Amusements, Graphics, PGF TikZ"
+figsize,Auto-size graphics,Graphics
+fillwith,Fill vertical space with solid rules or dotted lines,"Exercise, Teaching, Leaders"
+firstindexletter,Enlarged initials for the first entries of index letter groups,Index
+fistrum,Access to 150 paragraphs of Lorem Fistrum very dummy text,"Spanish, Macro support, Dummy generator"
+fitr,Set a rectangular destination and jump to it,"PDF forms, Adobe Distiller, Visual support"
+fixme,Collaborative annotation tool for LaTeX,"Notes, Tagged PDF – fully compatible, Editorial"
+fiziko,A MetaPost library for physics textbook illustrations,"Graphics, Graphics METAPOST, Physics"
+flabels,Labels for files and folders,Labels
+flacards,Generate flashcards for printing,"Class, Flash Card"
+flagderiv,Flag style derivation package,Maths
+flashcards,A class for typesetting flashcards,Flash Card
+flexipage,Flexible page geometry with marginalia,Marginal
+flipbook,"Typeset flipbook animations, in the corners of documents","Graphics use, Graphics motion"
+flowchart,"Shapes for drawing flowcharts, using TikZ","Flow Diagrams, PGF TikZ"
+fnpct,Manage footnote marks’ interaction with punctuation,"Footnote, Tagged PDF – fully compatible"
+foliono,Use folio numbers to replace page numbers,"Page numbers, Numbers"
+fontawesome,Font containing web-related icons,"Font supp symbol, Tagged PDF – partially compatible, Font Type1, OTF Font, Font symbol, Font"
+fontawesome7,Font Awesome 7 with LaTeX support,"Font symbol, Font supp symbol, Tagged PDF – partially compatible, Font, Font Type1, OTF Font"
+fontawesomescaled,Additional macros for fontawesome icons,"Font selection, Macro support"
+fontbook,Generate a font book,Font development
+fontinstallationguide,Font installation guide,Font documentation
+fontwrap,Bind fonts to specific unicode blocks,"Font support, Font selection, Unicode"
+footnoterange,References to ranges of footnotes,"Label and References, Tagged PDF – incompatible, Footnote"
+forest,Drawing (linguistic) trees,"Tagged PDF – partially compatible, Tree, PGF TikZ, Linguistic"
+formlett,Letters to multiple recipients,Letter
+formular,Create forms containing field for manual entry,Form fillin
+frame,Framed boxes for Plain TeX,"Decoration, Boxing"
+fretplot,Create scale and chord diagrams for guitar-like instruments,"LuaTeX, PGF TikZ, Diagrams, Graphics, Music"
+froufrou,Fancy section separators,"Decoration, Tagged PDF – partially compatible"
+fullminipage,Minipage spanning a complete page,Layout
+functional,An intuitive functional programming interface for LaTeX2,"LaTeX3, Macro support"
+fundus-pvscript,Support for Vanroose handwriting font,Font support
+gamebook,Typeset gamebooks and other interactive novels,Games
+gapfill,Generate LaTeX picture environments from PostScript output of drawing programs,Graphics prep
+gastex,Graphs and Automata Simplified in TeX,Graphics in TeX
+gates,Support for writing modular and customisable code,Macro support
+gauss,A package for Gaussian operations,Maths
+gchords,Typeset guitar chords,Music
+gckanbun,Kanbun typesetting for (u)pLaTeX and LuaLaTeX,"Chinese, Japanese"
+genealogytree,Pedigree and genealogical tree diagrams,"Genealogy, Humanities, PGF TikZ"
+gentium-tug,Gentium fonts (in two formats) and support files,"Font serif, Proportional Font, Font t1enc, Greek Font, Cyrillic Font, Font support, Font TTF, Tagged PDF – fully compatible, Font Type1, Font, Multilingual Font, Body Font"
+getfiledate,Find the date of last modification of a file,File management
+getmap,Download OpenStreetMap maps for use in documents,Cartography
+gfnotation,Typeset Gottlob Frege’s notation in plain TeX,"Maths, Logic"
+ghsystem,Globally harmonised system of chemical (etc) naming,"Tagged PDF – partially compatible, Chemistry"
+gitinfo-lua,Display git project information in your LaTeX projects,"Version control, LuaTeX, Document Management, Tagged PDF – fully compatible"
+gitinfo2,Access metadata from the git distributed version control system,"Document Management, Tagged PDF – fully compatible, Version control"
+gitlog,Typesetting git changelogs,"Document Management, Version control"
+gitstatus,Include Git information in the document as watermark or via variables,"Watermark, Decoration"
+gitver,Get the current git hash of a project and typeset it in the document,"Version control, Document Management"
+gradient-text,Decorate text with linear gradient colors,Colour
+gradientframe,Simple gradient frames around objects,Decoration
+grading-scheme,Typeset grading schemes in tabular format,Table
+grafcet,Draw Grafcet/SFC with TikZ,"Diagrams, PGF TikZ"
+graph35,Draw keys and screen items of several Casio calculators,"Graphics, Teaching, Maths"
+graphbox,Extend graphicx to improve placement of graphics,"Graphics, Graphics include, Tagged PDF – partially compatible"
+grapher,"Create graphs, state machine and data flow diagrams",Graphics engine
+graphicxpsd,Adobe Photoshop Data format (PSD) support for graphicx package,"Graphics include, Tagged PDF – fully compatible"
+grayhints,Produce <q>gray hints</q> to a variable text field,"PDF forms, Misc support, Adobe Distiller"
+gregoriotex,Engraving Gregorian Chant scores,"Music, Chords"
+grid,Baseline-grid typesetting in LaTeX,Typeset grid
+grid-system,"Page organisation, modelled on CSS facilities",Layout
+gridpapers,Graph paper backgrounds and color schemes,"Background, PGF TikZ"
+gtrcrd,Add chords to lyrics,"Chords, Music"
+gtrlib-largetrees,Library for genealogytree aiming at large trees,Genealogy
+guitarchordschemes,Guitar Chord and Scale Tablatures,"Music, Chords"
+guitartabs,A class for drawing guitar tablatures easily,"Music, Class, Chords"
+hackthefootline,Footline selection and configuration for LaTeX beamer’s standard themes,"Page head and foot, Presentation"
+handout,Create handout for auditors of a talk,Presentation
+handoutwithnotes,Create Handouts with notes from your LaTeX beamer presentation,Presentation
+hanging,Paragraphs with a hanging indent,"Tagged PDF – fully compatible, Layout"
+hardwrap,Hard wrap text to a certain character length,"Tagged PDF – fully compatible, Layout"
+harveyballs,Create Harvey Balls using TikZ,"Graphics symbols, PGF TikZ"
+havannah,Diagrams of board positions in the games of Havannah and Hex,"Games, PGF TikZ"
+he-she,Alternating pronouns to aid gender-neutral writing,Typesetting
+hereapplies,A LaTeX package for referencing groups of pages that share something in common,Label and References
+hershey-mp,MetaPost support for the Hershey font file format,"METAPOST use, METAPOST support"
+hexboard,For drawing Hex boards and games,"Graphics, Games"
+hhline,Better horizontal lines in tabulars and arrays,"Tagged PDF – fully compatible, Table rule"
+hlist,Horizontal and columned lists,"List, Tagged PDF – incompatible, List support, Table"
+hmtrump,Describe card games,"Font supp symbol, Font TTF, Games, Font symbol, LuaTeX, Font, Font support"
+hobby,An implementation of Hobby’s algorithm for PGF/TikZ,"Graphics support, Curve Graphics, Graphics in TeX, Tagged PDF – fully compatible, PGF TikZ"
+hologo,A collection of logos with bookmark support,"Logo, Tagged PDF – fully compatible, Generic Macros"
+horoscop,Generate astrological charts in LaTeX,Astrology
+href-ul,Underscored LaTeX hyperlinks,"Verbatim, Underline, Hyper"
+hrefhide,Suppress hyper links when printing,Hyper
+huffman,Drawing binary Huffman trees with MetaPost and METAOBJ,"Graphics METAPOST, Tree"
+hvfloat,"Controlling captions, fullpage and doublepage floats","Float, Box manipulation, Tagged PDF – incompatible"
+hvqrurl,Insert a QR code in the margin,QR Code
+hypdvips,Hyperref extensions for use with dvips,"Tagged PDF – unsupported, Hyper"
+ifplatform,Conditionals to test which platform is being used,"Tagged PDF – fully compatible, Environment query"
+igo,Fonts and macro to typeset Go diagrams,"Font, Games, Font symbol, MF Font, Go"
+image-gallery,Create an overview of pictures from a digital camera or from other sources,"Graphics use, Class"
+insbox,Insert pictures/boxes into paragraphs,Text flow
+interactiveanimation,Create PDF files with branching animations,Graphics motion
+interfaces,"Set parameters for other packages, conveniently",Package support
+interpreter,Translate input files on the fly,"LuaTeX, Foreign import, Macro support"
+intexgral,A LaTeX package for typesetting integrals,Maths
+invoice,Generate invoices,Invoice
+invoice-class,Produces a standard US invoice from a CSV file,"Invoice, CSV support"
+invoice2,Intelligent invoices with LaTeX3,Invoice
+ipsum,Insert multilingual placeholder text,Dummy generator
+isodoc,A LaTeX class for typesetting letters and invoices,"Invoice, Letter, Class"
+isorot,Rotation of document elements,Rotation
+isosigns,"ISO signs and colors according to the standards 7001, 7010 and 3864","Typeset standard, Graphics symbols, Logo"
+istgame,Draw Game Trees with TikZ,"PGF TikZ, Games, Tree"
+jablantile,Metafont version of tiles in the style of Slavik Jablan,"Novelty Font, MF Font, Font"
+jeuxcartes,Macros to insert playing cards,"Cards, PGF TikZ, Games"
+jigsaw,Draw jigsaw pieces with TikZ,"PGF TikZ, Tagged PDF – fully compatible"
+joinbox,Join boxes vertically or horizontally,Box manipulation
+jumplines,Articles with teasers and continuation later on,"Journal, LuaTeX"
+kalendarium,Print dates according to the classical Latin calendar,"LaTeX3, Calendar"
+kanbun,Typeset kanbun-kundoku with support for kanbun annotation,"Japanese, Use LuaTeX, Tagged PDF – incompatible, Chinese"
+kantlipsum,Generate sentences in Kant’s style,"Tagged PDF – fully compatible, Macro support, Dummy generator"
+karnaugh,Typeset Karnaugh-Veitch-maps,"Engineering, Maths"
+karnaugh-map,LaTeX package for drawing karnaugh maps with up to 6 variables,"Engineering, PGF TikZ, Maths"
+kblocks,Easily typeset Control Block Diagrams and Signal Flow Graphs,"Block Diagrams, Flow Diagrams"
+kerntest,Print tables and generate control files to adjust kernings,Font development
+keycommand,Simple creation of commands with key-value arguments,"Tagged PDF – fully compatible, Key-Val"
+keyindex,Index entries by key lookup,Index
+keystroke,Graphical representation of keys on keyboard,"Tagged PDF – incompatible, Documentation support"
+keyval2e,A lightweight and robust key-value parser,Key-Val
+keyvaltable,Re-usable table layouts separating content and presentation,"Table, Tagged PDF – partially compatible"
+kinematikz,Design kinematic chains and mechanisms,"Physics, PGF TikZ"
+kksymbols,"LaTeX commands for enclosing characters in circles, squares, diamonds, or brackets","Text symbol, Japanese, LuaTeX, PGF TikZ, Graphics symbols"
+knowledge,"Displaying, hyperlinking, and indexing notions in a document","Label and References, Index"
+kvmap,Create Karnaugh maps with LaTeX,"Engineering, Maths"
+labels,Print sheets of sticky labels,Labels
+labyrinth,Draw labyrinths and solution paths,Games
+ladder,Draw simple ladder diagrams using TikZ,"PGF TikZ, Circuit Diagram"
+langcode,Simple language-dependent settings based on language codes,"Multi-lingual, Generic Macros"
+langnames,Name languages and their genetic affiliations consistently,"Abbreviations, Linguistic"
+lapdf,PDF drawing directly in TeX documents,Graphics in TeX
+lastpage,Reference last page for Page N of M type footers,"Tagged PDF – fully compatible, Label and References"
+latex-brochure,A publicity flyer for LaTeX,Advertisements
+latex-course,A LaTeX course as a projected presentation,"Tutorial LaTeX, Course material"
+latex-indexer,Automate index generation for LaTeX documents,"Index proc, Index"
+latex4musicians,A guide for combining LaTeX and music,"Tutorial LaTeX, Tutorial, Music"
+latex4wp,A LaTeX guide specifically designed for word processor users,"Facility Surveys, Documentation"
+latexcolors,Use color definitions from latexcolor.com,Colour
+latexdiff,Determine and mark up significant differences between LaTeX files,Document Management
+latexgit,A LaTeX git wrapper,"Document Management, Version control"
+latexindent,"Indent a LaTeX document, highlighting the programming structure",Code layout
+latexscreenshooter,Capture screenshots within LaTeX documents,Graphics include
+layout,View the layout of a document,"Layout show, Tagged PDF – incompatible"
+lcd,Alphanumerical LCD-style displays,Graphics in TeX
+leading,Define leading with a length,"Typesetting, Tagged PDF – fully compatible, Layout"
+leadsheets,Typesetting leadsheets and songbooks,"Music, Chords"
+leaflet,Create small handouts (flyers),"Tagged PDF – incompatible, Class, Layout"
+leawood,LaTeX support for use of ITC Leawood font family,Font support
+leipzig,Typeset and index linguistic gloss abbreviations,Linguistic
+lettrine,Typeset dropped capitals,"Lettrine, Tagged PDF – fully compatible"
+lewis,Draw Lewis structures,Chemistry
+librarian,Tools to create bibliographies in TeX,Bibliography
+lie-hasse,Draw Hasse diagrams,"PGF TikZ, Diagrams"
+liederbuch,"A LaTeX package for storing songs or other content, and repeated reuse in documents",Music
+liftarm,Geometric constructions with liftarms using TikZ and LaTeX3,"Tagged PDF – fully compatible, PGF TikZ, Graphics"
+lilyglyphs,"Access lilypond fragments and glyphs, in LaTeX","Font, OTF Font, Music, Music Font"
+limecv,A (Xe/Lua)LaTeX document class for curriculum vitæ,"Class, CV"
+linearregression,Calculate and display linear regressions,"Calculation, Maths"
+linebreaker,Prevent overflow boxes with LuaLaTeX,"Tagged PDF – fully compatible, Micro layout, LuaTeX"
+lineno,Line numbers on paragraphs,"Typesetting, Line numbers, Tagged PDF – incompatible"
+ling-macros,Macros for typesetting formal linguistics,Linguistic
+lingtrees,Linguistics trees preprocessor and macros,"Linguistic, Tree"
+linkedthm,Hyperlinked theorem–proof environments for LaTeX,"Maths theorem, Hyper"
+lipsum,Easy access to the Lorem Ipsum and other dummy texts,"Macro support, Multi-lingual, Dummy generator, Tagged PDF – fully compatible"
+listofitems,Grab items in lists using user-specified sep char,"Tagged PDF – fully compatible, Text manipulation, List"
+lmake,Process lists to do repetitive actions,Macro support
+logicproof,Box proofs for propositional and predicate logic,Logic
+logpap,Generate logarithmic graph paper with LaTeX,Diagrams
+logsys,Draw logarithmic coordinate systems,"Graphics in TeX, Tagged PDF – fully compatible"
+longfbox,Draw framed boxes with standard CSS attributes that can break over multiple pages,"Decoration, Tagged PDF – incompatible, Boxing"
+longtable,Allow tables to flow over page boundaries,"Table, Tagged PDF – fully compatible, Table long"
+longtwocolumn,A twocolumn alternative allowing automatic page breaks,"Tagged PDF – partially compatible, Multi-column"
+lsabon,Support files for the Linotype Sabon fonts,"Font support, Tagged PDF – fully compatible"
+lsc,Typesetting Live Sequence Charts,Comp net
+ltx4yt,Play YouTube videos in the default browser,"Multimedia, PDF features"
+ltxcmds,Some LaTeX kernel commands for general use,"Macro support, Tagged PDF – fully compatible, Generic Macros"
+ltximg,Extract LaTeX environments into separate image files,"Graphics, Chunks, Subdocs"
+lua-tikz3dtools,Not-so-experimental LuaLaTeX package for 3D illustrations in TikZ,"PGF TikZ, LuaTeX, 3D Graphics, Graphics"
+lua-visual-debug,Visual debugging with LuaLaTeX,"Generic Macros, Debug support, LuaTeX"
+lua-widow-control,Automatically remove widows and orphans from any document,"LuaTeX, Layout, Tagged PDF – fully compatible"
+luanumbers,Decimal adjustment from a single preamble setup,Numbers
+lucide-icons,Use lucide-icons through LaTeX commands,"Graphics, Text symbol"
+m-tx,A preprocessor for pmx,Music
+m3d,Extension of plain MetaPost for 3D graphics,"3D Graphics, Graphics use"
+magicthegathering,LaTeX package for Magic: The Gathering typesetting,"Amusements, Graphics symbols, Games"
+magicwatermark,An easy and flexible way to set watermarks,"Watermark, Background, PGF TikZ"
+mailing,Macros for mail merging,Mailing
+mailmerge,Repeating text field substitution,Mailing
+makebarcode,Print various kinds 2/5 and Code 39 bar codes,Barcode
+makecell,Tabular column heads and multilined cells,"Tagged PDF – partially compatible, Table"
+makecirc,A MetaPost library for drawing electrical circuit diagrams,Circuit Diagram
+makecookbook,Make a Cookbook,"LuaTeX, Book publication, Cooking"
+makeidx,Standard LaTeX package for creating indexes,"Index, Tagged PDF – fully compatible"
+maker,Include Arduino or Processing code in LaTeX documents,"Listing, Syntax highlight"
+makeshape,Declare new PGF shapes,PGF TikZ
+makor2,Typeset pointed Hebrew using Omega,"Omega, Hebrew"
+marcellus,LaTeX support for the Marcellus font family,"Font support, Proportional Font, Font Type1, Tagged PDF – fully compatible, Font t1enc, Body Font, Font TTF, Font"
+margbib,Display bibitem tags in the margins,"Cite support, Marginal"
+marginfix,Patch \marginpar to avoid overfull margins,"Tagged PDF – fully compatible, Marginal"
+marginnote,"Notes in the margin, even where \marginpar fails","Notes, Tagged PDF – fully compatible, Marginal"
+mathabx,Three series of mathematical symbols,"MF Font, Font symbol maths, Font, Tagged PDF – partially compatible"
+mathador,LaTeX commands for the French game <q>Mathador</q>,"PGF TikZ, Games, Graphics"
+mathalphabets,Chinese introduction to mathematical alphabets,"Documentation, Tutorial, Chinese documentation"
+mathdesign,Mathematical fonts to fit with particular text fonts,"Font supp maths, Maths Font, Font Type1, Font"
+mathdots,Commands to produce dots in math that respect font size,"Maths, Tagged PDF – partially compatible"
+mathpartir,"Typesetting sequences of math formulas, e.g. type inference rules","Maths, Tagged PDF – partially compatible"
+maths-symbols,Summary of mathematical symbols available in LaTeX,Font index
+mathtools,Mathematical tools to use with amsmath,"Tagged PDF – partially compatible, Maths"
+matlab-prettifier,Pretty-print Matlab source code,"Tagged PDF – incompatible, Listing"
+matrix-skeleton,A PGF/TikZ library that simplifies working with multiple matrix nodes,"PGF TikZ, Maths"
+mattens,Matrices/tensor typesetting,"Engineering, Maths, Tagged PDF – partially compatible"
+maze,Generate random mazes,Games
+mbenotes,Notes in tables or images,"Package declared obsolete, Notes"
+mcf2graph,Draw chemical structure diagrams with MetaPost,"Graphics METAPOST, Graphics, Chemistry"
+mdframed,Framed environments that can split at page boundaries,"Box breaking, Tagged PDF – unsupported, Decoration, Boxing"
+mdwtab,A reimplementation of tabular and array environments,Table
+measurebox,Precise measurements of glyphs,"Measure, Font development"
+memdesign,Notes on book design,Review document
+memoir,"Typeset fiction, non-fiction and mathematical books","Tagged PDF – incompatible, Class, Book publication"
+memorygraphs,TikZ styles to typeset graphs of program memory,"Graphics, PGF TikZ"
+mensa-tex,Typeset simple school cafeteria menus,"Class, Cooking"
+menu,Typesetting menus,Documentation support
+menukeys,"Format menu sequences, paths and keystrokes from lists","Tagged PDF – partially compatible, Documentation support"
+mercatormap,Spherical Mercator coordinate systems and Web Mercator tile integration,"Cartography, Graphics, PGF TikZ"
+messagebubbles,Display message bubbles as a conversation,Document Management
+messagepassing,Draw diagrams to represent communication protocols,"Diagrams, PGF TikZ"
+metaobj,MetaPost package providing high-level objects,Graphics engine
+metastr,Store and compose strings,"Metadata, String, Licence management"
+metauml,MetaPost library for typesetting UML diagrams,"UML, METAPOST use"
+metrix,Typeset metric marks for Latin text,"Verse, Tagged PDF – incompatible, Latin"
+metsymb,The package provides dedicated TeX commands to generate (vectorial) meteorological symbols,"Scientific documents, Font specialist, SFD Font, Font symbol, OTF Font, Font"
+mfirstuc,Uppercase the first letter of a word,"Text manipulation, Tagged PDF – fully compatible, Macro support"
+mfpic,Draw Metafont/post pictures from (La)TeX commands,Graphics in TeX
+mgltex,High-quality graphics from MGL scripts embedded in LaTeX documents,"Graphics plot, Graphics plot function, Maths"
+mhchem,Typeset chemical formulae/equations and H and P statements,"Safety notice, Chemistry"
+mhequ,"Multicolumn equations, tags, labels, sub-numbering",Maths
+milsymb,LaTeX package for TikZ based drawing of military symbols as per NATO APP-6(C),"PGF TikZ, Symbol support, Graphics"
+mindflow,Write your ideas in a clear way,Notes
+minibox,A simple type of box for LaTeX,"Tagged PDF – incompatible, Boxing"
+minim,A modern plain format for the LuaTeX engine,"LuaTeX, Format"
+minim-hatching,Create tiling patterns with the minim-mp MetaPost processor,"LuaTeX, Graphics subpic"
+minitoc,"Produce a table of contents for each chapter, part or section","TOC etc., Tagged PDF – incompatible"
+minutes,Typeset the minutes of meetings,Meeting admin
+mkpic,Perl interface to mfpic,Graphics
+mlist,Logical markup for lists,"Tagged PDF – fully compatible, Maths"
+modernposter,A modern LaTeX poster theme,"Class, Poster"
+modiagram,Drawing molecular orbital diagrams,"Diagrams, Chemistry"
+mol2chemfig,"Convert chemical structures from MDL molfile format
+           to chemfig source code","Foreign import, Chemistry"
+moodle,Generating Moodle quizzes via LaTeX,Exam
+moreenum,More enumeration options,"Numbers, Tagged PDF – fully compatible, List enumerate"
+movement-arrows,Drawing movement arrows on linguistic example sentences,"PGF TikZ, Linguistic"
+mp3d,3D animations,"3D Graphics, METAPOST use"
+mparrows,MetaPost module with different types of arrow heads,METAPOST support
+mpattern,Patterns in MetaPost,Graphics use
+mpchess,Drawing chess boards and positions with MetaPost,"Graphics, Games, METAPOST use, Graphics METAPOST, Chess"
+mpkiviat,MetaPost package to draw Kiviat diagrams,"Diagrams, Graphics plot"
+mptrees,Probability trees with MetaPost,"Maths, Graphics METAPOST, Probability, Math Diagrams"
+msc,Draw MSC diagrams,"Comp net, PGF TikZ"
+multi-sudoku,Create and customise Sudoku grids of various sizes,"Games, Sudoku"
+multiaudience,Several versions of output from the same source,"Conditional compilation, Tagged PDF – fully compatible"
+multicolrule,Decorative rules between columns,"Line pattern, Tagged PDF – partially compatible, Decoration, Rule, Line weight"
+multifootnote,Multiple numbers for the same footnote,Footnote
+multilang,A LaTeX package for maintaining multiple translations of a document,"Multi-lingual, Tagged PDF – incompatible"
+multiple-choice,LaTeX package for multiple-choice questions,Exam
+multitoc,Set table of contents in multiple columns,"Tagged PDF – fully compatible, TOC etc."
+musical,Typeset (musical) theatre scripts,"Music, Drama script"
+musicography,Accessing symbols for music writing with pdfLaTeX,"Font supp symbol, Tagged PDF – partially compatible, Music"
+mwe,Packages and image files for MWEs,"Debug support, Tagged PDF – fully compatible"
+nanicolle,Typesetting herbarium specimen labels,"Labels, Covers, Chinese, Class, XeTeX, Biology"
+natbib,Flexible bibliography support,"BibTeX Support, Tagged PDF – fully compatible"
+newspaper,Typeset newsletters to resemble newspapers,Magazine
+nicefilelist,Provide \listfiles alignment,"Tagged PDF – fully compatible, Document Management"
+nimsticks,Draws sticks for games of multi-pile Nim,"PGF TikZ, Games, Graphics"
+ninecolors,Select colors with proper WCAG color contrast,Colour
+nl-interval,Represent intervals on the number line,"Maths, PGF TikZ"
+nmbib,"Multiple versions of a bibliography, with different sort orders","BibTeX Support, Tagged PDF – incompatible"
+nndraw,Draw neural networks,Diagrams
+nodepthtext,Change small texts to remove the depth of the letters,"Font support, Typesetting"
+nodetree,Visualize node lists in a tree view,Lua support
+nox,Adaptable tables,"Table, Table long"
+numname,Convert a number to its English expression,Numbers
+ocg-p,PDF OCG support in LaTeX,PDF features
+ocgtools,Manipulate OCG layers in PDF presentations,PDF features
+ocgx,Use OCGs within a PDF document without JavaScript,PDF features
+octavo,Typeset books following classical design and layout,"Book publication, Class"
+old-arrows,Computer Modern old-style arrows with smaller arrowheads,"Font Type1, Font symbol maths, Tagged PDF – partially compatible"
+onedown,Typeset Bridge Diagrams,Games
+opacity-pro,Set transparency and blend mode,"PDF features, Adobe Distiller"
+opcit,Footnote-style bibliographical references,"BibTeX Support, Footnote"
+opencolor,Definitions from the Open Color library,Colour
+openmoji,Use openmoji through LaTeX commands,"Graphics, Text symbol"
+oplotsymbl,Some symbols which are not easily available,"Graphics symbols, PGF TikZ"
+optex,LuaTeX format based on Plain TeX and OPmac,"LuaTeX, Format, Plain extensions"
+optikz,Customizable optical components for drawing laser setups and optical systems using TikZ,"Physics, Optics, Graphics in TeX, PGF TikZ"
+optional,Facilitate optional printing of parts of a document,"Conditional compilation, Editorial, Tagged PDF – fully compatible"
+options,Provides convenient key-value options for LaTeX package writers,Key-Val
+orderrefs,Sort bibliography in LaTeX document by order of citation,Bibliography support
+osda,Commands for Proceedings of the Workshop on Open-Source Design Automation,"Journal, Footnote"
+othelloboard,"Typeset Othello (Reversi) diagrams of any size, with annotations",Games
+outilsgeomtikz,"Some geometric tools, with TikZ","Graphics, PGF TikZ"
+overarrows,Custom extensible arrows over math expressions,"PGF TikZ, Maths"
+overlays,Incremental slides,Presentation
+page-canons,Classical page-layout canons with margin-note support,"Layout, Marginal, Geometry"
+pagecolor,Interrogate page color,"Colour, Tagged PDF – fully compatible"
+pagecont,Page numbering that continues between documents,Page numbers
+pagerange,Flexible and configurable page range typesetting,"Label and References, Macro support"
+pagesel,Select pages of a document for output,"Page control, Tagged PDF – incompatible"
+palette,Create palettes for colors and symbols that can be swapped in,Colour
+papermas,Compute the mass of a printed version of a document,"Calculation, Tagged PDF – fully compatible"
+papertex,"Class for newspapers, etc",Magazine
+parades,Tabulators and space between paragraphs in galley approach,Parshape
+paralist,Enumerate and itemize within paragraphs,"List, Bullet List, Tagged PDF – incompatible, List enumerate"
+parcolumns,Multiple column parallel typesetting,"Parallel, Tagged PDF – incompatible"
+parnotes,Notes after every paragraph (or elsewhere),"Tagged PDF – partially compatible, Notes"
+parskip,"Layout with zero \parindent, non-zero \parskip","Parshape, Layout, Tagged PDF – fully compatible"
+pas-crosswords,"Creating crossword grids, using TikZ","PGF TikZ, Games"
+pascaltriangle,Draw beautiful Pascal (Yanghui) triangles,"Maths, PGF TikZ, Calculation"
+passopt,Passing options to packages or classes,"Typeset tool, Typesetting"
+pbalance,Balance last page in two-column mode,"Multi-column, Tagged PDF – fully compatible"
+pdfmsym,PDF Math Symbols – various drawn mathematical symbols,"Generic Macros, Maths symbol, Graphics symbols"
+pdfrender,Control rendering parameters,"Typesetting, Tagged PDF – fully compatible"
+pdfreview,Annotate PDF files with margin notes,"Teaching, Editorial, Graphics include, Marginal"
+pdfscreen,Support screen-based document design,"Presentation, Hyper"
+pedigree-perl,Generate TeX pedigree files from CSV files,"Humanities, CSV support"
+pfdicons,Draw process flow diagrams in chemical engineering,"Graphics, Chemistry, Engineering, PGF TikZ"
+pgf-interference,Drawing interference patterns with PGF/TikZ,"Physics, PGF TikZ"
+pgf-periodictable,Create custom periodic tables of elements,"PGF TikZ, Chemistry"
+pgf-pie,"Draw pie charts, using PGF","Charts, PGF TikZ"
+pgf-soroban,Create images of the soroban using TikZ/PGF,Diagrams
+pgf-spectra,Draw continuous or discrete spectra using PGF/TikZ,"Physics, PGF TikZ"
+pgfgantt,Draw Gantt charts with TikZ,"Gantt, Diagrams, Graphics, PGF TikZ"
+pgfkeysearch,Find keys in a given path <q>recursively</q>,Key-Val
+pgfmolbio,Draw graphs typically found in molecular biology texts,"Mol bio, Diagrams, LuaTeX, Graphics, PGF TikZ"
+pgfmorepages,Assemble multiple logical pages onto a physical page,PGF TikZ
+pgfornament,Drawing of Vectorian ornaments with PGF/TikZ,"Graphics plot, Decoration, Tagged PDF – partially compatible"
+pgfornament-han,<span>pgfornament</span> library for Chinese traditional motifs and patterns,"Chinese, PGF TikZ, Presentation, Tagged PDF – partially compatible, Graphics symbols"
+pgfplots,Create normal/logarithmic plots in two and three dimensions,"PGF TikZ, Graphics, Tagged PDF – incompatible, Graphics plot"
+pgfplotstable,"Loads, rounds, formats and postprocesses numerical tables","Tagged PDF – fully compatible, Graphics plot"
+pgfplotsthemebeamer,Use colours from the current beamer theme in pgfplots,"Presentation, Colour, Graphics plot, Graphics"
+phfcc,Convenient inline commenting in collaborative documents,"Conditional compilation, Editorial"
+phfquotetext,Quote verbatim text without white space formatting,Verbatim
+philex,Cross references for named and numbered environments,Label and References
+pictochrono,Insert <q>chronometer pictograms</q> with a duration,"PGF TikZ, Graphics"
+piechartmp,Draw pie-charts using MetaPost,Charts
+pinlabel,A TeX labelling package,Graphics text
+pinoutikz,Draw chip pinouts with TikZ,"Electronic, PGF TikZ, Graphics"
+piton,Typeset computer listings with LPeg of LuaLaTeX,"LuaTeX, Listing, Syntax highlight, Tagged PDF – incompatible"
+pixelart,Draw pixel-art pictures,"LuaTeX, PGF TikZ, Graphics"
+pixelarttikz,"Work with PixelArts, with TikZ","PGF TikZ, Graphics"
+pkginfograb,Collect LaTeX package information in a regular way,"Macro support, Metadata"
+placeat,Absolute content positioning,"Layout, LuaTeX"
+plainpkg,A minimal method for making generic packages,"Macro support, Generic Macros"
+platexcheat,"A LaTeX cheat sheet, in Japanese",Tutorial cheat sheet
+playcards,A simple template for drawing playcards,"PGF TikZ, Games, Cards"
+pmboxdraw,Poor man’s box drawing characters,"Tagged PDF – incompatible, Graphics in TeX"
+pmdraw,Draw elements of the diagram monoids,"Diagrams, Graphics, Physics, Maths, PGF TikZ"
+pmgraph,<q>Poor man’s</q> graphics,Graphics in TeX
+poetry,Facilities for typesetting poetry and poetical structure,"Verse, Tagged PDF – partially compatible"
+poetrytex,Typeset anthologies of poetry,Verse
+polexpr,A parser for polynomial expressions,"&epsilon;-TeX, Generic Macros, Maths, Arithmetic, Calculation, Tagged PDF – incompatible"
+polyglossia,An alternative to babel for XeLaTeX and LuaLaTeX,"Use LuaTeX, Use XeTeX, Multi-lingual"
+polyhedra,A TikZ package for drawing polyhedra,"Maths, PGF TikZ, Graphics"
+polynom,Macros for manipulating polynomials,"Tagged PDF – incompatible, Maths"
+polyomino,Polyominoes using TikZ and LaTeX3,"Graphics, Tagged PDF – fully compatible, PGF TikZ"
+polytable,Tabular-like environments with named columns,"Table, Tagged PDF – incompatible"
+postit,A LaTeX package for displaying Post-it notes,"Decoration, Boxing"
+prerex,Interactive editor and macro support for prerequisite charts,Graphics prep
+proflabo,Draw laboratory equipment,Chemistry
+progress,Creates an overview of a document’s state,Document Management
+progressbar,Visualize shares of total amounts in the form of a (progress-)bar,"Graphics use, Tagged PDF – partially compatible"
+proofread,Commands for inserting annotations,"Decoration, Editorial"
+prooftrees,Forest-based proof trees (symbolic logic),"Logic, Tagged PDF – fully compatible, Tree, PGF TikZ"
+pst-2dplot,A PSTricks package for drawing 2D curves,"PSTricks, Graphics plot"
+pst-3dplot,"Draw 3D objects in parallel projection, using PSTricks","Graphics plot, 3D Graphics, PSTricks"
+pst-am,Simulation of modulation and demodulation,"Diagrams, PSTricks"
+pst-antiprism,A PSTricks related package which draws an antiprism,"Graphics, PSTricks"
+pst-arrow,Special arrows for PSTricks,PSTricks
+pst-art-led,A PSTricks art package to generate LED displays,"PSTricks, Decoration, Graphics"
+pst-asr,Typeset autosegmental representations for linguists,"Linguistic, PSTricks"
+pst-bar,Produces bar charts using PSTricks,"PSTricks, Charts"
+pst-barcode,Print barcodes using PostScript,"QR Code, PSTricks, Barcode, Tagged PDF – incompatible"
+pst-bezier,Draw Bezier curves,"Curve Graphics, PSTricks"
+pst-blur,PSTricks package for <q>blurred</q> shadows,"Graphics subpic, PSTricks"
+pst-bspline,Draw cubic Bspline curves and interpolations,"Curve Graphics, PSTricks"
+pst-calendar,Plot calendars in <q>fancy</q> ways,"Calendar, PSTricks"
+pst-cie,CIE color space,"Colour, PSTricks"
+pst-circ,PSTricks package for drawing electric circuits,"Circuit Diagram, PSTricks"
+pst-coil,"A PSTricks package for coils, etc","Graphics use, PSTricks, Physics, Tagged PDF – incompatible"
+pst-contourplot,Draw implicit functions using the <q>marching squares</q> algorithm,"Graphics plot function, PSTricks"
+pst-cox,Drawing regular complex polytopes with PSTricks,"Physics, PSTricks, Maths"
+pst-dart,Plotting dart boards,"PSTricks, Games"
+pst-dbicons,Support for drawing ER diagrams,"Diagrams, PSTricks"
+pst-diffraction,Print diffraction patterns from various apertures,"Graphics use, PSTricks, Physics"
+pst-electricfield,Draw electric field and equipotential lines with PSTricks,"PSTricks, Graphics use"
+pst-eps,Create EPS files from PSTricks figures,"Graphics prep, Tagged PDF – incompatible, PSTricks"
+pst-eucl,Euclidean geometry with PSTricks,"Graphics use, Maths, PSTricks, Tagged PDF – incompatible"
+pst-exa,"Typeset PSTricks examples, with code","PSTricks, Listing"
+pst-feyn,Draw graphical elements for Feynman diagrams,Physics
+pst-fit,Macros for curve fitting,Graphics support
+pst-fr3d,Draw 3-dimensional framed boxes using PSTricks,"PSTricks, Boxing, 3D Graphics"
+pst-fractal,Draw fractal sets using PSTricks,"Graphics use, PSTricks"
+pst-func,PSTricks package for plotting mathematical functions,"Maths, Graphics plot function, PSTricks, Tagged PDF – incompatible, Graphics use"
+pst-gantt,Draw GANTT charts with PSTricks,"Diagrams, Gantt, PSTricks"
+pst-gears,Drawing internal and external gears,"Graphics, PSTricks"
+pst-geo,Geographical Projections,"PSTricks, Cartography"
+pst-geometrictools,A PSTricks package to draw geometric tools,"Graphics use, Maths, PSTricks"
+pst-gr3d,Three dimensional grids with PSTricks,"PSTricks, 3D Graphics, Typeset grid"
+pst-grad,"Filling with colour gradients, using PSTricks","Tagged PDF – incompatible, PSTricks, Colour"
+pst-hsb,Curves with continuous colours,"Colour, PSTricks"
+pst-intersect,Compute intersections of arbitrary curves,"Graphics support, PSTricks"
+pst-jtree,Typeset complex trees for linguists,"Linguistic, PSTricks, Tree"
+pst-knot,PSTricks package for displaying knots,"Decoration, PSTricks"
+pst-labo,Draw objects for Chemistry laboratories,"Graphics use, Chemistry"
+pst-lens,Lenses with PSTricks,"Optics, PSTricks"
+pst-lsystem,Create images based on a L-system,"PSTricks, Graphics use"
+pst-magneticfield,Plotting a magnetic field with PSTricks,"Physics, PSTricks"
+pst-marble,A PSTricks package to draw marble-like patterns,"PSTricks, Graphics, Graphics use"
+pst-mirror,Images on a spherical mirror,"PSTricks, Graphics use"
+pst-moire,A PSTricks package to draw moiré patterns,"PSTricks, Graphics use"
+pst-node,Nodes and node connections in PSTricks,"Graphics in TeX, Linguistic, Tagged PDF – incompatible"
+pst-nutation,"Rotation, precession, nutation of the earth","Graphics, PSTricks, Astronomy"
+pst-ob3d,Three dimensional objects using PSTricks,"3D Graphics, PSTricks, Graphics"
+pst-optexp,Drawing optical experimental setups,"PSTricks, Physics, Laboratory Diagrams, Optics"
+pst-optic,Drawing optics diagrams,"Optics, Diagrams, Physics, PSTricks"
+pst-osci,Oscgons with PSTricks,"PSTricks, Graphics use"
+pst-pad,Draw simple attachment systems with PSTricks,"Graphics use, PSTricks"
+pst-pdgr,Draw medical pedigrees using PSTricks,"PSTricks, Humanities"
+pst-perspective,Draw perspective views using PSTricks,"3D Graphics, PSTricks"
+pst-platon,Platonic solids in PSTricks,"PSTricks, Maths, 3D Graphics"
+pst-plot,Plot data using PSTricks,"Data import, Data display, Tagged PDF – incompatible, PSTricks"
+pst-poly,Polygons with PSTricks,"PSTricks, Maths"
+pst-pulley,"Plot pulleys, using PSTricks","PSTricks, Physics, Diagrams, Graphics use"
+pst-qtree,Simple syntax for trees,Tree
+pst-rputover,Place text over objects without obscuring background colors,PSTricks
+pst-rubans,Draw three-dimensional ribbons,"PSTricks, Graphics"
+pst-sigsys,Support of signal processing-related disciplines,"Physics, Engineering, PSTricks"
+pst-slpe,Sophisticated colour gradients,"PSTricks, Colour"
+pst-solarsystem,Plot the solar system for a specific date,"Astronomy, PSTricks"
+pst-solides3d,Draw perspective views of 3D solids,"3D Graphics, PSTricks"
+pst-spinner,Drawing a fidget spinner,"PSTricks, Graphics"
+pst-stru,"Civil engineering diagrams, using PSTricks","Engineering, Graphics use"
+pst-text,Text and character manipulation in PSTricks,"Graphics subpic, Tagged PDF – incompatible"
+pst-thick,Drawing very thick lines and curves,Graphics subpic
+pst-tools,PSTricks support functions,"PSTricks, Graphics"
+pst-tree,"Trees, using PSTricks","Tagged PDF – incompatible, Linguistic, Tree"
+pst-turtle,Commands for <q>turtle operations</q>,"Graphics, PSTricks"
+pst-uml,UML diagrams with PSTricks,"PSTricks, UML"
+pst-vectorian,Printing ornaments,"Decoration, Tagged PDF – incompatible"
+pst-vehicle,A PSTricks package for rolling vehicles on graphs of mathematical functions,"PSTricks, Maths, Graphics use"
+pst-venn,A PSTricks package for drawing Venn sets,"PSTricks, Math Diagrams"
+pst-vowel,Enable arrows showing diphthongs on vowel charts,Phonetic
+pstricks-add,A collection of add-ons and bugfixes for PSTricks,"Graphics in TeX, Tagged PDF – incompatible, PSTricks"
+pstring,Typeset sequences with justification pointers,Scientific documents
+ptolemaicastronomy,Diagrams of sphere models for variably strict conditionals (Lewis counterfactuals),"Logic, PGF TikZ"
+puyotikz,Quickly typeset board states of Puyo Puyo games,"Graphics, Games, PGF TikZ"
+pxpic,Draw pixel pictures,"Tagged PDF – partially compatible, Graphics in TeX, Graphics"
+pygmentex,Use Pygments to format code listings in documents,"Syntax highlight, Listing, Tagged PDF – incompatible"
+pyluatex,Execute Python code on the fly in your LaTeX documents,"LuaTeX, Tagged PDF – fully compatible, Callback"
+pynotebook,"<span>pynotebook</span> presents (raw, Markdown or Python) codes (and execution with LuaLaTeX) as in a Jupyter Notebook","Boxing, Listing, Callback"
+pythontex,"Run Python from within a document, typesetting the results","Callback, Tagged PDF – incompatible"
+q-and-a,Typesetting Q&amp;A-style conversation made easier,"Class, Multi-lingual, Article-like"
+qrcode,Generate QR codes in LaTeX,"QR Code, Tagged PDF – incompatible, Barcode, Rule"
+qrcstamps,Create QR codes using stamps,"PDF features, QR Code, Letter, Adobe Distiller"
+qtree,Draw tree structures,"Linguistic, Tagged PDF – incompatible, Tree"
+quantikz,Draw quantum circuit diagrams,"PGF TikZ, Graphics, Tagged PDF – incompatible, Circuit Diagram"
+quickreaction,A simple and fast way to typeset chemical reactions,"Chemistry, PGF TikZ"
+quiz2socrative,Prepare questions for socrative quizzes,Exam
+quizztex,Create quizzes like in TV shows,"Exam, PGF TikZ"
+quoting,Consolidated environment for displayed text,"Tagged PDF – partially compatible, Quotation"
+quotmark,Consistent quote marks,Quotation
+ragged2e,Alternative versions of <q>ragged</q>-type commands,"Layout, Parshape, Tagged PDF – partially compatible"
+rainbowbrackets,Automatic coloring of nested parentheses,Parentheses management
+randbild,Marginal pictures,Graphics use
+randexam,Make an exam paper and its randomized variants,Exam
+randintlist,"Creating random integer number lists, with repeating and sorting options","Calculation, Random"
+random,Generating <q>random</q> numbers in TeX,"Calculation, Random"
+randomwalk,Random walks using TikZ,"Graphics in TeX, Calculation, Random"
+randtext,Randomise the order of characters in strings,Security
+ransom,A <q>very bad typewriter</q> font,"Novelty Font, Font, Font ad-hoc"
+rccol,Decimal-centered optionally rounded numbers in tabular,"Table, Maths, Tagged PDF – fully compatible"
+rcs,Use RCS (revision control system) tags in LaTeX documents,"Document Management, Version control"
+rcs-multi,Typeset RCS version control in multiple-file documents,"Version control, Document Management, Tagged PDF – fully compatible"
+readarray,"Read, store and recall array-formatted data",Data manipulation
+readprov,Provides GetFileInfo without the need to load the file,"Document Management, Tagged PDF – fully compatible"
+realhats,Put real hats on symbols instead of ^,"Graphics, Graphics include, Amusements"
+realtranspose,The <q>real</q> way to transpose a Matrix,"Maths, Amusements"
+rec-thy,Commands to typeset recursion theory papers,Maths
+recipe,A LaTeX class to typeset recipes,Cooking
+recipebook,Typeset 5.5″ x 8″ recipes for browsing or printing,"Cooking, Class"
+recipecard,Typeset recipes in note-card-sized boxes,Cooking
+recorder-fingering,Package to display recorder fingering diagrams,"Music, Diagrams, PGF TikZ"
+refcheck,"Check references (in figures, table, equations, etc)","Debug support, Tagged PDF – incompatible, Label and References"
+refenums,Define named items and provide back-references with that name,Label and References
+reflectgraphics,Techniques for reflecting graphics,Graphics manipulation
+refman,Format technical reference manuals,Class
+refstyle,Advanced formatting of cross references,"Tagged PDF – fully compatible, Label and References"
+regexpatch,High level patching of commands,"Macro support, Tagged PDF – fully compatible"
+register,Typeset programmable elements in digital hardware (registers),"Engineering, Computer science, Comp net"
+reledmac,Typeset scholarly editions,"Tagged PDF – incompatible, Critical edition"
+relsize,Set the font size relative to the current font size,"Macro support, Tagged PDF – partially compatible, Font selection"
+renditions,Multiple versions from the same content,Conditional compilation
+reotex,Draw Reo Channels and Circuits,"PGF TikZ, Diagrams"
+repere,MetaPost macros for secondary school mathematics teachers,"Maths, Graphics METAPOST, Teaching"
+repltext,Control how text gets copied from a PDF file,"Tagged PDF – incompatible, PDF features"
+rerunfilecheck,Checksum based rerun checks on auxiliary files,"Tagged PDF – fully compatible, Compilation"
+rescansync,Re-scan tokens with synctex information,Macro support
+returntogrid,Semi-automatic grid typesetting,Typeset grid
+ribbonproofs,Drawing ribbon proofs,Proof
+rigidnotation,Typeset vectors and matrices following the RIGID notation,"Engineering, Maths"
+robotarm,TikZ powered LaTeX package to draw parameterized 2D robot arms,"Graphics, PGF TikZ"
+robust-externalize,"Cache anything (TikZ, python, ...) in a robust, efficient and pure way",Compilation
+robustindex,Create index with pagerefs,Index
+romanbar,Write roman number with <q>bars</q>,"Numbers, Tagged PDF – partially compatible"
+romanbarpagenumber,Typesetting roman page numbers,"Numbers, Page numbers"
+rotpages,Typeset sets of pages upside-down and backwards,"Layout, Tagged PDF – fully compatible"
+roundrect,MetaPost macros for highly configurable rounded rectangles (optionally with text),"Boxing, Graphics METAPOST"
+rputover,Place text over PSTricks objects without obscuring background colors,"Package declared obsolete, PSTricks"
+rrgtrees,Linguistic tree diagrams for Role and Reference Grammar (RRG) with LaTeX,"Tree, Linguistic"
+rtsched,Draw Real-Time scheduling (GANTT) charts,"Diagrams, Gantt"
+rubik,Document Rubik cube configurations and rotation sequences,Puzzle
+rulerbox,Draw rulers around a box,Misc support
+rulercompass,A TikZ library for straight-edge and compass diagrams,"Graphics in TeX, Tagged PDF – fully compatible"
+runcode,Execute foreign source code and embed the result in the pdf file,"Exec foreign, Callback"
+runic,Fonts for Anglo-Saxon futharc script,"Font, Archaic Font, Font Type1, Rune Font, Tagged PDF – partially compatible"
+runtexfile,"Automate the process of compiling (La)TeX documents with index, bibliography, …",Compilation
+sa-tikz,TikZ library to draw switching architectures,"Comp net, Graphics use"
+sagetex,Embed Sage code and plots into LaTeX,"Graphics inline, Literate programming, Callback"
+sankey,Draw Sankey diagrams with TikZ,"Graphics, Diagrams, PGF TikZ, Flow Diagrams"
+savefnmark,Save name of the footnote mark for reuse,Footnote
+savetrees,Optimise the use of each page of a LaTeX document,"Layout, Tagged PDF – incompatible"
+scalebar,"Create scalebars for maps, diagrams or photos",Misc support
+scalerel,Constrained scaling and stretching of objects,"Tagged PDF – partially compatible, Graphics manipulation"
+scaletextbullet,Resize the \textbullet without changing its vertical center,"Font supp misc, Bullet List"
+scanpages,Support importing and embellishing scanned documents,Misc support
+schedule,Weekly schedules,"Timetable, Planning"
+schemabloc,"Draw block diagrams, using TikZ","Graphics, Block Diagrams, PGF TikZ"
+schemata,Print topical diagrams,"Theology, Philosophy, Diagrams, Generic Macros, Tagged PDF – partially compatible"
+scontents,Stores LaTeX contents in memory or files,"File management, Tagged PDF – fully compatible"
+scrabble,Commands for Scrabble boards,"PGF TikZ, Games"
+scratch3,Draw programs like <q>scratch</q>,"PGF TikZ, Games"
+scratchx,Include Scratch programs in LaTeX documents,"PGF TikZ, Games"
+screenplay,A class file to typeset screenplays,"Drama script, Class"
+screenplay-pkg,Package version of the screenplay document class,Drama script
+scripture,A LaTeX style for typesetting Bible quotations,Theology
+sdrt,Macros for Segmented Discourse Representation Theory,Linguistic
+seatingchart,Generation of seating charts,"PGF TikZ, LuaTeX"
+sectionbox,Create fancy boxed ((sub)sub)sections,Decoration
+sectionbreak,LaTeX support for section breaks,"Headings, Decoration, Tagged PDF – partially compatible"
+selectp,Select pages to be output,"Tagged PDF – incompatible, Page control"
+selinput,Semi-automatic detection of input encoding,"Tagged PDF – partially compatible, Inputenc"
+semantic,Help for writing programming language semantics,Computer science
+semesterplanner,Create beautiful semester timetables and more,"Calendar, Planning, LuaTeX"
+semesterplannerLua,Draw timetables and other organizational matters useful for planning a semester,"LuaTeX, Calendar, Planning"
+seminar,Make overhead slides,"Presentation, Tagged PDF – unsupported"
+sepfootnotes,Support footnotes and endnotes from separate files,"Tagged PDF – partially compatible, Footnote"
+sesstime,Session and timing information in lecture notes,Teaching
+setspace,Set space between lines,"Tagged PDF – fully compatible, Line space"
+sgame,LaTeX style for typesetting strategic games,Games
+shadethm,Theorem environments that are shaded,"Tagged PDF – incompatible, Decoration, Maths theorem"
+shadowtext,Produce text with a shadow behind it,"Decoration, Tagged PDF – incompatible"
+shapepar,A macro to typeset paragraphs in specific shapes,"Parshape, Tagged PDF – incompatible, Micro layout, Text flow"
+shapes,"Draw polygons, reentrant stars, and fractions in circles with MetaPost",Maths
+shdoc,Float environment to document the shell commands of a terminal session,"Float, Syntax highlight, Listing"
+shortlst,Compact lists by running several items per line,"Bullet List, List, List enumerate"
+shorttoc,Table of contents with different depths,"TOC etc., Tagged PDF – incompatible"
+show-pdf-tags,Extract PDF tags from tagged PDF files,"PDF view, PDF features"
+showexpl,Typesetting LaTeX source code,"Macro Demonstration, Listing, Tagged PDF – incompatible"
+showhyphenation,Marking of hyphenation points,"LuaTeX, Hyphenation, Debug support, Tagged PDF – fully compatible"
+showhyphens,Show all possible hyphenations in LuaLaTeX,"Package declared obsolete, LuaTeX, Hyphenation"
+showkerning,Showing kerns in a document,"Tagged PDF – fully compatible, LuaTeX"
+showlabels,Show label commands in the margin,"BibTeX Support, Label and References, Tagged PDF – partially compatible, Macro support"
+sidecap,Typeset captions sideways,"Caption, Tagged PDF – incompatible, Rotation"
+sidenotes,"Typeset notes containing rich content, in the margin","Tagged PDF – incompatible, Marginal"
+sidenotesplus,"Place referenced notes, alerts, figures and tables into the document margin",Marginal
+sides,A LaTeX class for typesetting stage plays,Drama script
+silence,Selective filtering of error messages and warnings,"Compilation, Tagged PDF – fully compatible"
+sillypage,John Cleese’s Silly Walk as page numbering style,"Page numbers, Amusements, Tagged PDF – fully compatible, Numbers"
+sim-os-menus,"Insert <q>terminal</q> or <q>
+    <span>context</span> menu</q> or <q>viewers</q> like in an OS","Boxing, Computer science, Presentation"
+simplecd,"Simple CD, DVD covers for printing",Covers
+simplecv,A simple class for writing curricula vitae,"LyX, Class, Tagged PDF – partially compatible, CV"
+simpleicons,Simple Icons for LaTeX,"Tagged PDF – partially compatible, Font, Font supp symbol, Font Type1, Font symbol, OTF Font"
+simpleinvoice,Easy typesetting of invoices,Invoice
+simplekv,A simple key/value system for TeX and LaTeX,"Tagged PDF – fully compatible, Key-Val"
+simpleoptics,Drawing lenses and mirrors for optical diagrams,"Optics, Physics, PGF TikZ"
+simpler-wick,Simpler Wick contractions,"Physics, Tagged PDF – partially compatible"
+simples-matrices,Define matrices by given list of values,"Maths, Matrix"
+simplewick,Simple Wick contractions,"Tagged PDF – partially compatible, Physics"
+skak,Fonts and macros for typesetting chess games,"Games, Chess Font, Tagged PDF – incompatible, MF Font, Font, Chess"
+skeldoc,Placeholders for unfinished documents,"Dummy generator, Notes, Editorial, Rule"
+sketch,A 3d sketch language translator,Graphics import
+skillicons,Integrate skill icons into your documents,"Logo, Graphics"
+slantsc,Access different-shaped small-caps fonts,"Tagged PDF – fully compatible, Font support"
+slashbox,Both column and row headings in a tabular cell,Table
+sltables,Simplified tables for LaTeX,Table
+smart-eqn,Automatic math symbol styling for LaTeX documents,Maths
+smartdiagram,Generate diagrams from lists,"Diagrams, PGF TikZ"
+smartunits,Converting between common metric and Imperial units,"Misc conv, Units"
+snapshot,List the external dependencies of a LaTeX document,"File management, Archival, Tagged PDF – fully compatible"
+snaptodo,A todo that snaps to the closer side,"Editorial, Notes"
+songbook,Package for typesetting song lyrics and chord books,"Music, Chords"
+songproj,Generate Beamer slideshows with song lyrics,"Music, Presentation, Verse"
+songs,Produce song books for church or fellowship,"Music, Chords"
+soul,"Hyphenation for letterspacing, underlining, and more","Underline, Tagged PDF – incompatible, Letterspace"
+soulpos,A fancy means of underlining,"Letterspace, Tagged PDF – incompatible, Underline"
+soup,Generate alphabet soup puzzles,"Puzzle, Games, Crossword puzzle"
+spacekern,Kerning between words and against space,"Letterspace, Tagged PDF – fully compatible"
+spacingtricks,Addressing various spacing issues,"Typesetting, Footnote, Abbreviations, Layout, List"
+spalign,Typeset matrices and arrays with spaces and semicolons as delimiters,"Maths theorem, Matrix, Maths, Maths system equations, Typeset grid, Tagged PDF – partially compatible"
+sparklines,"Drawing sparklines: intense, simple, wordlike graphics",Graphics in TeX
+spath3,Manipulate <q>soft paths</q> in PGF,"Curve Graphics, Tagged PDF – fully compatible, PGF TikZ"
+spbmark,Customize superscripts and subscripts,Subsup position
+spectralsequences,Print spectral sequence diagrams using PGF/TikZ,PGF TikZ
+spelatex,Create PDF documents with hyperlinks to audiofragments,Multimedia
+spelling,Support for spell-checking of LuaTeX documents,"LuaTeX, Spell"
+spot,Spotlight highlighting for Beamer,Presentation
+spotxcolor,Modern spot color support for the xcolor package,Colour
+spreadtab,Spreadsheet features for LaTeX tabular environments,"Tagged PDF – fully compatible, Table"
+spverbatim,Allow line breaks within \verb and verbatim output,"Verbatim, Tagged PDF – incompatible"
+sqltex,An SQL Preprocessor for LaTeX,DB access
+sseq,Typesetting spectral sequence charts,Maths
+stage,A LaTeX class for stage plays,"Drama script, Class"
+standalone,Compile TeX pictures stand-alone or as part of a document,"Class, Tagged PDF – partially compatible, Subdocs"
+stanli,TikZ Library for Structural Analysis,"Engineering, PGF TikZ"
+starfont,The StarFont Sans astrological font,"Astrology, Font TTF, Font specialist, Font"
+statistics,Compute and typeset statistics tables and graphics,"Maths, Statistics"
+stix2-otf,OpenType Unicode text and maths fonts,"Non-roman Font, Font symbol, Maths Font, Font serif, Font, Font symbol maths, OTF Font, Font collection, Body Font"
+strands,Draw objects constructed from strands,"PGF TikZ, Graphics"
+string-diagrams,Create string diagrams with LaTeX and TikZ,"PGF TikZ, Maths, Diagrams, Graphics"
+structmech,A TikZ command set for structural mechanics drawings,"PGF TikZ, Physics"
+stubs,Create tear-off stubs at the bottom of a page,Advertisements
+suanpan-l3,Traditional Chinese 7-beads suanpan (abacus) package based on l3draw,Diagrams
+subcaption,Support for sub-captions,"Tagged PDF – incompatible, Caption"
+subeqnarray,Equation array with sub numbering,"Tagged PDF – incompatible, Maths system equations"
+subfiles,Individual typesetting of subfiles of a <q>main</q> document,"Tagged PDF – fully compatible, Subdocs, Class"
+subfloat,Sub-numbering for figures and tables,"Subfloat, Tagged PDF – fully compatible"
+subsupscripts,A range of sub- and superscript commands,"Subsup position, Physics, Maths"
+sudoku,Create sudoku grids,"Sudoku, Games"
+sunpath,Draw sun path charts,"PGF TikZ, Graphics, Physics, Astronomy"
+supertabular,A multi-page tables package,"Tagged PDF – incompatible, Table, Table long"
+svg-inkscape,How to include an SVG image in LaTeX using Inkscape,Graphics prep
+swfigure,Insert large images that do not fit into a single page,"Graphics include, Tagged PDF – incompatible"
+swimgraf,Graphical/textual representations of swimming performances,Data display
+swungdash,Typeset a swung dash in LaTeX,Typesetting
+syllogism,Typeset syllogisms in LaTeX,Logic
+syngen,A tool for generating syntax diagrams from BNF,"Syntax, Diagrams"
+synproof,Easy drawing of syntactic proofs,"Linguistic, Logic"
+syntaxdi,Create <q>railroad</q> syntax diagrams,"Flow Diagrams, PGF TikZ, Graphics, Diagrams"
+synttree,Typeset syntactic trees,"Linguistic, Tree"
+systeme,Format systems of equations,"Maths, Simplified, Tagged PDF – incompatible, Maths system equations"
+t-angles,"Draw tangles, trees, Hopf algebra operations and other pictures","Graphics in TeX, Maths"
+tablefootnote,Permit footnotes in tables,"Footnote, Table, Tagged PDF – fully compatible"
+tableof,Tagging tables of contents,"TOC etc., Tagged PDF – incompatible"
+tablericons,Use tablerIcons through LaTeX commands,"Text symbol, Graphics"
+tablists,Tabulated lists of short items,"List enumerate, Tagged PDF – incompatible"
+tablvar,Typesetting pretty tables of signs and variations according to French usage,"French, Maths tabvar, Maths"
+tabto-ltx,<q>Tab</q> to a measured position in the line,"Layout, Tagged PDF – incompatible"
+tabu,Flexible LaTeX tabulars,"Table, Tagged PDF – unsupported, Table long"
+tabularborder,Remove excess space at left and right of tabular,Table
+tabularcalc,Calculate formulas in a tabular environment,"Tagged PDF – fully compatible, Table"
+tabularew,A variation on the tabular environment,Table
+tabularht,Tabular extensions originally submitted by Heiko Oberdiek,"Table, Tagged PDF – fully compatible"
+tabularray,Typeset tabulars and arrays with LaTeX3,"Table long, Table, Tagged PDF – incompatible"
+tabularx,Tabulars with adjustable-width columns,"Tagged PDF – fully compatible, Table"
+tabulary,Tabular with variable width columns balanced,"Tagged PDF – fully compatible, Table"
+tagging,Document configuration with tags,"Conditional compilation, Tagged PDF – fully compatible"
+tagpair,"Word-by-word glosses, translations, and bibliographic attributions",Text layout
+tagsnip,Include tagged code snippets from local files or remote URLs,Chunks
+talk,A LaTeX class for presentations,"Class, Presentation"
+tangramtikz,"Tangram puzzles, with TikZ","Games, PGF TikZ, Puzzle"
+tasks,Horizontally columned lists,"List enumerate, List, Tagged PDF – incompatible"
+tblr-extras,Extra libraries for tabularray for caption and babel compatibility,"Table, Table long"
+tcolorbox,"Coloured boxes, for LaTeX examples and theorems, etc","Colour, Verbatim, Boxing, Macro Demonstration, Tagged PDF – partially compatible, Box breaking, Listing"
+temporal-logic,Symbols for Temporal Logics,"Logic, Symbol support, Text symbol"
+tensor,Typeset tensors,"Maths, Subsup position, Tagged PDF – partially compatible"
+termcal,Print a class calendar,Calendar
+termes-otf,Using the OpenType fonts TeX Gyre Termes,"LuaTeX, Maths Font, XeTeX, Font, Tagged PDF – fully compatible, OTF Font"
+terminalcode,"Terminal-style code display with ANSI colors, UTF-8 box-drawing, and dark/light themes","Verbatim, Decoration"
+termsim,"Simulate Win10, Ubuntu, and Mac terminals","Listing, Computer science, Boxing"
+testidx,Dummy text for testing index styles and indexing applications,"Index, Dummy generator"
+tex-gyre,TeX Fonts extending freely available URW fonts,"Sans Font, OTF Font, Font serif, Font collection, Proportional Font, Font, Font Type1"
+tex-label,Place a classification on each page of a document,Security
+tex-locale,Localisation support for TeX and LaTeX documents,"System support, Environment query, Tagged PDF – fully compatible"
+tex-nutshell,A short document about TeX principles,"Documentation, Tutorial plainTeX"
+tex2page,Produce HTML from TeX/LaTeX,Convert HTML
+tex4ht,Convert (La)TeX to HTML/XML,"Tagged PDF – incompatible, Convert HTML"
+texapi,Macros to write format-independent packages,"&epsilon;-TeX, Macro support"
+texblend,Compile segments of LaTeX documents,"Conditional compilation, Use Lua, Compilation, Compiler management"
+texbytopic,Freed version of the book <i>TeX by Topic</i>,"Book source, Tutorial plainTeX, LaTeX Reference"
+texcount,Count words in a LaTeX document,Word count
+texdate,"Date printing, formatting, and manipulation in TeX",Date time
+texdimens,Conversion of TeX dimensions to decimals,"&epsilon;-TeX, Tagged PDF – fully compatible, Units"
+texdraw,"Graphical macros, using embedded PostScript",Graphics in TeX
+texgit,"Download, access, and potentially execute files from git",Data import
+texmate,Comprehensive chess annotation in LaTeX,"Tagged PDF – incompatible, Chess, Games"
+texmuse,Music typesetting system using TeX and Metafont,Music
+texshade,Package for setting nucleotide and peptide alignments,"Mol bio, Chemistry"
+textcsc,Simple commands for caps-to-small-caps text,"Tagged PDF – partially compatible, Unicode, Typesetting"
+textopo,Annotated membrane protein topology plots,"Mol bio, Chemistry"
+textpath,Setting text along a path with MetaPost,Graphics text
+textpos,Place boxes at arbitrary positions on the LaTeX page,"Layout, Tagged PDF – incompatible"
+thalie,Typeset drama plays,Drama script
+theatre,A sophisticated package for typesetting stage plays,Drama script
+thematicpuzzle,Horizontal banners in a puzzle style,Symbol support
+thermodynamics,Macros for multicomponent thermodynamics documents,"Physics, Chemistry"
+thmbox,Decorate theorem statements,"Maths theorem, Tagged PDF – incompatible, Decoration"
+thmlist,A LaTeX package for adding theorem environments quickly,"Maths, Maths theorem, Package declared obsolete"
+thmtools,Extensions to theorem environments,"Maths theorem, Maths, Tagged PDF – incompatible"
+threeparttablex,Notes in longtables,"Notes, Tagged PDF – incompatible, Table"
+thumb,Add thumb tabs to document pages,Layout page
+thumbs,Create thumb indexes,"Layout page, Tagged PDF – partially compatible"
+thumby,Create thumb indexes for printed books,Layout page
+ticollege,Graphical representation of keys on a standard scientific calculator,"Documentation support, PGF TikZ"
+tictactoe,Drawing tic-tac-toe or Noughts and Crosses games,Games
+tiet-question-paper,A LaTeX question paper class for the TIET,"Class, Exam"
+tikz-3dplot,Coordinate transformation styles for 3d plotting in TikZ,"Graphics use, 3D Graphics, Tagged PDF – fully compatible, PGF TikZ"
+tikz-bagua,Draw Bagua symbols in Yijing,"PGF TikZ, Numbers"
+tikz-bbox,Precise determination of bounding boxes in TikZ,"PGF TikZ, Graphics"
+tikz-cd,Create commutative diagrams with TikZ,"PGF TikZ, Graphics, Tagged PDF – incompatible, Commutative Diagrams, Graphics in TeX"
+tikz-decofonts,"Simple decoration fonts, made with TikZ, for short texts","Amusements, Decor Font, Graphics, PGF TikZ"
+tikz-dependency,A library for drawing dependency graphs,"PGF TikZ, Tagged PDF – fully compatible, Linguistic, Tree"
+tikz-dimline,Technical dimension lines using PGF/TikZ,"PGF TikZ, Tagged PDF – fully compatible"
+tikz-feynhand,Feynman diagrams with TikZ,"PGF TikZ, Physics"
+tikz-feynman,Feynman diagrams with TikZ,"PGF TikZ, Physics, Use LuaTeX, Tagged PDF – fully compatible"
+tikz-imagelabels,Put labels on images using TikZ,"Graphics, Graphics include, PGF TikZ, Graphics text"
+tikz-inet,Draw interaction nets with TikZ,Logic
+tikz-kalender,A LaTeX based calendar using TikZ,"Class, Calendar, PGF TikZ"
+tikz-karnaugh,Typeset Karnaugh maps using TikZ,"Engineering, PGF TikZ, Maths"
+tikz-ladder,Draw ladder diagrams using TikZ,"Diagrams, PGF TikZ, Circuit Diagram, Engineering"
+tikz-lake-fig,Schematic diagrams of lakes,PGF TikZ
+tikz-layers,"TikZ provides graphical layers on TikZ: <q>behind</q>, <q>above</q> and <q>glass</q>","PGF TikZ, Graphics"
+tikz-mirror-lens,Spherical mirrors and lenses in TikZ,"Diagrams, Physics, Optics, PGF TikZ"
+tikz-network,Draw networks with TikZ,"Graphics, PGF TikZ, Diagrams"
+tikz-nfold,"Triple, quadruple, and n-fold paths with TikZ","Tagged PDF – fully compatible, PGF TikZ, Graphics"
+tikz-optics,A library for drawing optical setups with TikZ,"Optics, PGF TikZ, Graphics in TeX, Physics"
+tikz-osci,Produce oscilloscope screen shots,"Graphics use, PGF TikZ, Physics"
+tikz-page,Small macro to help building nice and complex layout materials,PGF TikZ
+tikz-palattice,Draw particle accelerator lattices with TikZ,PGF TikZ
+tikz-planets,Illustrate celestial mechanics and the solar system,"PGF TikZ, Graphics, Astronomy"
+tikz-qtree,Use existing qtree syntax for trees in TikZ,Tree
+tikz-relay,TikZ library for typesetting electrical diagrams,"Diagrams, Circuit Diagram, Engineering, PGF TikZ, Physics"
+tikz-sfc,Symbols collection for typesetting Sequential Function Chart (SFC) diagrams (PLC programs),"Diagrams, Flow Diagrams, Circuit Diagram, PGF TikZ, Engineering"
+tikz-shields,"Badges as in shields.io, but in LaTeX","Graphics, PGF TikZ"
+tikz-swigs,Horizontally and vertically split elliptical nodes,PGF TikZ
+tikz-timing,Easy generation of timing diagrams as TikZ pictures,"PGF TikZ, Timing Diagrams, Electronic"
+tikz-trackschematic,A TikZ library for creating track diagrams in railways,"Diagrams, Graphics, PGF TikZ"
+tikz-truchet,Draw Truchet tiles,PGF TikZ
+tikzbrickfigurines,Draw brick figurines with TikZ,"PGF TikZ, Amusements, Graphics"
+tikzbricks,Drawing bricks with TikZ,"PGF TikZ, Tagged PDF – fully compatible, Graphics, Amusements"
+tikzcodeblocks,"Helps to draw codeblocks like scratch, NEPO and PXT in TikZ",PGF TikZ
+tikzdotncross,Marking coordinates and crossing paths,"Electronic, Graphics, Circuit Diagram, PGF TikZ"
+tikzfill,TikZ libraries for filling with images and patterns,"PGF TikZ, Tagged PDF – fully compatible"
+tikzlings,A collection of cute little animals and similar creatures,"Graphics, PGF TikZ, Amusements, Tagged PDF – fully compatible"
+tikzmarmots,Drawing little marmots in TikZ,"Amusements, Tagged PDF – fully compatible, Graphics, PGF TikZ"
+tikzorbital,Atomic and molecular orbitals using TikZ,"Diagrams, Chemistry"
+tikzpackets,Display network packets,"Comp net, PGF TikZ"
+tikzpagenodes,A single TikZ node for the whole page,"PGF TikZ, Macro support, Graphics"
+tikzpfeile,Draw arrows using PGF/TikZ,Graphics symbols
+tikzpingus,Penguins with TikZ,"Graphics, Amusements, PGF TikZ, Tagged PDF – fully compatible"
+tikzposter,Create scientific posters using TikZ,"Poster, Class"
+tikzquads,A few shapes designed to be used with CircuiTikZ,"Circuit Diagram, Graphics, PGF TikZ, Electronic"
+tikzscale,Resize pictures while respecting text size,Graphics support
+tikzsymbols,Some symbols created using TikZ,"PGF TikZ, Graphics symbols"
+tikzviolinplots,Draws violin plots from data,"PGF TikZ, Statistics, Graphics, Graphics plot"
+tile-graphic,Create tiles of a graphical file,Graphics subpic
+tilings,A TikZ library for drawing tiles and tilings,"PGF TikZ, Maths, Tagged PDF – fully compatible"
+tipfr,Produces calculator’s keys with the help of TikZ,PGF TikZ
+tiscreen,Mimic the screen of older Texas Instruments calculators,"Graphics in TeX, Graphics"
+titlecaps,Setting rich-text input into Titling Caps,"Tagged PDF – fully compatible, Typesetting"
+titlepic,Add picture to title page of a document,"Graphics use, Tagged PDF – fully compatible, Title page"
+tkz-berge,Macros for drawing graphs of graph theory,"Maths, PGF TikZ"
+tkz-bernoulli,Draw Bernoulli trees with TikZ,Tree
+tkz-elements,A Lua library for drawing Euclidean geometry with TikZ or tkz-euclide,"LuaTeX, Maths, PGF TikZ, Calculation"
+tkz-euclide,Tools for drawing Euclidean geometry,"PGF TikZ, Maths, Use LuaTeX, Graphics use"
+tkz-fct,Tools for drawing graphs of functions,"Graphics, Graphics plot, PGF TikZ"
+tkz-graph,Draw graph-theory graphs,"PGF TikZ, Graphics, Maths"
+tkz-kiviat,Draw Kiviat graphs,Graphics plot
+tkz-linknodes,Link nodes in mathematical environments,"Graphics use, PGF TikZ"
+tkz-orm,Create Object-Role Model (ORM) diagrams,"PGF TikZ, Diagrams"
+tkz-tab,Tables of signs and variations using PGF/TikZ,"Maths, Graphics, Maths tabvar, PGF TikZ"
+to-be-determined,Highlight text passages that need further work,"Decoration, Conditional compilation, Editorial"
+tocdata,"Adds names to chapters, sections, figures in the TOC and LOF","TOC etc., Tagged PDF – incompatible"
+tocloft,"Control table of contents, figures, etc","TOC etc., Tagged PDF – fully compatible"
+todo,Make a to-do list for a document,"Notes, Editorial"
+todonotes,Marking things to do in a LaTeX document,"Notes, PGF TikZ, Editorial, Tagged PDF – incompatible"
+tokcycle,Build tools to process tokens from an input stream,"Parser, Misc support, Generic Macros, Iterating Macros, Macro support"
+tonevalue,Tool for linguists and phoneticians to visualize tone value patterns,"Phonetic, PGF TikZ, Linguistic"
+topiclongtable,Extend longtable with cells that merge hierarchically,"Table long, Table"
+tqft,Drawing TQFT diagrams with TikZ/PGF,"Graphics use, Diagrams, Tagged PDF – fully compatible"
+tracklang,Language and dialect tracker,"Multi-lingual, Tagged PDF – fully compatible, Package development, Class support"
+trainmap,Draw railway line schematics and transit network maps with TikZ,"PGF TikZ, Diagrams, Graphics"
+tram,Typeset tram boxes in LaTeX,"Boxing, Editorial, Decoration"
+tramlines,"A package for creating tramlines (lines above and below a title used
+    by lawyers in the UK)","Legal, Headings"
+translations,Internationalisation of LaTeX2e packages,"Tagged PDF – fully compatible, Multi-lingual, Package support"
+tree-dvips,Trees and other linguists’ macros,Tree
+trfsigns,Typeset transform signs,"Maths symbol, Tagged PDF – partially compatible"
+trimspaces,Trim spaces around an argument or within a macro,"Macro support, Tagged PDF – fully compatible"
+truthtable,Automatically generate truth tables for given variables and statements,"LuaTeX, Logic, Maths"
+tucv,Support for typesetting a CV or résumeé,CV
+tuda-ci,LaTeX templates using CI of Technische Universität Darmstadt,"Poster, Std conform, Letter, Document template, Class, Dissertation, Presentation"
+tufte-latex,Document classes inspired by the work of Edward Tufte,"Class, Book publication, Tagged PDF – unsupported"
+turnthepage,Provide <q>turn page</q> instructions,"Exam, Tagged PDF – fully compatible, Layout"
+twemojis,Use Twitter’s open source emojis through LaTeX commands,"Text symbol, Graphics, Tagged PDF – partially compatible"
+txp,Draw text along a path,Graphics text
+typed-checklist,"Typesetting tasks, goals, milestones, artifacts, and more in LaTeX","List, Tagged PDF – incompatible"
+typedref,Eliminate errors by enforcing the types of labels,Label and References
+typeface,Select a balanced set of fonts,Font selection
+typewriter,Typeset with a randomly variable monospace font,Typesetting
+typicons,Font containing a set of web-related icons,"Font TTF, Font supp symbol, Tagged PDF – partially compatible, Font symbol, Font"
+tzplot,Plot graphs with TikZ abbreviations,"Graphics, Maths, PGF TikZ, Graphics plot function"
+uassign,Environments and options for typesetting university assignments,Class
+ucharclasses,Font actions in XeTeX according to what is being processed,"Tagged PDF – unsupported, Font support, XeTeX"
+udepcolor,University of Piura (UDEP) institutional and corporate colors for digital and electronic media,Colour
+udiss,A LaTeX bundle for typesetting dissertations,"Dissertation, Class"
+ulem,Package for underlining,"Emphasis, Underline, Tagged PDF – incompatible"
+undar-digitacion,"Musical fingering diagrams of Pinkullo Huanuqueño, Flute (Recorder), Quena and Saxophone","Music, PGF TikZ"
+uni-titlepage,Universal titlepages with configuration options and predefined styles,Title page
+unicodefonttable,A Unicode font table generator,"Font index, Tagged PDF – partially compatible, Unicode"
+unifront,Give notes a unique front page for every chapter and section,"Notes, TOC etc."
+unimath-plain-xetex,OpenType math support in (plain) XeTeX,"Font supp maths, XeTeX, Plain extensions, Maths, Unicode"
+urlbst,Web support for BibTeX,BibTeX Support
+urwchancal,Use URW’s clone of Zapf Chancery as a maths alphabet,Font supp maths
+usebib,A simple bibliography processor,"Tagged PDF – fully compatible, Bibliography"
+useclass,Load classes as packages,Documentation support
+utfsym,Provides various Unicode symbols,"Tagged PDF – partially compatible, PGF TikZ, Symbol support"
+vcell,Vertical alignment of content inside table cells,"Table, Tagged PDF – incompatible"
+vectorlogos,"Vectorial logos (GeoGebra, Emacs, Scratch, ...) with <q>inline</q> support",Logo
+venndiagram,Creating Venn diagrams with TikZ,"PGF TikZ, Math Diagrams"
+verbatimbox,Deposit verbatim text in a box,"Tagged PDF – incompatible, Verbatim, Boxing"
+verbatimcopy,Make copies of text documents from within LaTeX,Verbatim
+verifica,Typeset (Italian high school) exercises,"Class, Exam, Exercise"
+verifiche,A LaTeX package to typeset (Italian) high school tests,"Exam, Exercise"
+verifycommand,"Verifies definitions are unchanged, such as before patching","Package development, Tagged PDF – fully compatible"
+verse,Aids for typesetting simple verse,"Tagged PDF – partially compatible, Verse"
+version,Conditionally include text,"Conditional compilation, Tagged PDF – fully compatible"
+versonotes,Display brief notes on verso pages,"Notes, Tagged PDF – incompatible"
+vertbars,Mark vertical rules in margin of text,"Editorial, Tagged PDF – incompatible"
+vhistory,Support for creating a change log,Version control
+visualfaq,A Visual LaTeX FAQ,FAQ
+visualpstricks,Visual help for PSTricks based on images with minimum text,"Graphics documentation, PSTricks, French documentation, Graphics in TeX"
+visualtoks,Typeset TeXbook-style visualisations of token lists,"&epsilon;-TeX, Macro Demonstration, Generic Macros"
+voss-mathcol,"Typesetting mathematics in colour, in (La)TeX","Tutorial, Maths documentation"
+voss-mathmode,A comprehensive review of mathematics in (La)TeX,"Package declared obsolete, Documentation, Maths documentation"
+vpp,View and (selectively) Print PDF and PostScript,"Print app, View app"
+vtable,Vertical alignement of table cells,Table
+vwcol,Variable-width multiple text columns,"Multi-column, Tagged PDF – incompatible"
+wallcalendar,A wall calendar class with custom layouts,"Use Lua, Calendar, Class, LuaTeX"
+wallpaper,"Easy addition of wallpapers (background images) to LaTeX documents, including tiling","Layout page, Tagged PDF – incompatible"
+wargame,A LaTeX package to prepare hex’n’counter wargames,"Symbol support, PGF TikZ, Games"
+wasy,The wasy fonts (Waldi symbol fonts),"Font, MF Font, Font symbol"
+wasysym,LaTeX support for the wasy fonts,"Tagged PDF – partially compatible, Font support"
+webquiz,Write interactive web based quizzes,"Exam, Convert HTML"
+weiqi,Use LaTeX3 to typeset Weiqi (Go),"Games, Go"
+wheelchart,Diagrams with circular or other shapes using TikZ and LaTeX3,"Tagged PDF – fully compatible, Graphics, Charts, PGF TikZ"
+wordle,Create wordle grids,"Games, PGF TikZ"
+wrapstuff,Wrapping text around stuff,"Text flow, Tagged PDF – incompatible"
+writeongrid,Write on grid lines,"Typeset grid, PGF TikZ"
+xbmks,Create a cross-document bookmark tree,"Adobe Distiller, PDF process"
+xcharter,Extension of Bitstream Charter fonts,"Font serif, Cyrillic Font, Body Font, Multilingual Font, Tagged PDF – fully compatible, Font Type1, Proportional Font, Font support, OTF Font, Font, Font t1enc"
+xcharter-math,XCharter-based OpenType Math font for LuaTeX and XeTeX,"Tagged PDF – fully compatible, OTF Font, Maths Font, Font, Font supp maths"
+xcjk2uni,"Convert CJK characters to Unicode, in pdfTeX","Unicode, PDF features"
+xcoffins,Rich boxed material for LaTeX 3,"Tagged PDF – incompatible, Boxing, LaTeX3"
+xcolor-material,Defines the 256 colors from Google Material Color Palette,Colour
+xcomment,Allows selected environments to be included/excluded,"Tagged PDF – partially compatible, Conditional compilation"
+xesearch,A string finder for XeTeX,"XeTeX, String, Tagged PDF – unsupported"
+xespotcolor,Spot colours support for XeLaTeX,"Tagged PDF – unsupported, Colour"
+xetex,An extended variant of TeX for use with Unicode sources,Engine
+xhfill,Extending \hrulefill,"Tagged PDF – incompatible, Rule"
+xindex,Unicode-compatible index generation,"Index, Tagged PDF – fully compatible, Use Lua"
+xindy,A general-purpose index processor,Index
+xint,Expandable arbitrary precision floating point and integer operations,"Arithmetic, Calculation"
+xkcdcolors,<span>xkcd</span> names of colors,"Colour, Amusements"
+xpiano,An extension of the piano package,"Music, Tagged PDF – partially compatible"
+xpicture,Extensions of LaTeX picture drawing,"Graphics in TeX, Curve Graphics, Tagged PDF – incompatible"
+xq,Support for writing about xiangqi,"Games, Chess, Tagged PDF – unsupported"
+xr,References to other LaTeX documents,"Typesetting, Label and References, Tagged PDF – fully compatible, Cite support"
+xreview,Reviewing LaTeX documents made easy(er),Review document
+xsavebox,"Saveboxes for repeating content without code replication, based on PDF Form XObjects","Tagged PDF – incompatible, Boxing, PDF features, Adobe Distiller"
+xsim,<span>eXercise</span> Sheets IMproved,"Exam, Exercise"
+xskak,An extension to the skak package for chess typesetting,"Games, Chess, Tagged PDF – incompatible, &epsilon;-TeX"
+xurl,Allow URL breaks at any alphanumerical character,"Verbatim, Tagged PDF – fully compatible"
+xwatermark,Graphics and text watermarks on selected pages,Background
+xymtex,Typesetting chemical structures,"Diagrams, Chemistry"
+xypic,Flexible diagramming macros,"Diagrams, Tagged PDF – incompatible"
+yquant,Typesetting quantum circuits in a human-readable language,"PGF TikZ, Circuit Diagram, Graphics"
+ytableau,Many-featured Young tableaux and Young diagrams,"Tagged PDF – incompatible, Maths"
+zhlineskip,Line spacing for CJK documents,"Chinese, Tagged PDF – fully compatible"
+zhlipsum,Chinese dummy text,"Dummy generator, LaTeX3, Tagged PDF – fully compatible, Macro support, Chinese"
+zhmcjk,Simplify configuration of CJK installations for Chinese,"Font use, Chinese, CJK Font"
+zhnumber,Typeset Chinese representations of numbers,"Chinese, Tagged PDF – fully compatible, Numbers"
+zwpagelayout,Page layout and crop-marks,"Production, Geometry"
