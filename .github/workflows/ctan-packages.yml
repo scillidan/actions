@@ -3,7 +3,7 @@ name: CTAN Packages (CSV)
 on:
   push:
     paths:
-      - "ctan/ctan.txt"
+      - "ctan-packages/ctan.txt"
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ctan
+        working-directory: ctan-packages
 
     steps:
       - name: Checkout repository
@@ -35,20 +35,20 @@ jobs:
       - name: Generate CSV from URL list
         run: |
           set -euo pipefail
-          python3 ctan_tex_to_csv.py --txt ctan.txt --csv ctan.csv --max-workers 16
+          python3 ctan_tex_to_csv.py --txt ctan.txt --csv ctan-packages.csv --max-workers 16
 
       - name: Validate outputs
         run: |
-          for f in ctan.txt ctan.csv; do
+          for f in ctan.txt ctan-packages.csv; do
             if [ ! -s "$f" ]; then
               echo "$f appears empty or invalid"
               exit 1
             fi
           done
 
-          LINES=$(wc -l < ctan.csv)
+          LINES=$(wc -l < ctan-packages.csv)
           if [ "$LINES" -lt 2 ]; then
-            echo "ctan.csv appears empty or invalid"
+            echo "ctan-packages.csv appears empty or invalid"
             exit 1
           fi
 
@@ -58,11 +58,11 @@ jobs:
             exit 1
           fi
 
-          sha256sum ctan.txt ctan.csv
+          sha256sum ctan.txt ctan-packages.csv
 
       - name: Generate metadata file
         run: |
-          COUNT=$(tail -n +2 ctan.csv | wc -l)
+          COUNT=$(tail -n +2 ctan-packages.csv | wc -l)
           cat > ctan.meta.json << EOF
           {
             "generated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
@@ -75,7 +75,8 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git add .
+          git add -f ctan-packages.csv ctan.meta.json
+          git add ctan.txt ctan_tex_to_csv.py .gitignore
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
@@ -89,7 +90,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: update CTAN CSV from ctan.txt [skip ci]"
+          git commit -m "chore: update ctan-packages.csv from ctan.txt [skip ci]"
           git push
 
       - name: Dry run notice
@@ -100,9 +101,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
         with:
-          name: ctan-csv-${{ github.run_id }}
+          name: ctan-packages-csv-${{ github.run_id }}
           path: |
-            ctan/ctan.txt
-            ctan/ctan.csv
-            ctan/ctan.meta.json
+            ctan-packages/ctan.txt
+            ctan-packages/ctan-packages.csv
+            ctan-packages/ctan.meta.json
           retention-days: 90

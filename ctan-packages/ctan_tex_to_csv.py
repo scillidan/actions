@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Generate ctan.csv from ctan.txt.
+"""Generate ctan-packages.csv from ctan.txt.
 
 Input:
   - ctan.txt: one CTAN URL per line (https://www.ctan.org/pkg/<pkg>)
 Output:
-  - ctan.csv: package name, title, topics (official CTAN casing)
+  - ctan-packages.csv: package name, title, topics (official CTAN casing)
 
 The script fetches each package's caption and topics from CTAN's public JSON
 API, then maps topic machine IDs to the human-readable display names used on
@@ -182,8 +182,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--csv",
-        default="ctan.csv",
-        help="Output CSV filename (default: ctan.csv)",
+        default="ctan-packages.csv",
+        help="Output CSV filename (default: ctan-packages.csv)",
     )
     parser.add_argument(
         "--max-workers",
