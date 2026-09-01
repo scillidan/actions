@@ -1,0 +1,108 @@
+name: CTAN Packages (CSV)
+
+on:
+  push:
+    paths:
+      - "ctan/ctan.txt"
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (do not commit or push)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ctan
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v6
+
+      - name: Generate CSV from URL list
+        run: |
+          set -euo pipefail
+          python3 ctan_tex_to_csv.py --txt ctan.txt --csv ctan.csv --max-workers 16
+
+      - name: Validate outputs
+        run: |
+          for f in ctan.txt ctan.csv; do
+            if [ ! -s "$f" ]; then
+              echo "$f appears empty or invalid"
+              exit 1
+            fi
+          done
+
+          LINES=$(wc -l < ctan.csv)
+          if [ "$LINES" -lt 2 ]; then
+            echo "ctan.csv appears empty or invalid"
+            exit 1
+          fi
+
+          # Sanity check: every ctan.txt URL must be a ctan.org/pkg URL.
+          if grep -qvE '^https?://(www\.)?ctan\.org/pkg/' ctan.txt; then
+            echo "ctan.txt contains unexpected non-CTAN URLs"
+            exit 1
+          fi
+
+          sha256sum ctan.txt ctan.csv
+
+      - name: Generate metadata file
+        run: |
+          COUNT=$(tail -n +2 ctan.csv | wc -l)
+          cat > ctan.meta.json << EOF
+          {
+            "generated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+            "source": "https://www.ctan.org",
+            "topics_source": "https://www.ctan.org/topics/highscore",
+            "packages": ${COUNT}
+          }
+          EOF
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add .
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: |
+          steps.changes.outputs.changed == 'true' &&
+          inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update CTAN CSV from ctan.txt [skip ci]"
+          git push
+
+      - name: Dry run notice
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "::notice title=Dry Run::Dry run enabled — no commit or push performed"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        with:
+          name: ctan-csv-${{ github.run_id }}
+          path: |
+            ctan/ctan.txt
+            ctan/ctan.csv
+            ctan/ctan.meta.json
+          retention-days: 90
