@@ -1,3 +1,5 @@
+https://www.ctan.org/pkg/dvdcoll
+https://www.ctan.org/pkg/cdcover
 https://ctan.org/pkg/mahjonggame
 https://ctan.org/pkg/multicoltab
 https://ctan.org/pkg/abraces
