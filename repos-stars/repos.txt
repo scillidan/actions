@@ -46,3 +46,4 @@ https://github.com/rcieri/glab-tui
 https://github.com/SimonBure/presse
 https://github.com/liquidaty/zsv
 https://github.com/wilfredinni/noodle
+https://github.com/FurqanHun/mpv-music
