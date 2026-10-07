@@ -45,3 +45,4 @@ https://github.com/mrusme/reader
 https://github.com/rcieri/glab-tui
 https://github.com/SimonBure/presse
 https://github.com/liquidaty/zsv
+https://github.com/wilfredinni/noodle
