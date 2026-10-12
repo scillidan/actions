@@ -1,3 +1,4 @@
+https://ctan.org/pkg/graphicnovel
 https://ctan.org/pkg/calendar-grid
 https://ctan.org/pkg/dvdcoll
 https://ctan.org/pkg/cdcover
