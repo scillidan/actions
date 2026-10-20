@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Vicinae new extensions</title>
+<link>https://www.vicinae.com/extensions</link>
+<description>Vicinae new extensions</description>
+<language>en</language>
+<lastBuildDate>Tue, 20 Oct 2026 16:07:29 +0000</lastBuildDate>
+<item>
+<title>fff Search</title>
+<link>https://www.vicinae.com/extensions/selfxplanatorium/fff-search</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/selfxplanatorium/fff-search</guid>
+<pubDate>Tue, 13 Oct 2026 11:37:28 +0000</pubDate>
+<description>Typo-tolerant file name and file content search for Vicinae, powered by the fff engine, with frecency ranking, git status, live previews and a file watcher. — mushroom</description>
+<category>Developer Tools</category><category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>NordVPN</title>
+<link>https://www.vicinae.com/extensions/rahriver/nordvpn</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/rahriver/nordvpn</guid>
+<pubDate>Fri, 09 Oct 2026 21:04:44 +0000</pubDate>
+<description>Connect to NordVPN servers by country or city, see status, disconnect. — Ramin Yousefpour Shahrivar</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>KWin Window Layouts</title>
+<link>https://www.vicinae.com/extensions/eduardocarminati/kwin-window-layouts</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/eduardocarminati/kwin-window-layouts</guid>
+<pubDate>Fri, 09 Oct 2026 20:49:06 +0000</pubDate>
+<description>Resize the focused KDE Plasma window using precise fractional layouts — eduardocarminati</description>
+<category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>LACT Profiles</title>
+<link>https://www.vicinae.com/extensions/arduoi/lact-profiles</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/arduoi/lact-profiles</guid>
+<pubDate>Fri, 09 Oct 2026 20:18:00 +0000</pubDate>
+<description>Browse and switch LACT GPU profiles — Cristian</description>
+<category>System</category>
+</item>
+<item>
+<title>Niri Actions</title>
+<link>https://www.vicinae.com/extensions/curliq/niri-actions</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/curliq/niri-actions</guid>
+<pubDate>Fri, 09 Oct 2026 19:54:03 +0000</pubDate>
+<description>Browse and run niri Wayland compositor IPC actions with fuzzy search. Covers window, column, workspace, monitor, screenshot and system commands. Excludes actions requiring free-form arguments. — curli</description>
+<category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>crates.io</title>
+<link>https://www.vicinae.com/extensions/bastiangx/crates-io</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/bastiangx/crates-io</guid>
+<pubDate>Fri, 09 Oct 2026 19:37:14 +0000</pubDate>
+<description>Search for Rust crates easily — Bastian </description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>KDE Connect</title>
+<link>https://www.vicinae.com/extensions/xwaleedahmad/kde-connect</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/xwaleedahmad/kde-connect</guid>
+<pubDate>Mon, 07 Sep 2026 16:02:10 +0000</pubDate>
+<description>Control your connected phone from the launcher — Waleed Ahmad</description>
+
+</item>
+<item>
+<title>Cardwire and ASUS</title>
+<link>https://www.vicinae.com/extensions/busybox11/cardwire-control</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/busybox11/cardwire-control</guid>
+<pubDate>Mon, 07 Sep 2026 15:32:55 +0000</pubDate>
+<description>Cardwire GPU mode plus asusd profiles, charge limit, and firmware dGPU — rain capsule</description>
+<category>System</category>
+</item>
+<item>
+<title>Coffee</title>
+<link>https://www.vicinae.com/extensions/tiagem/coffee</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/tiagem/coffee</guid>
+<pubDate>Mon, 07 Sep 2026 14:51:31 +0000</pubDate>
+<description>Keep your machine awake — indefinitely, for a duration, until a time, while an app runs, or on a weekly schedule. — tiago miguel</description>
+<category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>Lorem Ipsum</title>
+<link>https://www.vicinae.com/extensions/tiagem/lorem-ipsum</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/tiagem/lorem-ipsum</guid>
+<pubDate>Mon, 07 Sep 2026 14:18:22 +0000</pubDate>
+<description>Generate placeholder text instantly — paragraphs, sentences, words, lists, and HTML. — tiago miguel</description>
+<category>Design Tools</category><category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>ProtonVPN</title>
+<link>https://www.vicinae.com/extensions/skifli/protonvpn</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/skifli/protonvpn</guid>
+<pubDate>Mon, 07 Sep 2026 14:11:54 +0000</pubDate>
+<description>Control ProtonVPN from Vicinae — skifli</description>
+<category>Security</category>
+</item>
+<item>
+<title>Custom Commands</title>
+<link>https://www.vicinae.com/extensions/omermohideen/custom-commands</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/omermohideen/custom-commands</guid>
+<pubDate>Mon, 07 Sep 2026 13:58:35 +0000</pubDate>
+<description>Create and run your own custom shell commands directly from Vicinae. Define commands with arguments, run in terminal or background. — Omer Mohideen</description>
+<category>Developer Tools</category><category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>Aseprite</title>
+<link>https://www.vicinae.com/extensions/omermohideen/aseprite</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/omermohideen/aseprite</guid>
+<pubDate>Sun, 30 Aug 2026 14:47:21 +0000</pubDate>
+<description>Browse, open, copy paths, and preview recent Aseprite files — Omer Mohideen</description>
+<category>Design Tools</category>
+</item>
+<item>
+<title>JWT</title>
+<link>https://www.vicinae.com/extensions/balazsorban44/jwt</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/balazsorban44/jwt</guid>
+<pubDate>Sun, 30 Aug 2026 14:34:28 +0000</pubDate>
+<description>Decode a JSON Web Token and inspect its header, payload and signature — Balázs Orbán</description>
+<category>Developer Tools</category><category>Security</category>
+</item>
+<item>
+<title>VScrot</title>
+<link>https://www.vicinae.com/extensions/jaintp/vscrot</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/jaintp/vscrot</guid>
+<pubDate>Sat, 29 Aug 2026 12:02:03 +0000</pubDate>
+<description>An extension to take and manage screenshots — Jai Brown</description>
+<category>Other</category><category>Productivity</category>
+</item>
+<item>
+<title>Workspace</title>
+<link>https://www.vicinae.com/extensions/tiagem/workspace</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/tiagem/workspace</guid>
+<pubDate>Sat, 29 Aug 2026 11:34:08 +0000</pubDate>
+<description>Manage and access your workspace projects. Boost your focus with quick project opening, git status tracking, and customizable application overrides. — tiago miguel</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Buku</title>
+<link>https://www.vicinae.com/extensions/msclp/buku</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/msclp/buku</guid>
+<pubDate>Thu, 27 Aug 2026 14:40:58 +0000</pubDate>
+<description>Browse, add, edit, and tag your buku bookmarks. Requires the buku command line tool to be installed. — Łukasz Pałasz</description>
+<category>Productivity</category><category>Web</category>
+</item>
+<item>
+<title>Screen Mirror</title>
+<link>https://www.vicinae.com/extensions/xwaleedahmad/screen-mirror</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/xwaleedahmad/screen-mirror</guid>
+<pubDate>Thu, 27 Aug 2026 13:08:21 +0000</pubDate>
+<description>Mirror display outputs on wlroots-compatible Wayland compositors using wl-mirror — Waleed Ahmad</description>
+<category>System</category>
+</item>
+<item>
+<title>Helium</title>
+<link>https://www.vicinae.com/extensions/adityazxxx/helium</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/adityazxxx/helium</guid>
+<pubDate>Tue, 18 Aug 2026 08:25:35 +0000</pubDate>
+<description>Search bookmarks, history, tabs, and the web, and open windows in the Helium browser. — Aditya Rahmad</description>
+<category>Web</category>
+</item>
+<item>
+<title>Niri Monitors</title>
+<link>https://www.vicinae.com/extensions/xwaleedahmad/niri-monitors</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/xwaleedahmad/niri-monitors</guid>
+<pubDate>Sun, 16 Aug 2026 16:12:42 +0000</pubDate>
+<description>Manage connected monitors, scales, rotation, power states for Niri Wayland compositor — Waleed Ahmad</description>
+
+</item>
+<item>
+<title>Gentoo Explorer</title>
+<link>https://www.vicinae.com/extensions/aurelleb/gentoo-explorer</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/gentoo-explorer</guid>
+<pubDate>Wed, 12 Aug 2026 11:03:04 +0000</pubDate>
+<description>Search Gentoo packages across 400+ overlays, browse categories and USE flags, and follow Gentoo news and security advisories, powered by ebuilds.info — Aurelle</description>
+<category>System</category>
+</item>
+<item>
+<title>Wayland Explorer</title>
+<link>https://www.vicinae.com/extensions/aurelleb/wayland-explorer</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/wayland-explorer</guid>
+<pubDate>Tue, 11 Aug 2026 10:58:33 +0000</pubDate>
+<description>Browse Wayland protocols from wayland.app — Aurelle</description>
+
+</item>
+<item>
+<title>Ollama WordSmith</title>
+<link>https://www.vicinae.com/extensions/adityazxxx/ollama-wordsmith</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/adityazxxx/ollama-wordsmith</guid>
+<pubDate>Mon, 10 Aug 2026 13:10:52 +0000</pubDate>
+<description>Translate, summarize, explain, enhance, and look up text using local LLMs via Ollama — private, offline, and free — Aditya Rahmad</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Reminders</title>
+<link>https://www.vicinae.com/extensions/wy3z/reminders</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/wy3z/reminders</guid>
+<pubDate>Mon, 10 Aug 2026 13:07:27 +0000</pubDate>
+<description>One-off and recurring reminders with natural-language dates on systemd Linux — WYEZ</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>DMS</title>
+<link>https://www.vicinae.com/extensions/aurelienjt/dms-integration</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelienjt/dms-integration</guid>
+<pubDate>Mon, 10 Aug 2026 05:23:23 +0000</pubDate>
+<description>Integrate DankMaterialShell into Vicinae. — Aurélien J.</description>
+<category>System</category>
+</item>
+<item>
+<title>GPU Screen Recorder</title>
+<link>https://www.vicinae.com/extensions/lufimio/gpu-screen-recorder</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/lufimio/gpu-screen-recorder</guid>
+<pubDate>Sun, 02 Aug 2026 06:03:58 +0000</pubDate>
+<description>Keyboard-first interface for GPU-accelerated screen recording on Wayland via gpu-screen-recorder — lufimio</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>Bitwarden (rbw)</title>
+<link>https://www.vicinae.com/extensions/bl4zee1g/bitwarden</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/bl4zee1g/bitwarden</guid>
+<pubDate>Sat, 01 Aug 2026 15:26:44 +0000</pubDate>
+<description>Search, copy and paste credentials from your Bitwarden vault using the rbw CLI — Jane</description>
+<category>Security</category>
+</item>
+<item>
+<title>PromptDeck</title>
+<link>https://www.vicinae.com/extensions/tadassuksteris/prompt-deck</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/tadassuksteris/prompt-deck</guid>
+<pubDate>Fri, 31 Jul 2026 20:19:11 +0000</pubDate>
+<description>Create reusable AI prompts that run on your selected or copied text. Prompts, selected text, and clipboard text are sent to the LLM provider you configure (OpenAI, Anthropic, or Google, including OpenAI-compatible endpoints). — Tadas Suksteris</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>FreeTube</title>
+<link>https://www.vicinae.com/extensions/nihalxkumar/freetube</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/nihalxkumar/freetube</guid>
+<pubDate>Fri, 31 Jul 2026 19:22:40 +0000</pubDate>
+<description>Search YouTube, open videos, channels, playlists, and more — all in FreeTube — Nihal Kumar</description>
+<category>Media</category>
+</item>
+<item>
+<title>Wallhaven</title>
+<link>https://www.vicinae.com/extensions/aurelleb/wallhaven</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/wallhaven</guid>
+<pubDate>Sat, 18 Jul 2026 20:53:54 +0000</pubDate>
+<description>Find the perfect wallpaper for your monitor — Aurelle</description>
+
+</item>
+<item>
+<title>Seerr</title>
+<link>https://www.vicinae.com/extensions/vmohammad24/seerr</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/vmohammad24/seerr</guid>
+<pubDate>Sat, 18 Jul 2026 19:33:59 +0000</pubDate>
+<description>Request movies and shows straight from vicinae using Seerr (formerly known as Jellyseerr) — vMohammad</description>
+<category>Applications</category><category>Media</category>
+</item>
+<item>
+<title>Kaomojis</title>
+<link>https://www.vicinae.com/extensions/bl4zee1g/kaomojis</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/bl4zee1g/kaomojis</guid>
+<pubDate>Tue, 30 Jun 2026 11:01:46 +0000</pubDate>
+<description>Browse and copy kaomojis to clipboard — Jane</description>
+
+</item>
+<item>
+<title>Clean Keyboard</title>
+<link>https://www.vicinae.com/extensions/xevrion/clean-keyboard</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/xevrion/clean-keyboard</guid>
+<pubDate>Sun, 07 Jun 2026 13:35:13 +0000</pubDate>
+<description>Lock your keyboard to clean it easily — Yash Bavadiya</description>
+<category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>Linuxbrew</title>
+<link>https://www.vicinae.com/extensions/domainus/linuxbrew</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/domainus/linuxbrew</guid>
+<pubDate>Sat, 06 Jun 2026 22:12:34 +0000</pubDate>
+<description>Search, inspect, install, upgrade, and clean Linuxbrew packages from Vicinae. — domainus</description>
+<category>Developer Tools</category><category>System</category>
+</item>
+<item>
+<title>Hypr</title>
+<link>https://www.vicinae.com/extensions/nino-mau/hypr</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/nino-mau/hypr</guid>
+<pubDate>Sat, 06 Jun 2026 21:08:37 +0000</pubDate>
+<description>Inspect Hyprland monitors, workspaces, windows, layers, and keybinds, and switch workspace layouts. — nino-mau</description>
+<category>System</category>
+</item>
+<item>
+<title>GNOME Extensions</title>
+<link>https://www.vicinae.com/extensions/7system7/gnome-extensions</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/7system7/gnome-extensions</guid>
+<pubDate>Sat, 06 Jun 2026 19:49:49 +0000</pubDate>
+<description>Manage your GNOME Shell extensions - list, enable, disable, open preferences and so on — Laszlo Lang</description>
+<category>System</category>
+</item>
+<item>
+<title>Timer</title>
+<link>https://www.vicinae.com/extensions/harshnarayanjha/timer</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/harshnarayanjha/timer</guid>
+<pubDate>Wed, 27 May 2026 22:00:08 +0000</pubDate>
+<description>Create and manage system-native background timers using natural language. — Harsh Narayan Jha</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>zoxide recent directories</title>
+<link>https://www.vicinae.com/extensions/c4n4m1/zoxide-recent-directories</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/c4n4m1/zoxide-recent-directories</guid>
+<pubDate>Mon, 04 May 2026 21:41:12 +0000</pubDate>
+<description>Browse your recent opened directories through zoxide's list and open them using the application of your choice with the ability to filter zoxide entries to show only git repositories. — Canami</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>NPM</title>
+<link>https://www.vicinae.com/extensions/fredrikmwold/npm</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/fredrikmwold/npm</guid>
+<pubDate>Fri, 24 Apr 2026 12:26:59 +0000</pubDate>
+<description>An extenstion to manage npm packages — Fredrik Mikal Wold</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Number converter</title>
+<link>https://www.vicinae.com/extensions/asd2003ru/number-converter</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/asd2003ru/number-converter</guid>
+<pubDate>Sat, 11 Apr 2026 12:38:23 +0000</pubDate>
+<description>Convert numbers across binary, octal, decimal, and hexadecimal formats — Mike Avdeev</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Iconify</title>
+<link>https://www.vicinae.com/extensions/nino-mau/iconify</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/nino-mau/iconify</guid>
+<pubDate>Sat, 11 Apr 2026 12:13:58 +0000</pubDate>
+<description>Search and browse icons from the Iconify catalog — nino-mau</description>
+<category>Design Tools</category><category>Developer Tools</category>
+</item>
+<item>
+<title>Bedrock Chat</title>
+<link>https://www.vicinae.com/extensions/hongyilyu/bedrock-chat</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/hongyilyu/bedrock-chat</guid>
+<pubDate>Sat, 11 Apr 2026 11:31:13 +0000</pubDate>
+<description>Interact with Amazon Bedrock models directly from your command bar — Hongyi Lyu</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>ProtonDB</title>
+<link>https://www.vicinae.com/extensions/fbosch/protondb-search</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/fbosch/protondb-search</guid>
+<pubDate>Fri, 10 Apr 2026 16:52:05 +0000</pubDate>
+<description>Search Steam games and check Linux compatibility via Proton — Frederik Bosch</description>
+<category>Applications</category><category>Fun</category>
+</item>
+<item>
+<title>Noctalia Shell Wallpaper Selector</title>
+<link>https://www.vicinae.com/extensions/gimblet/noctalia-shell-wallpaper-selector</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/gimblet/noctalia-shell-wallpaper-selector</guid>
+<pubDate>Fri, 10 Apr 2026 13:43:32 +0000</pubDate>
+<description>Simple extension to quickly change your wallpaper using the Noctalia Shell IPC for interacting with wallpapers. — Diego</description>
+<category>Media</category><category>System</category>
+</item>
+<item>
+<title>KeePassXC</title>
+<link>https://www.vicinae.com/extensions/system7/keepassxc</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/system7/keepassxc</guid>
+<pubDate>Tue, 17 Mar 2026 22:29:39 +0000</pubDate>
+<description>Access a KeePass database through KeePassXC. — system7</description>
+<category>Security</category>
+</item>
+<item>
+<title>Flathub</title>
+<link>https://www.vicinae.com/extensions/fbosch/flathub-search</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/fbosch/flathub-search</guid>
+<pubDate>Tue, 17 Mar 2026 15:28:08 +0000</pubDate>
+<description>Search for flatpak applications — Frederik Bosch</description>
+<category>Applications</category><category>System</category>
+</item>
+<item>
+<title>Wikipedia</title>
+<link>https://www.vicinae.com/extensions/sei40kr/wikipedia</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/sei40kr/wikipedia</guid>
+<pubDate>Mon, 16 Mar 2026 02:06:51 +0000</pubDate>
+<description>Search Wikipedia articles, view page details, open random or featured pages — Seong Yong-ju</description>
+<category>Other</category><category>Web</category>
+</item>
+<item>
+<title>NerdFonts</title>
+<link>https://www.vicinae.com/extensions/fbosch/nerdfont-search</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/fbosch/nerdfont-search</guid>
+<pubDate>Mon, 16 Mar 2026 02:06:44 +0000</pubDate>
+<description>utility to search and find nerdfont icons and add them to your clipboard (requires Nerd Font installed) — Frederik Bosch</description>
+<category>Design Tools</category><category>Developer Tools</category>
+</item>
+<item>
+<title>Wiktionary Dictionary</title>
+<link>https://www.vicinae.com/extensions/luleyleo/wiktionary</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/luleyleo/wiktionary</guid>
+<pubDate>Mon, 16 Mar 2026 02:06:18 +0000</pubDate>
+<description>Lookup words through Wiktionary — Leopold Luley</description>
+<category>Productivity</category><category>Web</category>
+</item>
+<item>
+<title>Zed Recent Projects</title>
+<link>https://www.vicinae.com/extensions/pavle99/zed-recents</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/pavle99/zed-recents</guid>
+<pubDate>Wed, 04 Mar 2026 10:22:19 +0000</pubDate>
+<description>Open Zed editor recent projects — Pavle Cvejović</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>Hyprland Monitors</title>
+<link>https://www.vicinae.com/extensions/fredrikmwold/hyprland-monitors</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/fredrikmwold/hyprland-monitors</guid>
+<pubDate>Tue, 17 Feb 2026 20:04:12 +0000</pubDate>
+<description>A simple monitor management extension for Hyprland — Fredrik Mikal Wold</description>
+<category>System</category>
+</item>
+<item>
+<title>Agent Skills</title>
+<link>https://www.vicinae.com/extensions/aurelleb/agent-skills-sh</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/agent-skills-sh</guid>
+<pubDate>Tue, 10 Feb 2026 19:31:45 +0000</pubDate>
+<description>Install skills from skills.sh, the agent skills directory — Aurelle</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>GitHub</title>
+<link>https://www.vicinae.com/extensions/knoopx/github</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/github</guid>
+<pubDate>Tue, 10 Feb 2026 15:33:51 +0000</pubDate>
+<description>Work with issues, pull requests, manage workflows, search repositories and stay on top of notifications — Víctor Martínez</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Color Converter</title>
+<link>https://www.vicinae.com/extensions/costeer/color-converter</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/costeer/color-converter</guid>
+<pubDate>Tue, 10 Feb 2026 13:58:17 +0000</pubDate>
+<description>Quickly convert colors to different formats (Hex, rgb, rgba, etc.) — Costeer</description>
+<category>Data</category><category>Design Tools</category><category>Developer Tools</category><category>Productivity</category><category>Web</category>
+</item>
+<item>
+<title>Podman</title>
+<link>https://www.vicinae.com/extensions/knoopx/podman</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/podman</guid>
+<pubDate>Sun, 25 Jan 2026 17:26:16 +0000</pubDate>
+<description>Vicinae extension for managing Podman containers — Víctor Martínez</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Skate</title>
+<link>https://www.vicinae.com/extensions/knoopx/skate</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/skate</guid>
+<pubDate>Sun, 25 Jan 2026 17:24:58 +0000</pubDate>
+<description>Manage your Skate key-value databases directly from Vicinae — Víctor Martínez</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Searxng Integration</title>
+<link>https://www.vicinae.com/extensions/ninetonine/searxng</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/ninetonine/searxng</guid>
+<pubDate>Mon, 19 Jan 2026 00:44:11 +0000</pubDate>
+<description>Integrates Searxng into your Vicinae — Venu Rachakonda</description>
+<category>Web</category>
+</item>
+<item>
+<title>Manage Tools</title>
+<link>https://www.vicinae.com/extensions/fredrikmwold/mise</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/fredrikmwold/mise</guid>
+<pubDate>Tue, 06 Jan 2026 05:35:10 +0000</pubDate>
+<description>Manage mise installed tools — Fredrik Mikal Wold</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Aria2 Manager</title>
+<link>https://www.vicinae.com/extensions/ozer-01/aria2-manager</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/ozer-01/aria2-manager</guid>
+<pubDate>Tue, 06 Jan 2026 05:27:58 +0000</pubDate>
+<description>All-in-one download manager powered by Aria2 and yt-dlp. — ozer-01</description>
+<category>Web</category>
+</item>
+<item>
+<title>PulseAudio</title>
+<link>https://www.vicinae.com/extensions/rastsislaux/pulseaudio</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/rastsislaux/pulseaudio</guid>
+<pubDate>Thu, 25 Dec 2025 21:35:29 +0000</pubDate>
+<description>PulseAudio controls in vicinae. — Rastsislau Lipski</description>
+<category>System</category>
+</item>
+<item>
+<title>Simple Bookmarks</title>
+<link>https://www.vicinae.com/extensions/shadercompilation/simple-bookmarks</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/shadercompilation/simple-bookmarks</guid>
+<pubDate>Thu, 25 Dec 2025 21:27:50 +0000</pubDate>
+<description>Add bookmarks to then open them easily — ShaderCompilation</description>
+<category>Productivity</category><category>Web</category>
+</item>
+<item>
+<title>JetBrains Recent Projects</title>
+<link>https://www.vicinae.com/extensions/furkantrn/jetbrains-recent-projects</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/furkantrn/jetbrains-recent-projects</guid>
+<pubDate>Sun, 21 Dec 2025 17:50:32 +0000</pubDate>
+<description>Quickly list and open recent JetBrains IDE projects directly from Vicinae. Supports IntelliJ IDEA, WebStorm, PyCharm and other JetBrains IDEs. — TRN</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Visual Studio Code Recent Projects</title>
+<link>https://www.vicinae.com/extensions/shyassassin/vscode-recents</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/shyassassin/vscode-recents</guid>
+<pubDate>Sun, 21 Dec 2025 15:42:13 +0000</pubDate>
+<description>Open VSCode and compatible editors recent projects — [Assassin]</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>Spongebob Text Transformer</title>
+<link>https://www.vicinae.com/extensions/bassadin/spongebob-text-transformer</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/bassadin/spongebob-text-transformer</guid>
+<pubDate>Sun, 21 Dec 2025 15:33:43 +0000</pubDate>
+<description>Transform text to spongebob case — Bastian Hodapp</description>
+<category>Fun</category>
+</item>
+<item>
+<title>Chromium Bookmarks</title>
+<link>https://www.vicinae.com/extensions/aurelleb/chromium-bookmarks</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/chromium-bookmarks</guid>
+<pubDate>Sun, 07 Dec 2025 06:21:06 +0000</pubDate>
+<description>Search bookmarks from any chromium browser installed on your system — Aurelle</description>
+<category>Web</category>
+</item>
+<item>
+<title>Pass</title>
+<link>https://www.vicinae.com/extensions/tinkerbells/pass</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/tinkerbells/pass</guid>
+<pubDate>Mon, 01 Dec 2025 21:14:51 +0000</pubDate>
+<description>Browse, decrypt, and copy secrets from your GNU pass vault — Tinkerbells</description>
+<category>Security</category>
+</item>
+<item>
+<title>Do Not Disturb</title>
+<link>https://www.vicinae.com/extensions/brpaz/gnome-dnd</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/brpaz/gnome-dnd</guid>
+<pubDate>Mon, 01 Dec 2025 18:11:11 +0000</pubDate>
+<description>Toggle Do Not Disturb mode on Gnome-based Linux systems — Bruno Paz</description>
+<category>System</category>
+</item>
+<item>
+<title>Niri</title>
+<link>https://www.vicinae.com/extensions/knoopx/niri</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/niri</guid>
+<pubDate>Fri, 21 Nov 2025 23:42:04 +0000</pubDate>
+<description>Control the Niri Wayland compositor with common window management and system actions — Víctor Martínez</description>
+<category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>Power profile</title>
+<link>https://www.vicinae.com/extensions/botkooper/power-profile</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/botkooper/power-profile</guid>
+<pubDate>Fri, 21 Nov 2025 23:25:44 +0000</pubDate>
+<description>Change you system power profile in the easy way (wrapper around power=profiles-daemon) — Alex Ozerov</description>
+<category>System</category>
+</item>
+<item>
+<title>Systemd</title>
+<link>https://www.vicinae.com/extensions/knoopx/systemd</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/systemd</guid>
+<pubDate>Thu, 20 Nov 2025 21:14:38 +0000</pubDate>
+<description>Vicinae extension for managing systemd services — Víctor Martínez</description>
+<category>System</category>
+</item>
+<item>
+<title>Omarchy Menu</title>
+<link>https://www.vicinae.com/extensions/codingcodax/omarchy-menu</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/codingcodax/omarchy-menu</guid>
+<pubDate>Thu, 20 Nov 2025 18:58:56 +0000</pubDate>
+<description>Omarchy Menu based on the omarchy-cli — Alexis Guzman</description>
+<category>System</category>
+</item>
+<item>
+<title>ssh</title>
+<link>https://www.vicinae.com/extensions/leiserfg/ssh</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/leiserfg/ssh</guid>
+<pubDate>Sun, 16 Nov 2025 21:32:25 +0000</pubDate>
+<description>Open a host in ssh — leiserfg</description>
+<category>System</category>
+</item>
+<item>
+<title>Brotab</title>
+<link>https://www.vicinae.com/extensions/brpaz/brotab</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/brpaz/brotab</guid>
+<pubDate>Sun, 16 Nov 2025 21:11:03 +0000</pubDate>
+<description>Quick access to your open browser tabs — Bruno Paz</description>
+<category>Web</category>
+</item>
+<item>
+<title>Dashboard Icons</title>
+<link>https://www.vicinae.com/extensions/aurelleb/dashboard-icons</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/dashboard-icons</guid>
+<pubDate>Sun, 16 Nov 2025 20:31:46 +0000</pubDate>
+<description>Browse and download icons from dashboardicons.com — Aurelle</description>
+<category>Design Tools</category>
+</item>
+<item>
+<title>DBus</title>
+<link>https://www.vicinae.com/extensions/aurelleb/dbus</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/dbus</guid>
+<pubDate>Sun, 16 Nov 2025 02:31:29 +0000</pubDate>
+<description>Explore objects exposed by DBus using a pleasant and search-focused interface — Aurelle</description>
+<category>Developer Tools</category><category>System</category>
+</item>
+<item>
+<title>Nix</title>
+<link>https://www.vicinae.com/extensions/knoopx/nix</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/nix</guid>
+<pubDate>Fri, 14 Nov 2025 01:01:51 +0000</pubDate>
+<description>Search and browse Nix packages, options, flakes, and Home-Manager options — Víctor Martínez</description>
+<category>Developer Tools</category><category>System</category>
+</item>
+<item>
+<title>AWWW Switcher</title>
+<link>https://www.vicinae.com/extensions/sovereign/awww-switcher</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/sovereign/awww-switcher</guid>
+<pubDate>Wed, 12 Nov 2025 22:24:49 +0000</pubDate>
+<description>Switch your wallpaper with awww and call a color gen to update color pallets while you are at it — sovereign</description>
+<category>System</category>
+</item>
+<item>
+<title>Agenda</title>
+<link>https://www.vicinae.com/extensions/knoopx/agenda</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/agenda</guid>
+<pubDate>Mon, 10 Nov 2025 08:54:21 +0000</pubDate>
+<description>View upcoming events from iCal calendars — Víctor Martínez</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>OTP</title>
+<link>https://www.vicinae.com/extensions/knoopx/otp</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/otp</guid>
+<pubDate>Mon, 10 Nov 2025 08:35:42 +0000</pubDate>
+<description>Manage OTP codes. Supports TOTP, HOTP, and otpauth:// URL import. — Víctor Martínez</description>
+<category>Productivity</category><category>Security</category>
+</item>
+<item>
+<title>Rodalies</title>
+<link>https://www.vicinae.com/extensions/knoopx/rodalies</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/rodalies</guid>
+<pubDate>Mon, 10 Nov 2025 08:27:29 +0000</pubDate>
+<description>Check next Rodalies train schedules and departures — Víctor Martínez</description>
+<category>Other</category><category>Productivity</category>
+</item>
+<item>
+<title>Stocks</title>
+<link>https://www.vicinae.com/extensions/knoopx/stocks</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/stocks</guid>
+<pubDate>Mon, 10 Nov 2025 08:13:46 +0000</pubDate>
+<description>View real-time stock prices and market data for your favorite stocks using Yahoo Finance data — Víctor Martínez</description>
+<category>Finance</category><category>Productivity</category>
+</item>
+<item>
+<title>SuperGenPass</title>
+<link>https://www.vicinae.com/extensions/knoopx/supergenpass</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/supergenpass</guid>
+<pubDate>Mon, 10 Nov 2025 07:59:48 +0000</pubDate>
+<description>Generate deterministic passwords using the SuperGenPass algorithm. Create unique, strong passwords for websites based on a master password and domain. — Víctor Martínez</description>
+<category>Productivity</category><category>Security</category>
+</item>
+<item>
+<title>Silverbullet</title>
+<link>https://www.vicinae.com/extensions/knoopx/silverbullet</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/silverbullet</guid>
+<pubDate>Mon, 10 Nov 2025 06:57:18 +0000</pubDate>
+<description>Browse your Silverbullet.md notes — Víctor Martínez</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>IT Tools</title>
+<link>https://www.vicinae.com/extensions/nikbpetrov/it-tools</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/nikbpetrov/it-tools</guid>
+<pubDate>Fri, 07 Nov 2025 15:50:36 +0000</pubDate>
+<description>Access 469+ developer and IT tools directly from Vicinae. Includes converters, encoders, generators, formatters, and utilities for everyday development tasks. — Nikolay Petrov</description>
+<category>Developer Tools</category><category>Productivity</category><category>Web</category>
+</item>
+<item>
+<title>KDE System Settings</title>
+<link>https://www.vicinae.com/extensions/mmstroik/kde-system-settings</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/mmstroik/kde-system-settings</guid>
+<pubDate>Thu, 06 Nov 2025 15:03:13 +0000</pubDate>
+<description>Search and open KDE System Settings modules directly from Vicinae — Milo Stroik</description>
+<category>System</category>
+</item>
+<item>
+<title>HTML Symbol Finder</title>
+<link>https://www.vicinae.com/extensions/codingcodax/html-symbol-finder</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/codingcodax/html-symbol-finder</guid>
+<pubDate>Thu, 06 Nov 2025 14:30:59 +0000</pubDate>
+<description>Search HTML symbols — Alexis Guzman</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Manage Exegol containers</title>
+<link>https://www.vicinae.com/extensions/lap1nou/exegol</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/lap1nou/exegol</guid>
+<pubDate>Mon, 03 Nov 2025 12:49:01 +0000</pubDate>
+<description>This extension can be used to manage Exegol containers trough Vicinae. — lapinou</description>
+<category>Applications</category><category>Productivity</category>
+</item>
+<item>
+<title>Process Manager</title>
+<link>https://www.vicinae.com/extensions/leonkohli/process-manager</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/leonkohli/process-manager</guid>
+<pubDate>Mon, 03 Nov 2025 09:34:05 +0000</pubDate>
+<description>Advanced process manager - view, kill, and control running processes — Leon Kohli</description>
+<category>Developer Tools</category><category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>Fuzzy Files</title>
+<link>https://www.vicinae.com/extensions/sameoldlab/fuzzy-files</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/sameoldlab/fuzzy-files</guid>
+<pubDate>Mon, 03 Nov 2025 07:25:16 +0000</pubDate>
+<description>File search using fuzzy matching — ibro</description>
+<category>Productivity</category><category>System</category>
+</item>
+<item>
+<title>Firefox</title>
+<link>https://www.vicinae.com/extensions/knoopx/firefox</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/firefox</guid>
+<pubDate>Sun, 02 Nov 2025 10:53:32 +0000</pubDate>
+<description>Firefox integration — Víctor Martínez</description>
+<category>Web</category>
+</item>
+<item>
+<title>Arch Packages</title>
+<link>https://www.vicinae.com/extensions/rithvikvibhu/arch-packages</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/rithvikvibhu/arch-packages</guid>
+<pubDate>Sun, 02 Nov 2025 05:22:17 +0000</pubDate>
+<description>Search Arch and AUR Packages — Rithvik Vibhu</description>
+<category>System</category>
+</item>
+<item>
+<title>Mullvad VPN</title>
+<link>https://www.vicinae.com/extensions/aurelleb/mullvad</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/mullvad</guid>
+<pubDate>Sat, 01 Nov 2025 00:59:15 +0000</pubDate>
+<description>Connect, disconnect, and check if you are connected to Mullvad VPN. — Aurelle</description>
+<category>Security</category>
+</item>
+<item>
+<title>Wifi Commander</title>
+<link>https://www.vicinae.com/extensions/dagimg-dot/wifi-commander</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/wifi-commander</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:18 +0000</pubDate>
+<description>Complete wifi management - toggle wifi and scan networks using nmcli — Dagim G. Astatkie</description>
+<category>System</category>
+</item>
+<item>
+<title>Case converter</title>
+<link>https://www.vicinae.com/extensions/alan7a/case-converter</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/alan7a/case-converter</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:10 +0000</pubDate>
+<description>Quickly convert any string into various formats, such as snake_case, camelCase, PascalCase, kebab-case, or UPPER_CASE, among many others — Alan Delgado</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Player Pilot</title>
+<link>https://www.vicinae.com/extensions/dagimg-dot/player-pilot</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/player-pilot</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:09 +0000</pubDate>
+<description>A comprehensive media player controller supporting multiple players with grid view, metadata display, and customizable player filtering. — Dagim G. Astatkie</description>
+<category>Media</category>
+</item>
+<item>
+<title>Floww</title>
+<link>https://www.vicinae.com/extensions/dagimg-dot/floww</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/floww</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:08 +0000</pubDate>
+<description>Vicinae extension for Floww CLI - manage and apply workflows across workspaces — Dagim G. Astatkie</description>
+<category>Productivity</category>
+</item>
+<item>
+<title>Kill Port</title>
+<link>https://www.vicinae.com/extensions/luggapugga/port-killer</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/luggapugga/port-killer</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:06 +0000</pubDate>
+<description>Kills a process by port — Luca Fischer</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Bluetooth</title>
+<link>https://www.vicinae.com/extensions/gelei/bluetooth</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/gelei/bluetooth</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:05 +0000</pubDate>
+<description>Vicinae bluetooth extension for managing bluetooth devices using org.bluez via dbus-next — Mate Gelei</description>
+<category>System</category>
+</item>
+<item>
+<title>GNOME Settings</title>
+<link>https://www.vicinae.com/extensions/dagimg-dot/gnome-settings</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/gnome-settings</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:01 +0000</pubDate>
+<description>Lists and opens GNOME Control Center panels for easy access — Dagim G. Astatkie</description>
+<category>System</category>
+</item>
+<item>
+<title>hypr keybinds</title>
+<link>https://www.vicinae.com/extensions/sovereign/hypr-keybinds</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/sovereign/hypr-keybinds</guid>
+<pubDate>Fri, 31 Oct 2025 18:39:01 +0000</pubDate>
+<description>Will show you your hyprland keybinds in case you forget. — sovereign</description>
+<category>System</category>
+</item>
+</channel>
+</rss>

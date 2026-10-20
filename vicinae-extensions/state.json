@@ -1,0 +1,1153 @@
+{
+ "version": 1,
+ "extensions": {
+  "BsO6-pZEvRPJw4RKUUWby": {
+   "name": "process-manager",
+   "title": "Process Manager",
+   "description": "Advanced process manager - view, kill, and control running processes",
+   "author": "Leon Kohli",
+   "url": "https://www.vicinae.com/extensions/leonkohli/process-manager",
+   "date": "2025-11-03T09:34:05.375Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity",
+    "System"
+   ]
+  },
+  "RVZMQKrsNiH1_67XF8Ho0": {
+   "name": "bluetooth",
+   "title": "Bluetooth",
+   "description": "Vicinae bluetooth extension for managing bluetooth devices using org.bluez via dbus-next",
+   "author": "Mate Gelei",
+   "url": "https://www.vicinae.com/extensions/gelei/bluetooth",
+   "date": "2025-10-31T18:39:05.722Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "mZ_Yh06qMAY4omcGEKGMw": {
+   "name": "arch-packages",
+   "title": "Arch Packages",
+   "description": "Search Arch and AUR Packages",
+   "author": "Rithvik Vibhu",
+   "url": "https://www.vicinae.com/extensions/rithvikvibhu/arch-packages",
+   "date": "2025-11-02T05:22:17.175Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "ADUQxxh7TiW9zEqP4WvxI": {
+   "name": "fuzzy-files",
+   "title": "Fuzzy Files",
+   "description": "File search using fuzzy matching",
+   "author": "ibro",
+   "url": "https://www.vicinae.com/extensions/sameoldlab/fuzzy-files",
+   "date": "2025-11-03T07:25:16.716Z",
+   "categories": [
+    "Productivity",
+    "System"
+   ]
+  },
+  "zXWeKwGyaGqxk0gOFASgz": {
+   "name": "wifi-commander",
+   "title": "Wifi Commander",
+   "description": "Complete wifi management - toggle wifi and scan networks using nmcli",
+   "author": "Dagim G. Astatkie",
+   "url": "https://www.vicinae.com/extensions/dagimg-dot/wifi-commander",
+   "date": "2025-10-31T18:39:18.904Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "nkB-eLo7xUIViVSoLxnGf": {
+   "name": "systemd",
+   "title": "Systemd",
+   "description": "Vicinae extension for managing systemd services",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/systemd",
+   "date": "2025-11-20T21:14:38.999Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "iAWgDyVAhRKrDebLhQr5y": {
+   "name": "it-tools",
+   "title": "IT Tools",
+   "description": "Access 469+ developer and IT tools directly from Vicinae. Includes converters, encoders, generators, formatters, and utilities for everyday development tasks.",
+   "author": "Nikolay Petrov",
+   "url": "https://www.vicinae.com/extensions/nikbpetrov/it-tools",
+   "date": "2025-11-07T15:50:36.354Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity",
+    "Web"
+   ]
+  },
+  "nHzzxNIv3uQO1MPGHtcwf": {
+   "name": "player-pilot",
+   "title": "Player Pilot",
+   "description": "A comprehensive media player controller supporting multiple players with grid view, metadata display, and customizable player filtering.",
+   "author": "Dagim G. Astatkie",
+   "url": "https://www.vicinae.com/extensions/dagimg-dot/player-pilot",
+   "date": "2025-10-31T18:39:09.018Z",
+   "categories": [
+    "Media"
+   ]
+  },
+  "MXAVfB8o70FEL-SPzAeSE": {
+   "name": "firefox",
+   "title": "Firefox",
+   "description": "Firefox integration",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/firefox",
+   "date": "2025-11-02T10:53:32.017Z",
+   "categories": [
+    "Web"
+   ]
+  },
+  "lCOtx2iITO4uu2r2aMhoj": {
+   "name": "niri",
+   "title": "Niri",
+   "description": "Control the Niri Wayland compositor with common window management and system actions",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/niri",
+   "date": "2025-11-21T23:42:04.350Z",
+   "categories": [
+    "Productivity",
+    "System"
+   ]
+  },
+  "ILAbE3gKHegDFCeCo9lN_": {
+   "name": "hypr-keybinds",
+   "title": "hypr keybinds",
+   "description": "Will show you your hyprland keybinds in case you forget.",
+   "author": "sovereign",
+   "url": "https://www.vicinae.com/extensions/sovereign/hypr-keybinds",
+   "date": "2025-10-31T18:39:01.043Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "aRok6yL7SapUOEnefOPNo": {
+   "name": "kde-system-settings",
+   "title": "KDE System Settings",
+   "description": "Search and open KDE System Settings modules directly from Vicinae",
+   "author": "Milo Stroik",
+   "url": "https://www.vicinae.com/extensions/mmstroik/kde-system-settings",
+   "date": "2025-11-06T15:03:13.875Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "ubOiEcakolOX8awIv4xLT": {
+   "name": "nix",
+   "title": "Nix",
+   "description": "Search and browse Nix packages, options, flakes, and Home-Manager options",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/nix",
+   "date": "2025-11-14T01:01:51.831Z",
+   "categories": [
+    "Developer Tools",
+    "System"
+   ]
+  },
+  "-dhXfUvJrAsd-zbk-DGw5": {
+   "name": "awww-switcher",
+   "title": "AWWW Switcher",
+   "description": "Switch your wallpaper with awww and call a color gen to update color pallets while you are at it",
+   "author": "sovereign",
+   "url": "https://www.vicinae.com/extensions/sovereign/awww-switcher",
+   "date": "2025-11-12T22:24:49.864Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "OGuHgFw2WYUSTMJyfAG5W": {
+   "name": "gnome-settings",
+   "title": "GNOME Settings",
+   "description": "Lists and opens GNOME Control Center panels for easy access",
+   "author": "Dagim G. Astatkie",
+   "url": "https://www.vicinae.com/extensions/dagimg-dot/gnome-settings",
+   "date": "2025-10-31T18:39:01.186Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "T7wf9pW8IFYDo8_jKk28M": {
+   "name": "pulseaudio",
+   "title": "PulseAudio",
+   "description": "PulseAudio controls in vicinae.",
+   "author": "Rastsislau Lipski",
+   "url": "https://www.vicinae.com/extensions/rastsislaux/pulseaudio",
+   "date": "2025-12-25T21:35:29.293Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "iEhI0NRN7nJfgqYCmt8wv": {
+   "name": "port-killer",
+   "title": "Kill Port",
+   "description": "Kills a process by port",
+   "author": "Luca Fischer",
+   "url": "https://www.vicinae.com/extensions/luggapugga/port-killer",
+   "date": "2025-10-31T18:39:06.088Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "G3nnwkPO0lj6UG-eKeO0-": {
+   "name": "vscode-recents",
+   "title": "Visual Studio Code Recent Projects",
+   "description": "Open VSCode and compatible editors recent projects",
+   "author": "[Assassin]",
+   "url": "https://www.vicinae.com/extensions/shyassassin/vscode-recents",
+   "date": "2025-12-21T15:42:13.859Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "KisxMZKoJDiE5_C2c5OpE": {
+   "name": "brotab",
+   "title": "Brotab",
+   "description": "Quick access to your open browser tabs",
+   "author": "Bruno Paz",
+   "url": "https://www.vicinae.com/extensions/brpaz/brotab",
+   "date": "2025-11-16T21:11:03.388Z",
+   "categories": [
+    "Web"
+   ]
+  },
+  "_g47K3hhlNv251OCgJtFZ": {
+   "name": "power-profile",
+   "title": "Power profile",
+   "description": "Change you system power profile in the easy way (wrapper around power=profiles-daemon)",
+   "author": "Alex Ozerov",
+   "url": "https://www.vicinae.com/extensions/botkooper/power-profile",
+   "date": "2025-11-21T23:25:44.681Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "FgwGWg_CEeGaF_Mmt7uwa": {
+   "name": "flathub-search",
+   "title": "Flathub",
+   "description": "Search for flatpak applications",
+   "author": "Frederik Bosch",
+   "url": "https://www.vicinae.com/extensions/fbosch/flathub-search",
+   "date": "2026-03-17T15:28:08.971Z",
+   "categories": [
+    "Applications",
+    "System"
+   ]
+  },
+  "DGdyNJ2m8fFx_9ASwWVec": {
+   "name": "ssh",
+   "title": "ssh",
+   "description": "Open a host in ssh",
+   "author": "leiserfg",
+   "url": "https://www.vicinae.com/extensions/leiserfg/ssh",
+   "date": "2025-11-16T21:32:25.217Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "yTg1gVGyJQdMZB1NUpWTt": {
+   "name": "github",
+   "title": "GitHub",
+   "description": "Work with issues, pull requests, manage workflows, search repositories and stay on top of notifications",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/github",
+   "date": "2026-02-10T15:33:51.117Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "xkkLBgajhCfZlosh0Uekt": {
+   "name": "pacman-updates",
+   "title": "pacman-updates",
+   "description": "Will show you the pacman packages that have an update.",
+   "author": "sovereign",
+   "url": "https://www.vicinae.com/extensions/sovereign/pacman-updates",
+   "date": "2025-10-31T18:39:00.135Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "9LbrsqDkh8Axf8PIZgNhV": {
+   "name": "color-converter",
+   "title": "Color Converter",
+   "description": "Quickly convert colors to different formats (Hex, rgb, rgba, etc.)",
+   "author": "Costeer",
+   "url": "https://www.vicinae.com/extensions/costeer/color-converter",
+   "date": "2026-02-10T13:58:17.581Z",
+   "categories": [
+    "Data",
+    "Design Tools",
+    "Developer Tools",
+    "Productivity",
+    "Web"
+   ]
+  },
+  "tBp-9oCGKHJuv8U3Ezndt": {
+   "name": "nerdfont-search",
+   "title": "NerdFonts",
+   "description": "utility to search and find nerdfont icons and add them to your clipboard (requires Nerd Font installed)",
+   "author": "Frederik Bosch",
+   "url": "https://www.vicinae.com/extensions/fbosch/nerdfont-search",
+   "date": "2026-03-16T02:06:44.745Z",
+   "categories": [
+    "Design Tools",
+    "Developer Tools"
+   ]
+  },
+  "rrh0qIyAig3yUkfU-QS4d": {
+   "name": "zed-recents",
+   "title": "Zed Recent Projects",
+   "description": "Open Zed editor recent projects",
+   "author": "Pavle Cvejović",
+   "url": "https://www.vicinae.com/extensions/pavle99/zed-recents",
+   "date": "2026-03-04T10:22:19.001Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "M-tIZfafTS_jvUXeB7K-j": {
+   "name": "protondb-search",
+   "title": "ProtonDB",
+   "description": "Search Steam games and check Linux compatibility via Proton",
+   "author": "Frederik Bosch",
+   "url": "https://www.vicinae.com/extensions/fbosch/protondb-search",
+   "date": "2026-04-10T16:52:05.113Z",
+   "categories": [
+    "Applications",
+    "Fun"
+   ]
+  },
+  "M_4cgblUvukw2PNXQigbb": {
+   "name": "timer",
+   "title": "Timer",
+   "description": "Create and manage system-native background timers using natural language.",
+   "author": "Harsh Narayan Jha",
+   "url": "https://www.vicinae.com/extensions/harshnarayanjha/timer",
+   "date": "2026-05-27T22:00:08.573Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "T7WuvTzQ_TW6sWrUGnD_U": {
+   "name": "aria2-manager",
+   "title": "Aria2 Manager",
+   "description": "All-in-one download manager powered by Aria2 and yt-dlp.",
+   "author": "ozer-01",
+   "url": "https://www.vicinae.com/extensions/ozer-01/aria2-manager",
+   "date": "2026-01-06T05:27:58.180Z",
+   "categories": [
+    "Web"
+   ]
+  },
+  "fQj_DCQWXrUjJ9Yn8n367": {
+   "name": "podman",
+   "title": "Podman",
+   "description": "Vicinae extension for managing Podman containers",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/podman",
+   "date": "2026-01-25T17:26:16.676Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "cKnRqN3hcWkhMQ5rc4Myh": {
+   "name": "wikipedia",
+   "title": "Wikipedia",
+   "description": "Search Wikipedia articles, view page details, open random or featured pages",
+   "author": "Seong Yong-ju",
+   "url": "https://www.vicinae.com/extensions/sei40kr/wikipedia",
+   "date": "2026-03-16T02:06:51.590Z",
+   "categories": [
+    "Other",
+    "Web"
+   ]
+  },
+  "_UOvBjcozXfP7Z5FBj_Xx": {
+   "name": "dashboard-icons",
+   "title": "Dashboard Icons",
+   "description": "Browse and download icons from dashboardicons.com",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/dashboard-icons",
+   "date": "2025-11-16T20:31:46.627Z",
+   "categories": [
+    "Design Tools"
+   ]
+  },
+  "MbocLbO2-skzvRtbqNrhW": {
+   "name": "dbus",
+   "title": "DBus",
+   "description": "Explore objects exposed by DBus using a pleasant and search-focused interface",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/dbus",
+   "date": "2025-11-16T02:31:29.247Z",
+   "categories": [
+    "Developer Tools",
+    "System"
+   ]
+  },
+  "-__XfJ8U-Kazi29aR4ov8": {
+   "name": "omarchy-menu",
+   "title": "Omarchy Menu",
+   "description": "Omarchy Menu based on the omarchy-cli",
+   "author": "Alexis Guzman",
+   "url": "https://www.vicinae.com/extensions/codingcodax/omarchy-menu",
+   "date": "2025-11-20T18:58:56.504Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "D8_1b2mkHY2Y8BwPCqXhW": {
+   "name": "case-converter",
+   "title": "Case converter",
+   "description": "Quickly convert any string into various formats, such as snake_case, camelCase, PascalCase, kebab-case, or UPPER_CASE, among many others",
+   "author": "Alan Delgado",
+   "url": "https://www.vicinae.com/extensions/alan7a/case-converter",
+   "date": "2025-10-31T18:39:10.187Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "1G2XXJ_Wvmymj7w2kCyKO": {
+   "name": "wiktionary",
+   "title": "Wiktionary Dictionary",
+   "description": "Lookup words through Wiktionary",
+   "author": "Leopold Luley",
+   "url": "https://www.vicinae.com/extensions/luleyleo/wiktionary",
+   "date": "2026-03-16T02:06:18.427Z",
+   "categories": [
+    "Productivity",
+    "Web"
+   ]
+  },
+  "k2I44tj5zrcaMPDma0hAp": {
+   "name": "mullvad",
+   "title": "Mullvad VPN",
+   "description": "Connect, disconnect, and check if you are connected to Mullvad VPN.",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/mullvad",
+   "date": "2025-11-01T00:59:15.589Z",
+   "categories": [
+    "Security"
+   ]
+  },
+  "f7O-ic-Mv6gHkules5z88": {
+   "name": "jetbrains-recent-projects",
+   "title": "JetBrains Recent Projects",
+   "description": "Quickly list and open recent JetBrains IDE projects directly from Vicinae. Supports IntelliJ IDEA, WebStorm, PyCharm and other JetBrains IDEs.",
+   "author": "TRN",
+   "url": "https://www.vicinae.com/extensions/furkantrn/jetbrains-recent-projects",
+   "date": "2025-12-21T17:50:32.527Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "lKxWLlwmaw1O4D9H7oi9H": {
+   "name": "hyprland-monitors",
+   "title": "Hyprland Monitors",
+   "description": "A simple monitor management extension for Hyprland",
+   "author": "Fredrik Mikal Wold",
+   "url": "https://www.vicinae.com/extensions/fredrikmwold/hyprland-monitors",
+   "date": "2026-02-17T20:04:12.894Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "eaqQfMrylM523px3UImDG": {
+   "name": "hypr",
+   "title": "Hypr",
+   "description": "Inspect Hyprland monitors, workspaces, windows, layers, and keybinds, and switch workspace layouts.",
+   "author": "nino-mau",
+   "url": "https://www.vicinae.com/extensions/nino-mau/hypr",
+   "date": "2026-06-06T21:08:37.667Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "mu47Hk486q4NSkd6ZF7RR": {
+   "name": "zoxide-recent-directories",
+   "title": "zoxide recent directories",
+   "description": "Browse your recent opened directories through zoxide's list and open them using the application of your choice with the ability to filter zoxide entries to show only git repositories.",
+   "author": "Canami",
+   "url": "https://www.vicinae.com/extensions/c4n4m1/zoxide-recent-directories",
+   "date": "2026-05-04T21:41:12.808Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "X3NoUjO2mT4dL6F2C_EFU": {
+   "name": "chromium-bookmarks",
+   "title": "Chromium Bookmarks",
+   "description": "Search bookmarks from any chromium browser installed on your system",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/chromium-bookmarks",
+   "date": "2025-12-07T06:21:06.976Z",
+   "categories": [
+    "Web"
+   ]
+  },
+  "cmV_4hL99DBimXdIow6aB": {
+   "name": "stocks",
+   "title": "Stocks",
+   "description": "View real-time stock prices and market data for your favorite stocks using Yahoo Finance data",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/stocks",
+   "date": "2025-11-10T08:13:46.947Z",
+   "categories": [
+    "Finance",
+    "Productivity"
+   ]
+  },
+  "TugfaPbaZnq-dTxsGQkCS": {
+   "name": "keepassxc",
+   "title": "KeePassXC",
+   "description": "Access a KeePass database through KeePassXC.",
+   "author": "system7",
+   "url": "https://www.vicinae.com/extensions/system7/keepassxc",
+   "date": "2026-03-17T22:29:39.193Z",
+   "categories": [
+    "Security"
+   ]
+  },
+  "15rsTIv88Mi6-hf-fLZMg": {
+   "name": "agenda",
+   "title": "Agenda",
+   "description": "View upcoming events from iCal calendars",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/agenda",
+   "date": "2025-11-10T08:54:21.713Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "VaHD5Elxzy6JdeV4DzhmX": {
+   "name": "searxng",
+   "title": "Searxng Integration",
+   "description": "Integrates Searxng into your Vicinae",
+   "author": "Venu Rachakonda",
+   "url": "https://www.vicinae.com/extensions/ninetonine/searxng",
+   "date": "2026-01-19T00:44:11.123Z",
+   "categories": [
+    "Web"
+   ]
+  },
+  "wxecN7yed9IEM-AG5YrFh": {
+   "name": "agent-skills-sh",
+   "title": "Agent Skills",
+   "description": "Install skills from skills.sh, the agent skills directory",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/agent-skills-sh",
+   "date": "2026-02-10T19:31:45.175Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "HLjqoth5iBV4sXkizFmz0": {
+   "name": "pass",
+   "title": "Pass",
+   "description": "Browse, decrypt, and copy secrets from your GNU pass vault",
+   "author": "Tinkerbells",
+   "url": "https://www.vicinae.com/extensions/tinkerbells/pass",
+   "date": "2025-12-01T21:14:51.069Z",
+   "categories": [
+    "Security"
+   ]
+  },
+  "Bb3zNg3EWojGvwn_OqGrC": {
+   "name": "noctalia-shell-wallpaper-selector",
+   "title": "Noctalia Shell Wallpaper Selector",
+   "description": "Simple extension to quickly change your wallpaper using the Noctalia Shell IPC for interacting with wallpapers.",
+   "author": "Diego",
+   "url": "https://www.vicinae.com/extensions/gimblet/noctalia-shell-wallpaper-selector",
+   "date": "2026-04-10T13:43:32.946Z",
+   "categories": [
+    "Media",
+    "System"
+   ]
+  },
+  "CPsQ9u6fGUFrkGn13LXc1": {
+   "name": "iconify",
+   "title": "Iconify",
+   "description": "Search and browse icons from the Iconify catalog",
+   "author": "nino-mau",
+   "url": "https://www.vicinae.com/extensions/nino-mau/iconify",
+   "date": "2026-04-11T12:13:58.935Z",
+   "categories": [
+    "Design Tools",
+    "Developer Tools"
+   ]
+  },
+  "oGXetf-33_rXEN5W8QaSi": {
+   "name": "mise",
+   "title": "Manage Tools",
+   "description": "Manage mise installed tools",
+   "author": "Fredrik Mikal Wold",
+   "url": "https://www.vicinae.com/extensions/fredrikmwold/mise",
+   "date": "2026-01-06T05:35:10.670Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "73uycxiKkLmgC52mClMqx": {
+   "name": "html-symbol-finder",
+   "title": "HTML Symbol Finder",
+   "description": "Search HTML symbols",
+   "author": "Alexis Guzman",
+   "url": "https://www.vicinae.com/extensions/codingcodax/html-symbol-finder",
+   "date": "2025-11-06T14:30:59.290Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "27uAkkWygwd7JkUsNxQNS": {
+   "name": "wallhaven",
+   "title": "Wallhaven",
+   "description": "Find the perfect wallpaper for your monitor",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/wallhaven",
+   "date": "2026-07-18T20:53:54.863Z",
+   "categories": []
+  },
+  "Z60GZziYooyyBAFklSlW8": {
+   "name": "bitwarden",
+   "title": "Bitwarden (rbw)",
+   "description": "Search, copy and paste credentials from your Bitwarden vault using the rbw CLI",
+   "author": "Jane",
+   "url": "https://www.vicinae.com/extensions/bl4zee1g/bitwarden",
+   "date": "2026-08-01T15:26:44.734Z",
+   "categories": [
+    "Security"
+   ]
+  },
+  "BZIJc8bxRk8X3cUhEdftR": {
+   "name": "gnome-extensions",
+   "title": "GNOME Extensions",
+   "description": "Manage your GNOME Shell extensions - list, enable, disable, open preferences and so on",
+   "author": "Laszlo Lang",
+   "url": "https://www.vicinae.com/extensions/7system7/gnome-extensions",
+   "date": "2026-06-06T19:49:49.866Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "f-JblG33cbCA3EmwoV8ad": {
+   "name": "supergenpass",
+   "title": "SuperGenPass",
+   "description": "Generate deterministic passwords using the SuperGenPass algorithm. Create unique, strong passwords for websites based on a master password and domain.",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/supergenpass",
+   "date": "2025-11-10T07:59:48.992Z",
+   "categories": [
+    "Productivity",
+    "Security"
+   ]
+  },
+  "iqRAwHeZ-k4_xlOERMEH0": {
+   "name": "otp",
+   "title": "OTP",
+   "description": "Manage OTP codes. Supports TOTP, HOTP, and otpauth:// URL import.",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/otp",
+   "date": "2025-11-10T08:35:42.427Z",
+   "categories": [
+    "Productivity",
+    "Security"
+   ]
+  },
+  "Km_zyP_7l9bLaRecA5Dsh": {
+   "name": "kaomojis",
+   "title": "Kaomojis",
+   "description": "Browse and copy kaomojis to clipboard",
+   "author": "Jane",
+   "url": "https://www.vicinae.com/extensions/bl4zee1g/kaomojis",
+   "date": "2026-06-30T11:01:46.553Z",
+   "categories": []
+  },
+  "PHZ8g3MvF9HlxWC-Ie1zr": {
+   "name": "clean-keyboard",
+   "title": "Clean Keyboard",
+   "description": "Lock your keyboard to clean it easily",
+   "author": "Yash Bavadiya",
+   "url": "https://www.vicinae.com/extensions/xevrion/clean-keyboard",
+   "date": "2026-06-07T13:35:13.146Z",
+   "categories": [
+    "Productivity",
+    "System"
+   ]
+  },
+  "HwdwYq4hMu1lI0u7jFDQh": {
+   "name": "linuxbrew",
+   "title": "Linuxbrew",
+   "description": "Search, inspect, install, upgrade, and clean Linuxbrew packages from Vicinae.",
+   "author": "domainus",
+   "url": "https://www.vicinae.com/extensions/domainus/linuxbrew",
+   "date": "2026-06-06T22:12:34.132Z",
+   "categories": [
+    "Developer Tools",
+    "System"
+   ]
+  },
+  "M6qxW1qAV9OBbpDYddvxm": {
+   "name": "simple-bookmarks",
+   "title": "Simple Bookmarks",
+   "description": "Add bookmarks to then open them easily",
+   "author": "ShaderCompilation",
+   "url": "https://www.vicinae.com/extensions/shadercompilation/simple-bookmarks",
+   "date": "2025-12-25T21:27:50.943Z",
+   "categories": [
+    "Productivity",
+    "Web"
+   ]
+  },
+  "YYHP9dJ0ZMfGhhtocwHfu": {
+   "name": "npm",
+   "title": "NPM",
+   "description": "An extenstion to manage npm packages",
+   "author": "Fredrik Mikal Wold",
+   "url": "https://www.vicinae.com/extensions/fredrikmwold/npm",
+   "date": "2026-04-24T12:26:59.625Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "ysh5oi0FGqOnOlcRvzj1p": {
+   "name": "gnome-dnd",
+   "title": "Do Not Disturb",
+   "description": "Toggle Do Not Disturb mode on Gnome-based Linux systems",
+   "author": "Bruno Paz",
+   "url": "https://www.vicinae.com/extensions/brpaz/gnome-dnd",
+   "date": "2025-12-01T18:11:11.406Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "o2JqUM2EwGxNd4P4gPnuY": {
+   "name": "number-converter",
+   "title": "Number converter",
+   "description": "Convert numbers across binary, octal, decimal, and hexadecimal formats",
+   "author": "Mike Avdeev",
+   "url": "https://www.vicinae.com/extensions/asd2003ru/number-converter",
+   "date": "2026-04-11T12:38:23.038Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "dmztVGtZByM9E5chPeUHR": {
+   "name": "spongebob-text-transformer",
+   "title": "Spongebob Text Transformer",
+   "description": "Transform text to spongebob case",
+   "author": "Bastian Hodapp",
+   "url": "https://www.vicinae.com/extensions/bassadin/spongebob-text-transformer",
+   "date": "2025-12-21T15:33:43.395Z",
+   "categories": [
+    "Fun"
+   ]
+  },
+  "iAzuLmUJyfequAGZ6KTrZ": {
+   "name": "floww",
+   "title": "Floww",
+   "description": "Vicinae extension for Floww CLI - manage and apply workflows across workspaces",
+   "author": "Dagim G. Astatkie",
+   "url": "https://www.vicinae.com/extensions/dagimg-dot/floww",
+   "date": "2025-10-31T18:39:08.829Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "kDn1To6oqogOXz0X7cwuk": {
+   "name": "silverbullet",
+   "title": "Silverbullet",
+   "description": "Browse your Silverbullet.md notes",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/silverbullet",
+   "date": "2025-11-10T06:57:18.987Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "hblt3KMdpb-c4NhmxOnfN": {
+   "name": "rodalies",
+   "title": "Rodalies",
+   "description": "Check next Rodalies train schedules and departures",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/rodalies",
+   "date": "2025-11-10T08:27:29.922Z",
+   "categories": [
+    "Other",
+    "Productivity"
+   ]
+  },
+  "3PV0BYatQUWHGkcIRIrJF": {
+   "name": "bedrock-chat",
+   "title": "Bedrock Chat",
+   "description": "Interact with Amazon Bedrock models directly from your command bar",
+   "author": "Hongyi Lyu",
+   "url": "https://www.vicinae.com/extensions/hongyilyu/bedrock-chat",
+   "date": "2026-04-11T11:31:13.278Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "uMKWLti8KZYb3njkVdOg2": {
+   "name": "skate",
+   "title": "Skate",
+   "description": "Manage your Skate key-value databases directly from Vicinae",
+   "author": "Víctor Martínez",
+   "url": "https://www.vicinae.com/extensions/knoopx/skate",
+   "date": "2026-01-25T17:24:58.821Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "_DCgpqYFtEhTzjAOcOCr8": {
+   "name": "exegol",
+   "title": "Manage Exegol containers",
+   "description": "This extension can be used to manage Exegol containers trough Vicinae.",
+   "author": "lapinou",
+   "url": "https://www.vicinae.com/extensions/lap1nou/exegol",
+   "date": "2025-11-03T12:49:01.470Z",
+   "categories": [
+    "Applications",
+    "Productivity"
+   ]
+  },
+  "9m4rXQQLJqaczE7SY6u-1": {
+   "name": "freetube",
+   "title": "FreeTube",
+   "description": "Search YouTube, open videos, channels, playlists, and more — all in FreeTube",
+   "author": "Nihal Kumar",
+   "url": "https://www.vicinae.com/extensions/nihalxkumar/freetube",
+   "date": "2026-07-31T19:22:40.634Z",
+   "categories": [
+    "Media"
+   ]
+  },
+  "UhpHfe6Y33Hvm2KxhR_ct": {
+   "name": "seerr",
+   "title": "Seerr",
+   "description": "Request movies and shows straight from vicinae using Seerr (formerly known as Jellyseerr)",
+   "author": "vMohammad",
+   "url": "https://www.vicinae.com/extensions/vmohammad24/seerr",
+   "date": "2026-07-18T19:33:59.068Z",
+   "categories": [
+    "Applications",
+    "Media"
+   ]
+  },
+  "ifChX8gfbpu6bpZDdKVyB": {
+   "name": "kde-connect",
+   "title": "KDE Connect",
+   "description": "Control your connected phone from the launcher",
+   "author": "Waleed Ahmad",
+   "url": "https://www.vicinae.com/extensions/xwaleedahmad/kde-connect",
+   "date": "2026-09-07T16:02:10.264Z",
+   "categories": []
+  },
+  "S9J40Ku-3zBKRZLfkf4-6": {
+   "name": "coffee",
+   "title": "Coffee",
+   "description": "Keep your machine awake — indefinitely, for a duration, until a time, while an app runs, or on a weekly schedule.",
+   "author": "tiago miguel",
+   "url": "https://www.vicinae.com/extensions/tiagem/coffee",
+   "date": "2026-09-07T14:51:31.668Z",
+   "categories": [
+    "Productivity",
+    "System"
+   ]
+  },
+  "kDdoBeHvQc4zaIVXIlfTF": {
+   "name": "helium",
+   "title": "Helium",
+   "description": "Search bookmarks, history, tabs, and the web, and open windows in the Helium browser.",
+   "author": "Aditya Rahmad",
+   "url": "https://www.vicinae.com/extensions/adityazxxx/helium",
+   "date": "2026-08-18T08:25:35.624Z",
+   "categories": [
+    "Web"
+   ]
+  },
+  "3SrQwzy0U5Dbx0uJhw1Gc": {
+   "name": "niri-monitors",
+   "title": "Niri Monitors",
+   "description": "Manage connected monitors, scales, rotation, power states for Niri Wayland compositor",
+   "author": "Waleed Ahmad",
+   "url": "https://www.vicinae.com/extensions/xwaleedahmad/niri-monitors",
+   "date": "2026-08-16T16:12:42.207Z",
+   "categories": []
+  },
+  "lUF_ozcGmJMNaQwjwLgzl": {
+   "name": "prompt-deck",
+   "title": "PromptDeck",
+   "description": "Create reusable AI prompts that run on your selected or copied text. Prompts, selected text, and clipboard text are sent to the LLM provider you configure (OpenAI, Anthropic, or Google, including OpenAI-compatible endpoints).",
+   "author": "Tadas Suksteris",
+   "url": "https://www.vicinae.com/extensions/tadassuksteris/prompt-deck",
+   "date": "2026-07-31T20:19:11.145Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "HlGtpmJVfyGOLbySFqP_e": {
+   "name": "lorem-ipsum",
+   "title": "Lorem Ipsum",
+   "description": "Generate placeholder text instantly — paragraphs, sentences, words, lists, and HTML.",
+   "author": "tiago miguel",
+   "url": "https://www.vicinae.com/extensions/tiagem/lorem-ipsum",
+   "date": "2026-09-07T14:18:22.170Z",
+   "categories": [
+    "Design Tools",
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "gNURmOpB0OjqtdhimZu5_": {
+   "name": "gpu-screen-recorder",
+   "title": "GPU Screen Recorder",
+   "description": "Keyboard-first interface for GPU-accelerated screen recording on Wayland via gpu-screen-recorder",
+   "author": "lufimio",
+   "url": "https://www.vicinae.com/extensions/lufimio/gpu-screen-recorder",
+   "date": "2026-08-02T06:03:58.009Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "shmdCXVyXrgH7HGti6_KJ": {
+   "name": "protonvpn",
+   "title": "ProtonVPN",
+   "description": "Control ProtonVPN from Vicinae",
+   "author": "skifli",
+   "url": "https://www.vicinae.com/extensions/skifli/protonvpn",
+   "date": "2026-09-07T14:11:54.116Z",
+   "categories": [
+    "Security"
+   ]
+  },
+  "AgHacUfiZgFOE7jY79YUt": {
+   "name": "ollama-wordsmith",
+   "title": "Ollama WordSmith",
+   "description": "Translate, summarize, explain, enhance, and look up text using local LLMs via Ollama — private, offline, and free",
+   "author": "Aditya Rahmad",
+   "url": "https://www.vicinae.com/extensions/adityazxxx/ollama-wordsmith",
+   "date": "2026-08-10T13:10:52.442Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "uKBKig32l9bJtwoTqN6Dx": {
+   "name": "custom-commands",
+   "title": "Custom Commands",
+   "description": "Create and run your own custom shell commands directly from Vicinae. Define commands with arguments, run in terminal or background.",
+   "author": "Omer Mohideen",
+   "url": "https://www.vicinae.com/extensions/omermohideen/custom-commands",
+   "date": "2026-09-07T13:58:35.714Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity",
+    "System"
+   ]
+  },
+  "0GBwpylzd9pNY3uefo5sN": {
+   "name": "reminders",
+   "title": "Reminders",
+   "description": "One-off and recurring reminders with natural-language dates on systemd Linux",
+   "author": "WYEZ",
+   "url": "https://www.vicinae.com/extensions/wy3z/reminders",
+   "date": "2026-08-10T13:07:27.360Z",
+   "categories": [
+    "Productivity"
+   ]
+  },
+  "Y623lN1lWxfmDcyaDhku-": {
+   "name": "vscrot",
+   "title": "VScrot",
+   "description": "An extension to take and manage screenshots",
+   "author": "Jai Brown",
+   "url": "https://www.vicinae.com/extensions/jaintp/vscrot",
+   "date": "2026-08-29T12:02:03.652Z",
+   "categories": [
+    "Other",
+    "Productivity"
+   ]
+  },
+  "D05n9bGpPg1HxyFacdsTI": {
+   "name": "wayland-explorer",
+   "title": "Wayland Explorer",
+   "description": "Browse Wayland protocols from wayland.app",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/wayland-explorer",
+   "date": "2026-08-11T10:58:33.501Z",
+   "categories": []
+  },
+  "BRCuyHWdC1O2azcvwXOan": {
+   "name": "dms-integration",
+   "title": "DMS",
+   "description": "Integrate DankMaterialShell into Vicinae.",
+   "author": "Aurélien J.",
+   "url": "https://www.vicinae.com/extensions/aurelienjt/dms-integration",
+   "date": "2026-08-10T05:23:23.014Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "nknGMN4NGXNMNecieBzgW": {
+   "name": "jwt",
+   "title": "JWT",
+   "description": "Decode a JSON Web Token and inspect its header, payload and signature",
+   "author": "Balázs Orbán",
+   "url": "https://www.vicinae.com/extensions/balazsorban44/jwt",
+   "date": "2026-08-30T14:34:28.767Z",
+   "categories": [
+    "Developer Tools",
+    "Security"
+   ]
+  },
+  "0hx82JzhLJnRPssvGUwND": {
+   "name": "workspace",
+   "title": "Workspace",
+   "description": "Manage and access your workspace projects. Boost your focus with quick project opening, git status tracking, and customizable application overrides.",
+   "author": "tiago miguel",
+   "url": "https://www.vicinae.com/extensions/tiagem/workspace",
+   "date": "2026-08-29T11:34:08.389Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "yDHN7Mp0CN6KQdFif4tR-": {
+   "name": "screen-mirror",
+   "title": "Screen Mirror",
+   "description": "Mirror display outputs on wlroots-compatible Wayland compositors using wl-mirror",
+   "author": "Waleed Ahmad",
+   "url": "https://www.vicinae.com/extensions/xwaleedahmad/screen-mirror",
+   "date": "2026-08-27T13:08:21.039Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "4gm9FIioBVrzg52kuZx-g": {
+   "name": "gentoo-explorer",
+   "title": "Gentoo Explorer",
+   "description": "Search Gentoo packages across 400+ overlays, browse categories and USE flags, and follow Gentoo news and security advisories, powered by ebuilds.info",
+   "author": "Aurelle",
+   "url": "https://www.vicinae.com/extensions/aurelleb/gentoo-explorer",
+   "date": "2026-08-12T11:03:04.385Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "ByDMR7Gdb1Daj4eeZL8O6": {
+   "name": "aseprite",
+   "title": "Aseprite",
+   "description": "Browse, open, copy paths, and preview recent Aseprite files",
+   "author": "Omer Mohideen",
+   "url": "https://www.vicinae.com/extensions/omermohideen/aseprite",
+   "date": "2026-08-30T14:47:21.999Z",
+   "categories": [
+    "Design Tools"
+   ]
+  },
+  "ZggHOrwP8nQcwT5DekZPO": {
+   "name": "cardwire-control",
+   "title": "Cardwire and ASUS",
+   "description": "Cardwire GPU mode plus asusd profiles, charge limit, and firmware dGPU",
+   "author": "rain capsule",
+   "url": "https://www.vicinae.com/extensions/busybox11/cardwire-control",
+   "date": "2026-09-07T15:32:55.544Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "aBWA-vEY7ysNFsVXSF3Hs": {
+   "name": "buku",
+   "title": "Buku",
+   "description": "Browse, add, edit, and tag your buku bookmarks. Requires the buku command line tool to be installed.",
+   "author": "Łukasz Pałasz",
+   "url": "https://www.vicinae.com/extensions/msclp/buku",
+   "date": "2026-08-27T14:40:58.894Z",
+   "categories": [
+    "Productivity",
+    "Web"
+   ]
+  },
+  "7YsbepadS79XH-Bm8WL_K": {
+   "name": "fff-search",
+   "title": "fff Search",
+   "description": "Typo-tolerant file name and file content search for Vicinae, powered by the fff engine, with frecency ranking, git status, live previews and a file watcher.",
+   "author": "mushroom",
+   "url": "https://www.vicinae.com/extensions/selfxplanatorium/fff-search",
+   "date": "2026-10-13T11:37:28.164Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity",
+    "System"
+   ]
+  },
+  "Mt8zpLG1YRnytzidsH01K": {
+   "name": "kwin-window-layouts",
+   "title": "KWin Window Layouts",
+   "description": "Resize the focused KDE Plasma window using precise fractional layouts",
+   "author": "eduardocarminati",
+   "url": "https://www.vicinae.com/extensions/eduardocarminati/kwin-window-layouts",
+   "date": "2026-10-09T20:49:06.262Z",
+   "categories": [
+    "Productivity",
+    "System"
+   ]
+  },
+  "GT6PrXuKp5zWkIyqajepV": {
+   "name": "niri-actions",
+   "title": "Niri Actions",
+   "description": "Browse and run niri Wayland compositor IPC actions with fuzzy search. Covers window, column, workspace, monitor, screenshot and system commands. Excludes actions requiring free-form arguments.",
+   "author": "curli",
+   "url": "https://www.vicinae.com/extensions/curliq/niri-actions",
+   "date": "2026-10-09T19:54:03.260Z",
+   "categories": [
+    "Productivity",
+    "System"
+   ]
+  },
+  "OfFHUml2Dq4aUJXpLOAGs": {
+   "name": "crates-io",
+   "title": "crates.io",
+   "description": "Search for Rust crates easily",
+   "author": "Bastian ",
+   "url": "https://www.vicinae.com/extensions/bastiangx/crates-io",
+   "date": "2026-10-09T19:37:14.797Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "iPPzNdPagkQ7A5UQcFKRW": {
+   "name": "lact-profiles",
+   "title": "LACT Profiles",
+   "description": "Browse and switch LACT GPU profiles",
+   "author": "Cristian",
+   "url": "https://www.vicinae.com/extensions/arduoi/lact-profiles",
+   "date": "2026-10-09T20:18:00.914Z",
+   "categories": [
+    "System"
+   ]
+  },
+  "1dPyJ7iaXZrPEDplWmxLR": {
+   "name": "nordvpn",
+   "title": "NordVPN",
+   "description": "Connect to NordVPN servers by country or city, see status, disconnect.",
+   "author": "Ramin Yousefpour Shahrivar",
+   "url": "https://www.vicinae.com/extensions/rahriver/nordvpn",
+   "date": "2026-10-09T21:04:44.462Z",
+   "categories": [
+    "Productivity"
+   ]
+  }
+ }
+}
