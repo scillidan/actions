@@ -34,16 +34,18 @@ https://github.com/alexheretic/vimg
 https://github.com/FrancescElies/virgo
 https://github.com/liquidaty/zsv
 
-# Later
+## Later
 https://github.com/chojs23/ec
 https://github.com/rcieri/glab-tui
+https://github.com/jongio/grut
 https://github.com/kbrdn1/gwm-cli
+https://github.com/yutat23/lsoff
 https://github.com/FurqanHun/mpv-music
 https://github.com/wilfredinni/noodle
 https://github.com/tinesoft/spectatui
 https://github.com/RaphGL/Tuckr
 
-# Cache
+## Cache
 https://github.com/tareqimbasher/cargo-seek
 https://github.com/andrewmd5/dawn
 https://github.com/toiletbril/dedoc
