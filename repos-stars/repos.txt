@@ -1,3 +1,4 @@
+https://github.com/flozz/yoga-image-optimizer
 https://github.com/7sDream/fontfor
 https://github.com/64bit/commandOK
 https://github.com/alexheretic/vimg
@@ -12,7 +13,6 @@ https://github.com/canmanalp/cpr
 https://github.com/Cateds/opencode-stats
 https://github.com/craigf-svg/envlens
 https://github.com/epilande/repos
-https://github.com/flozz/yoga-image-optimizer
 https://github.com/FrancescElies/virgo
 https://github.com/kl/sub-batch
 https://github.com/lazynop/lazyenv
@@ -20,7 +20,6 @@ https://github.com/linkwithjoydeep/oken
 https://github.com/M-Igashi/mp3rgain
 https://github.com/marcusbuffett/pipe-rename
 https://github.com/mikeleppane/envx
-https://github.com/mtkennerly/madamiru
 https://github.com/muandane/goji
 https://github.com/nickgerace/gfold
 https://github.com/nnnkkk7/lazyactions
