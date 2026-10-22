@@ -50,18 +50,18 @@ https://github.com/tareqimbasher/cargo-seek
 https://github.com/andrewmd5/dawn
 https://github.com/7sDream/fontfor
 https://github.com/bahdotsh/giff
-https://github.com/muandane/goji
 https://github.com/stanlyzoolo/keepkit
 https://github.com/blacknon/lssh
 https://github.com/bahdotsh/mdterm
-https://github.com/linkwithjoydeep/oken
 https://github.com/flozz/yoga-image-optimizer
 
 ## Deprecated manifest
 https://github.com/toiletbril/dedoc
+https://github.com/muandane/goji
 # https://codeberg.org/arnauc/hevi
 https://github.com/lobehub/lobehub
 https://github.com/blacknon/lssh
+https://github.com/linkwithjoydeep/oken
 https://github.com/mywave82/opencubicplayer
 https://github.com/Cateds/opencode-stats
 https://github.com/AprilNEA/OpenLogi
