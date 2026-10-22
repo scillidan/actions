@@ -37,7 +37,6 @@ https://github.com/liquidaty/zsv
 ## Later
 https://github.com/chojs23/ec
 https://github.com/rcieri/glab-tui
-https://github.com/jongio/grut
 https://github.com/kbrdn1/gwm-cli
 https://github.com/yutat23/lsoff
 https://github.com/FurqanHun/mpv-music
@@ -49,18 +48,19 @@ https://github.com/RaphGL/Tuckr
 https://github.com/tareqimbasher/cargo-seek
 https://github.com/andrewmd5/dawn
 https://github.com/7sDream/fontfor
-https://github.com/bahdotsh/giff
-https://github.com/stanlyzoolo/keepkit
-https://github.com/blacknon/lssh
-https://github.com/bahdotsh/mdterm
+https://github.com/kyu08/fzf-make
 https://github.com/flozz/yoga-image-optimizer
 
 ## Deprecated manifest
 https://github.com/toiletbril/dedoc
+https://github.com/bahdotsh/giff
 https://github.com/muandane/goji
+https://github.com/jongio/grut
 # https://codeberg.org/arnauc/hevi
+https://github.com/stanlyzoolo/keepkit
 https://github.com/lobehub/lobehub
 https://github.com/blacknon/lssh
+https://github.com/bahdotsh/mdterm
 https://github.com/linkwithjoydeep/oken
 https://github.com/mywave82/opencubicplayer
 https://github.com/Cateds/opencode-stats
