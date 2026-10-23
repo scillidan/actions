@@ -14,6 +14,7 @@ https://github.com/sophice/ahk-keyboard-locker
 https://github.com/nnnkkk7/lazyactions
 https://github.com/lazynop/lazyenv
 https://github.com/M-Igashi/mp3rgain
+https://github.com/IbatoLionDev/opencode-console-notify
 # https://sourceforge.net/projects/perspectiveimg
 https://github.com/Tentacule/PgsToSrt
 https://github.com/BLumia/pineapple-midi-player
