@@ -152,7 +152,7 @@ def write_csv(path: Path, header: list[str], rows: list[tuple]) -> None:
     rows = sorted(rows)  # name asc (stable within equal dates)
     rows.sort(key=lambda r: r[1], reverse=True)  # date desc
     with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
+        writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
         writer.writerow(header)
         writer.writerows(rows)
 
