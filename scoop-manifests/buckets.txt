@@ -1,0 +1,3 @@
+# One scoop bucket git repo URL per line. Blank lines and # comments are ignored.
+https://github.com/ScoopInstaller/Main
+https://github.com/ScoopInstaller/Extras

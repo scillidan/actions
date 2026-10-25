@@ -1,0 +1,109 @@
+name: Scoop Manifests (CSV)
+
+on:
+  push:
+    paths:
+      - "scoop-manifests/buckets.txt"
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (do not commit or push)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: scoop-manifests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v6
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Restore bucket clone cache
+        uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57  # v4
+        with:
+          path: scoop-manifests/.cache
+          key: scoop-manifests-cache-${{ hashFiles('scoop-manifests/buckets.txt') }}
+          restore-keys: |
+            scoop-manifests-cache-
+
+      - name: Generate CSVs from bucket history
+        run: python3 scoop_git_to_csv.py
+
+      - name: Validate outputs
+        run: |
+          set -euo pipefail
+          test -s scoop-manifests.meta.json || { echo "meta json missing"; exit 1; }
+
+          # Every bucket URL in buckets.txt must produce a non-empty added CSV.
+          while read -r url; do
+            case "$url" in
+              ''|\#*) continue ;;
+            esac
+            name=$(basename "$url" .git | tr '[:upper:]' '[:lower:]')
+            if [ ! -s "${name}_added.csv" ]; then
+              echo "${name}_added.csv appears empty or invalid"
+              exit 1
+            fi
+            head -n 1 "${name}_added.csv" | grep -qx "name,date,description" || {
+              echo "${name}_added.csv has unexpected header"
+              exit 1
+            }
+          done < buckets.txt
+
+          ls -la *_added.csv *_deprecated.csv scoop-manifests.meta.json
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -f scoop-manifests/*_added.csv scoop-manifests/*_deprecated.csv scoop-manifests/scoop-manifests.meta.json
+          git add scoop-manifests/buckets.txt scoop-manifests/scoop_git_to_csv.py scoop-manifests/.gitignore
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: |
+          steps.changes.outputs.changed == 'true' &&
+          inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update scoop manifests from bucket history [skip ci]"
+          git push
+
+      - name: Dry run notice
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "::notice title=Dry Run::Dry run enabled — no commit or push performed"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        with:
+          name: scoop-manifests-csv-${{ github.run_id }}
+          path: |
+            scoop-manifests/buckets.txt
+            scoop-manifests/*_added.csv
+            scoop-manifests/*_deprecated.csv
+            scoop-manifests/scoop-manifests.meta.json
+          retention-days: 90
