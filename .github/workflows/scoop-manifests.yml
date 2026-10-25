@@ -74,8 +74,8 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git add -f scoop-manifests/*_added.csv scoop-manifests/*_deprecated.csv scoop-manifests/scoop-manifests.meta.json
-          git add scoop-manifests/buckets.txt scoop-manifests/scoop_git_to_csv.py scoop-manifests/.gitignore
+          git add -f *_added.csv *_deprecated.csv scoop-manifests.meta.json
+          git add buckets.txt scoop_git_to_csv.py .gitignore
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
