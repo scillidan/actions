@@ -19,6 +19,7 @@ https://github.com/lxgw/LxgwSeal - releases
 https://github.com/ad-si/Perspec - releases
 https://github.com/hrhrng/readio - releases
 https://github.com/lightningpixel/modly - releases
+https://github.com/StonedEdge/savagewindrecomp-aarch64-Linux-Mali- - releases
 
 https://github.com/cheusov/dictd - tags
 https://github.com/Dushistov/sdcv - tags
