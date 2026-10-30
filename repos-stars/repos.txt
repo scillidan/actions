@@ -27,6 +27,7 @@ https://github.com/brevity1swos/rgx
 https://github.com/thekarel/rum
 https://github.com/Guilherme-Costa-Dev/rusted_ascii_filter
 # https://www.brianapps.net/sizer
+https://github.com/kackerx/sqlmux
 https://github.com/kl/sub-batch
 https://github.com/Supervertaler/Supervertaler-Workbench
 https://github.com/ArturTkaczuk/toggle-screen-autohotkey
