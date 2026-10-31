@@ -359,7 +359,7 @@ def github_archived_dates(
                         delay = max(delay, max(0, reset - int(time.time()) + 1))
                     except ValueError:
                         pass
-            except (URLError, TimeoutError, ValueError) as e:
+            except (OSError, ValueError) as e:
                 if attempt == 3:
                     raise RuntimeError(f"GitHub GraphQL request failed: {e}") from e
                 delay = 2**attempt
@@ -433,7 +433,7 @@ def homepage_broken(url: str) -> bool:
                     return True
                 if e.code not in (429, 500, 502, 503, 504):
                     return False
-            except (URLError, TimeoutError, ValueError):
+            except (OSError, ValueError):
                 if method == "HEAD":
                     break
             if attempt < 2:
@@ -495,12 +495,18 @@ def process_bucket(
         )
         if repo:
             repos.add(repo)
+    if not offline:
+        print(
+            f"[{name}] checking {len(repos)} GitHub repositories ...", file=sys.stderr
+        )
     github_status = (
         {}
         if offline
         else github_archived_dates(repos, api_cache_path, api_cache, today)
     )
 
+    if not offline:
+        print(f"[{name}] checking package homepages ...", file=sys.stderr)
     counts = {"archived": 0, "broken_home": 0, "inactive": 0}
     for manifest in added:
         info = added_info.get(manifest, {})
@@ -625,7 +631,10 @@ def main() -> int:
                 now,
             )
         except (subprocess.CalledProcessError, RuntimeError, OSError) as e:
-            print(f"WARNING: failed to process {url}: {e}", file=sys.stderr)
+            print(
+                f"WARNING: failed to process {url}: {type(e).__name__}: {e}",
+                file=sys.stderr,
+            )
             failures += 1
 
     if not meta["buckets"]:
