@@ -1,4 +1,4 @@
-name,date,description
+name,added_date,description
 gitea-cli,2026-10-24,The rewritten Gitea command line client (successor of 'tea').
 gitea-runner,2026-10-24,Official runner for Gitea Actions
 diskwatch,2026-10-22,"Single-host, read-only disk diagnostics TUI."
@@ -879,7 +879,6 @@ volta,2021-10-24,Volta is a hassle-free way to manage your JavaScript command-li
 yedit,2021-10-24,"A modern version of the legacy EDIT.COM text editor, from the author of Yori."
 haskell-cabal,2021-10-23,Cabal is a system for building and packaging Haskell libraries and programs.
 aws-amplify,2021-10-21,"A unified toolchain to create, integrate, and manage the AWS cloud services for your app."
-aws-ecs,2021-10-21,"AWS ECS CLI enables users to run their applications on ECS/Fargate using the Docker Compose file format, quickly provision resources, push/pull images in ECR, and monitor running applications on ECS/Fargate."
 ddosify,2021-10-21,Load testing and DDOS attack simulation tool
 elvish,2021-10-21,An interactive shell and an expressive programming language
 firebase,2021-10-21,"Test, manage, and deploy Firebase project from the command line"
@@ -917,7 +916,6 @@ pastel,2021-09-19,"A command-line tool to generate, analyze, convert and manipul
 rink,2021-09-19,"A tool for unit conversions, calculations, and dimensionality analysis"
 geth,2021-09-18,Official Go implementation of the Ethereum protocol
 hexyl,2021-09-18,"Hex viewer, which uses colored output to distinguish different categories of bytes."
-mailhog,2021-09-18,Web and API based SMTP testing
 ncspot,2021-09-18,ncurses Spotify client written in Rust
 prs,2021-09-18,"Secure, fast & convenient password manager CLI with GPG & git sync"
 kubeseal,2021-09-17,"With kubeseal you can encrypt your Kubernetes Secret into a SealedSecret, which is safe to store - even to a public repository. The SealedSecret can be decrypted only by the controller running in the target cluster and nobody else (not even the original author) is able to obtain the original Secret from the SealedSecret."
@@ -988,7 +986,6 @@ latexindent,2020-10-21,Perl script to add indentation to LaTeX files
 waypoint,2020-10-21,"Tool for defining application's build, deploy, and release lifecycle as code, reducing the time to deliver deployments through a consistent and repeatable workflow."
 x265,2020-10-21,Encodes video or images into an H.265 / HEVC bitstream.
 glow,2020-10-19,Markdown reader for the terminal with a TUI and encrypted cloud stash
-bit,2020-10-16,Modernized git CLI
 ugrep,2020-10-15,"A faster, user-friendly and compatible grep replacement"
 brename,2020-10-07,A practical cross-platform command-line tool for safely batch renaming files/directories via regular expression
 signal-cli,2020-10-06,A cross-platform encrypted messaging service (command line/dbus version).
@@ -1006,7 +1003,6 @@ ibmcloud-cli,2020-09-10,The command line client for IBM Cloud
 kind,2020-09-10,kind is a tool for running local Kubernetes clusters using Docker container nodes.
 tinygo,2020-09-10,A Go compiler for small places
 nextdns,2020-08-17,DNS53 to DNS-over-HTTPS (DoH) proxy with advanced capabilities to get the most out of the NextDNS service.
-gbt,2020-08-16,"Highly configurable prompt builder for Bash, ZSH and PowerShell written in Go."
 envsubst,2020-08-07,Environment variables substitution
 alass,2020-07-31,Automatic Language-Agnostic Subtitle Synchronization
 austin,2020-07-31,Python frame stack sampler for CPython
@@ -1027,7 +1023,6 @@ polaris,2020-07-01,A music streaming application
 naiveproxy,2020-06-19,A proxy using Chrome's network stack to camouflage traffic with strong censorship resistence and low detectablility.
 tre-command,2020-06-19,Improved Tree command
 delta,2020-06-07,A syntax-highlighter for git and diff output
-grpc-tools,2020-06-07,A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
 grpcurl,2020-06-07,cURL like utility for gRPC
 monolith,2020-06-07,Saves complete web pages as a single HTML file.
 b3sum,2020-06-06,Command line utility prints the BLAKE3 hashes of files or of standard input
@@ -1039,7 +1034,6 @@ kubectx,2020-05-30,Kubernetes contexts manager
 kubens,2020-05-30,Kubernetes namespaces switcher
 wasmtime,2020-05-30,"Standalone JIT-style runtime for WebAssembly, using Cranelift"
 sayit,2020-05-23,A text-to-speech command line tool
-legit,2020-05-10,Complementary command-line interface for Git.
 spotbugs,2020-05-10,Static analysis tool for Java
 aks-engine,2020-05-05,Self-managed Kubernetes cluster provisioning on Azure
 qrcp,2020-05-05,Transfers files over wifi from computer to mobile device by scanning a QR code without leaving the terminal.
@@ -1049,7 +1043,6 @@ roswell,2020-04-27,Lisp implementation installer/manager and launcher
 lsd,2020-04-18,The next gen ls command
 protolint,2020-04-18,A pluggable linter and fixer to enforce Protocol Buffer style and conventions
 texlab,2020-04-18,Language Server Protocol for LaTeX
-wttop,2020-04-03,System monitor for the new Windows Terminal
 fio,2020-04-02,Flexible I/O Tester
 bottom,2020-04-01,Graphical process/system monitor
 cloud-sql-proxy,2020-04-01,Provides secure access to Cloud SQL Second Generation instances without having to add Authorized networks or configure SSL.
@@ -1083,9 +1076,7 @@ promtail,2020-02-03,Multi-tenant log aggregation system
 stern,2020-02-03,Multi pod and container log tailing for Kubernetes
 vector,2020-02-03,"Collect, transform, & route all observability data."
 z.lua,2020-02-03,A command-line cd replacement that accelerates directory navigation by learning user access patterns.
-zenhan,2020-02-03,Editor input method switcher
 sentry-cli,2020-01-19,Connect to the Sentry API and manage projects related data.
-lwc,2020-01-17,A live-updating version of the UNIX wc command.
 n-m3u8dl-cli,2020-01-17,A m3u8 downloader
 vdesk,2020-01-16,Launch programs on new virtual desktops.
 tta,2020-01-15,The True Audio lossless audio encoder/decoder
@@ -1100,7 +1091,6 @@ hexed,2020-01-03,Console-based hex editor
 isx,2020-01-03,InstallShield installer extractor. Continuation of 'ISXUnpack'.
 jojodiff,2020-01-03,Binary file diff utility
 hjson,2019-12-25,A user interface for JSON
-b2sum,2019-12-24,Tool to create BLAKE2 hashes of files or streams
 jabba,2019-12-24,Java Version Manager
 gsudo,2019-12-23,A Sudo for Windows
 k2tf,2019-12-22,Converts Kubernetes API Objects (in YAML format) into HashiCorp's Terraform configuration language.
@@ -1133,7 +1123,6 @@ rtools,2019-11-08,"Tools for building packages for R under Microsoft Windows, or
 speedtest-cli,2019-11-08,Internet connection speed and performance tester
 coredns,2019-11-07,"A DNS server/forwarder, that chains plugins."
 memcached,2019-11-03,Distributed memory object caching system
-awsSts,2019-11-02,Create temporary login session for AWS CLI
 ravendb,2019-11-02,NoSQL database built on .NET Core
 redshift,2019-11-02,Adjusts the color temperature of screen according to surroundings.
 unison,2019-11-02,A file-synchronization tool.
@@ -1150,14 +1139,11 @@ sonar-scanner,2019-10-16,Source code scanner for SonarQube analyzer.
 espanso,2019-10-13,Text expander
 ptags,2019-10-13,A parallel universal-ctags wrapper for git repositories.
 nu,2019-10-10,A modern shell written in Rust
-sigrok,2019-10-09,A command line utility for the sigrok software.
 geoipupdate,2019-10-08,GeoIP Update program to perform automatic updates of GeoIP2 and GeoIP Legacy binary databases.
 emitter,2019-10-07,Real-time communication service for connecting online devices.
-pyflow,2019-10-05,A modern Python installation and dependency manager
 centrifugo,2019-10-03,Language-agnostic real-time messaging server. Centrifugo supports at moment: Websocket and SockJS
 deepstream,2019-10-03,"Realtime, fast and secure data-sync server for mobile, web & iot"
 saml2aws,2019-10-01,Login and retrieve Amazon Web Services / AWS temporary credentials using a SAML IDP.
-httpstat,2019-09-20,curl(1) statistics visualizer
 concourse-fly,2019-09-19,Concourse CI/CD manager and controller
 lab,2019-09-17,An extension to command-line git that helps with everyday GitLab tasks.
 circleci-cli,2019-09-16,Set of CircleCI’s advanced and powerful tools.
@@ -1185,10 +1171,8 @@ fciv,2019-08-15,A command-prompt utility that computes and verifies cryptographi
 gogs,2019-08-14,A painless self-hosted Git service
 s,2019-08-13,Open a web search in your terminal.
 sacad,2019-08-13,A command line tool to download album covers without manual intervention.
-sampler,2019-08-12,"A tool for shell commands execution, visualization and alerting."
 etcd,2019-08-09,"A distributed, reliable key-value store for the most critical data of a distributed system"
 beehive,2019-08-08,A flexible event/agent & automation system with lots of bees.
-gitomatic,2019-08-08,A tool to monitor git repositories and automatically pull & push changes.
 croc,2019-08-04,Easily and securely send things from one computer to another.
 heroku-cli,2019-08-03,"An essential part of using Heroku, which can perform nearly any Heroku-related task right from your terminal."
 rustup-msvc,2019-08-02,Manage multiple rust installations with ease
@@ -1217,7 +1201,6 @@ chronograf,2019-06-30,Open source monitoring and visualization UI for the TICK s
 kapacitor,2019-06-30,"Open source framework for processing, monitoring, and alerting on time series data."
 rga,2019-06-30,"ripgrep-all: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc."
 telegraf,2019-06-30,The plugin-driven server agent for collecting & reporting metrics.
-connect,2019-06-29,Simple relaying command to make network connection via SOCKS and https proxy.
 kafka-exporter,2019-06-29,Kafka exporter for Prometheus
 mtn,2019-06-29,Movie Thumbnailer - save thumbnails (screenshots) of movie or video files to image files.
 nyagos,2019-06-29,The hybrid Commandline Shell betweeeeeeen UNIX & DOS.
@@ -1226,9 +1209,7 @@ terraform-provider-ibm,2019-06-29,The IBM Cloud provider is used to manage provi
 yq,2019-06-29,A portable command-line YAML processor
 ansicon,2019-06-28,Process ANSI escape sequences for Windows console programs.
 act,2019-06-27,Local Github actions runner.
-buck,2019-06-25,A high-performance build tool.
 gsl-shell,2019-06-21,GSL library shell based on LuaJIT2
-msival2,2019-06-20,MSI Database Validation Tool
 openresty,2019-06-20,Dynamic web platform based on NGINX and LuaJIT.
 dnscrypt-proxy,2019-06-19,"A flexible DNS proxy, with support for encrypted DNS protocols"
 i2p-zero,2019-06-19,"Zero dependency, small footprint, cross-platform I2P Java Router with simple tunnel/socks controller and SAM interface"
@@ -1254,7 +1235,6 @@ hollows-hunter,2019-05-10,"Scans all running processes. Recognizes and dumps a v
 pe-sieve,2019-05-10,"Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches)."
 apktool,2019-05-06,A tool for reverse engineering Android apk files
 avro-tools,2019-05-06,A collection of Avro tools. Data serialization system.
-scoop-validator,2019-05-06,A Scoop helper program for validating JSON files against a JSON Schema
 bbk-cli,2019-05-05,Easy way to measure internet speed and to get help to improve it.
 apimtemplate,2019-04-30,Azure API Management DevOps Resource Kit
 ffmpeg-shared,2019-04-28,"A complete, cross-platform solution to record, convert and stream audio and video."
@@ -1276,7 +1256,6 @@ apache,2019-04-22,The Apache HTTP Server ('httpd')
 apngasm,2019-04-22,The next generation of APNG Assembler.
 aria2,2019-04-22,Lightweight multi-protocol & multi-source command-line download utility
 armclient,2019-04-22,A simple command line tool to invoke the Azure Resource Manager API
-armor,2019-04-22,"Uncomplicated, modern HTTP server"
 asciidoctorj,2019-04-22,Asciidoctor integration & API for Java and other JVM languages
 astyle,2019-04-22,"A Free, Fast, and Small Automatic Formatter for C, C++, C++/CLI, Objective-C, C#, and Java Source Code"
 atomicparsley,2019-04-22,"Lightweight command line program for reading, parsing and setting metadata into MPEG-4 files"
@@ -1318,21 +1297,17 @@ concfg,2019-04-22,Import/export Windows console settings
 consul,2019-04-22,Service Discovery and Configuration
 coreutils,2019-04-22,"A collection of GNU utilities such as bash, make, gawk and grep"
 coursier,2019-04-22,Pure Scala Artifact Fetching
-cowsay,2019-04-22,Cowsay/think in Powershell
 cppcheck,2019-04-22,Static analysis tool for C/C++ code
 cscope,2019-04-22,Developer's tool for browsing source code.
-csvtosql,2019-04-22,Converts a comma delimitered CSV to a MSSQL script
 ctags,2019-04-22,Generates an index (or tag) file of language objects found in source files
 curl,2019-04-22,Command line tool and library for transferring data with URLs
 cygwin,2019-04-22,A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows.
 dark,2019-04-22,WiX (Windows Installer XML) Toolset Decompiler
 dart,2019-04-22,SDK for the Dart programming language
 datamash,2019-04-22,"GNU datamash is a command-line program which performs basic numeric, textual and statistical operations on input textual data files"
-dd,2019-04-22,Allows the flexible copying of data in a win32 environment
 ddev,2019-04-22,An open source tool that makes it simple to get local PHP development environments up and running in minutes
 deno,2019-04-22,A secure runtime for JavaScript and TypeScript
 dep,2019-04-22,Go dependency management tool
-devd,2019-04-22,"A small, self-contained, command-line-only HTTP server for developers"
 diffutils,2019-04-22,A package of several programs related to finding differences between files
 digdag,2019-04-22,"A simple, open source, multi-cloud workflow engine that helps you to build, run, schedule, and monitor complex pipelines of tasks"
 direnv,2019-04-22,load or unload environment variables depending on the current directory
@@ -1346,7 +1321,6 @@ docker-machine,2019-04-22,"Docker Machine is a tool that lets you install Docker
 doctl,2019-04-22,A command line tool for DigitalOcean services
 dokka,2019-04-22,Documentation Engine for Kotlin.
 dos2unix,2019-04-22,Convert text files with DOS or Mac line breaks to Unix line breaks and vice versa.
-dosbox,2019-04-22,"DOSBox emulates an Intel x86 PC, complete with sound, graphics, mouse, joystick, modem, etc."
 dotnet-sdk,2019-04-22,".NET is a free, cross-platform, open source developer platform for building many different types of applications."
 doxygen,2019-04-22,Documentation generator from annotated source code.
 draft,2019-04-22,Create cloud-native applications on Kubernetes.
@@ -1354,10 +1328,8 @@ drone,2019-04-22,A self-service Continuous Delivery platform for busy developmen
 duplicacy,2019-04-22,A lock-free deduplication cloud backup tool
 dvc,2019-04-22,"Data & models versioning for ML projects, make them shareable and reproducible"
 edgedriver,2019-04-22,Close the loop on your developer cycle by automating testing of your website in Microsoft Edge (Chromium).
-editorconfig,2019-04-22,Maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 elixir,2019-04-22,A dynamic and functional programming language designed for building scalable and maintainable applications.
 elm,2019-04-22,Elm language compiler.
-empty-recycle-bin,2019-04-22,Empty the Windows recycle bin
 erlang,2019-04-22,A programming language used to build massively scalable soft real-time systems with requirements on high availability.
 eventstore,2019-04-22,"The stream database optimized for event sourcing (Deprecated, please use `main/kurrentdb` instead)."
 exercism,2019-04-22,A Go based command line tool for exercism.io
@@ -1367,7 +1339,6 @@ far,2019-04-22,A text-mode files and archives manager
 fd,2019-04-22,"A simple, fast and user-friendly alternative to 'find'."
 ffmpeg,2019-04-22,"A complete, cross-platform solution to record, convert and stream audio and video."
 ffsend,2019-04-22,Easily and securely share files from the command line. A fully featured Firefox Send client.
-figlet,2019-04-22,Create large letters using ASCII art out of ordinary text.
 file,2019-04-22,Determine file type.
 findutils,2019-04-22,Basic file searching utilities.
 flac,2019-04-22,Free Lossless Audio Codec - command line tools
@@ -1399,8 +1370,6 @@ git-tfs,2019-04-22,"A Git/TFS bridge, similar to git-svn."
 git-town,2019-04-22,Git plugin that adds Git commands that make collaborative software development more efficient and safe.
 git-up,2019-04-22,A nicer 'git pull'
 git-with-openssh,2019-04-22,A free and open source distributed version control system.
-gitignore,2019-04-22,Fetches .gitignore file templates from gitignore.io and writes them to standard output.
-gitkube,2019-04-22,Build and deploy docker images to Kubernetes using git push
 gitlab-runner,2019-04-22,Run your jobs and send the results back to GitLab
 gitversion,2019-04-22,Easy Semantic Versioning for projects using Git.
 global,2019-04-22,A source code tagging system that works the same way across diverse environments.
@@ -1420,9 +1389,7 @@ grails,2019-04-22,A powerful Groovy-based web application framework for the JVM 
 graphviz,2019-04-22,Open source graph visualization software.
 grep,2019-04-22,Print lines matching a pattern.
 groovy,2019-04-22,"A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax."
-groovyserv,2019-04-22,Reduces startup time of the JVM for running Groovy significantly.
 guetzli,2019-04-22,Perceptual JPEG encoder
-gunk,2019-04-22,Modern frontend and syntax for Protocol Buffers
 gzip,2019-04-22,Popular data compression program.
 hadolint,2019-04-22,Dockerfile linter
 handbrake-cli,2019-04-22,A video transcoder with extensive support for multiple formats. (CLI version)
@@ -1442,7 +1409,6 @@ iconv,2019-04-22,Convert characters from one code set to another.
 idris,2019-04-22,A Dependently Typed Functional Programming Language
 ie11webdriver,2019-04-22,Selenium WebDriver for Internet Explorer 11
 imagemagick,2019-04-22,"Create, edit, compose, and convert 200+ bitmap image formats."
-inadyn-mt,2019-04-22,Dynamic DNS client
 influxdb,2019-04-22,"Scalable datastore for metrics, events, and real-time analytics."
 innoextract,2019-04-22,A tool to unpack installers created by Inno Setup
 innounp,2019-04-22,Inno Setup Unpacker (Unicode)
@@ -1476,12 +1442,10 @@ lf,2019-04-22,A terminal file manager written in Go
 libwebp,2019-04-22,Encodes and decodes WebP image files.
 lilypond,2019-04-22,A music engraving program devoted to producing the highest-quality sheet music possible.
 llvm,2019-04-22,Collection of modular and reusable compiler and toolchain technologies.
-ln,2019-04-22,An approximation of the Unix ln command.
 lua-for-windows,2019-04-22,A 'batteries included environment' for the Lua scripting language on Windows.
 lynx,2019-04-22,Text web browser.
 lzip,2019-04-22,Lzip is a lossless data compressor with a user interface similar to the one of gzip or bzip2
 mach2,2019-04-22,Feature Control Multi-tool for Windows 10
-mailsend,2019-04-22,A program to send mail via SMTP from command line.
 mailsend-go,2019-04-22,A multi-platform command line tool to send mail via SMTP protocol.
 make,2019-04-22,Build automation tool.
 mariadb,2019-04-22,Community developed fork of MySQL server.
@@ -1501,7 +1465,6 @@ minio-client,2019-04-22,"A high performance, distributed object storage server, 
 minishift,2019-04-22,"Minishift is a tool that helps you run OpenShift locally by running a single-node OpenShift cluster inside a VM. You can try out OpenShift or develop with it, day-to-day, on your local host."
 minisign,2019-04-22,A dead simple tool to sign files and verify signatures
 mls-software-openssh,2019-04-22,A Windows installer package of Openssh for Windows that is actively maintained and current.
-modd,2019-04-22,A flexible developer tool that runs processes and responds to filesystem changes.
 mongodb,2019-04-22,A document database with the scalability and flexibility.
 mono,2019-04-22,"Cross platform, open source .NET framework."
 mozjpeg,2019-04-22,Improved JPEG encoder
@@ -1515,8 +1478,6 @@ nasm,2019-04-22,80x86 and x86-64 assembler designed for portability and modulari
 neko,2019-04-22,A high-level dynamically typed programming language
 neofetch,2019-04-22,A command-line system information tool written in bash 3.2+.
 neovim,2019-04-22,Vim-fork focused on extensibility and usability
-nero-aac,2019-04-22,Nero Digital AAC Encoder (Command Line Tools)
-netcat,2019-04-22,Read and write from/to network connections
 nginx,2019-04-22,"An HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server."
 ngrok,2019-04-22,"ngrok is your app's front door. ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them. ngrok supports delivering HTTP, TLS or TCP-based applications."
 nim,2019-04-22,"A statically typed compiled systems programming language, which combines successful concepts from mature languages like Python, Ada and Modula."
@@ -1525,14 +1486,11 @@ nircmd,2019-04-22,Execute various system wide tasks.
 nmap,2019-04-22,Network exploration and security auditing utility.
 nodejs,2019-04-22,An asynchronous event driven JavaScript runtime designed to build scalable network applications.
 nodejs-lts,2019-04-22,"As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)"
-nssm,2019-04-22,The Non-Sucking Service Manager.
 nuget,2019-04-22,The package manager for .NET.
 nunit-console,2019-04-22,"NUnit Console runner for NUnit, the most popular and widely used unit testing framework for .NET"
 nunit-extension-nunit-project-loader,2019-04-22,NUnit Project Loader Extension
-nunit-extension-nunit-v2-driver,2019-04-22,NUnit V2 Framework Driver Extension
 nunit-extension-nunit-v2-result-writer,2019-04-22,NUnit V2 Result Writer Extension
 nunit-extension-teamcity-event-listener,2019-04-22,NUnit Team City Event Listener Extension
-nunit-extension-vs-project-loader,2019-04-22,NUnit Visual Studio Project Loader Extension
 nvm,2019-04-22,A node.js version management utility for Windows.
 nvs,2019-04-22,Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js
 octave,2019-04-22,A high-level language primarily intended for numerical computations.
@@ -1541,24 +1499,19 @@ openshift-origin-client,2019-04-22,"OpenShift Origin is a distribution of Kubern
 openssh,2019-04-22,The premier connectivity tool for remote login with the SSH protocol. (Microsoft build)
 openssl,2019-04-22,TLS/SSL toolkit
 optipng,2019-04-22,"A PNG optimizer that recompresses image files to a smaller size, without losing any information."
-opus-tools,2019-04-22,"Command-line utilities to encode, inspect, and decode .opus files."
 oxipng,2019-04-22,Multi-threaded lossless PNG optimizer
 packer,2019-04-22,Automates the creation of any type of virtual machine image.
 patch,2019-04-22,Apply diff to original.
-pciutils,2019-04-22,Inspect and manipulate configuration of PCI devices
 pcregrep,2019-04-22,Regular expression pattern matching utility using the same syntax and semantics as Perl 5.
-pdftk,2019-04-22,A command-line tool for working with PDFs.
 peco,2019-04-22,Simplistic interactive filtering tool
 perl,2019-04-22,A programming language suitable for writing simple scripts as well as complex applications.
 pester,2019-04-22,Pester is a test and mock framework for PowerShell.
 phantomjs,2019-04-22,A headless web browser scriptable with JavaScript.
 php,2019-04-22,A popular general-purpose scripting language that is especially suited to web development. (thread safe)
 php-nts,2019-04-22,A popular general-purpose scripting language that is especially suited to web development. (non-thread safe)
-pkg-config,2019-04-22,A helper tool used when compiling applications and libraries.
 plex-server,2019-04-22,"Plex Media Server. Stream content to all of devices, anywhere."
 png2html,2019-04-22,transform a PNG image and a text file into pure html
 png2jpeg,2019-04-22,Simple command-lineimage converter from PNG to JPEG.
-pngcrush,2019-04-22,Optimizer for PNG (Portable Network Graphics) files.
 pngquant,2019-04-22,A command-line utility for lossy compression of PNG images
 poppler,2019-04-22,PDF rendering library
 portainer,2019-04-22,Making Docker and Kubernetes management easy.
@@ -1573,7 +1526,6 @@ psgithub,2019-04-22,PowerShell module to manage GitHub through its REST API.
 pshazz,2019-04-22,Give your powershell some pizazz.
 psutils,2019-04-22,A collection of command line utilities written in PowerShell proudly ignoring PowerShell Verb-Noun naming conventions.
 pt,2019-04-22,A code search tool similar to ack and the_silver_searcher(ag) with multiple platform and multiple encoding support.
-pup,2019-04-22,Parsing HTML at the command line
 purescript,2019-04-22,A strongly-typed language that compiles to Javascript
 pwsh,2019-04-22,"Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data."
 px,2019-04-22,An HTTP proxy server to automatically authenticate through an NTLM proxy.
@@ -1595,11 +1547,7 @@ resharper-clt,2019-04-22,A standalone command line tools to run ReSharper inspec
 restic,2019-04-22,"Fast, secure and simple backup program."
 rethinkdb,2019-04-22,Scalable database for realtime web apps
 ripgrep,2019-04-22,Recursively searches directories for a regex pattern.
-rktools2k3,2019-04-22,"Streamline manage administrator tasks. (troubleshooting OS, manage AD, deploy applications, ...)"
-rtmpdump,2019-04-22,"A toolkit for RTMP streams with support for all forms of RTMP (rtmp, rtmpt, rtmpe, rtmpte, and rtmps)."
 ruby,2019-04-22,A dynamic programming language with a focus on simplicity and productivity.
-runasti,2019-04-22,Launch processes with TrustedInstaller privilege.
-runat,2019-04-22,A replacement for the at command which Microsoft has deprecated and removed in Windows 2012.
 rust,2019-04-22,A language empowering everyone to build reliable and efficient software. (MSVC toolchain)
 rust-msvc,2019-04-22,A language empowering everyone to build reliable and efficient software. (MSVC toolchain)
 rustup,2019-04-22,Manage multiple rust installations with ease
@@ -1613,12 +1561,9 @@ sccache,2019-04-22,"Shared compilation cache used as a compiler wrapper to avoid
 scholdoc,2019-04-22,"Convert ScholarlyMarkdown documents into the HTML5, LaTeX, and Docx (OOML) formats."
 scons,2019-04-22,A software construction tool
 scrcpy,2019-04-22,Display and control your Android device
-scriptcs,2019-04-22,Scriptcs makes it easy to write and execute C# with a simple text editor.
 sed,2019-04-22,sed (stream editor) is a non-interactive command-line text editor
 selenium,2019-04-22,A smart proxy server that allows Selenium tests to route commands to remote web browser instances
-sendmail,2019-04-22,Fake sendmail wrapper.
 seqcli,2019-04-22,Seq command-line client
-serve,2019-04-22,Starts a simple temporary static file server in your current directory and prints your IP address to share with colleagues
 shasum,2019-04-22,An approximation of the Unix shasum command.
 shellcheck,2019-04-22,Static analysis tool for shell scripts
 shfmt,2019-04-22,"A shell parser, formatter and interpreter. Supports POSIX Shell, Bash and mksh."
@@ -1632,13 +1577,11 @@ sqlite,2019-04-22,"A small, fast, self-contained, high-reliability and full-feat
 srvman,2019-04-22,Windows Service Manager is a small tool that simplifies all common tasks related to Windows services.
 sslscan,2019-04-22,Tests SSL/TLS enabled services to discover supported cipher suites
 stack,2019-04-22,The Haskell Tool Stack
-sudo,2019-04-22,An approximation of the Unix sudo command. Shows a UAC popup window unfortunately.
 svtplay-dl,2019-04-22,Video downloader from various sites
 swig,2019-04-22,A software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
 syncany-cli,2019-04-22,An open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage!
 syncthing,2019-04-22,Open Source Continuous File Synchronization.
 tar,2019-04-22,File archiver for manipulation with '.tar.*' files.
-tcc,2019-04-22,"The Tiny C Compiler (a.k.a. TCC, tCc, or TinyCC) is an x86, X86-64 and ARM processor C compiler created by Fabrice Bellard. It is designed to work for slow computers with little disk space (e.g. on rescue disks)."
 teleport,2019-04-22,Privileged access management for cloud-native infrastructure
 telnet,2019-04-22,Telnet client.
 terraform,2019-04-22,Create and manage infrastructure as code using simple declarative configuration files.
@@ -1647,29 +1590,21 @@ tesseract,2019-04-22,Open Source OCR Engine
 tesseract-languages,2019-04-22,Fast integer versions of trained models for the Tesseract Open Source OCR Engine
 thrift,2019-04-22,"A software framework, for scalable cross-language services development."
 tidy,2019-04-22,Tidy HTML and XML files
-time,2019-04-22,An approximation of the Unix time command.
-tldr,2019-04-22,Interactive tldr pages (simplified and community-driven man pages) client
-touch,2019-04-22,A port of the Unix touch command.
 traefik,2019-04-22,HTTP reverse proxy and load balancer
 transmission-cli,2019-04-22,"A fast, easy, and free BitTorrent client."
 trid,2019-04-22,A utility designed to identify file types from their binary signatures.
 tunnel,2019-04-22,Expose local servers to the internet securely.
 tup,2019-04-22,"A file-based build system for Linux, OSX, and Windows."
-unar,2019-04-22,Universal archives extractor.
 unbound,2019-04-22,"A validating, recursive, caching DNS resolver"
 uncap,2019-04-22,"Map Caps Lock to Escape, or any key to any key."
 uncrustify,2019-04-22,"A source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA"
 unrar,2019-04-22,Decompress RAR files.
 unzip,2019-04-22,Unzip compression utility
-up,2019-04-22,"Deploy infinitely scalable serverless apps, apis, and sites in seconds to AWS."
 upx,2019-04-22,"UPX is a free, portable, extendable, high-performance executable packer for several executable formats"
 usql,2019-04-22,Universal command-line interface for SQL databases
 vagrant,2019-04-22,A tool for building and managing virtual machine environments in a single workflow.
 vault,2019-04-22,"Secure, store, and tightly control access to tokens, passwords, certificates, API keys, and other secrets in modern computing."
-vbindiff,2019-04-22,Visual Binary Diff displays files in hexadecimal and ASCII (or EBCDIC).
 vim,2019-04-22,A highly configurable text editor
-vimtutor,2019-04-22,The vimtutor that comes with Vim for Windows doesn't work with Scoop. This one does.
-warp,2019-04-22,Create self-contained single binary applications
 watchexec,2019-04-22,Execute commands in response to file modifications
 wget,2019-04-22,"A command-line utility for retrieving files using HTTP, HTTPS, FTP, and FTPS protocols."
 which,2019-04-22,Show the full path of command.
@@ -1687,14 +1622,12 @@ xmake,2019-04-22,A cross-platform build utility based on Lua
 xming,2019-04-22,"Run X GUI applications on bash subsystem or linux VM, and have them rendered on Windows Desktop."
 xmlstarlet,2019-04-22,"Transform, query, validate, and edit XML files."
 xpdf-tools,2019-04-22,Several command-line utilities to read and extract data from PDF files
-xsv,2019-04-22,A fast CSV command line toolkit written in Rust
 xz,2019-04-22,XZ Utils is free general-purpose data compression software with a high compression ratio.
 yara,2019-04-22,A malware samples pattern matching tool.
 yarn,2019-04-22,Node.js dependency manager
 yasm,2019-04-22,Modular assembler based on NASM
 youtube-dl,2019-04-22,Download videos from YouTube.com (and a few more sites) using command line.
 yubico-piv-tool,2019-04-22,A tool to interact with the Privilege and Identification Card (PIV) application on a YubiKey.
-yubikey-personalization,2019-04-22,"A command line tool to personalize (i.e., set a AES key) YubiKeys."
 zip,2019-04-22,Zip compression utilities
 zola,2019-04-22,A fast static site generator in a single binary with everything built-in
 zookeeper,2019-04-22,High-performance coordination service for distributed applications

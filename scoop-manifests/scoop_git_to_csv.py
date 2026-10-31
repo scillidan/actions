@@ -22,9 +22,11 @@ GitHub. Rows are sorted newest first. Each bucket is kept as a cached bare
 clone (.cache/<bucket>.git): one clone on first run, then one incremental
 fetch per run. A failed fetch falls back to the cached clone.
 
-GitHub archive checks use GraphQL in batches of 50 repositories and require
-GITHUB_TOKEN or GH_TOKEN. The repository comes from homepage, falling back to
-checkver.github. Homepage checks use HEAD with GET confirmation/fallback.
+GitHub archive checks use GraphQL in small batches and require GITHUB_TOKEN or
+GH_TOKEN. The repository comes from homepage, falling back to checkver.github.
+Successful API and homepage results are cached in .cache/github-status.json for
+7 days, so weekly runs only query new or expired entries. Homepage checks are
+sequential and delayed to stay upstream-friendly.
 
 Use --offline to skip all fetching and HTTP checks. Existing archived.csv and
 broken_home.csv are reused in that mode; buckets without a cached clone are
@@ -39,13 +41,17 @@ import subprocess
 import sys
 import tarfile
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 BASE = Path(__file__).resolve().parent
+API_CACHE_TTL_DAYS = 7
+GITHUB_BATCH_SIZE = 10
+GITHUB_BATCH_DELAY_SECONDS = 0.5
+HOMEPAGE_DELAY_SECONDS = 0.2
 
 
 def git(repo: Path, *args: str) -> str:
@@ -233,20 +239,69 @@ def github_repo(url: str) -> tuple[str, str] | None:
     return path[0], path[1].removesuffix(".git")
 
 
+def load_api_cache(path: Path) -> dict[str, dict]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        data = {}
+    if not isinstance(data, dict):
+        data = {}
+    return {
+        "archived": data.get("archived")
+        if isinstance(data.get("archived"), dict)
+        else {},
+        "homepage": data.get("homepage")
+        if isinstance(data.get("homepage"), dict)
+        else {},
+    }
+
+
+def save_api_cache(path: Path, cache: dict[str, dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(f"{path.name}.tmp")
+    tmp.write_text(json.dumps(cache, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    tmp.replace(path)
+
+
+def cache_entry_fresh(entry: object, today: date) -> bool:
+    if not isinstance(entry, dict):
+        return False
+    try:
+        checked = date.fromisoformat(str(entry.get("checked_at", "")))
+    except ValueError:
+        return False
+    return 0 <= (today - checked).days <= API_CACHE_TTL_DAYS
+
+
 def github_archived_dates(
     repos: set[tuple[str, str]],
+    cache_path: Path,
+    cache: dict[str, dict],
+    today: date,
 ) -> dict[tuple[str, str], str | None]:
     """Return archived date, empty string for active, or None for missing repos."""
+    statuses: dict[tuple[str, str], str | None] = {}
+    pending: list[tuple[str, str]] = []
+    cached = cache["archived"]
+    for repo in sorted(repos):
+        key = "/".join(repo)
+        entry = cached.get(key)
+        status = entry.get("archived_date") if isinstance(entry, dict) else None
+        if cache_entry_fresh(entry, today) and (
+            status is None or isinstance(status, str)
+        ):
+            statuses[repo] = status
+        else:
+            pending.append(repo)
+
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if repos and not token:
+    if pending and not token:
         raise RuntimeError(
             "GITHUB_TOKEN or GH_TOKEN is required for GitHub archive checks"
         )
 
-    statuses: dict[tuple[str, str], str | None] = {}
-    ordered = sorted(repos)
-    for start in range(0, len(ordered), 50):
-        batch = ordered[start : start + 50]
+    for start in range(0, len(pending), GITHUB_BATCH_SIZE):
+        batch = pending[start : start + GITHUB_BATCH_SIZE]
         fields = " ".join(
             f"r{i}: repository(owner: {json.dumps(owner)}, name: {json.dumps(repo)}) "
             "{ isArchived archivedAt }"
@@ -262,41 +317,96 @@ def github_archived_dates(
                 "User-Agent": "scoop-manifests-tracker",
             },
         )
-        for attempt in range(3):
+        for attempt in range(4):
             try:
                 with urlopen(request, timeout=30) as response:
                     payload = json.load(response)
+                if not isinstance(payload, dict):
+                    raise ValueError("GraphQL response is not an object")
+                errors = payload.get("errors")
+                rate_limited = isinstance(errors, list) and any(
+                    "rate limit" in str(error.get("message", "")).lower()
+                    for error in errors
+                    if isinstance(error, dict)
+                )
+                if rate_limited:
+                    if attempt == 3:
+                        raise RuntimeError("GitHub GraphQL request failed: rate limit")
+                    time.sleep(60)
+                    continue
                 break
             except HTTPError as e:
-                if e.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                rate_limited = e.code == 429 or (
+                    e.code == 403
+                    and (
+                        e.headers.get("Retry-After") is not None
+                        or e.headers.get("X-RateLimit-Remaining") == "0"
+                    )
+                )
+                if not (rate_limited or e.code in (500, 502, 503, 504)) or attempt == 3:
                     raise RuntimeError(
                         f"GitHub GraphQL request failed: HTTP {e.code}"
                     ) from e
+                delay = 2**attempt
+                if e.code == 429:
+                    try:
+                        delay = max(delay, int(e.headers.get("Retry-After", "0")))
+                    except ValueError:
+                        pass
+                if e.headers.get("X-RateLimit-Remaining") == "0":
+                    try:
+                        reset = int(e.headers.get("X-RateLimit-Reset", "0"))
+                        delay = max(delay, max(0, reset - int(time.time()) + 1))
+                    except ValueError:
+                        pass
             except (URLError, TimeoutError, ValueError) as e:
-                if attempt == 2:
+                if attempt == 3:
                     raise RuntimeError(f"GitHub GraphQL request failed: {e}") from e
-            time.sleep(attempt + 1)
+                delay = 2**attempt
+            time.sleep(delay)
 
         data = payload.get("data")
         if not isinstance(data, dict):
             raise RuntimeError("GitHub GraphQL returned no repository data")
+        batch_statuses: dict[tuple[str, str], str | None] = {}
         for i, repo in enumerate(batch):
             alias = f"r{i}"
             if alias not in data:
                 raise RuntimeError("GitHub GraphQL returned incomplete repository data")
             node = data[alias]
             if node is None:
-                statuses[repo] = None
+                batch_statuses[repo] = None
             elif node.get("isArchived"):
                 archived_at = node.get("archivedAt")
                 if not isinstance(archived_at, str):
                     raise RuntimeError(
                         f"Archived GitHub repository {repo} has no archivedAt"
                     )
-                statuses[repo] = archived_at[:10]
+                batch_statuses[repo] = archived_at[:10]
             else:
-                statuses[repo] = ""
+                batch_statuses[repo] = ""
+        statuses.update(batch_statuses)
+        checked_at = today.isoformat()
+        for repo, status in batch_statuses.items():
+            cached["/".join(repo)] = {
+                "archived_date": status,
+                "checked_at": checked_at,
+            }
+        save_api_cache(cache_path, cache)
+        if start + GITHUB_BATCH_SIZE < len(pending):
+            time.sleep(GITHUB_BATCH_DELAY_SECONDS)
     return statuses
+
+
+def check_homepage(url: str, cache: dict[str, dict], today: date) -> bool:
+    cached = cache["homepage"]
+    entry = cached.get(url)
+    if cache_entry_fresh(entry, today) and isinstance(entry.get("broken"), bool):
+        return entry["broken"]
+    time.sleep(HOMEPAGE_DELAY_SECONDS)
+    broken = homepage_broken(url)
+    cached[url] = {"broken": broken, "checked_at": today.isoformat()}
+    return broken
 
 
 def homepage_broken(url: str) -> bool:
@@ -338,6 +448,9 @@ def process_bucket(
     offline: bool,
     cutoff: str,
     combined: dict[str, list[tuple]],
+    api_cache_path: Path,
+    api_cache: dict[str, dict],
+    today: date,
 ) -> dict:
     name = bucket_name(url)
     ensure_repo(url, cache, offline)
@@ -382,7 +495,11 @@ def process_bucket(
         )
         if repo:
             repos.add(repo)
-    github_status = {} if offline else github_archived_dates(repos)
+    github_status = (
+        {}
+        if offline
+        else github_archived_dates(repos, api_cache_path, api_cache, today)
+    )
 
     counts = {"archived": 0, "broken_home": 0, "inactive": 0}
     for manifest in added:
@@ -405,9 +522,16 @@ def process_bucket(
         github_home_checked = (
             homepage_repo and github_status.get(homepage_repo) is not None
         )
-        if not github_home_checked and homepage and homepage_broken(homepage):
+        if (
+            not github_home_checked
+            and homepage
+            and check_homepage(homepage, api_cache, today)
+        ):
             combined["broken_home"].append((name, manifest, "broken_home"))
             counts["broken_home"] += 1
+
+    if not offline:
+        save_api_cache(api_cache_path, api_cache)
 
     excluded = {
         (bucket, manifest)
@@ -465,6 +589,8 @@ def main() -> int:
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
     cachedir = Path(args.cachedir)
+    api_cache_path = cachedir / "github-status.json"
+    api_cache = load_api_cache(api_cache_path)
     combined: dict[str, list[tuple]] = {
         "archived": [],
         "broken_home": [],
@@ -494,6 +620,9 @@ def main() -> int:
                 args.offline,
                 cutoff,
                 combined,
+                api_cache_path,
+                api_cache,
+                now,
             )
         except (subprocess.CalledProcessError, RuntimeError, OSError) as e:
             print(f"WARNING: failed to process {url}: {e}", file=sys.stderr)

@@ -1,4 +1,4 @@
-name,date,description
+name,added_date,description
 netcatty,2026-10-23,"AI-powered SSH client, SFTP browser, and terminal manager"
 snitch,2026-10-23,Open-source application firewall and network observer with Sigma rules
 vacuumtube,2026-10-23,Unofficial YouTube Leanback (the Smart TV interface) desktop wrapper with a built-in ad blocker and enhancements.
@@ -1301,7 +1301,6 @@ wsl-ssh-agent,2021-10-28,Helper to interface with Windows ssh-agent.exe service 
 texteditorpro,2021-10-20,Powerful text editor with syntax highlighting for multiple languages and scripts. Formerly known as EditBone
 klogg,2021-09-27,"A faster, advanced log explorer"
 kubelogin,2021-09-13,kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)
-redis-tui,2021-09-13,A Redis Text-based UI client
 electron-fiddle,2021-08-22,Create and play with small Electron experiments
 exifcleaner,2021-08-22,Image metadata cleaner
 nicotine-plus,2021-08-22,Graphical client for the Soulseek file sharing network
@@ -1314,7 +1313,6 @@ pseps,2021-08-02,Templating tool for PowerShell
 regexp,2021-08-02,Enhanced Registry editor/explorer
 interlink,2021-07-18,E-mail client
 landrop,2021-07-18,Drop any files to any devices on LAN.
-tikzit,2021-07-18,Graphical tool for rapidly creating graphs and string diagrams using PGF/TikZ
 windterm,2021-07-18,SSH/Sftp/Shell/Telnet/Serial client
 tabby,2021-07-03,A terminal for a more modern age
 better-joy,2021-07-01,"Allows to use the Nintendo Switch Pro Controller, Joycons and SNES controller in various emulators or as generic XInput"
@@ -1324,15 +1322,11 @@ cairo-desktop,2021-05-16,Alternative desktop environment for Windows
 tileiconifier,2021-05-16,Creates tiles for most Windows 8.1 and 10 start menu icons.
 flameshot,2021-04-26,Powerful yet simple to use screenshot software
 mqttx,2021-04-26,MQTT 5.0 Desktop Client
-terminalpp,2021-04-26,A minimalist but powerful terminal emulator
 amazon-workspaces,2021-04-12,Client for Amazon workspaces service
-ddc-toolbox,2021-04-12,ViPER DDC files editor with AutoEQ integration
-fat32format-gui,2021-04-12,A GUI FAT32 format tool that supports volumes greater than 32 GB.
 hasher,2021-04-12,A hashing utility for verifying integrity of files using a wide range of supported algorithms.
 logseq,2021-04-12,A privacy-first platform for knowledge sharing and management
 plex-desktop,2021-04-12,Official Plex client
 resizer,2021-04-12,A batch image resizer with an easy to use drag-n-drop interface
-centertaskbar,2021-04-05,Centers Windows taskbar icons.
 lagrange,2021-03-22,A Beautiful Gemini Client
 openark,2021-03-22,The Next Generation Anti-Rootkit (ARK) tool for Windows.
 amfora,2021-03-14,Terminal browser for the Gemini protocol
@@ -1353,7 +1347,6 @@ imhex,2021-01-10,Hex editor
 jellyfin,2021-01-10,Software Media System
 keyboard-chatter-blocker,2021-01-10,Utility for blocking keyboard chatter
 pencil2d,2021-01-10,"An easy, intuitive tool to make 2D hand-drawn animations."
-hakuneko,2021-01-04,Manga and anime downloader
 jabref,2021-01-04,Citation and reference management software that uses BibTeX and BibLaTeX as its native formats
 jamovi,2021-01-04,Statistical spreadsheet
 liquidsoap,2021-01-04,Icecast-compatible streamer for streaming audio and video
@@ -1366,14 +1359,12 @@ eclipse-sumo,2020-12-06,Microscopic and continuous traffic simulation package de
 panwriter,2020-12-06,Markdown editor with pandoc integration and paginated preview
 rehex,2020-12-06,Hex editor for reverse engineering
 civo,2020-11-29,CLI library for managing cloud resources such as instances and Kubernetes clusters at Civo.com.
-dukto,2020-11-29,An easy file transfer tool designed for LAN use.
 keepass-plugin-readable-passphrase,2020-11-29,"KeePass 2.x plugin, that generates grammatically correct but nonsensical passphrases."
 openwithplusplus,2020-11-29,Open with++ context menu shell extension
 pdfarranger,2020-11-29,PDF files editor
 scratch,2020-11-29,Educational drag-and-drop programming environment
 twine,2020-11-29,"Interactive, nonlinear story creator"
 vroid-studio,2020-11-29,3D character maker
-windiff,2020-11-28,"The omnipotent, omniscient, omnipresent diffing program"
 cfssl,2020-11-22,"Command line tool and an HTTP API server for signing, verifying, and bundling TLS certificates."
 chatty,2020-11-22,Twitch Chat Client
 freetube,2020-11-22,The private YouTube client
@@ -1381,11 +1372,8 @@ lens,2020-11-22,IDE for Kubernetes clusters
 qimgv-video,2020-11-22,"Fast, configurable and easy to use image viewer with video support"
 zeplin,2020-11-22,"Collaborative tool for designs' and styleguides' handoff with specs, assets and code snippets"
 chipmunk,2020-11-15,Fast logfile viewer with support for huge logfiles (>10 GB)
-superpowers-app,2020-11-15,Desktop app for the HTML5 2D+3D game maker
 grasshopper,2020-11-07,SSH client
 amp-winoff,2020-10-30,Fully configurable utility for scheduling the shutdown of Windows computers
-screen-saver-control,2020-10-30,Activate/deactivate both screen saver and monitor power off with a simple click.
-snaptimer,2020-10-29,Windows Countdown Timer
 shutter,2020-10-27,"A multifunctional scheduling utility, which has a user friendly, easy-to-use interface and supports many different Events and Actions."
 fvim,2020-10-24,Neovim front-end UI
 obsidian,2020-10-24,Powerful knowledge base that works on top of a local folder of plain text Markdown files.
@@ -1394,7 +1382,6 @@ sysgauge,2020-10-22,A system and performance monitoring utility
 jadx,2020-10-05,Dex to Java decompiler
 qmk-toolbox,2020-10-05,Toolbox to flash and manage keyboards running the QMK firmware.
 cyberduck,2020-09-27,Libre file transfer client supporting multiple protocols.
-symphytum,2020-09-27,Personal database software to manage and organize data in an easy and intuitive way.
 structurizr-cli,2020-09-21,"A command line interface to push/pull workspaces to/from the Structurizr cloud service/on-premises installation, and export views to PlantUML, Mermaid, and WebSequenceDiagrams formats."
 tcno-acc-switcher,2020-09-13,"A Super-fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot, Ubisoft and many others!"
 vtfedit,2020-09-13,"A VMT/VTF viewer, editor, and creation tool"
@@ -1407,7 +1394,6 @@ deskpins,2020-09-06,Make any application always on top.
 nvcleanstall,2020-09-06,Extends customization of NVIDIA GeForce Driver packages; can also decouple automatic updates from NVIDIA's servers.
 silentcmd,2020-09-06,Executes a batch file without opening the command prompt window.
 electerm,2020-08-31,Terminal/ssh/serial port/sftp client
-quick-picture-viewer,2020-08-31,"A lightweight, versatile desktop photo viewer"
 redasm,2020-08-31,"Interactive, multiarchitecture disassembler"
 sqlitespy,2020-08-27,A compact GUI database manager for SQLite
 notion,2020-08-25,Collaborative note taking
@@ -1436,7 +1422,6 @@ electron-cash,2020-07-19,A Bitcoin Cash SPV Wallet
 rapidcrc,2020-07-19,Hash calculator with unicode support
 so,2020-07-12,A terminal interface for StackOverflow
 bizhawk,2020-06-28,Multi system emulator
-hokus,2020-06-28,A modern CMS for Hugo
 netch,2020-06-28,Game accelerator
 ripcord,2020-06-28,Desktop chat client for group-centric services like Slack and Discord.
 windowsdesktop-runtime,2020-06-28,Microsoft .NET (10.0 latest) Desktop Runtime
@@ -1448,7 +1433,6 @@ splashtop-business-access,2020-06-13,"Fast, simple, secure remote computer acces
 vuplayer,2020-06-13,An open-source multi-format audio player.
 ausweisapp2,2020-06-10,Authenticate to websites with german ID.
 beekeeper-studio,2020-06-10,SQL editor and database management
-freemove,2020-06-10,Moves directories freely without breaking installations or shortcuts.
 keepass-plugin-webautotype,2020-06-10,Plugin for KeePass 2.x that allows the AutoType functionality to work with browser URLs.
 ksnip,2020-06-10,Screenshot tool that provides many annotation features
 basecamp,2020-06-07,"To-do lists, milestone management, forum-like messagening, file sharing and time tracking"
@@ -1456,7 +1440,6 @@ deltachat,2020-06-07,Email-based secure instant messaging
 homebank,2020-06-07,Personal accounting
 responsively,2020-06-07,Modified web browser for responsive web development
 session,2020-06-07,End-to-end encrypted messenger
-insomnia-designer,2020-06-04,Collaborative API Design Tool for designing and managing OpenAPI specs
 nuclear,2020-05-31,Modern music player focused on streaming from free sources
 sejda-pdf,2020-05-31,PDF Editor
 termius,2020-05-31,Modern SSH client
@@ -1473,21 +1456,17 @@ fbflipper,2020-05-08,A desktop debugging platform for mobile developers
 mednafen,2020-05-08,Various systems emulator
 openboard,2020-05-08,Interactive whiteboard for schools and universities
 zoom,2020-05-08,"Video and audio conferencing, chat, and webinars"
-asuite,2020-04-30,Portable applications launcher
 ventoy,2020-04-30,Bootable USB drive creator
 capture2text,2020-04-25,OCR capture utility
 kate,2020-04-25,Multi-document editor
 zaproxy,2020-04-25,Integrated penetration testing tool for finding vulnerabilities in web applications
-pasteboard,2020-04-20,Clipboard utilities for Windows (like OSX pbcopy/pbpaste)
 taskbarx,2020-04-15,Center Windows taskbar icons with a variety of animations and options.
 qt-creator,2020-04-08,IDE for development with the Qt framework
 gink,2020-04-07,On-screen annotation software inspired by Epic Pen
-graphql-playground,2020-04-07,"GraphQL IDE for better development workflows (GraphQL subscriptions, interactive docs and collaboration)"
 qview,2020-04-07,Practical and minimal image viewer
 tinynvidiaupdatechecker,2020-04-07,NVIDIA GPU driver updater
 opera-gx,2020-03-25,Opera GX is a special version of the Opera browser built specifically for gamers.
 qv2ray,2020-03-25,Graphical frontend for v2ray
-vitrite,2020-03-25,Configures the level of transparency for almost any visible window.
 xnresize,2020-03-22,A fast and powerful image resizer
 lightscreen,2020-03-21,Screenshot Tool
 tftpd,2020-03-21,"Lightweight multi-threaded TFTP, DNS, SNTP, SYSLOG and DHCP server"
@@ -1500,16 +1479,11 @@ picpick,2020-03-01,"A full-featured screen capture tool, intuitive image editor,
 fileoptimizer,2020-02-21,Lossless file size reduction utility
 instant-eyedropper,2020-02-21,Color picker and detection tool.
 networkminer,2020-02-21,Network Forensic Analysis Tool
-vagrant-manager,2020-02-21,Status bar menu for managing all Vagrant machines from one central location
-yakyak,2020-02-21,Unofficial chat client for Google Hangouts
 nswagstudio,2020-02-16,The OpenAPI/Swagger API toolchain for .NET and TypeScript
-olive-editor,2020-02-16,Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software.
 pageedit,2020-02-16,ePub XHTML Visual Editor
-pcmeter,2020-02-16,CPU and graphic card monitor
 stoplight-studio,2020-02-16,Desktop editor for API Design and Technical Writing
 streamwriter,2020-02-16,Records music broadcasted by Internet radio stations.
 throttlestop,2020-02-16,Monitor and adjust CPU throttling on laptop computers.
-zeebe-modeler,2020-02-12,Desktop Application for modeling Zeebe Workflows with BPMN
 betaflight-blackbox-explorer,2020-02-01,Interactive log viewer for flight logs recorded with blackbox
 betaflight-configurator,2020-02-01,A configuration tool for the Betaflight flight control system
 fadetop,2020-02-01,Simple and fun break reminder
@@ -1525,7 +1499,6 @@ eac,2020-01-18,Exact Audio Copy using standard drives
 bencode-editor,2020-01-17,BEncoded files editor
 encryptpad,2020-01-17,Minimalist secure text editor and binary encryptor
 free-shooter,2020-01-17,Taking screenshots without bloatware features
-hwp-converter,2020-01-17,Open and convert HWP files in Word as DOCX file.
 meinplatz,2020-01-17,Hard disk scan and folder size tool
 nettraffic,2020-01-17,Essential network bandwidth usage monitor
 pdftk-builder,2020-01-17,"Graphical interface to PDF ToolKit for document manipulation (merge, split, ...)"
@@ -1542,24 +1515,18 @@ winscan2pdf,2020-01-07,Documents to PDF scanner
 age,2020-01-04,"A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability."
 batcodecheck,2020-01-04,Batch file (.bat) linter
 foto-mosaik-edda,2020-01-04,Photo mosaic picture maker
-msxml4,2020-01-04,Microsoft XML Core Services (MSXML) runtime library
-pip-tool,2020-01-04,Use the Picture in Picture mode on Windows.
 quicktextpaste,2020-01-04,Insert pre-defined text in any Windows applications via keyboard shortcut.
 rednotebook,2020-01-04,Graphical diary and journal
 tableplus,2020-01-04,Relational database explorer
 task-coach,2020-01-04,"A free and open-source task manager that supports composite tasks, prioritization, effort tracking, and categorization. It is designed to offer flexible yet straightforward task management suitable for both simple and advanced workflows."
 video-thumbnails-maker,2020-01-04,Video thumbnails creator
-materialize,2019-12-28,Image-to-material converter for video game development
 gedit,2019-12-23,A powerful general purpose text editor
 ngspice,2019-12-23,SPICE simulator for electric and electronic circuits
 qalculate,2019-12-21,Multi-purpose calculator
 chk,2019-12-20,GUI hash tool
 hourglass,2019-12-17,The simple countdown timer for Windows
 inky,2019-12-17,An editor for ink: inkle's narrative scripting language
-spek,2019-12-17,Acoustic Spectrum Analyser
-tftputil-gui,2019-12-17,TFTP server and client
 yapa,2019-12-14,A minimalistic desktop timer app for Pomodoro Technique users
-falconx,2019-12-11,Center Windows taskbar icons with a variety of animations and options.
 gridea,2019-12-10,A static blog writing client
 manictime,2019-12-09,A time tracking software
 windows-terminal,2019-12-06,"The new Windows Terminal, and the original Windows console host - all in the same place!"
@@ -1571,15 +1538,12 @@ kiwi-for-gmail,2019-12-03,A desktop client for Gmail and Google Apps
 schismtracker,2019-12-03,An oldschool sample-based music composition tool
 gatling,2019-12-02,Async load test tool for web applications
 ridnacs,2019-12-02,Disk space usage analyzer
-virtualdub,2019-11-26,Video capture/processing utility
 android-line-transfer,2019-11-23,Powerful Android Line Messages Backup and Restore Software
 chatterino,2019-11-23,Twitch chat client
 draw.io,2019-11-23,Professional diagramming
 iphone-sms-backup-and-restore,2019-11-23,Backup & Restore iPhone SMS on computer with ease.
 sourcetrail,2019-11-23,Interactive source code explorer
 android-sms-backup-and-restore,2019-11-19,Backup & Restore Android SMS on computer with ease.
-free-manga-downloader,2019-11-19,Manage and download manga from various websites.
-t-clock,2019-11-19,Highly configurable Windows taskbar clock
 aurora,2019-11-17,Unified peripherals lighting effects across multiple brands and various games
 notejoy,2019-11-17,Collaborative notes for you and your team
 tightvnc,2019-11-17,VNC-Compatible Remote Control / Remote Desktop
@@ -1593,11 +1557,9 @@ qimgv,2019-11-13,Qt5 image viewer
 redshift-tray,2019-11-13,A no-frills GUI for Redshift.
 vidcoder,2019-11-13,DVD/Blu-ray ripping and video transcoding tool that uses HandBrake as its encoding engine.
 wpsoffice,2019-11-13,Complete office suite
-mozbackup,2019-11-04,Create backups of profiles from Mozilla software.
 caffeine,2019-11-02,"Prevents PC from locking, sleeping or activating the screensaver."
 ao,2019-10-30,"An unofficial, featureful, open source, community-driven, free Microsoft To-Do app."
 cabal,2019-10-30,P2p/decentralized/local-first chat platform.
-cabal-mini,2019-10-30,"A minimalist desktop app for Cabal, the p2p/decentralized/local-first chat platform"
 dadroitjsonviewer,2019-10-30,A JSON viewer that gives a new approach to process JSON Data files.
 musikcube,2019-10-30,"Terminal-based music player, audio engine, metadata indexer, and server."
 neatdownloadmanager,2019-10-30,A simple and lightweight GUI wrapped around a powerful and optimized Download-Engine
@@ -1605,11 +1567,9 @@ openface,2019-10-30,Facial behavior analysis toolkit
 potplayer,2019-10-30,Highly customizable media player
 thonny,2019-10-30,Python IDE for beginners
 tixati,2019-10-30,BitTorrent client with advanced features
-tusk,2019-10-30,Refined Evernote desktop app
 veusz,2019-10-30,"Scientific plotting and graphing program, designed to produce publication-ready 2D and 3D plots."
 apache-tinkerpop-gremlin-console,2019-10-22,A REPL environment for interactive development and analysis of Gremlin applications.
 apache-tinkerpop-gremlin-server,2019-10-22,Remotely execute Gremlin against one or more Graph instances hosted within it.
-butterflow-ui,2019-10-22,"Graphical user interface for butterflow, a video manipulation tool."
 diffinity,2019-10-22,Diff and merging tool with focus on accurate and easy to read source code diffs.
 kcc,2019-10-22,Comic and manga converter for ebook readers.
 microsoft-powerapps-cli,2019-10-22,"Simple, single-stop tool for developing customizations and extensions for Microsoft PowerApps."
@@ -1619,7 +1579,6 @@ scopy,2019-10-22,A software oscilloscope and signal analysis toolset
 sigil,2019-10-22,EPUB ebook editor
 axiom,2019-10-21,GUI for FFmpeg
 crow-translate,2019-10-21,A simple and lightweight translator that allows to translate and speak text.
-dia,2019-10-21,Drawing software
 dual-monitor-tools,2019-10-21,Set of utilities for managing multiple monitor setups.
 photoflare,2019-10-21,"Quick, simple but powerful image editor (Community Edition)"
 rawtherapee,2019-10-21,Raw image processor
@@ -1628,35 +1587,26 @@ tagspaces,2019-10-21,An offline document manager with tagging support
 treesize-free,2019-10-21,Capture directory sizes and memory guzzlers.
 tumblthree,2019-10-21,A Tumblr Backup Application
 winauth,2019-10-21,Authenticator for a wide variety of websites and services
-xjoy,2019-10-21,Gamepad driver for Nintendo Switch Joy-Cons that merges them into one controller.
 xnviewmp,2019-10-21,"Photo viewer, image resizer & batch converter"
 clavier-plus,2019-10-14,Keyboard shortcuts manager
 gog-galaxy-plugin-downloader,2019-10-14,GOG Galaxy 2.0 plugin downloader
 http-downloader,2019-10-14,A download manager for the HTTP(S) and FTP(S) protocols.
 snappy-driver-installer-origin,2019-10-14,Device drivers installer and updater
-winmtr,2019-10-14,Network diagnostic tool combining ping and traceroute.
 keepass-plugin-yafd,2019-10-09,Yet Another Favicon Downloader (YAFD for short) is a plugin for KeePass 2.x that allows you to quickly download favicons for your password entries.
-pulseview,2019-10-09,A logic analyzer GUI for sigrok
-waifu2x-caffe,2019-10-05,AI-powered image upscaler.
 deadbeef,2019-09-29,DeaDBeeF (as in 0xDEADBEEF) is a modular cross-platform audio player.
 digikam,2019-09-29,Professional Photo Management
-klatexformula,2019-09-29,An easy-to-use graphical application for generating images from LaTeX equations.
 poedit,2019-09-29,Gettext translations editor.
 synfig-studio,2019-09-29,2D Animation Software
 vidiot,2019-09-29,A non-linear video editor targeted for home video editing.
 furmark,2019-09-19,A GPU Stress Test and OpenGL Benchmark
 msikombustor,2019-09-19,A standalone benchmark/stability test tool based on software from the maker of Furmark.
 rtss,2019-09-19,"Framerate monitoring, On-Screen Display and high-performance video capture service provider for other graphics card utilities."
-fvie,2019-09-14,Edit File VersionInfo metadata from Windows executables.
 lazpaint,2019-09-14,Graphic editor with many tools and filters
 natron,2019-09-14,Compositing software for VFX and motion graphics
 screenoff,2019-09-14,"[Archived] Turn off Windows laptop monitor screen in a click, without putting it to Sleep."
-vidcutter,2019-09-14,"A modern, simple to use, constantly evolving and fast media cutter/joiner."
 bulk-rename-utility,2019-09-13,File renaming software for Windows.
 electronics-assistant,2019-09-11,"An electronics helper that offers resistor colour codes, capacitance and power calculations."
 powertoys,2019-09-07,A set of utilities for power users to tune and streamline their Windows experience for greater productivity.
-dropit,2019-09-05,Personal assistant to automatically manage your files
-bitsmanager,2019-09-02,Manager for BITS (Background Intelligent Transfer Service) for Windows.
 filebot,2019-09-02,"Movies, TV Shows and Anime files organizer and renamer"
 linphone,2019-09-02,A free VoIP and video softphone based on the SIP protocol.
 megui,2019-09-02,MPEG-4 encoding/muxing solution.
@@ -1666,10 +1616,8 @@ pdf-xchange-editor,2019-09-02,A fast and feature-rich PDF viewer/editor.
 pencil,2019-09-02,GUI prototyping tool
 photodemon,2019-09-02,"Photo editor focused on pro-grade features, high performance, and maximum usability."
 quickviewer,2019-09-02,An image/comic viewer
-ricochet,2019-09-02,Anonymous peer-to-peer instant messaging.
 status,2019-09-02,"A messenger, crypto wallet, and Web3 browser."
 torrent-file-editor,2019-09-02,.torrent files editor.
-weebp,2019-09-02,"A wallpaper engine, set any window as your wallpaper."
 yacreader,2019-09-02,A comic reader and manager
 mypaint,2019-09-01,A simple drawing and painting program that works well with Wacom-style graphics tablets.
 onlyoffice-desktopeditors,2019-09-01,"Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents."
@@ -1677,7 +1625,6 @@ color-sustainer,2019-08-25,An ICC profile enforcer.
 cpkeeper,2019-08-25,Apply and lock ICC profile files to keep monitors calibration even while running or quitting 3D fullscreen applications.
 onionshare,2019-08-25,Securely and anonymously send and receive files.
 wizfile,2019-08-25,An extremely fast file finder
-dualmonitortaskbar,2019-08-24,A taskbar for the second monitor
 kubebox,2019-08-24,Terminal and Web console for Kubernetes.
 tinytask,2019-08-21,Windows automation app for recording and repeating actions.
 testmace,2019-08-16,A simple but powerful tool for API automation testing.
@@ -1686,7 +1633,6 @@ sqlyog-community,2019-08-14,GUI for MySQL database
 vieas,2019-08-14,An image viewer and converter with combination of two window forms.
 maxto,2019-08-13,Window manager that snaps windows into custom per-monitor grids via global hotkeys.
 peazip,2019-08-10,"A free file archiver utility, based on Open Source technologies"
-pietty,2019-08-10,SSH client based on PuTTY dedicated to multilingual (especially CJK) environments.
 renamer,2019-08-08,Very powerful and flexible file renaming tool
 audacious,2019-08-07,An open source audio player.
 babelmap,2019-08-07,Unicode Character Map for Windows
@@ -1705,19 +1651,12 @@ notepad3,2019-08-07,Notepad-like text editor based on the Scintilla source code
 openmpt,2019-08-07,Music tracker
 quodlibet,2019-08-07,Music player and music library manager.
 retroshare,2019-08-07,"RetroShare is a Free and Open Source cross-platform, Friend-2-Friend and secure decentralised communication platform."
-scantailor-advanced,2019-08-07,Interactive post-processing tool for scanned pages
-spacescape,2019-08-07,A free tool for creating space skyboxes with stars and nebulas.
-todotxt-net,2019-08-07,Implementation of todo.txt for Windows using the .NET framework
-turtl,2019-08-07,"Secure, collaborative notebook."
 xmplay,2019-08-07,Win32 audio player with support for Winamp plugins
 ydl-ui,2019-08-07,A UI for the command-line video downloader youtube-dl
 bgpkiller,2019-08-05,Ad blocker for Avira AntiVirus
-flashplayer-sa-debug,2019-08-05,Standalone version of Adobe Flash Player for debugging
 codeblocks,2019-08-03,Free open-source C/C++/Fortran IDE (standalone version)
 codeblocks-mingw,2019-08-03,Free open-source C/C++/Fortran IDE (includes additional GCC/G++ compiler and GDB debugger)
-flashplayer-sa,2019-08-03,Standalone version of Adobe Flash Player
 octant,2019-08-03,"A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters."
-pscolor,2019-08-03,Provides color highlighting for some basic PowerShell output.
 renpy,2019-08-03,Popular open source visual novel engine that uses Python for scripting
 vboxvmservice,2019-08-03,Windows Service to run VirtualBox VMs automatically.
 zulip,2019-08-03,"Desktop client for Zulip, an open source team chat application"
@@ -1741,62 +1680,40 @@ fbide,2019-07-03,#1 editor for FreeBASIC
 cudatext,2019-07-01,"A cross-platform, open-source text editor written in Object Pascal, available free of charge for both personal and commercial use, featuring fast startup and extensibility through Python-based add-ons."
 euler,2019-07-01,A powerful math program combining numerical and symbolic tools (using the computer algebra system Maxima).
 maxima,2019-07-01,Computer Algebra System
-pov-ray,2019-07-01,A high-quality tool for creating stunning three-dimensional graphics.
 xb1cbi,2019-07-01,A tray application that shows a battery indicator for an XBox-ish controller and gives a notification when the battery level drops to (almost) empty.
-ussf,2019-06-30,A compact utility designed to help you find the silent switch in the applications that you want to install.
 grepwin,2019-06-24,Regular expression search and replace tool for Windows.
 smarttaskbar,2019-06-24,A lightweight utility which can automatically switch the display state of the Windows Taskbar.
-wsl-ssh-pageant,2019-06-24,"A Pageant -> TCP bridge for use with WSL, allowing for Pageant to be used as an ssh-ageant within the WSL environment."
-aria-ng-gui,2019-06-23,An Aria2 GUI for Windows & Linux & MacOS.
-milton,2019-06-23,An infinite-canvas paint program
 prusaslicer,2019-06-23,"G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)"
-tabula,2019-06-23,A tool for liberating data tables trapped inside PDF files.
 translucenttb,2019-06-23,Makes the Windows taskbar translucent/transparent.
 uniextract2,2019-06-23,Decompress and extract files from any type of archive or installer.
 altair,2019-06-21,Feature-rich GraphQL Client
-colon,2019-06-21,Flexible text editor
-dn-tool-container,2019-06-21,Extendable application which can install multiple tools.
-hexo-blog-client,2019-06-21,Cross-platform hexo blog management client
 hexo-client,2019-06-21,Cross-platform hexo client
 httptoolkit,2019-06-21,"HTTP(S) debugging proxy, analyzer and client"
 jasper,2019-06-21,A flexible and powerful issue reader for GitHub.
-local-browser,2019-06-21,Share your localhost in a new way (peer to peer browser).
-metrogit,2019-06-21,Git visualization tool that's more than just git.
 open-log-viewer,2019-06-21,Multi-platform log viewer built with Electron and styled with Material Design.
 timeseriesadmin,2019-06-21,Administration panel and querying interface for InfluxDB databases
-tweakstyle,2019-06-21,Integrated Development Environment for Web Development.
-wordmark,2019-06-21,Real time Markdown editor for bloggers
 zettlr,2019-06-21,Powerful markdown editor
 omegat,2019-06-20,The free translation memory tool.
-i2p-zero-gui,2019-06-19,"Zero dependency, small footprint, cross-platform I2P Java Router with simple tunnel/socks controller and SAM interface"
 jetbrains-toolbox,2019-06-19,Toolbox App. A control panel for all JetBrains tools.
 anyburn,2019-06-18,Free Solutions for CD / DVD / Blu-ray burning and imaging.
-autoit-script-editor,2019-06-18,AutoIt Script Editor
-bugn,2019-06-10,Tiling window manager add-on for the Explorer shell of Microsoft Windows
 googlechrome,2019-06-09,"Fast, secure, and free web browser, built for the modern web."
 akelpad,2019-06-03,An open source editor for plain text. It is designed to be a small and fast.
-shiba,2019-06-03,Rich markdown live preview app with linter
 streamlink-twitch-gui,2019-06-03,A multi platform Twitch.tv browser for Streamlink
 cru,2019-06-01,Custom Resolution Utility (CRU) allows custom resolutions to be defined by creating EDID overrides directly in the registry without dealing with .inf files.
-emule,2019-06-01,One of the biggest and most reliable peer-to-peer file sharing clients around the world.
 emule-community,2019-06-01,One of the biggest and most reliable peer-to-peer file sharing clients around the world.
 superputty,2019-05-29,A window manager for the PuTTY SSH Client. It allows you to embed PuTTY terminal instances inside of a windows form providing a better tabbed interface when multiple connections are used.
 tinode-mysql,2019-05-29,Instant messaging server
-wumgr,2019-05-29,Manage updates of Microsoft products.
 devhub,2019-05-28,TweetDeck for GitHub
 keepass-plugin-keeanywhere,2019-05-28,KeePass plugin that provides access to cloud storage providers (cloud drives).
 mpv.net,2019-05-28,A modern media player for Windows that works just like mpv
 multrin,2019-05-28,Organize multiple apps in tabs!
-ssh-agent-wsl,2019-05-28,Use the Windows SSH agent from inside WSL
 wexond,2019-05-28,"A privacy-focused, extensible and beautiful web browser"
-ndm,2019-05-27,A Open Source npm desktop GUI.
 openshot,2019-05-27,Easy to use video editor
 classyshark,2019-05-26,Standalone binary inspection tool for android apps (APK).
 roughgrep,2019-05-26,"Fast, brutalist UI on top of ripgrep."
 trafficmonitor,2019-05-26,"Network monitoring floating window software on Windows. It can display the current network speed, CPU and memory usage. It also supports being embedded into the taskbar, theme changing and traffic statistics."
 koffee,2019-05-18,"Fast, keyboard-driven file explorer."
 languagetool,2019-05-18,"Grammar, style and spell checker for +25 languages."
-noty,2019-05-18,Autosaving sticky note with support for multiple notes without needing multiple windows.
 librecad,2019-05-16,Cross-platform 2D CAD program.
 driverstoreexplorer,2019-05-12,A GUI tool to manage Windows driver store
 freedownloadmanager,2019-05-12,A powerful download manager
@@ -1812,7 +1729,6 @@ tagscanner,2019-05-06,TagScanner is a powerful tool for organizing and managing 
 i2pd,2019-05-03,End-to-End encrypted and anonymous Internet
 islc,2019-05-03,Utility that will monitor and clear the memory standby list when it is > 1000mb (1gb).
 marktext,2019-05-03,A simple and elegant markdown editor
-traymond,2019-05-03,A simple Windows app for minimizing windows to tray icons
 hashcheck,2019-05-02,"HashCheck Shell Extension for Windows with added SHA2, SHA3, and multithreading."
 caprine,2019-04-29,Elegant Facebook Messenger desktop app
 ffqueue,2019-04-29,(Yet another) graphical user interface for FFMpeg with comprehensive support for both the basic features but also the more advanced features like filtergraphs.
@@ -1828,22 +1744,15 @@ openscad,2019-04-15,The Programmers Solid 3D CAD Modeller
 v2rayn,2019-04-15,"v2rayN (WPF-based version) is a GUI client for V2Ray, with support for Xray, sing-box, and other compatible cores."
 papercut,2019-04-14,The Simple SMTP Desktop Email Receiver
 testcentric,2019-04-11,GUI Runner for NUnit
-transgui,2019-04-11,A feature rich front-end to remotely control Transmission daemon via its RPC protocol.
 vscodium,2019-04-11,"A community-driven, freely-licensed binary distribution of Microsoft's editor VS Code."
 deepgit,2019-04-10,Git Archaeology Tool.
-mqtt-explorer,2019-04-10,A all-round MQTT client that provides a structured topic overview.
-pocketsphinx,2019-04-10,"Lightweight speech recognition engine, specifically tuned for handheld and mobile devices."
 smartgit,2019-04-10,A graphical Git client with support for SVN and Pull Requests for GitHub and Bitbucket.
 smartsvn,2019-04-10,Subversion client
 smartsynchronize,2019-04-10,An advanced file and directory compare tool.
-sphinxbase,2019-04-10,Basic libraries shared by the CMU Sphinx trainer and all the Sphinx decoders.
-sphinxtrain,2019-04-10,Open source acoustic model trainer.
 extraterm,2019-04-09,The swiss army chainsaw of terminal emulators
 accesser,2019-04-08,A tool which can help you bypass SNI RST
-beaker,2019-04-08,An experimental peer-to-peer Web browser
 claws-mail,2019-04-08,"The user-friendly, lightweight, and fast email client"
 playnite,2019-04-08,"Video game library manager and launcher with support for 3rd party libraries like Steam, GOG, Origin, Battle.net, ..."
-safebrowser,2019-04-07,SAFE Browser Application
 scribus,2019-04-07,Open Source Desktop Publishing
 tribler,2019-04-07,Privacy enhanced BitTorrent client with P2P content discovery
 capframex,2019-04-04,Frametimes analysis tool compatible with OCAT
@@ -1852,10 +1761,7 @@ carotdav,2019-04-03,A simple WebDAV / FTP / SFTP / Online Storages client for Wi
 nvidia-profile-inspector,2019-03-30,View detailed info about your nVidia graphics card. Features overclocking options and other nifty settings.
 convert.net,2019-03-26,"An integrated, powerful, multi-purpose conversion and developer tool."
 vibrance-gui,2019-03-26,Automating NVIDIAs Digitial Vibrance Control and AMDs Saturation for any game
-wsl-terminal,2019-03-26,Terminal emulator for Windows Subsystem for Linux (WSL)
 zmc,2019-03-26,"A build of JDK Mission Control, an open source Java runtime profiling and monitoring utility"
-album-art-downloader,2019-03-25,Find and update album art for music collection.
-emax64-pdumper,2019-03-25,An optimized clean build of emacs-pdumper branch (27.0.50) for 64-bit Windows. Built with `--without-compress-install --without-dbus --with-modules 'CFLAGS= -O2 -g3'`
 flat-assembler,2019-03-25,Open source assembly language compiler
 inno-script-studio,2019-03-25,A new intuitive graphical interface for Inno Setup
 inno-setup,2019-03-25,An open-source installation builder for Windows applications.
@@ -1863,7 +1769,6 @@ lamexp,2019-03-25,Audio Encoder Front-End.
 lazarus,2019-03-25,A Delphi compatible cross-platform IDE for Rapid Application Development.
 basilisk,2019-03-21,A XUL-based web-browser demonstrating the Unified XUL Platform (UXP). This browser is a close twin to pre-Servo Firefox in how it operates.
 commandbox,2019-03-21,"A standalone, native tool for Windows, Mac, and Linux that will provide you with a Command Line Interface (CLI) for developer productivity, tool interaction, package management, embedded CFML server, application scaffolding, and some sweet ASCII art"
-conemu-color-themes,2019-03-21,Color themes for ConEmu.
 dupeguru,2019-03-21,Duplicates file finder
 hammultiplayer,2019-03-21,Small and portable Multi-Medias Player.
 mediacreationtool,2019-03-21,Create your own Windows 10 installation media using either a USB flash drive or a DVD
@@ -1881,34 +1786,25 @@ winaero-tweaker,2019-03-11,Tweaks and hidden settings for power-users for Window
 7tt,2019-03-09,Allows you to configure various aspects of the Windows taskbar.
 appbuster,2019-03-09,Bust Apps you do not want!
 inbucket,2019-03-09,Inbucket is an email testing application; it will accept messages for any email address and make them available to view via a web interface.
-painter,2019-03-09,A tool to manage the Windows wallpaper from the terminal.
 phraseexpress,2019-03-09,Autotext and Text Autocompletion in any application.
 regeditor,2019-03-09,Windows Registry editor
 standardnotes,2019-03-09,"A safe place for your notes, thoughts, and life's work."
-workspaceutilities,2019-03-09,Provides hotkey access to custom window sizes and layouts
 jmeter,2019-03-02,Application designed to load test functional behavior and measure performance.
 jmeter-pm,2019-03-02,JMeter Plugins Manager
-keepass-plugin-sequencer,2019-03-02,Custom password generator algorithm plugin for KeePass 2.x to generate word sequences.
 swipl,2019-03-02,Comprehensive free Prolog environment.
 winsshterm,2019-03-02,"A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv"
-logstalgia,2019-02-28,Website traffic visualization that replays or streams web-server access logs as a pong-like battle between the web server and an never ending torrent of requests.
-keepass-plugin-keetraytotp,2019-02-26,"Fork of the Tray TOTP Plugin for KeePass2. This plugin is for those who already use Tray TOTP Plugin, but also want to use with Valve's Steam."
 keepass-plugin-keepassnatmsg,2019-02-25,A plugin for KeePass 2.x and provides a secure means of exposing KeePass credentials to a browser using Native Messaging. Successor of KeePassHttp / Works with KeePassXC-Browser
 keepass-plugin-keepassrpc,2019-02-25,"Kee is a Firefox and Chrome add-on for linking browsers to KeePass, using the KeePassRPC KeePass plugin contained within this repository."
-captura,2019-02-21,"Capture Screen, Audio, Cursor, Mouse Clicks and Keystrokes."
 nsudo,2019-02-21,Powerful System Administration Tool
 tinymediamanager,2019-02-20,"tinyMediaManager is a media management tool written in Java/Swing. It is written to provide metadata for the Kodi Media Center (formerly known as XBMC), MediaPortal and Plex media server"
 motrix,2019-02-17,A full-featured download manager.
-tailblazer,2019-02-16,A modern file tail utility based on Rx.Net which show cases reactive programming and Dynamic Data.
 shutup10,2019-02-12,Free antispy tool for Windows 10
 flashboot,2019-02-09,"Create an installable clone of Windows 7/8.x/10 (including all apps and data) on the USB thumbdrive/HDD and instantly transfer entire OS to another computer, even with dissimilar hardware."
 cherrytree,2019-02-08,"Hierarchical note taking application, featuring rich text and syntax highlighting."
 gitahead,2019-02-08,The elegant git gui for dev teams
 mattermost,2019-02-08,Team communication client
 yubioath,2019-02-08,Yubico Authenticator for Desktop
-markn,2019-02-07,Lightweight markdown viewer.
 pass-winmenu-nogpg,2019-02-07,"A simple, easy-to-use password manager for Windows that follows the philosophy of (and is compatible with) the Linux password manager pass."
-audioswitcher,2019-02-06,"Makes switching between sound devices trivial. No longer do you have to go into Control Panel or the Windows® Sound options, instead there is an easy to access icon, or even hotkeys."
 keepass-plugin-keeagent,2019-02-04,Plugin for KeePass 2.x that allows SSH keys stored in a KeePass database to be used for SSH authentication by other programs.
 plex-player,2019-02-04,Plex Media Player. Play media.
 altdrag,2019-02-03,Easily drag windows when pressing the Alt key
@@ -1918,16 +1814,13 @@ universal-ctags,2019-01-29,Generates an index (or tag) file of language objects 
 trilium,2019-01-27,Build your personal knowledge base with Trilium Notes
 memreduct,2019-01-26,"Lightweight, real-time memory management application to monitor and clean system memory."
 slic3r,2019-01-21,Open Source toolpath generator for 3D printers
-locale-emulator,2019-01-20,Yet Another System Region and Language Simulator
 wabt,2019-01-20,'wabbit' is a suite of tools for WebAssembly
 squalr,2019-01-18,Memory editor - game hacking tool.
 mockoon,2019-01-16,Easiest and quickest way to run mock APIs locally.
 qtox,2019-01-16,"Chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol."
-3rvx,2019-01-14,Skinnable volume controller and OSD.
 advancedrenamer,2019-01-14,Batch file renaming utility for Windows
 aida64extreme,2019-01-14,"System information, diagnostics, and auditing application"
 alacritty,2019-01-14,GPU-accelerated terminal emulator
-altools,2019-01-14,"Tools that you can use to troubleshoot account lockouts, as well as add functionality to Active Directory"
 anaconda3,2019-01-14,The most popular Python distribution for data science.
 android-studio,2019-01-14,"The official IDE for Android development, which includes everything you need to build Android apps."
 anki,2019-01-14,Powerful and intelligent flash cards
@@ -1939,21 +1832,13 @@ appengine-go,2019-01-14,The preferred tooling for managing your App Engine appli
 archi,2019-01-14,A tool and editor to create ArchiMate models
 archwsl,2019-01-14,Install ArchLinux as a WSL Instance
 arduino,2019-01-14,Arduino IDE
-assume-role,2019-01-14,Easily assume AWS roles in your terminal.
 astrogrep,2019-01-14,A Microsoft Windows grep utility.
 atom,2019-01-14,The hackable text editor
 audacity,2019-01-14,"An easy-to-use, multi-track audio editor and recorder"
 autohotkey,2019-01-14,The ultimate automation scripting language for Windows.
-awake,2019-01-14,Prevents the computer from entering the idle state.
-awareness,2019-01-14,A tool to help you become more aware of time spent on the computer
-axis,2019-01-14,"An implementation of the SOAP (""Simple Object Access Protocol"") submission to W3C."
 azuredatastudio,2019-01-14,"A data management tool for working with SQL Server, Azure SQL Database, and Azure Synapse Analytics (Retired/Unsupported)."
-baka-mplayer,2019-01-14,FOSS libmpv based multimedia player
 bandizip,2019-01-14,Yet another typical ZIP archiver
-baretail,2019-01-14,A free real-time log file monitoring tool
-beatdrop,2019-01-14,A stand-alone implementation of the amazing Milkdrop2 Winamp plug-in.
 beyondcompare,2019-01-14,Directory and file compare functions in one package
-bitmessage,2019-01-14,A P2P communications protocol used to send encrypted messages to another person or to many subscribers.
 bitwarden,2019-01-14,"Password management solutions for individuals, teams, and business organizations"
 bleachbit,2019-01-14,"Disk space cleaner, privacy manager, and computer system optimizer."
 blender,2019-01-14,3D creation suite
@@ -1968,20 +1853,16 @@ cacher,2019-01-14,Code snippet organizer for pro developers
 calibre,2019-01-14,Powerful and easy to use e-book manager
 calibre-normal,2019-01-14,Powerful and easy to use e-book manager
 camunda-modeler,2019-01-14,"Made for developers, edit your BPMN process diagrams and DMN decision tables."
-carnac,2019-01-14,A utility to give some insight into how you use your keyboard.
 ccleaner,2019-01-14,Number-one tool for cleaning PC
 cdburnerxp,2019-01-14,"Burns CDs and DVDs, including Blu-Ray and HD-DVDs."
-championify,2019-01-14,A little program that downloads all the recent item sets and imports them in to your League of Legends to use within game.
 cheat-engine,2019-01-14,Tool for modifying/debugging single player games and applications.
 chrlauncher,2019-01-14,Small and very fast portable launcher and updater for Chromium.
 chromium,2019-01-14,"Browser aiming for safer, faster, and more stable way for all users to experience the web."
 clementine,2019-01-14,A modern music player and library organizer.
 clingo,2019-01-14,A grounder and solver for logic programs.
 cloudfoundry-cli,2019-01-14,The official command line client for Cloud Foundry
-cmdow,2019-01-14,Win32 console application for manipulating program windows.
 codetrack,2019-01-14,A free .NET performance profiler and execution analyzer.
 conemu,2019-01-14,"Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more."
-console2,2019-01-14,A Windows console window enhancement.
 consolez,2019-01-14,A modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering.
 copyq,2019-01-14,Clipboard manager
 coretemp,2019-01-14,Monitor processor temperature and other vital information.
@@ -1992,19 +1873,13 @@ crystaldiskmark,2019-01-14,A simple disk benchmark software
 cuetools,2019-01-14,A suite of tools for lossless audio/CUE sheet format conversion and verification.
 cura,2019-01-14,Model editing tools for 3D printing
 darktable,2019-01-14,Photography workflow application and raw developer. A virtual lighttable and darkroom for photographers.
-darteditor,2019-01-14,"Tool for editing, debugging, and running Dart applications."
-dartium,2019-01-14,A special build of Chromium that includes the Dart VM
-dartium-content-shell,2019-01-14,A headless version of Dartium
 dbeaver,2019-01-14,"Database tool for developers, SQL programmers, database administrators and analysts"
 dbvis,2019-01-14,"A universal database tool for developers, DBAs and analysts."
 ddu,2019-01-14,"Driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system, without leaving leftovers behind (including registry keys, folders and files, driver store)"
-deadlock,2019-01-14,"Unlock files or folders that cannot be deleted, copied, renamed or moved."
 debugviewpp,2019-01-14,"Collect, view and filter application logs."
-defraggler,2019-01-14,Speed up your PC with quick & easy defragmentation.
 deluge,2019-01-14,"Lightweight, free, cross-platform BitTorrent client"
 dependencies,2019-01-14,A rewrite of the old legacy software 'depends.exe' in C# for Windows devs to troubleshoot dll load dependencies issues.
 depends,2019-01-14,"A free utility that scans any 32-bit or 64-bit Windows module (exe, dll, ocx, sys, etc.) and builds a hierarchical tree diagram of all dependent modules."
-devdocs,2019-01-14,A full-featured desktop app for DevDocs.io
 devrantron,2019-01-14,A cross platform desktop application for devRant
 dhcp-server,2019-01-14,Very simple and easy to use implementation of a DHCP Server
 diff-pdf,2019-01-14,A simple tool for visually comparing two PDF files.
@@ -2022,14 +1897,10 @@ doublecmd,2019-01-14,Two pane file manager inspired by Total Commander
 ds4windows,2019-01-14,Allows to get the best experience while using a DualShock 4 on PC.
 easyrsa,2019-01-14,A CLI utility to build and manage a PKI CA
 easyserviceoptimizer,2019-01-14,A portable freeware to optimize services for almost all Windows versions (except for Win 98 and before).
-ec2-api-tools,2019-01-14,Command-line utilities that wrap the Amazon EC2 API actions.
-eclipse-android,2019-01-14,Eclipse for Android Developers
-eclipse-automotive,2019-01-14,Eclipse IDE for Automotive Software Developers
 eclipse-committers,2019-01-14,Eclipse IDE for Eclipse Committers
 eclipse-cpp,2019-01-14,Eclipse IDE for C and C++ Developers
 eclipse-dsl,2019-01-14,Eclipse IDE for Java and DSL Developers
 eclipse-java,2019-01-14,Eclipse IDE for Java Developers
-eclipse-javascript,2019-01-14,Eclipse IDE for JavaScript and Web Developers
 eclipse-jee,2019-01-14,Eclipse IDE for Java EE Developers
 eclipse-mat,2019-01-14,Eclipse Memory Analyzer
 eclipse-modeling,2019-01-14,Eclipse Modeling Tools
@@ -2037,25 +1908,16 @@ eclipse-parallel,2019-01-14,Eclipse for Parallel Application Developers
 eclipse-php,2019-01-14,Eclipse IDE for PHP Developers
 eclipse-platform,2019-01-14,Eclipse Platform
 eclipse-rcp,2019-01-14,Eclipse IDE for RCP and RAP Developers
-eclipse-reporting,2019-01-14,Eclipse IDE for Java and Report Developers
-eclipse-rust,2019-01-14,Eclipse for Rust Developers
 eclipse-scout,2019-01-14,Eclipse IDE for Scout Developers
 eclipse-sdk,2019-01-14,Eclipse SDK
-eclipse-testing,2019-01-14,Eclipse IDE for Testers
-edex-ui,2019-01-14,A science fiction desktop running everywhere
 elasticsearch,2019-01-14,"Distributed, RESTful Search Engine"
 emacs,2019-01-14,"An extensible, customizable, free/libre text editor."
 enpass,2019-01-14,A cross-platform password management app to securely store passwords and other credentials in a virtual vault locked with a master password.
 enso,2019-01-14,A feature-rich descendant of Enso Community Edition
 etcher,2019-01-14,"balenaEtcher lets you flash OS images to SD cards & USB drives, safely and easily."
-etcher-cli,2019-01-14,CLI for balena Etcher (no longer updated)
-ethereum-wallet,2019-01-14,A gateway to decentralized applications on the Ethereum blockchain
-etlas,2019-01-14,Build tool and package manager for the Eta programming language
 everything,2019-01-14,Locate files and folders by name instantly.
 executor,2019-01-14,Multipurpose launcher and more advanced and customizable freeware Windows run replacement and more.
-falcon-sql-client,2019-01-14,SQL client with inline data visualization
 fastcopy,2019-01-14,The Fastest copy/backup software.
-fastglacier,2019-01-14,A freeware Windows Client for Amazon Glacier.
 fiddler,2019-01-14,"The free web debugging proxy for any browser, system or platform."
 filezilla,2019-01-14,"Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface."
 find-java,2019-01-14,"PowerShell script to locate Java on Windows, optionally sets JAVA_HOME and JRE_HOME"
@@ -2072,7 +1934,6 @@ foxe,2019-01-14,Firstobject's free XML editor for Window
 foxit-reader,2019-01-14,Fast and feature rich PDF reader that offers a delightful reading experience.
 franz,2019-01-14,"Messaging app for services like WhatsApp, Slack, Messenger and many more."
 freac,2019-01-14,Audio converter and CD ripper with support for various popular formats and encoders
-freeclipboardviewer,2019-01-14,A program used to view the information that is stored in memory when you use copy and cut functions of Windows.
 freecommander,2019-01-14,Easy-to-use file manager.
 freemind,2019-01-14,FreeMind is a free mind mapping application written in Java. It provides extensive export capabilities.
 freeplane,2019-01-14,"Freeplane is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for mind mapping and analyzing the information contained in mind maps."
@@ -2101,18 +1962,13 @@ gpu-z,2019-01-14,Lightweight system utility designed to provide vital informatio
 grafana,2019-01-14,Open platform for analytics and data monitoring
 graphicsgale,2019-01-14,"Animation graphic editor easy to use, powerful tool for spriting and pixel art."
 greenshot,2019-01-14,Light-weight screenshot software.
-gtools,2019-01-14,"Gtools include: pserv, dllusage, gkalk, as well as a couple of command-line only tools: regdiff, supershell, ddupe, pathed, touch, which, md5sums."
-hack-font,2019-01-14,A typeface designed for source code.
 hadoop-winutils,2019-01-14,Windows binaries for Hadoop versions.
-hain,2019-01-14,An alt+space launcher for Windows
 handbrake,2019-01-14,"A tool for converting video from nearly any format to a selection of modern, widely supported codecs."
 harmony,2019-01-14,Music player with a sleek UI
 heidisql,2019-01-14,"See and edit data and structures from computers running one of the database systems MariaDB, MySQL, Microsoft SQL or PostgreSQL."
 hexchat,2019-01-14,An IRC client based on XChat
 honeyview,2019-01-14,A fast image viewer
 hosts-file-editor,2019-01-14,Easily edit and manage the hosts file
-hostsman,2019-01-14,A freeware application that lets you manage your hosts file with ease.
-httrack,2019-01-14,A free and easy-to-use offline browser utility.
 hwinfo,2019-01-14,"Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS."
 hwmonitor,2019-01-14,"A hardware monitoring program that reads PC systems main health sensors : voltages, temperatures, fans speed."
 hxd,2019-01-14,Hex and Disk Editor
@@ -2121,8 +1977,6 @@ ida-free,2019-01-14,A multi-processor disassembler and debugger that offers so m
 idea,2019-01-14,Cross-Platform IDE for Java by JetBrains.
 ilspy,2019-01-14,.NET assembly browser and decompiler.
 imageglass,2019-01-14,"A lightweight, versatile image viewer"
-imgburn,2019-01-14,A lightweight CD / DVD / HD DVD / Blu-ray burning application.
-inboxer,2019-01-14,Unofficial Google Inbox Desktop App (Deprecated)
 inkscape,2019-01-14,Professional vector graphics editor
 insomnia,2019-01-14,HTTP and GraphQL client
 iographica,2019-01-14,An application that turns mouse movements into modern art.
@@ -2132,10 +1986,6 @@ ipfs-desktop,2019-01-14,A desktop client for IPFS
 ipscan,2019-01-14,Angry IP Scanner - fast and friendly network scanner.
 irfanview,2019-01-14,"A fast, compact and innovative graphic viewer (with PlugIns)"
 jameica,2019-01-14,A free runtime environment for Java applications that can be implemented as plugins.
-jd-gui,2019-01-14,A standalone Java Decompiler GUI
-jigsaw,2019-01-14,W3C's HTTP 1.1 server implementation in Java
-jkrypto,2019-01-14,A Program for Creating and Analysing Classical Ciphers.
-joe,2019-01-14,A full featured terminal-based screen editor
 joplin,2019-01-14,A note taking and to-do application with synchronization capabilities
 jpegview,2019-01-14,Fast and highly configurable image viewer/editor with a minimal GUI.
 kakaotalk,2019-01-14,"An easy, no-cost messenger that transcends standard chat."
@@ -2144,7 +1994,6 @@ kdiff3,2019-01-14,Utility for comparing and merging files and directories
 keepass,2019-01-14,Light-weight and easy-to-use password manager
 keepassxc,2019-01-14,Community fork of KeePass
 keeweb,2019-01-14,A password manager compatible with KeePass
-keypirinha,2019-01-14,A fast launcher for keyboard ninjas on Windows.
 keystore-explorer,2019-01-14,An open source GUI replacement for the Java command-line utilities keytool and jarsigner.
 kibana,2019-01-14,An open source analytics and visualization platform designed to work with Elasticsearch.
 kicad,2019-01-14,Electronics Design Automation Suite
@@ -2156,30 +2005,20 @@ krita,2019-01-14,A free digital painting application
 lantern-client,2019-01-14,HTTP/HTTPS proxy
 launchy,2019-01-14,A smart search launcher for installed programs or files.
 lazygit,2019-01-14,A simple terminal UI for git commands
-ldap-admin,2019-01-14,An LDAP client and administration tool for LDAP directory management.
 ldplayer,2019-01-14,An Android emulator optimized for mobile gaming with lower resource consumption
-leet,2019-01-14,Get your 1337 fix in PowerShell.
 libsndfile,2019-01-14,A C library for reading and writing files containing sampled sound through one standard library interface.
 licecap,2019-01-14,Capture an area of your desktop and save it directly to .GIF or .LCF file.
 lightbulb,2019-01-14,Computer screen gamma adjuster based on the current time
-lighttable,2019-01-14,A customizable code editor that connects you to your creation with instant feedback.
-lighttpd,2019-01-14,An HTTP server designed and optimized for high performance environments. Here is the Cygwin compilation migrated from WLMP project
-lili,2019-01-14,"LiLi creates portable, bootable and virtualized USB stick running Linux."
 linqpad,2019-01-14,The .NET programmer's playground
-linqpadless,2019-01-14,Compile LINQPad query files into stand-alone C# scripts (csx) or executable binaries so that they can be run outside and independent of LINQPad.
-listenmoeclient,2019-01-14,"Official, Simple and lightweight LISTEN.moe client"
 liteide,2019-01-14,"Simple, open source, cross-platform Go IDE"
-lmms,2019-01-14,Cross-platform music production software.
 lockhunter,2019-01-14,Delete files blocked by something you do not know.
 logexpert,2019-01-14,Windows tail program and log file analyzer.
 logstash,2019-01-14,"A data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite ""stash""."
 losslesscut,2019-01-14,Lossless trimming tool for video and audio files
 love,2019-01-14,A framework you can use to make 2D games in Lua.
 lunacy,2019-01-14,Free Graphic Design Software
-lxrunoffline,2019-01-14,A full-featured utility for Windows Subsystem for Linux (WSL)
 madvr,2019-01-14,High quality DirectShow video renderer
 makemkv,2019-01-14,One-click solution to convert video that you own into a set of MKV files.
-mancy,2019-01-14,A NodeJS REPL application based on Electron and React frameworks
 mc,2019-01-14,Native GNU Midnight Commander for Win32
 mcomix,2019-01-14,User-friendly and customizable image viewer
 mediainfo-gui,2019-01-14,MediaInfo is a convenient unified display of the most relevant technical and tag data for video and audio files.
@@ -2187,7 +2026,6 @@ megasync,2019-01-14,Client for automated synchronization between local folder an
 meld,2019-01-14,A visual diff and merge tool
 microsip,2019-01-14,SIP softphone for Windows based on PJSIP stack
 miniconda3,2019-01-14,"A cross-platform, Python-agnostic binary package manager"
-mist,2019-01-14,Browse and use apps on the Ethereum network.
 mitmproxy,2019-01-14,A free and open source interactive HTTPS proxy
 mkcert,2019-01-14,A simple zero-config tool to make locally trusted development certificates with any names you'd like.
 mkvtoolnix,2019-01-14,"A set of tools to create, alter and inspect Matroska files."
@@ -2200,11 +2038,9 @@ mpc-be,2019-01-14,Fork of Media Player Classic containing additional features an
 mpc-hc,2019-01-14,"An extremely light-weight, open source media player for Windows."
 mpc-hc-fork,2019-01-14,"An extremely light-weight, open source media player for Windows."
 mpc-qt,2019-01-14,A clone of Media Player Classic reimplemented in Qt.
-mplayer,2019-01-14,A multi-platform open source media player
 mpv,2019-01-14,"A free, open source, and cross-platform media player"
 mpv-git,2019-01-14,"A free, open source, and cross-platform media player"
 mqtt-spy,2019-01-14,An open source desktop & command line utility intended to help you with monitoring activity on MQTT topics.
-mremoteng,2019-01-14,"Tabbed, multi-protocol, remote connections manager"
 msiafterburner,2019-01-14,"Overclocking utility for graphics cards. Main features include GPU/Shader/Memory clock adjustment, advanced fan speed and GPU voltage control."
 multicommander,2019-01-14,A multi-tabbed file manager and is an alternative to the standard Windows Explorer
 mupdf,2019-01-14,"A lightweight PDF, XPS, and E-book viewer"
@@ -2214,7 +2050,6 @@ naps2,2019-01-14,"Scan documents to PDF and more, as simply as possible"
 natural-docs,2019-01-14,Readable source code documentation for 20 programming languages.
 ncftpclient,2019-01-14,A set of free application programs implementing the File Transfer Protocol (FTP).
 netbeans,2019-01-14,"Quickly and easily develop desktop, mobile, and web applications with Java, JavaScript, HTML5, PHP, C/C++ and more."
-netlifyctl,2019-01-14,Legacy command line interface for managing and deploying sites on Netlify without leaving your terminal.
 netron,2019-01-14,Visualizer for deep learning and machine learning models
 nexusfont,2019-01-14,Font manager
 nimbleset,2019-01-14,Simple tool for quickly comparing lists.
@@ -2223,52 +2058,35 @@ nirlauncher,2019-01-14,"More than 200 portable freeware utilities for Windows, a
 node-compiler,2019-01-14,Ahead-of-time (AOT) Compiler designed for Node.js
 nomacs,2019-01-14,Image viewer to view all common image formats including RAW and psd images
 notable,2019-01-14,The markdown-based note-taking app that doesn't suck.
-notepad2,2019-01-14,A fast and light-weight Notepad-like text editor with syntax highlighting.
-notepad2-mod,2019-01-14,"A Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting."
 notepadplusplus,2019-01-14,A free source code editor and Notepad replacement that supports several languages.
-now-cli,2019-01-14,The command-line interface for Now.
 nsis,2019-01-14,A professional open source system to create Windows installers.
 nteract,2019-01-14,"Nteract and create with data, words, and visuals."
 nuget-package-explorer,2019-01-14,"GUI tool for creating, updating, and deploying NuGet packages"
 nwjs,2019-01-14,An app runtime based on Chromium and NodeJS
 nwjs-sdk,2019-01-14,An app runtime based on Chromium and NodeJS
 obs-studio,2019-01-14,Video recording and live streaming software
-obs-studio-small,2019-01-14,Video recording and live streaming without the browser source plugin
 ocenaudio,2019-01-14,"Cross-platform, easy to use, fast and functional audio editor."
 onefetch,2019-01-14,Git repository summary on terminal
-oni,2019-01-14,"A retro-futuristic editor, combining Vim-style modal editing with the aesthetics and language features of modern editors."
 openhab,2019-01-14,A vendor and technology agnostic open source automation software for your home
-openhardwaremonitor,2019-01-14,"Monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer."
 openliberty,2019-01-14,Server runtime available to JavaTM developers
 opentrack,2019-01-14,Tracks user's head movements and relaying the information to games and flight simulation software.
 openvpn,2019-01-14,A flexible virtual private network (VPN) solution to secure data communications.
 opera,2019-01-14,"A fast, secure, easy-to-use browser."
-orca,2019-01-14,Windows Installer Table Editor
 outlook-google-calendar-sync,2019-01-14,Sync your Outlook and Google calendars.
 paint.net,2019-01-14,Image and photo editor
 palemoon,2019-01-14,Mozilla-derived web browser focusing on efficiency and customization
-patchcleaner,2019-01-14,Cleans your windows Installer directory of orphaned and redundant installation (.msi) and patch (.msp) files
-patheditor,2019-01-14,A convenient GUI for editing the PATH environment variable
-pathod,2019-01-14,A pathological HTTP daemon designed to let you craft almost any conceivable HTTP response.
 pcem,2019-01-14,An IBM PC compatibles emulator for Windows and Linux that specializes in running old os and software
 pci-z,2019-01-14,PCI-Z is designed for detecting unknown hardware on your Windows based PC
 pdfsam,2019-01-14,"A JavaFX desktop application to split, merge, rotate and perform other manipulations on PDF documents"
-peerblock,2019-01-14,"An IP filter for Windows 7/10, forked from PeerGuardian 2"
-pentaho-data-integration,2019-01-14,"PDI, also called Kettle, is the component of Pentaho responsible for the Extract, Transform and Load (ETL) processes."
 persepolis,2019-01-14,Download manager & GUI for aria2.
 php-nts-xdebug,2019-01-14,An extension for PHP to assist with debugging and development. (Non Thread Safe)
 php-xdebug,2019-01-14,An extension for PHP to assist with debugging and development. (Thread Safe)
 picard,2019-01-14,Picard is a cross-platform music tagger powered by the MusicBrainz database
 picotorrent,2019-01-14,"A tiny, hackable BitTorrent client with low memory usage, high performance and a native user interface."
-pixie,2019-01-14,It is a color picker with few extra goodies
 plantuml,2019-01-14,"A tool to draw UML diagrams, using a simple and human readable text description."
-portable-virtualbox,2019-01-14,A portable VirtualBox downloader and launcher written by Runar Buvik
-posh-docker,2019-01-14,Powershell tab completion for Docker
 posh-git,2019-01-14,A PowerShell module which provides Git/PowerShell integration.
 postman,2019-01-14,Complete API development environment.
-powertab,2019-01-14,"Tab expansion module for PowerShell. Handles more content and provides a new, optional interface."
 prime95,2019-01-14,Free Mersenne Prime Search Software
-processing,2019-01-14,A flexible software sketchbook and a language for learning how to code within the context of the visual arts
 protobuf,2019-01-14,Protocol compiler used to compile .proto files.
 psiphon3,2019-01-14,"A centrally managed, geographically diverse network of thousands of proxy servers, using a performance-oriented, single hop architecture, for Internet censorship circumvention"
 putty,2019-01-14,"A free implementation of SSH and Telnet, along with an xterm terminal emulator."
@@ -2276,13 +2094,10 @@ puttytel,2019-01-14,A Telnet-only client that is not included in putty all-in-on
 pwsafe,2019-01-14,Safely and easily create a secured and encrypted user name/password list.
 pycharm,2019-01-14,Cross-Platform IDE for Python by JetBrains.
 qbittorrent,2019-01-14,Free and reliable P2P Bittorent client.
-qnapi,2019-01-14,"Multi-engine, subtitle downloader"
 quicklook,2019-01-14,Bring macOS 'Quick Look' feature to Windows
 quiterss,2019-01-14,RSS/Atom news feeds reader
 qutebrowser,2019-01-14,A keyboard-focused browser with a minimal GUI
 rabbitmq,2019-01-14,Message-broker
-rabbitmqadmin,2019-01-14,"A command line tool shipped with the management plugin of RabbitMQ, which can perform some of the same actions as the Web-based UI."
-ragel,2019-01-14,A finite-state machine compiler and a parser generator
 rainmeter,2019-01-14,A desktop customization tool
 rambox,2019-01-14,Tool for organizing web apps into one application with rich features
 rapidee,2019-01-14,Environment variables editor.
@@ -2293,20 +2108,16 @@ reshade,2019-01-14,A generic post-processing injector for games and video softwa
 resource-hacker,2019-01-14,Resource compiler & decompiler for Windows applications
 retroarch,2019-01-14,"Frontend for emulators, game engines and media players."
 ripme,2019-01-14,Downloads image albums from various websites in bulk.
-robo3t,2019-01-14,The free lightweight GUI for MongoDB enthusiasts
 rocketchat-client,2019-01-14,Desktop application for Rocket.Chat using Electron
 rstudio,2019-01-14,"An IDE for R with console, syntax-highlighting, editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management."
 rufus,2019-01-14,A utility that helps format and create bootable USB flash drives.
 rxrepl,2019-01-14,A command line tool to search and replace text in text files using Perl compatible regular expressions (PCRE).
 sabnzbd,2019-01-14,The automated Usenet download tool
-sandman,2019-01-14,An application built with late night developers in mind.
-scallion,2019-01-14,GPU-based Onion Hash generator
 screentogif,2019-01-14,"Screen, webcam and sketchboard recorder with an integrated editor."
 sdl2,2019-01-14,"SDL (Simple DirectMedia Layer) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D."
 servicebusexplorer,2019-01-14,Connect to a Service Bus namespace and efficiently administer messaging entities.
 sfk,2019-01-14,"Swiss File Knife is a command line tools collection, which combines many functions in a single, portable executable that belongs onto every USB stick."
 shadowsocks,2019-01-14,"A secure socks5 proxy, designed to protect your Internet traffic."
-shadowsocksr-csharp,2019-01-14,"An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by Akariiin"
 shareaza,2019-01-14,"A multi-network P2P File-sharing client for support Gnutella2, Gnutella, eD2k/eMule, DC++, HTTP, FTP and BT/DHT protocols"
 sharex,2019-01-14,"Screen capture, file sharing and productivity tool."
 sharpkeys,2019-01-14,A utility that manages a Registry key that allows Windows to remap one key to any other key.
@@ -2331,9 +2142,7 @@ spytify,2019-01-14,Records Spotify while it plays without ads.
 sql-workbench,2019-01-14,DBMS-independent SQL query tool
 sqlitebrowser,2019-01-14,DB Browser for SQLite (DB4S) project
 sqlitestudio,2019-01-14,"A SQLite database manager. (Deprecated, please use `extras/letos` instead)"
-squashfs-tools,2019-01-14,Mounts SquashFS archives in user-space.
 squirrel-sql,2019-01-14,Universal SQL client
-ssd-z,2019-01-14,Information tool for Solid State Drives and other disk devices.
 station,2019-01-14,Open-source smart browser for busy people. A single place for all of your web applications.
 steam-library-manager,2019-01-14,An utility to manage your Steam and Origin libraries in ease of use with multi library support.
 steamcmd,2019-01-14,A command-line version of the Steam client
@@ -2347,18 +2156,15 @@ sublime-text,2019-01-14,"A sophisticated text editor for code, markup and prose"
 subtitleedit,2019-01-14,Video subtitles editor
 sumatrapdf,2019-01-14,PDF and eBook reader
 sunsetscreen,2019-01-14,Take the glare off your screen in the evening
-svcat,2019-01-14,Service Catalog lets you provision cloud services directly from the comfort of native Kubernetes tooling.
 sweethome3d,2019-01-14,"A free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D."
 switchhosts,2019-01-14,Hosts management & switching
 syncbackpro,2019-01-14,"Backup up and synchronize files to several resources, including an internal or external drive, to different media (USB thumb drive, CD, DVD), to a remote server (NAS, FTP, Windows server) and to a cloud storage provider."
 synctrayzor,2019-01-14,Windows tray utility / launcher for Syncthing (v2 continued).
 sysinternals,2019-01-14,"A set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment."
 taiga,2019-01-14,Detects anime videos on computer and synchronizes progress with online services.
-tcpipmanager,2019-01-14,Keep track of network configuration in different locations.
 teamspeak3,2019-01-14,An out-of-this-world VoIP solution. A mission-critical voice communication solution
 teamviewer,2019-01-14,"Remote control, desktop sharing, online meetings, web conferencing and file transfer between computers"
 telegram,2019-01-14,A messaging app with a focus on speed and security
-terminals,2019-01-14,"A secure, multi tab terminal services/remote desktop client."
 texmaker,2019-01-14,"A free, modern and cross-platform LaTeX editor that integrates many tools needed to develop documents with LaTeX."
 texstudio,2019-01-14,An integrated writing environment for creating LaTeX documents.
 textadept,2019-01-14,"A fast, minimalist, and remarkably extensible cross-platform text editor"
@@ -2367,19 +2173,14 @@ thunderbird,2019-01-14,A free email application that’s easy to set up and cust
 todolist,2019-01-14,This free (for life) Windows desktop application offers an effective and flexible way to stay on top of your daily tasks.
 tomcat,2019-01-14,"Implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies"
 tor-browser,2019-01-14,Web browser that connects to the internet via the Tor anonymity network
-tortoisemerge,2019-01-14,A diff / merge software tool for Windows with a tight integration for TortoiseSVN.
 tortoisesvn,2019-01-14,"An Apache™ Subversion (SVN)® client, implemented as a Windows shell extension."
 totalcommander,2019-01-14,"Total Commander is a Shareware file manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1."
 transmission,2019-01-14,"A fast, easy, and free BitTorrent client."
-tremulous,2019-01-14,Asymmetric team-based first-person shooter with real-time strategy elements
 typora,2019-01-14,A minimal Markdown editor and reader
 ueli,2019-01-14,A keystroke launcher
 uget,2019-01-14,Open source download manager.
-unetbootin,2019-01-14,UNetbootin allows you to create bootable Live USB drives for Ubuntu and other Linux distributions without burning a CD.
 ungoogled-chromium,2019-01-14,"Google Chromium, sans integration with Google."
 universalpausebutton,2019-01-14,A pause button that pauses the unpausable. Handy for video game cut scenes especially
-unlocker,2019-01-14,A tiny app specialized in unlocking files and killing hanging processes.
-util-linux-ng,2019-01-14,Native Win32 open source ports of some linux utilities.
 uwamp,2019-01-14,Wamp Server with Apache MySQL PHP and SQLite.
 vcredist,2019-01-14,Microsoft Visual C++ Redistributables bundle for all major versions
 vcredist2008,2019-01-14,Microsoft Visual C++ Redistributable for Visual Studio 2008.
@@ -2388,49 +2189,31 @@ vcredist2012,2019-01-14,Microsoft Visual C++ Redistributable for Visual Studio 2
 vcredist2013,2019-01-14,Microsoft Visual C++ Redistributable for Visual Studio 2013.
 vcxsrv,2019-01-14,Windows X-server based on the xorg git sources (like xming or cygwin's xwin)
 vifm,2019-01-14,"A file manager with curses interface, which provides Vi[m]-like environment for managing objects within file systems."
-visual-arm-emulator,2019-01-14,A highly visual ARM emulator
-visualc,2019-01-14,The command-line compiler functions of VS 2010 C++.
 vivaldi,2019-01-14,"An innovatively designed web browser, based on Blink, for users in Vivaldi.net community that replaced departed My Opera."
 vlc,2019-01-14,"A free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 vncviewer,2019-01-14,Control VNC enabled computers.
 vnote,2019-01-14,A pleasant note-taking platform
-vott,2019-01-14,End to end Object Detection Models builder from Images and Videos
 vscode,2019-01-14,Lightweight but powerful source code editor
 waterfox,2019-01-14,"The 100% fresh, free-range, ethical browser"
 wavebox,2019-01-14,Wavebox 10. A distraction-free browser for fast and focused working across all web apps.
-weasel-pageant,2019-01-14,weasel-pageant allows you to use SSH keys held by PuTTY's Pageant in WSL
 webpicmd,2019-01-14,A little tool for deploying your favorite open-source web applications and all the necessary platform components required to get you up and running quickly and seamlessly.
 webstorm,2019-01-14,Cross-Platform IDE for JavaScript by JetBrains.
-webtorrent,2019-01-14,A peer-to-peer streaming torrent client written completely in JavaScript.
-wifi-manager,2019-01-14,A little utility that shows you just the stuff you need to know about your Wifi profiles on Windows.
-win-portacle,2019-01-14,"A Multi-platform Portable CLE (Common Lisp Environment), made up of Emacs, SBCL, QuickLisp, Git and more"
-win32-disk-imager,2019-01-14,Tool for writing images to USB sticks or SD/CF cards.
 winbox,2019-01-14,A small utility that allows administration of MikroTik RouterOS using a fast and simple GUI.
-wincdemu,2019-01-14,CD/DVD/BD emulator - mounts optical disc images. 
-wincompose,2019-01-14,Easily write special characters using short key combinations.
 windirstat,2019-01-14,A disk usage statistics viewer and cleanup tool.
 windows-iso-downloader,2019-01-14,"Easy and comfortable way to download genuine Windows 7, Windows 8.1 and Windows 10 disk images (ISO) directly from Microsoft's servers, as well as Office."
 winfile,2019-01-14,Original Windows File Manager (winfile) with enhancements.
-winfile-original,2019-01-14,Original Windows File Manager (winfile) with minimal changes.
 winmerge,2019-01-14,"Differencing and merging tool, that compares both folders and files, presenting differences in a visual text format that is easy to understand and handle."
-winmerge2011,2019-01-14,"A fork of WinMerge, an open source differencing and merging tool"
-winpty,2019-01-14,A Windows software package providing an interface similar to a Unix pty-master for communicating with Windows console programs
 winrar,2019-01-14,Powerful archive manager
 winscp,2019-01-14,"Copy files between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols."
-winyl,2019-01-14,A FOS digital audio player and music library application for organizing and playing audio on Windows.
 wireshark,2019-01-14,A network protocol analyzer that lets you see what's happening on your network at a microscopic level.
 wiztree,2019-01-14,A hard drive disk space analyser that finds the files and folders using the most space.
 wox,2019-01-14,"A full-featured launcher, access programs and web contents as you type."
-write,2019-01-14,Minimalist text editor for distraction-free writing
 wslgit,2019-01-14,A small executable that forwards all arguments to git running inside Bash on Windows/Windows Subsystem for Linux (WSL)
 wsltty,2019-01-14,Mintty as a terminal for WSL (Windows Subsystem for Linux).
-wurl,2019-01-14,A console client for websocket protocol
-wxhexeditor,2019-01-14,A free hex editor / disk editor
 x64dbg,2019-01-14,x64/x32 debugger
 xca,2019-01-14,X - Certificate and Key management
 xdman,2019-01-14,"Xtreme Download Manager is a powerful tool to increase download speeds up to 500%, save videos from popular video streaming websites, resume broken/dead downloads, schedule and convert downloads."
 xmedia-recode,2019-01-14,An All-In-One video converter and audio converter tool.
-xmllint,2019-01-14,"The command line XML tool that parses one or more XML files and prints various types of output, depending upon the options selected."
 xmousebuttoncontrol,2019-01-14,Windows tool that allows re-configuration and expand the capabilities of mouse.
 xx-net,2019-01-14,"An HTTP/HTTPS MITM proxy to circumvent Internet censorship, successor of GoAgent"
 xyplorer,2019-01-14,File manager for Windows
@@ -2438,8 +2221,6 @@ yatqa,2019-01-14,Manage TeamSpeak 3 servers and instances using a query interfac
 yed,2019-01-14,Powerful desktop application that can be used to quickly and effectively generate high-quality diagrams.
 youtube-dl-gui,2019-01-14,A cross platform front-end GUI of the popular youtube-dl written in wxPython.
 yubikey-manager-qt,2019-01-14,Configuring any YubiKey over all USB interfaces.
-yubikey-personalization-gui,2019-01-14,A utility designed to facilitate re-configuration of YubiKeys.
-yubikey-piv-manager,2019-01-14,Graphical application for configuring a PIV-enabled YubiKey.
 z,2019-01-14,z lets you quickly navigate the file system in PowerShell based on your cd command history.
 zeal,2019-01-14,An offline documentation browser for software developers
 zeppelin,2019-01-14,"Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more."

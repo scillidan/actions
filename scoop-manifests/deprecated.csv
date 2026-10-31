@@ -1,0 +1,106 @@
+bucket,name,deprecated_date,description
+main,scoop-shim,2026-10-16,A Scoop helper program for shimming executables
+main,emplace,2026-09-27,Synchronizes installed packages on multiple machines.
+extras,pscompletions,2026-09-19,A completion manager for a better and simpler tab-completion experience in PowerShell. (Moved to Main bucket)
+extras,open-tv,2026-09-04,"Ultra-fast, simple and open-source IPTV app."
+main,deepseek-tui,2026-09-01,Coding agent for DeepSeek models that runs in your terminal.
+main,matlab-mcp-core-server,2026-09-01,MCP (Model Context Protocol) server for MATLAB that enables AI-driven workflows.
+extras,dlss-swapper,2026-06-01,"A tool that allows you to conveniently download, manage, and swap DLSS, FSR and XeSS dlls."
+extras,idea-ultimate,2026-06-01,Cross-Platform IDE for Java by JetBrains.
+extras,mambaforge,2026-06-01,A conda-forge distribution.
+extras,openai-translator,2026-06-01,Browser extension and cross-platform desktop application for translation based on ChatGPT API.
+extras,pycharm-professional,2026-06-01,Cross-Platform IDE for Python by JetBrains.
+extras,youtube-music,2026-06-01,Unofficial YouTube Music Desktop App bundled with custom plugins.
+main,cwrsync,2026-05-25,rsync is a file transfer program capable of efficient remote update via a fast differencing algorithm.
+extras,echoargs,2026-05-17,Very simple little console class that you can use to see how PowerShell is passing parameters to legacy console apps.
+extras,engauge-digitizer,2026-05-17,Extracts data points from images of graphs.
+extras,gammy,2026-05-17,Adaptive screen brightness tool
+extras,glimpse,2026-05-17,Open source image editor based on the GNU Image Manipulation Program
+extras,miru,2026-05-17,"Stream anime torrents, real-time with no waiting for downloads"
+extras,winfbe,2026-05-17,FreeBASIC Editor for Windows
+main,fat32format,2026-05-09,FAT32 format tool that supports volumes greater than 32 GB
+main,kcptun,2026-05-09,A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC.
+extras,86box-manager,2026-03-14,A configuration manager for the 86Box emulator.
+extras,microsoft-teams,2026-03-14,"Office 365's chats, meetings, files and apps together in one place"
+extras,tanoshi,2026-03-13,Selfhosted web manga reader
+extras,opencode,2026-03-01,"AI coding agent, built for the terminal. (Moved to Main bucket)"
+extras,qtranslate,2026-03-01,Translator utility
+extras,popcorn-time,2026-02-11,A free BitTorrent client that includes an integrated media player.
+extras,moar,2026-02-03,A pager designed to work without any configuration
+extras,jaspersoft-studio,2026-01-03,The Eclipse-based report development tool for JasperReports and JasperReports Server
+extras,mihomo-party,2026-01-02,Another Mihomo GUI.
+extras,processhacker,2026-01-02,"A powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware."
+extras,triliumnext,2026-01-02,Build your personal knowledge base with Trilium Notes
+extras,b1,2025-12-22,A user-friendly and free file archiver.
+extras,pomotodo,2025-12-05,A time management app based on Pomodoro Technique and GTD theory.
+extras,authy,2025-11-21,Two factor authentication client
+extras,cider,2025-11-21,Cross-platform Apple Music client
+extras,format-factory,2025-11-21,"Multifunctional, multimedia file conversion tool"
+extras,nekoray,2025-09-18,Qt/C++ based cross-platform proxy configuration manager / v2ray sing-box GUI client
+main,iroh,2025-09-11,A protocol for syncing & moving bytes
+main,sget,2025-09-11,"Safer, automatic verification of signatures and integration."
+extras,fmedia,2025-08-18,A fast media player/recorder/converter
+extras,deepl,2025-07-10,An online translator
+extras,aegisubdc,2025-07-07,"Aegisub Daydream Cafe Edition, a patched wangqr build to include latest libraries et all"
+extras,kawanime,2025-07-05,Desktop app for anime fans
+extras,skype,2025-05-10,Communication tool for free calls and chat.
+main,sort-uniq-wc,2025-05-01,"The sort, uniq and wc utilities from GNU coreutils"
+extras,sagemath,2025-04-23,Mathematics software system
+main,pelook,2025-04-23,"Information tool for Windows EXE, DLL, driver and OBJ files (PE/COFF images)"
+main,acorn,2025-04-22,A simple application deployment framework for Kubernetes.
+main,clash,2025-04-22,A rule-based tunnel
+main,wrangler,2025-04-16,Cloudflare Workers project manager
+extras,notepad2-zufuliu,2024-12-12,"Fork of Notepad2, a light-weight Scintilla-based text editor. Featuring syntax highlighting, code folding, auto-completion and API list for about 80 programming languages/documents."
+extras,strawberry,2024-11-13,A music player and music collection organizer
+extras,whatsapp,2024-11-08,A cross-platform messaging and Voice over IP service.
+main,openssl-mingw,2024-08-27,"A robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols."
+extras,toggl,2024-08-21,Time tracking and reporting software
+extras,appium,2024-01-30,"Test automation framework for use with native, hybrid and mobile web apps."
+extras,dumo,2024-01-17,Detecting and updating required drivers
+extras,sumo,2024-01-17,Software Update Monitor
+extras,webcamoid,2024-01-16,Full featured webcam suite
+extras,lightcord,2023-11-30,A simple and customizable Discord client
+extras,android-sdk,2023-11-01,"A component for the Android SDK, which includes the complete set of development and debugging tools for Android."
+main,mro,2023-09-15,Microsoft R Open: The enhanced distribution of R from Microsoft Corporation
+extras,git-credential-manager-core,2023-08-09,Secure Git credential helper
+extras,winrar-helper,2023-07-23,WinRAR helper package (only used for extracting installers such as NSIS)
+main,insect,2023-07-09,A high precision scientific calculator with full support for physical units
+main,axel,2023-04-29,Lightweight download accelerator
+extras,pandownload,2023-04-12,A downloader of Baidu disk
+extras,paperwork,2023-04-12,Personal document manager
+extras,kicad-lite,2023-04-09,"Electronics Design Automation Suite, stable build without libraries"
+extras,keenwrite,2023-04-05,"Java-based desktop text editor with live preview, string interpolation, and formulas"
+extras,ferdi,2023-01-19,"Messaging app for services like WhatsApp, Slack, Messenger and many more."
+main,glide,2022-07-28,A package manager for Go that is conceptually similar to package managers for other languages.
+extras,chefdk,2022-04-11,"Chef Development Kit contains all the tools you need to develop and test your infrastructure, built by the awesome Chef community."
+main,node-chakracore,2022-03-01,Node.js with ChakraCore JavaScript engine (Microsoft Edge) support.
+extras,libreoffice-fresh,2022-01-24,Powerful office suite
+extras,p4merge,2022-01-01,Visual code merge tool and diff tool for designers and developers alike.
+main,forego,2021-12-26,Manage Procfile-based applications via Foreman.
+extras,haskellx,2021-12-16,Haskell toolchains including GHC (the compiler) and build tools (Cabal)
+main,jar2app,2021-12-07,Convert any Java jar to a Mac OS X .App bundle.
+main,ssh-copy-id,2021-12-07,Provision SSH access without requiring a password for each login.
+extras,terminus,2021-11-27,A terminal for a more modern age
+main,wyam,2021-11-08,Modular and configurable static content generator and toolkit
+extras,kindlegen,2021-10-30,Convert files to the Kindle format.
+extras,automake,2021-10-29,
+extras,ibmcloud-cli,2021-10-29,The command line client for IBM Cloud
+main,casperjs,2021-10-26,Navigation scripting & testing for PhantomJS and SlimerJS
+main,forge,2021-10-26,A command line tool that provides tasks for creating and managing F# projects.
+main,gomake,2021-10-26,Cross platform build tool / task runner.
+main,artifact,2021-10-25,The open source design documentation tool
+main,czkawka-cli,2021-10-25,"Tool to find duplicates, similar images and music."
+main,dig,2021-10-25,dig (domain information groper) is a flexible tool for interrogating DNS name servers
+main,dotnet,2021-10-25,".NET is a free, cross-platform, open source developer platform for building many different types of applications."
+main,jd-cmd,2021-10-25,Command line Java Decompiler
+main,kubectxwin,2021-10-25,Kubernetes clusters switcher
+main,rget,2021-10-25,Downloads URLs and verifies the contents against a publicly recorded cryptographic log.
+main,ytdl,2021-10-25,YouTube download library and CLI
+extras,riot,2021-09-29,"A decentralised, encrypted chat & collaboration powered by matrix.org"
+extras,oh-my-posh,2021-02-20,A prompt theming engine for Powershell running in ConEmu
+main,shortcut,2021-01-20,"Allows you to create, modify or query shortcuts from the command-line."
+main,subinacl,2021-01-20,"SubInACL is a command-line tool that enables administrators to obtain security information about files, registry keys, and services, and transfer this information from user to user, from local or global group to group, and from domain to domain."
+extras,veonim,2021-01-14,Simple modal IDE built on neovim
+main,apex,2020-09-27,"Lets you build, deploy, and manage AWS Lambda functions."
+extras,shinjiru,2020-09-12,Make managing your AniList account simple via automatic list updates and episode downloads.
+extras,pureref,2020-07-08,Simple and lightweight tool for artists to organize and view reference images

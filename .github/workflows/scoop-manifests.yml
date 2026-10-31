@@ -47,6 +47,15 @@ jobs:
           restore-keys: |
             scoop-manifests-cache-
 
+      - name: Restore GitHub status cache
+        uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57  # v4
+        with:
+          path: scoop-manifests/.cache/github-status.json
+          key: scoop-manifests-github-status-${{ hashFiles('scoop-manifests/scoop_git_to_csv.py') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            scoop-manifests-github-status-${{ hashFiles('scoop-manifests/scoop_git_to_csv.py') }}-
+            scoop-manifests-github-status-
+
       - name: Generate CSVs from bucket history
         run: python3 scoop_git_to_csv.py
         env:
