@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "scoop-manifests/buckets.txt"
+      - "scoop-manifests/scoop_git_to_csv.py"
+      - ".github/workflows/scoop-manifests.yml"
   schedule:
     - cron: "0 0 * * 0"
   workflow_dispatch:
@@ -47,6 +49,8 @@ jobs:
 
       - name: Generate CSVs from bucket history
         run: python3 scoop_git_to_csv.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Validate outputs
         run: |
@@ -59,23 +63,31 @@ jobs:
               ''|\#*) continue ;;
             esac
             name=$(basename "$url" .git | tr '[:upper:]' '[:lower:]')
-            if [ ! -s "${name}_added.csv" ]; then
-              echo "${name}_added.csv appears empty or invalid"
+            if [ ! -s "added_${name}.csv" ]; then
+              echo "added_${name}.csv appears empty or invalid"
               exit 1
             fi
-            head -n 1 "${name}_added.csv" | grep -qx "name,date,description" || {
-              echo "${name}_added.csv has unexpected header"
+            head -n 1 "added_${name}.csv" | grep -qx "name,added_date,description" || {
+              echo "added_${name}.csv has unexpected header"
               exit 1
             }
           done < buckets.txt
 
-          ls -la *_added.csv *_deprecated.csv scoop-manifests.meta.json
+          test -s archived.csv
+          test -s broken_home.csv
+          test -s inactive.csv
+          test -s deprecated.csv
+          head -n 1 archived.csv | grep -qx "bucket,name,archived_date"
+          head -n 1 broken_home.csv | grep -qx "bucket,name,broken_home"
+          head -n 1 inactive.csv | grep -qx "bucket,name,latest_update"
+          head -n 1 deprecated.csv | grep -qx "bucket,name,deprecated_date,description"
+
+          ls -la added_*.csv archived.csv broken_home.csv inactive.csv deprecated.csv scoop-manifests.meta.json
 
       - name: Check for changes
         id: changes
         run: |
-          git add -f *_added.csv *_deprecated.csv scoop-manifests.meta.json
-          git add buckets.txt scoop_git_to_csv.py .gitignore
+          git add -A -- .
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
@@ -103,7 +115,10 @@ jobs:
           name: scoop-manifests-csv-${{ github.run_id }}
           path: |
             scoop-manifests/buckets.txt
-            scoop-manifests/*_added.csv
-            scoop-manifests/*_deprecated.csv
+            scoop-manifests/added_*.csv
+            scoop-manifests/archived.csv
+            scoop-manifests/broken_home.csv
+            scoop-manifests/inactive.csv
+            scoop-manifests/deprecated.csv
             scoop-manifests/scoop-manifests.meta.json
           retention-days: 90

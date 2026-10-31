@@ -1,35 +1,49 @@
 #!/usr/bin/env python3
-"""Generate <bucket>_added.csv / <bucket>_deprecated.csv from buckets.txt.
+"""Generate Scoop manifest status CSVs from buckets.txt.
 
 Input:
   - buckets.txt: one scoop bucket git repo URL per line
 
-Output (one set per bucket):
-  - <bucket>_added.csv:       manifests currently in bucket/
-                              (name,date,description)
-  - <bucket>_deprecated.csv:  manifests currently in deprecated/
-                              (name,date)
+Output:
+  - added_<bucket>.csv: active manifests not in any status list below
+                        (name,added_date,description)
+  - archived.csv:       GitHub repositories archived by their owner
+                        (bucket,name,archived_date)
+  - broken_home.csv:    homepages confirmed broken
+                        (bucket,name,broken_home)
+  - inactive.csv:       manifests unchanged for more than five years
+                        (bucket,name,latest_update)
+  - deprecated.csv:     manifests currently in deprecated/
+                        (bucket,name,deprecated_date,description)
   - scoop-manifests.meta.json: run metadata and per-bucket counts
 
-Dates are the commit date (YYYY-MM-DD) of a manifest's first appearance in
-git history; rows are sorted newest first. Upstream-friendly by design: each
-bucket is kept as a cached bare clone (.cache/<bucket>.git) — one clone on
-first run, then one small incremental fetch per run. A failed fetch falls
-back to the cached clone instead of failing the run. No GitHub API or token
-is needed for public repos.
+Dates are commit dates (YYYY-MM-DD), except archived_date which comes from
+GitHub. Rows are sorted newest first. Each bucket is kept as a cached bare
+clone (.cache/<bucket>.git): one clone on first run, then one incremental
+fetch per run. A failed fetch falls back to the cached clone.
 
-Use --offline to skip fetching (e.g. on a machine without network access to
-the git remote); buckets without a cached clone are skipped with a warning.
+GitHub archive checks use GraphQL in batches of 50 repositories and require
+GITHUB_TOKEN or GH_TOKEN. The repository comes from homepage, falling back to
+checkver.github. Homepage checks use HEAD with GET confirmation/fallback.
+
+Use --offline to skip all fetching and HTTP checks. Existing archived.csv and
+broken_home.csv are reused in that mode; buckets without a cached clone are
+skipped with a warning.
 """
 
 import argparse
 import csv
 import json
+import os
 import subprocess
 import sys
 import tarfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlsplit
+from urllib.request import Request, urlopen
 
 BASE = Path(__file__).resolve().parent
 
@@ -111,6 +125,30 @@ def first_add_dates(repo: Path, prefix: str) -> dict[str, str]:
     return dates
 
 
+def last_update_dates(repo: Path, prefix: str) -> dict[str, str]:
+    """manifest name -> last commit date; log output is newest-first."""
+    out = git(
+        repo,
+        "log",
+        "--no-renames",
+        "--format=@@%cs",
+        "--name-only",
+        "HEAD",
+        "--",
+        f"{prefix}/",
+    )
+    dates: dict[str, str] = {}
+    cur = ""
+    for line in out.splitlines():
+        if line.startswith("@@"):
+            cur = line[2:]
+        elif line:
+            rel = line.removeprefix(f"{prefix}/")
+            if rel.lower().endswith(".json"):
+                dates.setdefault(rel[:-5], cur)
+    return dates
+
+
 def current_manifests(repo: Path, prefix: str) -> list[str]:
     out = git(repo, "ls-tree", "-r", "--name-only", "HEAD", "--", f"{prefix}/")
     return [
@@ -120,13 +158,13 @@ def current_manifests(repo: Path, prefix: str) -> list[str]:
     ]
 
 
-def descriptions(repo: Path, prefix: str) -> dict[str, str]:
-    """manifest name -> description field, read from the current tree."""
+def manifest_info(repo: Path, prefix: str) -> dict[str, dict[str, str]]:
+    """manifest name -> description, homepage, and checkver.github."""
     proc = subprocess.Popen(
         ["git", "-C", str(repo), "archive", "--format=tar", "HEAD", "--", f"{prefix}/"],
         stdout=subprocess.PIPE,
     )
-    desc: dict[str, str] = {}
+    info: dict[str, dict[str, str]] = {}
     assert proc.stdout is not None
     with tarfile.open(fileobj=proc.stdout, mode="r|") as tar:
         for member in tar:
@@ -140,32 +178,177 @@ def descriptions(repo: Path, prefix: str) -> dict[str, str]:
                 continue
             try:
                 data = json.loads(fobj.read().decode("utf-8-sig"))
-                value = data.get("description", "")
-                desc[name[:-5]] = value if isinstance(value, str) else ""
             except (ValueError, UnicodeDecodeError):
                 continue
+            checkver = data.get("checkver")
+            checkver_github = (
+                checkver.get("github", "") if isinstance(checkver, dict) else ""
+            )
+            values = {
+                "description": data.get("description", ""),
+                "homepage": data.get("homepage", ""),
+                "github": checkver_github,
+            }
+            info[name[:-5]] = {
+                key: value if isinstance(value, str) else ""
+                for key, value in values.items()
+            }
     proc.wait()
-    return desc
+    return info
 
 
-def write_csv(path: Path, header: list[str], rows: list[tuple]) -> None:
-    rows = sorted(rows)  # name asc (stable within equal dates)
-    rows.sort(key=lambda r: r[1], reverse=True)  # date desc
+def write_csv(
+    path: Path, header: list[str], rows: list[tuple], date_column: int = 1
+) -> None:
+    rows = sorted(rows)
+    rows.sort(key=lambda r: r[date_column], reverse=True)
     with path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
         writer.writerow(header)
         writer.writerows(rows)
 
 
-def process_bucket(url: str, cache: Path, outdir: Path, offline: bool) -> dict:
+def read_csv_rows(path: Path) -> list[tuple]:
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.reader(f)
+        next(reader, None)
+        return [tuple(row) for row in reader]
+
+
+def github_repo(url: str) -> tuple[str, str] | None:
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return None
+    if parts.scheme not in ("http", "https") or parts.hostname not in (
+        "github.com",
+        "www.github.com",
+    ):
+        return None
+    path = [part for part in parts.path.split("/") if part]
+    if len(path) < 2:
+        return None
+    return path[0], path[1].removesuffix(".git")
+
+
+def github_archived_dates(
+    repos: set[tuple[str, str]],
+) -> dict[tuple[str, str], str | None]:
+    """Return archived date, empty string for active, or None for missing repos."""
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if repos and not token:
+        raise RuntimeError(
+            "GITHUB_TOKEN or GH_TOKEN is required for GitHub archive checks"
+        )
+
+    statuses: dict[tuple[str, str], str | None] = {}
+    ordered = sorted(repos)
+    for start in range(0, len(ordered), 50):
+        batch = ordered[start : start + 50]
+        fields = " ".join(
+            f"r{i}: repository(owner: {json.dumps(owner)}, name: {json.dumps(repo)}) "
+            "{ isArchived archivedAt }"
+            for i, (owner, repo) in enumerate(batch)
+        )
+        request = Request(
+            "https://api.github.com/graphql",
+            data=json.dumps({"query": f"query {{ {fields} }}"}).encode(),
+            headers={
+                "Accept": "application/vnd.github+json",
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+                "User-Agent": "scoop-manifests-tracker",
+            },
+        )
+        for attempt in range(3):
+            try:
+                with urlopen(request, timeout=30) as response:
+                    payload = json.load(response)
+                break
+            except HTTPError as e:
+                if e.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                    raise RuntimeError(
+                        f"GitHub GraphQL request failed: HTTP {e.code}"
+                    ) from e
+            except (URLError, TimeoutError, ValueError) as e:
+                if attempt == 2:
+                    raise RuntimeError(f"GitHub GraphQL request failed: {e}") from e
+            time.sleep(attempt + 1)
+
+        data = payload.get("data")
+        if not isinstance(data, dict):
+            raise RuntimeError("GitHub GraphQL returned no repository data")
+        for i, repo in enumerate(batch):
+            alias = f"r{i}"
+            if alias not in data:
+                raise RuntimeError("GitHub GraphQL returned incomplete repository data")
+            node = data[alias]
+            if node is None:
+                statuses[repo] = None
+            elif node.get("isArchived"):
+                archived_at = node.get("archivedAt")
+                if not isinstance(archived_at, str):
+                    raise RuntimeError(
+                        f"Archived GitHub repository {repo} has no archivedAt"
+                    )
+                statuses[repo] = archived_at[:10]
+            else:
+                statuses[repo] = ""
+    return statuses
+
+
+def homepage_broken(url: str) -> bool:
+    try:
+        if urlsplit(url).scheme not in ("http", "https"):
+            return False
+    except ValueError:
+        return True
+
+    for method in ("HEAD", "GET"):
+        for attempt in range(3):
+            request = Request(
+                url,
+                method=method,
+                headers={"User-Agent": "scoop-manifests-tracker"},
+            )
+            try:
+                with urlopen(request, timeout=20):
+                    return False
+            except HTTPError as e:
+                if method == "HEAD":
+                    break
+                if e.code in (404, 410):
+                    return True
+                if e.code not in (429, 500, 502, 503, 504):
+                    return False
+            except (URLError, TimeoutError, ValueError):
+                if method == "HEAD":
+                    break
+            if attempt < 2:
+                time.sleep(attempt + 1)
+    return True
+
+
+def process_bucket(
+    url: str,
+    cache: Path,
+    outdir: Path,
+    offline: bool,
+    cutoff: str,
+    combined: dict[str, list[tuple]],
+) -> dict:
     name = bucket_name(url)
     ensure_repo(url, cache, offline)
 
     add_dates = first_add_dates(cache, "bucket")
     dep_dates = first_add_dates(cache, "deprecated")
+    update_dates = last_update_dates(cache, "bucket")
     added = current_manifests(cache, "bucket")
     deprecated = current_manifests(cache, "deprecated")
-    descs = descriptions(cache, "bucket")
+    added_info = manifest_info(cache, "bucket")
+    dep_info = manifest_info(cache, "deprecated")
 
     root_date = None
 
@@ -181,13 +364,77 @@ def process_bucket(url: str, cache: Path, outdir: Path, offline: bool) -> dict:
             d = root_date
         return d
 
-    added_rows = [(m, date_of(add_dates, m), descs.get(m, "")) for m in added]
-    dep_rows = [(m, date_of(dep_dates, m)) for m in deprecated]
+    combined["deprecated"].extend(
+        (
+            name,
+            manifest,
+            date_of(dep_dates, manifest),
+            dep_info.get(manifest, {}).get("description", ""),
+        )
+        for manifest in deprecated
+    )
 
-    write_csv(outdir / f"{name}_added.csv", ["name", "date", "description"], added_rows)
-    write_csv(outdir / f"{name}_deprecated.csv", ["name", "date"], dep_rows)
+    repos = set()
+    for manifest in added:
+        info = added_info.get(manifest, {})
+        repo = github_repo(info.get("homepage", "")) or github_repo(
+            info.get("github", "")
+        )
+        if repo:
+            repos.add(repo)
+    github_status = {} if offline else github_archived_dates(repos)
 
-    return {"url": url, "added": len(added_rows), "deprecated": len(dep_rows)}
+    counts = {"archived": 0, "broken_home": 0, "inactive": 0}
+    for manifest in added:
+        info = added_info.get(manifest, {})
+        latest_update = date_of(update_dates, manifest)
+        if latest_update < cutoff:
+            combined["inactive"].append((name, manifest, latest_update))
+            counts["inactive"] += 1
+
+        if offline:
+            continue
+        homepage = info.get("homepage", "")
+        homepage_repo = github_repo(homepage)
+        upstream_repo = homepage_repo or github_repo(info.get("github", ""))
+        archived_date = github_status.get(upstream_repo) if upstream_repo else None
+        if archived_date:
+            combined["archived"].append((name, manifest, archived_date))
+            counts["archived"] += 1
+
+        github_home_checked = (
+            homepage_repo and github_status.get(homepage_repo) is not None
+        )
+        if not github_home_checked and homepage and homepage_broken(homepage):
+            combined["broken_home"].append((name, manifest, "broken_home"))
+            counts["broken_home"] += 1
+
+    excluded = {
+        (bucket, manifest)
+        for rows in combined.values()
+        for bucket, manifest, *_ in rows
+    }
+    added_rows = [
+        (
+            manifest,
+            date_of(add_dates, manifest),
+            added_info.get(manifest, {}).get("description", ""),
+        )
+        for manifest in added
+        if (name, manifest) not in excluded
+    ]
+    write_csv(
+        outdir / f"added_{name}.csv",
+        ["name", "added_date", "description"],
+        added_rows,
+    )
+
+    return {
+        "url": url,
+        "added": len(added_rows),
+        "deprecated": len(deprecated),
+        **counts,
+    }
 
 
 def main() -> int:
@@ -201,7 +448,9 @@ def main() -> int:
     parser.add_argument(
         "--cachedir", default=str(BASE / ".cache"), help="bare clone cache directory"
     )
-    parser.add_argument("--offline", action="store_true", help="skip git fetch/clone")
+    parser.add_argument(
+        "--offline", action="store_true", help="skip git and HTTP fetching"
+    )
     args = parser.parse_args()
 
     urls = [
@@ -214,7 +463,24 @@ def main() -> int:
         return 1
 
     outdir = Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
     cachedir = Path(args.cachedir)
+    combined: dict[str, list[tuple]] = {
+        "archived": [],
+        "broken_home": [],
+        "inactive": [],
+        "deprecated": [],
+    }
+    if args.offline:
+        for key in ("archived", "broken_home"):
+            combined[key] = read_csv_rows(outdir / f"{key}.csv")
+
+    now = datetime.now(timezone.utc).date()
+    try:
+        cutoff = now.replace(year=now.year - 5).isoformat()
+    except ValueError:  # February 29
+        cutoff = now.replace(year=now.year - 5, day=28).isoformat()
+
     meta = {"generated": "", "buckets": {}}
     failures = 0
     for url in urls:
@@ -222,7 +488,12 @@ def main() -> int:
         try:
             print(f"[{name}] processing {url} ...", file=sys.stderr)
             meta["buckets"][name] = process_bucket(
-                url, cachedir / f"{name}.git", outdir, args.offline
+                url,
+                cachedir / f"{name}.git",
+                outdir,
+                args.offline,
+                cutoff,
+                combined,
             )
         except (subprocess.CalledProcessError, RuntimeError, OSError) as e:
             print(f"WARNING: failed to process {url}: {e}", file=sys.stderr)
@@ -231,12 +502,40 @@ def main() -> int:
     if not meta["buckets"]:
         print("ERROR: no buckets could be processed", file=sys.stderr)
         return 1
+    if failures:
+        print("ERROR: refusing to write partial combined CSVs", file=sys.stderr)
+        return 1
+
+    write_csv(
+        outdir / "archived.csv",
+        ["bucket", "name", "archived_date"],
+        combined["archived"],
+        date_column=2,
+    )
+    write_csv(
+        outdir / "broken_home.csv",
+        ["bucket", "name", "broken_home"],
+        combined["broken_home"],
+        date_column=2,
+    )
+    write_csv(
+        outdir / "inactive.csv",
+        ["bucket", "name", "latest_update"],
+        combined["inactive"],
+        date_column=2,
+    )
+    write_csv(
+        outdir / "deprecated.csv",
+        ["bucket", "name", "deprecated_date", "description"],
+        combined["deprecated"],
+        date_column=2,
+    )
 
     meta["generated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     (outdir / "scoop-manifests.meta.json").write_text(
         json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
-    print(f"Done: {len(meta['buckets'])} buckets processed, {failures} failed")
+    print(f"Done: {len(meta['buckets'])} buckets processed")
     return 0
 
 
