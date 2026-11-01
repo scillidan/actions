@@ -1,4 +1,6 @@
 name,added_date,description
+multica,2026-10-31,Project management for human + agent teams
+multica-cli,2026-10-31,Project management for human + agent teams (CLI)
 usbtreeview,2026-10-29,USB Device Tree Viewer
 gitea-importer,2026-10-25,"CLI tool for migrating repositories, organizations, or entire installations from third-party Git hosting providers into Gitea."
 netcatty,2026-10-23,"AI-powered SSH client, SFTP browser, and terminal manager"
