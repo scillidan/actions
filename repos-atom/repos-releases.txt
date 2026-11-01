@@ -135,3 +135,15 @@
 2026-04-21T09:09:34 https://github.com/lightningpixel/modly/releases/tag/v0.3.2
 2026-04-07T07:33:04 https://github.com/lightningpixel/modly/releases/tag/v0.3.1
 2026-04-03T13:50:11 https://github.com/lightningpixel/modly/releases/tag/v0.3.0
+2026-10-27T19:17:24 https://github.com/chaiNNer-org/chaiNNer/releases/tag/v0.26.1
+2026-10-25T01:08:43 https://github.com/lusingander/serie/releases/tag/v0.10.1
+2026-10-18T21:46:24 https://github.com/chaiNNer-org/chaiNNer/releases/tag/v0.26.0
+2026-10-12T23:45:14 https://github.com/lusingander/serie/releases/tag/v0.10.0
+2026-10-08T15:38:39 https://github.com/lxgw/LxgwSeal/releases/tag/v0.001-alpha.10.8
+2026-10-06T01:12:05 https://github.com/lusingander/serie/releases/tag/v0.9.3
+2026-10-05T09:58:36 https://github.com/lightningpixel/modly/releases/tag/v0.4.3
+2026-07-21T15:54:32 https://github.com/emprcl/spor/releases/tag/v0.3.2
+2026-07-19T16:26:09 https://github.com/emprcl/spor/releases/tag/v0.3.1
+2026-07-18T16:13:32 https://github.com/emprcl/spor/releases/tag/v0.3.0
+2026-07-16T17:27:24 https://github.com/emprcl/spor/releases/tag/v0.2.0
+2026-07-15T18:35:14 https://github.com/emprcl/spor/releases/tag/v0.1.0
