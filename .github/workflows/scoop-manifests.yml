@@ -86,10 +86,25 @@ jobs:
           test -s broken_home.csv
           test -s inactive.csv
           test -s deprecated.csv
-          head -n 1 archived.csv | grep -qx "bucket,name,archived_date"
-          head -n 1 broken_home.csv | grep -qx "bucket,name,broken_home"
-          head -n 1 inactive.csv | grep -qx "bucket,name,latest_update"
+          head -n 1 archived.csv | grep -qx "bucket,name,archived_date,description"
+          head -n 1 broken_home.csv | grep -qx "bucket,name,broken_home,description"
+          head -n 1 inactive.csv | grep -qx "bucket,name,latest_update,description"
           head -n 1 deprecated.csv | grep -qx "bucket,name,deprecated_date,description"
+
+          # Status CSVs are grouped by bucket; the dated ones newest first.
+          python3 - <<'PY'
+          import csv
+          dated = ("archived.csv", "inactive.csv", "deprecated.csv")
+          for name in ("archived.csv", "broken_home.csv", "inactive.csv", "deprecated.csv"):
+              with open(name, encoding="utf-8", newline="") as f:
+                  rows = list(csv.reader(f))[1:]
+              assert all(len(row) == 4 for row in rows), f"{name} lacks a description column"
+              if name in dated:
+                  want = sorted(sorted(rows, key=lambda r: r[2], reverse=True), key=lambda r: r[0])
+              else:
+                  want = sorted(rows, key=lambda r: (r[0], r[1]))
+              assert rows == want, f"{name} is out of order"
+          PY
 
           ls -la added_*.csv archived.csv broken_home.csv inactive.csv deprecated.csv scoop-manifests.meta.json
 

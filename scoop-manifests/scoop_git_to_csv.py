@@ -8,19 +8,20 @@ Output:
   - added_<bucket>.csv: active manifests not in any status list below
                         (name,added_date,description)
   - archived.csv:       GitHub repositories archived by their owner
-                        (bucket,name,archived_date)
-  - broken_home.csv:    homepages confirmed broken
-                        (bucket,name,broken_home)
+                        (bucket,name,archived_date,description)
+  - broken_home.csv:    homepages confirmed broken, with their URL
+                        (bucket,name,broken_home,description)
   - inactive.csv:       manifests unchanged for more than five years
-                        (bucket,name,latest_update)
+                        (bucket,name,latest_update,description)
   - deprecated.csv:     manifests currently in deprecated/
                         (bucket,name,deprecated_date,description)
   - scoop-manifests.meta.json: run metadata and per-bucket counts
 
 Dates are commit dates (YYYY-MM-DD), except archived_date which comes from
-GitHub. Rows are sorted newest first. Each bucket is kept as a cached bare
-clone (.cache/<bucket>.git): one clone on first run, then one incremental
-fetch per run. A failed fetch falls back to the cached clone.
+GitHub. Status CSVs are grouped by bucket: the dated ones newest first, the
+undated broken_home alphabetically. Each bucket is kept as a cached bare clone
+(.cache/<bucket>.git): one clone on first run, then one incremental fetch per
+run. A failed fetch falls back to the cached clone.
 
 GitHub archive checks use GraphQL in small batches and require GITHUB_TOKEN or
 GH_TOKEN. The repository comes from homepage, falling back to checkver.github.
@@ -204,10 +205,18 @@ def manifest_info(repo: Path, prefix: str) -> dict[str, dict[str, str]]:
 
 
 def write_csv(
-    path: Path, header: list[str], rows: list[tuple], date_column: int = 1
+    path: Path,
+    header: list[str],
+    rows: list[tuple],
+    date_column: int | None = 1,
+    bucket_column: int | None = None,
 ) -> None:
+    """Rows are grouped by bucket_column, newest first; without a date_column, by name."""
     rows = sorted(rows)
-    rows.sort(key=lambda r: r[date_column], reverse=True)
+    if date_column is not None:
+        rows.sort(key=lambda r: r[date_column], reverse=True)
+    if bucket_column is not None:
+        rows.sort(key=lambda r: r[bucket_column])
     with path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
         writer.writerow(header)
@@ -220,7 +229,8 @@ def read_csv_rows(path: Path) -> list[tuple]:
     with path.open(encoding="utf-8", newline="") as f:
         reader = csv.reader(f)
         next(reader, None)
-        return [tuple(row) for row in reader]
+        # files written before the description column existed
+        return [tuple(row) + ("",) * (4 - len(row)) for row in reader]
 
 
 def github_repo(url: str) -> tuple[str, str] | None:
@@ -519,9 +529,10 @@ def process_bucket(
     counts = {"archived": 0, "broken_home": 0, "inactive": 0}
     for manifest in added:
         info = added_info.get(manifest, {})
+        description = info.get("description", "")
         latest_update = date_of(update_dates, manifest)
         if latest_update < cutoff:
-            combined["inactive"].append((name, manifest, latest_update))
+            combined["inactive"].append((name, manifest, latest_update, description))
             counts["inactive"] += 1
 
         if offline:
@@ -531,7 +542,7 @@ def process_bucket(
         upstream_repo = homepage_repo or github_repo(info.get("github", ""))
         archived_date = github_status.get(upstream_repo) if upstream_repo else None
         if archived_date:
-            combined["archived"].append((name, manifest, archived_date))
+            combined["archived"].append((name, manifest, archived_date, description))
             counts["archived"] += 1
 
         github_home_checked = (
@@ -542,7 +553,7 @@ def process_bucket(
             and homepage
             and check_homepage(homepage, api_cache, today)
         ):
-            combined["broken_home"].append((name, manifest, "broken_home"))
+            combined["broken_home"].append((name, manifest, homepage, description))
             counts["broken_home"] += 1
 
     if not offline:
@@ -655,27 +666,31 @@ def main() -> int:
 
     write_csv(
         outdir / "archived.csv",
-        ["bucket", "name", "archived_date"],
+        ["bucket", "name", "archived_date", "description"],
         combined["archived"],
         date_column=2,
+        bucket_column=0,
     )
     write_csv(
         outdir / "broken_home.csv",
-        ["bucket", "name", "broken_home"],
+        ["bucket", "name", "broken_home", "description"],
         combined["broken_home"],
-        date_column=2,
+        date_column=None,
+        bucket_column=0,
     )
     write_csv(
         outdir / "inactive.csv",
-        ["bucket", "name", "latest_update"],
+        ["bucket", "name", "latest_update", "description"],
         combined["inactive"],
         date_column=2,
+        bucket_column=0,
     )
     write_csv(
         outdir / "deprecated.csv",
         ["bucket", "name", "deprecated_date", "description"],
         combined["deprecated"],
         date_column=2,
+        bucket_column=0,
     )
 
     meta["generated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
