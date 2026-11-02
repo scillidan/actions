@@ -224,16 +224,25 @@ def read_csv_rows(path: Path) -> list[tuple]:
 
 
 def github_repo(url: str) -> tuple[str, str] | None:
+    """owner/repo from a github.com URL, an api.github.com/repos URL, or the
+    owner/repo shorthand allowed in checkver.github."""
     try:
         parts = urlsplit(url)
     except ValueError:
         return None
-    if parts.scheme not in ("http", "https") or parts.hostname not in (
-        "github.com",
-        "www.github.com",
-    ):
-        return None
     path = [part for part in parts.path.split("/") if part]
+    if not parts.hostname:
+        if len(path) != 2 or parts.scheme:
+            return None
+        return path[0], path[1].removesuffix(".git")
+    if parts.scheme not in ("http", "https"):
+        return None
+    if parts.hostname == "api.github.com":
+        if path[:1] != ["repos"]:
+            return None
+        path = path[1:]
+    elif parts.hostname not in ("github.com", "www.github.com"):
+        return None
     if len(path) < 2:
         return None
     return path[0], path[1].removesuffix(".git")
