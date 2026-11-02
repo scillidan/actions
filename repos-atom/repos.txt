@@ -9,7 +9,6 @@ https://github.com/chaiNNer-org/chaiNNer - releases
 https://github.com/dialogic-godot/dialogic - releases
 https://github.com/razakadam74/gitmsg - releases
 https://github.com/godotengine/godot - releases
-https://github.com/mulaRahul/keyviz - releases
 https://github.com/love2d/love - releases
 https://github.com/lxgw/LxgwSeal - releases
 https://github.com/lightningpixel/modly - releases
