@@ -1,86 +1,86 @@
-bucket,name,broken_home
-extras,altair,broken_home
-extras,asuite,broken_home
-extras,bloop,broken_home
-extras,bluetooth-cli-tools,broken_home
-extras,boostnote,broken_home
-extras,boostnote-local,broken_home
-extras,bpgconv,broken_home
-extras,buttercup,broken_home
-extras,caprine,broken_home
-extras,clever-ffmpeg,broken_home
-extras,cromite,broken_home
-extras,ctypes,broken_home
-extras,dbgl,broken_home
-extras,dreamset,broken_home
-extras,exeinfo-pe,broken_home
-extras,fadetop,broken_home
-extras,falconx,broken_home
-extras,firedm,broken_home
-extras,foto-mosaik-edda,broken_home
-extras,gitbutler,broken_home
-extras,glogg,broken_home
-extras,gridea,broken_home
-extras,harmony,broken_home
-extras,hokus,broken_home
-extras,inkscape,broken_home
-extras,insomnium,broken_home
-extras,lighttpd,broken_home
-extras,liteide,broken_home
-extras,lunarvim,broken_home
-extras,manifold,broken_home
-extras,manifold-viewer,broken_home
-extras,markeron,broken_home
-extras,masvis,broken_home
-extras,midicsv,broken_home
-extras,musikcube,broken_home
-extras,oni,broken_home
-extras,onlyoffice-desktopeditors,broken_home
-extras,openboard,broken_home
-extras,openelement,broken_home
-extras,oranda,broken_home
-extras,oras,broken_home
-extras,picotorrent,broken_home
-extras,potplayer,broken_home
-extras,privatezilla,broken_home
-extras,qmk-toolbox,broken_home
-extras,rclone-manager,broken_home
-extras,ripme,broken_home
-extras,ryzen-controller,broken_home
-extras,sikulix,broken_home
-extras,spytify,broken_home
-extras,strokesplus,broken_home
-extras,svcat,broken_home
-extras,taskbarx,broken_home
-extras,trojita,broken_home
-extras,tusk,broken_home
-extras,ubports-installer,broken_home
-extras,uget,broken_home
-extras,vcredist2005,broken_home
-extras,vcredist2008,broken_home
-extras,vcredist2010,broken_home
-extras,vcredist2012,broken_home
-extras,vcredist2013,broken_home
-extras,vitrite,broken_home
-extras,webpicmd,broken_home
-extras,wexond,broken_home
-extras,wordmark,broken_home
-extras,xcas,broken_home
-extras,yubikey-piv-manager,broken_home
-extras,zeronet,broken_home
-main,aptos-cli,broken_home
-main,byenow,broken_home
-main,hygen,broken_home
-main,kubeval,broken_home
-main,lean-cli,broken_home
-main,nero-aac,broken_home
-main,plow,broken_home
-main,postgrest,broken_home
-main,puppet-agent,broken_home
-main,sentinel,broken_home
-main,sigrok,broken_home
-main,watchman,broken_home
-main,x265,broken_home
-main,xpdf-tools,broken_home
-main,xpdf-tools-lsp,broken_home
-main,zstd,broken_home
+bucket,name,broken_home,description
+extras,altair,https://altair.sirmuel.design,Feature-rich GraphQL Client
+extras,asuite,http://www.salvadorsoftware.com/asuite,Portable applications launcher
+extras,bloop,https://bloop.ai,"A code-search engine that uses GPT-4 to answer questions about your code. Search both your local and remote repositories with natural language, regex and filtered queries."
+extras,bluetooth-cli-tools,https://bluetoothinstaller.com/bluetooth-command-line-tools,"A suite of command line utilities for Microsoft Windows that can be used to configure your bluetooth adapter, discover remote bluetooth devices and services, transfer files to OBEX capable devices."
+extras,boostnote,https://boostnote.io/,A collaborative real-time markdown note app for developer teams
+extras,boostnote-local,https://boostnote.io/,A lightspeed workspace for developers
+extras,bpgconv,http://www.romeolight.com/products/bpgconv/,Batch conversion tool for BPG images
+extras,buttercup,https://buttercup.pw/,Cross-Platform passwords & secrets vault
+extras,caprine,https://sindresorhus.com/caprine/,Elegant Facebook Messenger desktop app
+extras,clever-ffmpeg,https://www.videohelp.com/software/clever-FFmpeg-GUI,"A small, but powerful GUI for FFmpeg that processes audio and video streams separately."
+extras,cromite,https://www.cromite.org/,A Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy
+extras,ctypes,https://ystr.github.io/types/,"A file type manager for Windows that allows you to edit program associations, icons, context menus and a few other things."
+extras,dbgl,https://dbgl.org/,"Open-source, free, multi-platform frontend for DOSBox"
+extras,dreamset,https://www.dreamset-editor.com/index.php,Satellite receivers settings editor
+extras,exeinfo-pe,http://www.exeinfo.xn.pl/,"EXE analyzer inspired by PEiD. Designed to detect exe signatures, compressor format and dump internal information."
+extras,fadetop,https://www.fadetop.com,Simple and fun break reminder
+extras,falconx,https://chrisandriessen.nl/web/FalconX.html,Center Windows taskbar icons with a variety of animations and options.
+extras,firedm,https://github.com/firedm/FireDM,Multi-connections download manager
+extras,foto-mosaik-edda,https://fmedda.com/en/home,Photo mosaic picture maker
+extras,gitbutler,https://gitbutler.com/,A Git client for simultaneous branches on top of your existing workflow.
+extras,glogg,https://glogg.bonnefon.org,"A fast, advanced log explorer"
+extras,gridea,https://gridea.dev/en/,A static blog writing client
+extras,harmony,https://getharmony.xyz/,Music player with a sleek UI
+extras,hokus,https://www.hokuscms.com,A modern CMS for Hugo
+extras,inkscape,https://inkscape.org,Professional vector graphics editor
+extras,insomnium,https://github.com/ArchGPT/insomnium,The Insomnia HTTP and GraphQL client with online functionality removed
+extras,lighttpd,http://lighttpd.dtech.hu,An HTTP server designed and optimized for high performance environments. Here is the Cygwin compilation migrated from WLMP project
+extras,liteide,http://liteide.org,"Simple, open source, cross-platform Go IDE"
+extras,lunarvim,https://www.lunarvim.org/,"Lunarvim is a community-driven framework for neovim, written in lua. It is a full-featured IDE, with a focus on simplicity and ease of use."
+extras,manifold,https://manifold.net/,"Parallel GIS, ETL, data science and DBMS tool"
+extras,manifold-viewer,https://manifold.net/,"File viewer for Manifold - a parallel GIS, ETL, data science and DBMS tool"
+extras,markeron,https://markeron.cn,Lightweight open-source screen annotation tool with click-through mode.
+extras,masvis,https://www.lts.a.se/lts/masvis,Stereo audio analyzer for CD-ripping
+extras,midicsv,https://www.fourmilab.ch/webtools/midicsv,Convert MIDI audio files to human-readable CSV format
+extras,musikcube,https://musikcube.com,"Terminal-based music player, audio engine, metadata indexer, and server."
+extras,oni,https://www.onivim.io/,"A retro-futuristic editor, combining Vim-style modal editing with the aesthetics and language features of modern editors."
+extras,onlyoffice-desktopeditors,https://www.onlyoffice.com/apps.aspx,"Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents."
+extras,openboard,https://www.openboard.ch/index.en.html,Interactive whiteboard for schools and universities
+extras,openelement,https://openelement.uk/,A website editor that lets you have total control. Modify any element and style the way you want.
+extras,oranda,https://opensource.axo.dev/oranda/,Generate beautiful landing pages for your developer tools
+extras,oras,https://oras.land/cli/,OCI Registry As Storage (ORAS) is the de facto tool for working with OCI Artifacts that are stored in an OCI Registry
+extras,picotorrent,https://picotorrent.org,"A tiny, hackable BitTorrent client with low memory usage, high performance and a native user interface."
+extras,potplayer,https://potplayer.daum.net,Highly customizable media player
+extras,privatezilla,https://www.builtbybel.com/ms-apps/privatezilla,Security and privacy checker for Windows 10
+extras,qmk-toolbox,https://qmk.fm/toolbox/,Toolbox to flash and manage keyboards running the QMK firmware.
+extras,rclone-manager,https://zarestia-dev.github.io/rclone-manager/,"A powerful, cross-platform GUI for managing Rclone remotes with style and ease."
+extras,ripme,https://github.com/ripmeapp2/ripme,Downloads image albums from various websites in bulk.
+extras,ryzen-controller,https://ryzencontroller.com/,Utility for tweaking AMD Ryzen laptops.
+extras,sikulix,https://sikulix.github.io/,Visual Automation and Testing
+extras,spytify,https://jwallet.github.io/spy-spotify/overview.html,Records Spotify while it plays without ads.
+extras,strokesplus,https://www.strokesplus.com,Mouse gesture recognition utility for Windows which allows you to create powerful mouse gestures that save you time.
+extras,svcat,https://svc-cat.io/,Service Catalog lets you provision cloud services directly from the comfort of native Kubernetes tooling.
+extras,taskbarx,https://chrisandriessen.nl/taskbarx,Center Windows taskbar icons with a variety of animations and options.
+extras,trojita,http://trojita.flaska.net/,IMAP e-mail client with lightweight GUI
+extras,tusk,https://klaussinani.tech/tusk/,Refined Evernote desktop app
+extras,ubports-installer,https://ubuntu-touch.io//ubuntu-touch.io,A friendly cross-platform Installer for Ubuntu Touch.
+extras,uget,https://ugetdm.com/,Open source download manager.
+extras,vcredist2005,https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads,Microsoft Visual C++ Redistributable for Visual Studio 2005.
+extras,vcredist2008,https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads,Microsoft Visual C++ Redistributable for Visual Studio 2008.
+extras,vcredist2010,https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads,Microsoft Visual C++ Redistributable for Visual Studio 2010
+extras,vcredist2012,https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads,Microsoft Visual C++ Redistributable for Visual Studio 2012.
+extras,vcredist2013,https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads,Microsoft Visual C++ Redistributable for Visual Studio 2013.
+extras,vitrite,http://www.vanmiddlesworth.org/vitrite/,Configures the level of transparency for almost any visible window.
+extras,webpicmd,https://docs.microsoft.com/en-us/iis/install/web-platform-installer,A little tool for deploying your favorite open-source web applications and all the necessary platform components required to get you up and running quickly and seamlessly.
+extras,wexond,https://wexond.net,"A privacy-focused, extensible and beautiful web browser"
+extras,wordmark,https://wordmarkapp.com,Real time Markdown editor for bloggers
+extras,xcas,https://www-fourier.ujf-grenoble.fr/~parisse/giac.html,Giac/Xcas is a free computer algebra system.
+extras,yubikey-piv-manager,https://developers.yubico.com/yubikey-piv-manager/,Graphical application for configuring a PIV-enabled YubiKey.
+extras,zeronet,https://zeronet.io/,Decentralized websites using Bitcoin crypto and BitTorrent network
+main,aptos-cli,https://aptosnetwork.com,Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience. (CLI)
+main,byenow,https://iobureau.com/byenow/,Utility for folder removal
+main,hygen,https://www.hygen.io,The scalable code generator that saves you time
+main,kubeval,https://kubeval.instrumenta.dev,Kubernetes resource files linter
+main,lean-cli,https://leancloud.cn/docs/leanengine_cli.html,LeanEngine Command Line Tool
+main,nero-aac,https://www.videohelp.com/software/Nero-AAC-Codec,Nero Digital AAC Encoder (Command Line Tools)
+main,plow,https://deepwiki.com/six-ddc/plow,A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display.
+main,postgrest,https://postgrest.org,REST API for any Postgres database
+main,puppet-agent,https://puppetlabs.com,An open-core software configuration management tool.
+main,sentinel,https://www.hashicorp.com/sentinel,"An embeddable policy as code framework to enable fine-grained, logic-based policy decisions."
+main,sigrok,https://sigrok.org/,A command line utility for the sigrok software.
+main,watchman,https://facebook.github.io/watchman/,A file watching service by Facebook
+main,x265,https://www.x265.org,Encodes video or images into an H.265 / HEVC bitstream.
+main,xpdf-tools,https://www.xpdfreader.com,Several command-line utilities to read and extract data from PDF files
+main,xpdf-tools-lsp,https://www.xpdfreader.com/,All language support packages for xpdf-tools
+main,zstd,https://facebook.github.io/zstd/,High compression ratios compression algorithm

@@ -1,287 +1,287 @@
-bucket,name,latest_update
-extras,robo3t,2021-10-30
-extras,ddc-toolbox,2021-10-29
-extras,svcat,2021-10-25
-main,aws-ecs,2021-10-21
-extras,edex-ui,2021-10-18
-extras,winmerge2011,2021-10-04
-main,legit,2021-10-04
-extras,eclipse-android,2021-10-03
-extras,eclipse-automotive,2021-10-03
-main,nunit-extension-nunit-v2-driver,2021-09-29
-main,nunit-extension-vs-project-loader,2021-09-27
-main,up,2021-09-27
-main,httpstat,2021-09-18
-main,mailhog,2021-09-18
-extras,redis-tui,2021-09-13
-extras,wincompose,2021-09-04
-extras,locale-emulator,2021-08-25
-extras,eclipse-javascript,2021-08-07
-extras,eclipse-rust,2021-08-07
-extras,eclipse-testing,2021-08-07
-extras,wordmark,2021-08-07
-main,gunk,2021-08-01
-extras,tikzit,2021-07-18
-extras,pathod,2021-07-16
-main,bit,2021-07-05
-extras,pulseview,2021-07-03
-main,pyflow,2021-07-03
-extras,yakyak,2021-06-30
-extras,wsl-ssh-pageant,2021-06-28
-extras,vidcutter,2021-06-19
-extras,conemu-color-themes,2021-06-08
-main,opus-tools,2021-05-22
-extras,terminalpp,2021-05-12
-extras,quick-picture-viewer,2021-05-10
-extras,wxhexeditor,2021-05-01
-extras,devdocs,2021-04-19
-extras,butterflow-ui,2021-04-17
-extras,fat32format-gui,2021-04-12
-extras,3rvx,2021-04-09
-extras,tremulous,2021-04-09
-extras,yubikey-personalization-gui,2021-04-09
-extras,centertaskbar,2021-04-05
-extras,autoit-script-editor,2021-04-02
-main,buck,2021-04-01
-extras,freeclipboardviewer,2021-03-29
-extras,insomnia-designer,2021-03-18
-main,sigrok,2021-03-01
-extras,rabbitmqadmin,2021-02-09
-extras,unetbootin,2021-02-04
-extras,hokus,2021-01-29
-extras,flashplayer-sa,2021-01-25
-extras,flashplayer-sa-debug,2021-01-25
-extras,klatexformula,2021-01-22
-extras,materialize,2021-01-22
-extras,webtorrent,2021-01-22
-main,vimtutor,2021-01-22
-main,editorconfig,2021-01-14
-main,gitignore,2021-01-14
-main,gitomatic,2021-01-14
-main,figlet,2021-01-13
-main,groovyserv,2021-01-13
-main,inadyn-mt,2021-01-13
-extras,fastglacier,2021-01-11
-main,dd,2021-01-10
-main,devd,2021-01-10
-main,dosbox,2021-01-10
-main,ln,2021-01-10
-main,lwc,2021-01-10
-main,mailsend,2021-01-10
-main,modd,2021-01-10
-main,msival2,2021-01-10
-main,nero-aac,2021-01-09
-main,netcat,2021-01-09
-main,pciutils,2021-01-08
-main,pdftk,2021-01-08
-main,pkg-config,2021-01-08
-main,pup,2021-01-08
-main,rktools2k3,2021-01-07
-main,rtmpdump,2021-01-07
-main,runat,2021-01-07
-main,sampler,2021-01-07
-main,scoop-validator,2021-01-07
-main,scriptcs,2021-01-07
-main,sendmail,2021-01-07
-main,serve,2021-01-07
-main,sudo,2021-01-07
-main,time,2021-01-06
-main,touch,2021-01-06
-main,unar,2021-01-06
-main,vbindiff,2021-01-06
-main,warp,2021-01-05
-extras,hakuneko,2021-01-04
-main,b2sum,2021-01-03
-main,cowsay,2021-01-03
-main,csvtosql,2021-01-03
-extras,linqpadless,2021-01-01
-extras,openhardwaremonitor,2020-12-27
-main,armor,2020-12-26
-main,awsSts,2020-12-26
-main,tcc,2020-12-11
-extras,beaker,2020-12-09
-extras,zeebe-modeler,2020-12-07
-extras,i2p-zero-gui,2020-12-03
-extras,dukto,2020-11-29
-extras,windiff,2020-11-28
-extras,darteditor,2020-11-23
-extras,dartium,2020-11-23
-extras,dartium-content-shell,2020-11-23
-extras,dia,2020-11-23
-extras,dropit,2020-11-23
-extras,ec2-api-tools,2020-11-15
-extras,emule,2020-11-15
-extras,falcon-sql-client,2020-11-15
-extras,fvie,2020-11-15
-extras,superpowers-app,2020-11-15
-extras,win32-disk-imager,2020-11-15
-extras,painter,2020-11-14
-extras,pasteboard,2020-11-14
-extras,patchcleaner,2020-11-14
-extras,pentaho-data-integration,2020-11-14
-extras,pip-tool,2020-11-14
-extras,pixie,2020-11-14
-extras,portable-virtualbox,2020-11-14
-extras,posh-docker,2020-11-14
-extras,pov-ray,2020-11-14
-extras,processing,2020-11-14
-extras,pscolor,2020-11-14
-extras,ragel,2020-11-14
-extras,ricochet,2020-11-14
-extras,gtools,2020-11-13
-extras,hack-font,2020-11-13
-extras,hexo-blog-client,2020-11-13
-extras,hostsman,2020-11-13
-extras,imgburn,2020-11-13
-extras,jkrypto,2020-11-13
-extras,joe,2020-11-13
-extras,metrogit,2020-11-13
-extras,mplayer,2020-11-13
-extras,mqtt-explorer,2020-11-13
-extras,mremoteng,2020-11-13
-extras,msxml4,2020-11-13
-extras,keypirinha,2020-11-08
-extras,snaptimer,2020-11-04
-extras,t-clock,2020-11-03
-extras,ndm,2020-11-01
-extras,noty,2020-11-01
-extras,now-cli,2020-11-01
-extras,oni,2020-11-01
-extras,orca,2020-11-01
-extras,baretail,2020-10-31
-extras,bitmessage,2020-10-31
-extras,bugn,2020-10-31
-extras,cabal-mini,2020-10-31
-extras,captura,2020-10-31
-extras,championify,2020-10-31
-extras,cmdow,2020-10-31
-extras,colon,2020-10-31
-extras,console2,2020-10-31
-extras,emax64-pdumper,2020-10-31
-extras,freemove,2020-10-31
-extras,httrack,2020-10-31
-extras,screen-saver-control,2020-10-30
-extras,scallion,2020-10-22
-extras,shadowsocksr-csharp,2020-10-22
-extras,shiba,2020-10-22
-extras,sphinxbase,2020-10-22
-extras,ssd-z,2020-10-22
-extras,ssh-agent-wsl,2020-10-22
-extras,jd-gui,2020-10-19
-extras,xjoy,2020-10-19
-extras,xmllint,2020-10-19
-extras,yubikey-piv-manager,2020-10-19
-main,xsv,2020-10-19
-main,yubikey-personalization,2020-10-19
-main,zenhan,2020-10-19
-extras,defraggler,2020-10-04
-extras,aria-ng-gui,2020-09-28
-extras,symphytum,2020-09-27
-extras,eclipse-reporting,2020-09-15
-main,gbt,2020-09-14
-main,tldr,2020-09-14
-extras,keepass-plugin-keetraytotp,2020-09-12
-extras,waifu2x-caffe,2020-09-05
-extras,etlas,2020-09-01
-extras,scantailor-advanced,2020-08-30
-extras,tabula,2020-08-30
-extras,tailblazer,2020-08-30
-extras,terminals,2020-08-30
-extras,todotxt-net,2020-08-30
-extras,tortoisemerge,2020-08-30
-extras,transgui,2020-08-30
-extras,tusk,2020-08-30
-extras,tweakstyle,2020-08-30
-extras,ussf,2020-08-30
-extras,util-linux-ng,2020-08-30
-extras,vagrant-manager,2020-08-30
-extras,visual-arm-emulator,2020-08-30
-extras,visualc,2020-08-30
-extras,vott,2020-08-30
-extras,weasel-pageant,2020-08-30
-extras,wifi-manager,2020-08-30
-extras,win-portacle,2020-08-30
-extras,wincdemu,2020-08-30
-extras,winfile-original,2020-08-30
-extras,winpty,2020-08-30
-extras,workspaceutilities,2020-08-30
-extras,write,2020-08-30
-extras,wsl-terminal,2020-08-30
-extras,wumgr,2020-08-30
-extras,mozbackup,2020-08-25
-extras,keepass-plugin-sequencer,2020-08-24
-extras,ldap-admin,2020-08-24
-extras,leet,2020-08-24
-extras,lighttable,2020-08-24
-extras,lili,2020-08-24
-extras,listenmoeclient,2020-08-24
-extras,local-browser,2020-08-24
-extras,logstalgia,2020-08-24
-extras,etcher-cli,2020-08-23
-extras,hain,2020-08-23
-extras,mist,2020-08-23
-extras,netlifyctl,2020-08-23
-extras,notepad2,2020-08-23
-extras,notepad2-mod,2020-08-23
-extras,virtualdub,2020-08-23
-extras,weebp,2020-08-23
-extras,winyl,2020-08-23
-extras,wurl,2020-08-23
-extras,deadlock,2020-08-19
-extras,traymond,2020-07-26
-extras,dn-tool-container,2020-07-25
-extras,peerblock,2020-07-12
-extras,asuite,2020-07-06
-extras,lmms,2020-07-04
-extras,lxrunoffline,2020-07-04
-extras,album-art-downloader,2020-06-30
-extras,altools,2020-06-30
-extras,assume-role,2020-06-30
-extras,audioswitcher,2020-06-30
-extras,awake,2020-06-30
-extras,awareness,2020-06-30
-extras,axis,2020-06-30
-main,grpc-tools,2020-06-30
-extras,carnac,2020-06-20
-extras,free-manga-downloader,2020-06-10
-extras,unlocker,2020-04-24
-main,gitkube,2020-04-17
-extras,falconx,2020-04-15
-extras,safebrowser,2020-04-10
-extras,graphql-playground,2020-04-07
-extras,obs-studio-small,2020-04-05
-main,wttop,2020-04-03
-extras,beatdrop,2020-03-28
-extras,ethereum-wallet,2020-03-28
-extras,jigsaw,2020-03-28
-extras,lighttpd,2020-03-28
-extras,mancy,2020-03-28
-extras,powertab,2020-03-28
-extras,qnapi,2020-03-28
-extras,squashfs-tools,2020-03-28
-extras,tcpipmanager,2020-03-28
-extras,inboxer,2020-03-26
-extras,vitrite,2020-03-25
-extras,baka-mplayer,2020-03-22
-extras,dualmonitortaskbar,2020-03-22
-extras,patheditor,2020-03-22
-extras,olive-editor,2020-02-16
-extras,pcmeter,2020-02-16
-extras,hwp-converter,2020-01-17
-extras,milton,2019-12-20
-extras,spek,2019-12-17
-extras,tftputil-gui,2019-12-17
-main,runasti,2019-10-17
-extras,winmtr,2019-10-14
-extras,bitsmanager,2019-09-02
-extras,pietty,2019-08-10
-extras,spacescape,2019-08-07
-extras,turtl,2019-08-07
-main,pngcrush,2019-08-02
-extras,pocketsphinx,2019-07-28
-extras,sphinxtrain,2019-07-28
-extras,sandman,2019-07-23
-main,connect,2019-06-29
-main,nssm,2019-04-24
-main,empty-recycle-bin,2019-04-22
-extras,markn,2019-02-07
+bucket,name,latest_update,description
+extras,robo3t,2021-10-30,The free lightweight GUI for MongoDB enthusiasts
+extras,ddc-toolbox,2021-10-29,ViPER DDC files editor with AutoEQ integration
+extras,svcat,2021-10-25,Service Catalog lets you provision cloud services directly from the comfort of native Kubernetes tooling.
+extras,edex-ui,2021-10-18,A science fiction desktop running everywhere
+extras,winmerge2011,2021-10-04,"A fork of WinMerge, an open source differencing and merging tool"
+extras,eclipse-android,2021-10-03,Eclipse for Android Developers
+extras,eclipse-automotive,2021-10-03,Eclipse IDE for Automotive Software Developers
+extras,redis-tui,2021-09-13,A Redis Text-based UI client
+extras,wincompose,2021-09-04,Easily write special characters using short key combinations.
+extras,locale-emulator,2021-08-25,Yet Another System Region and Language Simulator
+extras,eclipse-javascript,2021-08-07,Eclipse IDE for JavaScript and Web Developers
+extras,eclipse-rust,2021-08-07,Eclipse for Rust Developers
+extras,eclipse-testing,2021-08-07,Eclipse IDE for Testers
+extras,wordmark,2021-08-07,Real time Markdown editor for bloggers
+extras,tikzit,2021-07-18,Graphical tool for rapidly creating graphs and string diagrams using PGF/TikZ
+extras,pathod,2021-07-16,A pathological HTTP daemon designed to let you craft almost any conceivable HTTP response.
+extras,pulseview,2021-07-03,A logic analyzer GUI for sigrok
+extras,yakyak,2021-06-30,Unofficial chat client for Google Hangouts
+extras,wsl-ssh-pageant,2021-06-28,"A Pageant -> TCP bridge for use with WSL, allowing for Pageant to be used as an ssh-ageant within the WSL environment."
+extras,vidcutter,2021-06-19,"A modern, simple to use, constantly evolving and fast media cutter/joiner."
+extras,conemu-color-themes,2021-06-08,Color themes for ConEmu.
+extras,terminalpp,2021-05-12,A minimalist but powerful terminal emulator
+extras,quick-picture-viewer,2021-05-10,"A lightweight, versatile desktop photo viewer"
+extras,wxhexeditor,2021-05-01,A free hex editor / disk editor
+extras,devdocs,2021-04-19,A full-featured desktop app for DevDocs.io
+extras,butterflow-ui,2021-04-17,"Graphical user interface for butterflow, a video manipulation tool."
+extras,fat32format-gui,2021-04-12,A GUI FAT32 format tool that supports volumes greater than 32 GB.
+extras,3rvx,2021-04-09,Skinnable volume controller and OSD.
+extras,tremulous,2021-04-09,Asymmetric team-based first-person shooter with real-time strategy elements
+extras,yubikey-personalization-gui,2021-04-09,A utility designed to facilitate re-configuration of YubiKeys.
+extras,centertaskbar,2021-04-05,Centers Windows taskbar icons.
+extras,autoit-script-editor,2021-04-02,AutoIt Script Editor
+extras,freeclipboardviewer,2021-03-29,A program used to view the information that is stored in memory when you use copy and cut functions of Windows.
+extras,insomnia-designer,2021-03-18,Collaborative API Design Tool for designing and managing OpenAPI specs
+extras,rabbitmqadmin,2021-02-09,"A command line tool shipped with the management plugin of RabbitMQ, which can perform some of the same actions as the Web-based UI."
+extras,unetbootin,2021-02-04,UNetbootin allows you to create bootable Live USB drives for Ubuntu and other Linux distributions without burning a CD.
+extras,hokus,2021-01-29,A modern CMS for Hugo
+extras,flashplayer-sa,2021-01-25,Standalone version of Adobe Flash Player
+extras,flashplayer-sa-debug,2021-01-25,Standalone version of Adobe Flash Player for debugging
+extras,klatexformula,2021-01-22,An easy-to-use graphical application for generating images from LaTeX equations.
+extras,materialize,2021-01-22,Image-to-material converter for video game development
+extras,webtorrent,2021-01-22,A peer-to-peer streaming torrent client written completely in JavaScript.
+extras,fastglacier,2021-01-11,A freeware Windows Client for Amazon Glacier.
+extras,hakuneko,2021-01-04,Manga and anime downloader
+extras,linqpadless,2021-01-01,Compile LINQPad query files into stand-alone C# scripts (csx) or executable binaries so that they can be run outside and independent of LINQPad.
+extras,openhardwaremonitor,2020-12-27,"Monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer."
+extras,beaker,2020-12-09,An experimental peer-to-peer Web browser
+extras,zeebe-modeler,2020-12-07,Desktop Application for modeling Zeebe Workflows with BPMN
+extras,i2p-zero-gui,2020-12-03,"Zero dependency, small footprint, cross-platform I2P Java Router with simple tunnel/socks controller and SAM interface"
+extras,dukto,2020-11-29,An easy file transfer tool designed for LAN use.
+extras,windiff,2020-11-28,"The omnipotent, omniscient, omnipresent diffing program"
+extras,darteditor,2020-11-23,"Tool for editing, debugging, and running Dart applications."
+extras,dartium,2020-11-23,A special build of Chromium that includes the Dart VM
+extras,dartium-content-shell,2020-11-23,A headless version of Dartium
+extras,dia,2020-11-23,Drawing software
+extras,dropit,2020-11-23,Personal assistant to automatically manage your files
+extras,ec2-api-tools,2020-11-15,Command-line utilities that wrap the Amazon EC2 API actions.
+extras,emule,2020-11-15,One of the biggest and most reliable peer-to-peer file sharing clients around the world.
+extras,falcon-sql-client,2020-11-15,SQL client with inline data visualization
+extras,fvie,2020-11-15,Edit File VersionInfo metadata from Windows executables.
+extras,superpowers-app,2020-11-15,Desktop app for the HTML5 2D+3D game maker
+extras,win32-disk-imager,2020-11-15,Tool for writing images to USB sticks or SD/CF cards.
+extras,painter,2020-11-14,A tool to manage the Windows wallpaper from the terminal.
+extras,pasteboard,2020-11-14,Clipboard utilities for Windows (like OSX pbcopy/pbpaste)
+extras,patchcleaner,2020-11-14,Cleans your windows Installer directory of orphaned and redundant installation (.msi) and patch (.msp) files
+extras,pentaho-data-integration,2020-11-14,"PDI, also called Kettle, is the component of Pentaho responsible for the Extract, Transform and Load (ETL) processes."
+extras,pip-tool,2020-11-14,Use the Picture in Picture mode on Windows.
+extras,pixie,2020-11-14,It is a color picker with few extra goodies
+extras,portable-virtualbox,2020-11-14,A portable VirtualBox downloader and launcher written by Runar Buvik
+extras,posh-docker,2020-11-14,Powershell tab completion for Docker
+extras,pov-ray,2020-11-14,A high-quality tool for creating stunning three-dimensional graphics.
+extras,processing,2020-11-14,A flexible software sketchbook and a language for learning how to code within the context of the visual arts
+extras,pscolor,2020-11-14,Provides color highlighting for some basic PowerShell output.
+extras,ragel,2020-11-14,A finite-state machine compiler and a parser generator
+extras,ricochet,2020-11-14,Anonymous peer-to-peer instant messaging.
+extras,gtools,2020-11-13,"Gtools include: pserv, dllusage, gkalk, as well as a couple of command-line only tools: regdiff, supershell, ddupe, pathed, touch, which, md5sums."
+extras,hack-font,2020-11-13,A typeface designed for source code.
+extras,hexo-blog-client,2020-11-13,Cross-platform hexo blog management client
+extras,hostsman,2020-11-13,A freeware application that lets you manage your hosts file with ease.
+extras,imgburn,2020-11-13,A lightweight CD / DVD / HD DVD / Blu-ray burning application.
+extras,jkrypto,2020-11-13,A Program for Creating and Analysing Classical Ciphers.
+extras,joe,2020-11-13,A full featured terminal-based screen editor
+extras,metrogit,2020-11-13,Git visualization tool that's more than just git.
+extras,mplayer,2020-11-13,A multi-platform open source media player
+extras,mqtt-explorer,2020-11-13,A all-round MQTT client that provides a structured topic overview.
+extras,mremoteng,2020-11-13,"Tabbed, multi-protocol, remote connections manager"
+extras,msxml4,2020-11-13,Microsoft XML Core Services (MSXML) runtime library
+extras,keypirinha,2020-11-08,A fast launcher for keyboard ninjas on Windows.
+extras,snaptimer,2020-11-04,Windows Countdown Timer
+extras,t-clock,2020-11-03,Highly configurable Windows taskbar clock
+extras,ndm,2020-11-01,A Open Source npm desktop GUI.
+extras,noty,2020-11-01,Autosaving sticky note with support for multiple notes without needing multiple windows.
+extras,now-cli,2020-11-01,The command-line interface for Now.
+extras,oni,2020-11-01,"A retro-futuristic editor, combining Vim-style modal editing with the aesthetics and language features of modern editors."
+extras,orca,2020-11-01,Windows Installer Table Editor
+extras,baretail,2020-10-31,A free real-time log file monitoring tool
+extras,bitmessage,2020-10-31,A P2P communications protocol used to send encrypted messages to another person or to many subscribers.
+extras,bugn,2020-10-31,Tiling window manager add-on for the Explorer shell of Microsoft Windows
+extras,cabal-mini,2020-10-31,"A minimalist desktop app for Cabal, the p2p/decentralized/local-first chat platform"
+extras,captura,2020-10-31,"Capture Screen, Audio, Cursor, Mouse Clicks and Keystrokes."
+extras,championify,2020-10-31,A little program that downloads all the recent item sets and imports them in to your League of Legends to use within game.
+extras,cmdow,2020-10-31,Win32 console application for manipulating program windows.
+extras,colon,2020-10-31,Flexible text editor
+extras,console2,2020-10-31,A Windows console window enhancement.
+extras,emax64-pdumper,2020-10-31,An optimized clean build of emacs-pdumper branch (27.0.50) for 64-bit Windows. Built with `--without-compress-install --without-dbus --with-modules 'CFLAGS= -O2 -g3'`
+extras,freemove,2020-10-31,Moves directories freely without breaking installations or shortcuts.
+extras,httrack,2020-10-31,A free and easy-to-use offline browser utility.
+extras,screen-saver-control,2020-10-30,Activate/deactivate both screen saver and monitor power off with a simple click.
+extras,scallion,2020-10-22,GPU-based Onion Hash generator
+extras,shadowsocksr-csharp,2020-10-22,"An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by Akariiin"
+extras,shiba,2020-10-22,Rich markdown live preview app with linter
+extras,sphinxbase,2020-10-22,Basic libraries shared by the CMU Sphinx trainer and all the Sphinx decoders.
+extras,ssd-z,2020-10-22,Information tool for Solid State Drives and other disk devices.
+extras,ssh-agent-wsl,2020-10-22,Use the Windows SSH agent from inside WSL
+extras,jd-gui,2020-10-19,A standalone Java Decompiler GUI
+extras,xjoy,2020-10-19,Gamepad driver for Nintendo Switch Joy-Cons that merges them into one controller.
+extras,xmllint,2020-10-19,"The command line XML tool that parses one or more XML files and prints various types of output, depending upon the options selected."
+extras,yubikey-piv-manager,2020-10-19,Graphical application for configuring a PIV-enabled YubiKey.
+extras,defraggler,2020-10-04,Speed up your PC with quick & easy defragmentation.
+extras,aria-ng-gui,2020-09-28,An Aria2 GUI for Windows & Linux & MacOS.
+extras,symphytum,2020-09-27,Personal database software to manage and organize data in an easy and intuitive way.
+extras,eclipse-reporting,2020-09-15,Eclipse IDE for Java and Report Developers
+extras,keepass-plugin-keetraytotp,2020-09-12,"Fork of the Tray TOTP Plugin for KeePass2. This plugin is for those who already use Tray TOTP Plugin, but also want to use with Valve's Steam."
+extras,waifu2x-caffe,2020-09-05,AI-powered image upscaler.
+extras,etlas,2020-09-01,Build tool and package manager for the Eta programming language
+extras,scantailor-advanced,2020-08-30,Interactive post-processing tool for scanned pages
+extras,tabula,2020-08-30,A tool for liberating data tables trapped inside PDF files.
+extras,tailblazer,2020-08-30,A modern file tail utility based on Rx.Net which show cases reactive programming and Dynamic Data.
+extras,terminals,2020-08-30,"A secure, multi tab terminal services/remote desktop client."
+extras,todotxt-net,2020-08-30,Implementation of todo.txt for Windows using the .NET framework
+extras,tortoisemerge,2020-08-30,A diff / merge software tool for Windows with a tight integration for TortoiseSVN.
+extras,transgui,2020-08-30,A feature rich front-end to remotely control Transmission daemon via its RPC protocol.
+extras,tusk,2020-08-30,Refined Evernote desktop app
+extras,tweakstyle,2020-08-30,Integrated Development Environment for Web Development.
+extras,ussf,2020-08-30,A compact utility designed to help you find the silent switch in the applications that you want to install.
+extras,util-linux-ng,2020-08-30,Native Win32 open source ports of some linux utilities.
+extras,vagrant-manager,2020-08-30,Status bar menu for managing all Vagrant machines from one central location
+extras,visual-arm-emulator,2020-08-30,A highly visual ARM emulator
+extras,visualc,2020-08-30,The command-line compiler functions of VS 2010 C++.
+extras,vott,2020-08-30,End to end Object Detection Models builder from Images and Videos
+extras,weasel-pageant,2020-08-30,weasel-pageant allows you to use SSH keys held by PuTTY's Pageant in WSL
+extras,wifi-manager,2020-08-30,A little utility that shows you just the stuff you need to know about your Wifi profiles on Windows.
+extras,win-portacle,2020-08-30,"A Multi-platform Portable CLE (Common Lisp Environment), made up of Emacs, SBCL, QuickLisp, Git and more"
+extras,wincdemu,2020-08-30,CD/DVD/BD emulator - mounts optical disc images. 
+extras,winfile-original,2020-08-30,Original Windows File Manager (winfile) with minimal changes.
+extras,winpty,2020-08-30,A Windows software package providing an interface similar to a Unix pty-master for communicating with Windows console programs
+extras,workspaceutilities,2020-08-30,Provides hotkey access to custom window sizes and layouts
+extras,write,2020-08-30,Minimalist text editor for distraction-free writing
+extras,wsl-terminal,2020-08-30,Terminal emulator for Windows Subsystem for Linux (WSL)
+extras,wumgr,2020-08-30,Manage updates of Microsoft products.
+extras,mozbackup,2020-08-25,Create backups of profiles from Mozilla software.
+extras,keepass-plugin-sequencer,2020-08-24,Custom password generator algorithm plugin for KeePass 2.x to generate word sequences.
+extras,ldap-admin,2020-08-24,An LDAP client and administration tool for LDAP directory management.
+extras,leet,2020-08-24,Get your 1337 fix in PowerShell.
+extras,lighttable,2020-08-24,A customizable code editor that connects you to your creation with instant feedback.
+extras,lili,2020-08-24,"LiLi creates portable, bootable and virtualized USB stick running Linux."
+extras,listenmoeclient,2020-08-24,"Official, Simple and lightweight LISTEN.moe client"
+extras,local-browser,2020-08-24,Share your localhost in a new way (peer to peer browser).
+extras,logstalgia,2020-08-24,Website traffic visualization that replays or streams web-server access logs as a pong-like battle between the web server and an never ending torrent of requests.
+extras,etcher-cli,2020-08-23,CLI for balena Etcher (no longer updated)
+extras,hain,2020-08-23,An alt+space launcher for Windows
+extras,mist,2020-08-23,Browse and use apps on the Ethereum network.
+extras,netlifyctl,2020-08-23,Legacy command line interface for managing and deploying sites on Netlify without leaving your terminal.
+extras,notepad2,2020-08-23,A fast and light-weight Notepad-like text editor with syntax highlighting.
+extras,notepad2-mod,2020-08-23,"A Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting."
+extras,virtualdub,2020-08-23,Video capture/processing utility
+extras,weebp,2020-08-23,"A wallpaper engine, set any window as your wallpaper."
+extras,winyl,2020-08-23,A FOS digital audio player and music library application for organizing and playing audio on Windows.
+extras,wurl,2020-08-23,A console client for websocket protocol
+extras,deadlock,2020-08-19,"Unlock files or folders that cannot be deleted, copied, renamed or moved."
+extras,traymond,2020-07-26,A simple Windows app for minimizing windows to tray icons
+extras,dn-tool-container,2020-07-25,Extendable application which can install multiple tools.
+extras,peerblock,2020-07-12,"An IP filter for Windows 7/10, forked from PeerGuardian 2"
+extras,asuite,2020-07-06,Portable applications launcher
+extras,lmms,2020-07-04,Cross-platform music production software.
+extras,lxrunoffline,2020-07-04,A full-featured utility for Windows Subsystem for Linux (WSL)
+extras,album-art-downloader,2020-06-30,Find and update album art for music collection.
+extras,altools,2020-06-30,"Tools that you can use to troubleshoot account lockouts, as well as add functionality to Active Directory"
+extras,assume-role,2020-06-30,Easily assume AWS roles in your terminal.
+extras,audioswitcher,2020-06-30,"Makes switching between sound devices trivial. No longer do you have to go into Control Panel or the Windows® Sound options, instead there is an easy to access icon, or even hotkeys."
+extras,awake,2020-06-30,Prevents the computer from entering the idle state.
+extras,awareness,2020-06-30,A tool to help you become more aware of time spent on the computer
+extras,axis,2020-06-30,"An implementation of the SOAP (""Simple Object Access Protocol"") submission to W3C."
+extras,carnac,2020-06-20,A utility to give some insight into how you use your keyboard.
+extras,free-manga-downloader,2020-06-10,Manage and download manga from various websites.
+extras,unlocker,2020-04-24,A tiny app specialized in unlocking files and killing hanging processes.
+extras,falconx,2020-04-15,Center Windows taskbar icons with a variety of animations and options.
+extras,safebrowser,2020-04-10,SAFE Browser Application
+extras,graphql-playground,2020-04-07,"GraphQL IDE for better development workflows (GraphQL subscriptions, interactive docs and collaboration)"
+extras,obs-studio-small,2020-04-05,Video recording and live streaming without the browser source plugin
+extras,beatdrop,2020-03-28,A stand-alone implementation of the amazing Milkdrop2 Winamp plug-in.
+extras,ethereum-wallet,2020-03-28,A gateway to decentralized applications on the Ethereum blockchain
+extras,jigsaw,2020-03-28,W3C's HTTP 1.1 server implementation in Java
+extras,lighttpd,2020-03-28,An HTTP server designed and optimized for high performance environments. Here is the Cygwin compilation migrated from WLMP project
+extras,mancy,2020-03-28,A NodeJS REPL application based on Electron and React frameworks
+extras,powertab,2020-03-28,"Tab expansion module for PowerShell. Handles more content and provides a new, optional interface."
+extras,qnapi,2020-03-28,"Multi-engine, subtitle downloader"
+extras,squashfs-tools,2020-03-28,Mounts SquashFS archives in user-space.
+extras,tcpipmanager,2020-03-28,Keep track of network configuration in different locations.
+extras,inboxer,2020-03-26,Unofficial Google Inbox Desktop App (Deprecated)
+extras,vitrite,2020-03-25,Configures the level of transparency for almost any visible window.
+extras,baka-mplayer,2020-03-22,FOSS libmpv based multimedia player
+extras,dualmonitortaskbar,2020-03-22,A taskbar for the second monitor
+extras,patheditor,2020-03-22,A convenient GUI for editing the PATH environment variable
+extras,olive-editor,2020-02-16,Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software.
+extras,pcmeter,2020-02-16,CPU and graphic card monitor
+extras,hwp-converter,2020-01-17,Open and convert HWP files in Word as DOCX file.
+extras,milton,2019-12-20,An infinite-canvas paint program
+extras,spek,2019-12-17,Acoustic Spectrum Analyser
+extras,tftputil-gui,2019-12-17,TFTP server and client
+extras,winmtr,2019-10-14,Network diagnostic tool combining ping and traceroute.
+extras,bitsmanager,2019-09-02,Manager for BITS (Background Intelligent Transfer Service) for Windows.
+extras,pietty,2019-08-10,SSH client based on PuTTY dedicated to multilingual (especially CJK) environments.
+extras,spacescape,2019-08-07,A free tool for creating space skyboxes with stars and nebulas.
+extras,turtl,2019-08-07,"Secure, collaborative notebook."
+extras,pocketsphinx,2019-07-28,"Lightweight speech recognition engine, specifically tuned for handheld and mobile devices."
+extras,sphinxtrain,2019-07-28,Open source acoustic model trainer.
+extras,sandman,2019-07-23,An application built with late night developers in mind.
+extras,markn,2019-02-07,Lightweight markdown viewer.
+main,aws-ecs,2021-10-21,"AWS ECS CLI enables users to run their applications on ECS/Fargate using the Docker Compose file format, quickly provision resources, push/pull images in ECR, and monitor running applications on ECS/Fargate."
+main,legit,2021-10-04,Complementary command-line interface for Git.
+main,nunit-extension-nunit-v2-driver,2021-09-29,NUnit V2 Framework Driver Extension
+main,nunit-extension-vs-project-loader,2021-09-27,NUnit Visual Studio Project Loader Extension
+main,up,2021-09-27,"Deploy infinitely scalable serverless apps, apis, and sites in seconds to AWS."
+main,httpstat,2021-09-18,curl(1) statistics visualizer
+main,mailhog,2021-09-18,Web and API based SMTP testing
+main,gunk,2021-08-01,Modern frontend and syntax for Protocol Buffers
+main,bit,2021-07-05,Modernized git CLI
+main,pyflow,2021-07-03,A modern Python installation and dependency manager
+main,opus-tools,2021-05-22,"Command-line utilities to encode, inspect, and decode .opus files."
+main,buck,2021-04-01,A high-performance build tool.
+main,sigrok,2021-03-01,A command line utility for the sigrok software.
+main,vimtutor,2021-01-22,The vimtutor that comes with Vim for Windows doesn't work with Scoop. This one does.
+main,editorconfig,2021-01-14,Maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
+main,gitignore,2021-01-14,Fetches .gitignore file templates from gitignore.io and writes them to standard output.
+main,gitomatic,2021-01-14,A tool to monitor git repositories and automatically pull & push changes.
+main,figlet,2021-01-13,Create large letters using ASCII art out of ordinary text.
+main,groovyserv,2021-01-13,Reduces startup time of the JVM for running Groovy significantly.
+main,inadyn-mt,2021-01-13,Dynamic DNS client
+main,dd,2021-01-10,Allows the flexible copying of data in a win32 environment
+main,devd,2021-01-10,"A small, self-contained, command-line-only HTTP server for developers"
+main,dosbox,2021-01-10,"DOSBox emulates an Intel x86 PC, complete with sound, graphics, mouse, joystick, modem, etc."
+main,ln,2021-01-10,An approximation of the Unix ln command.
+main,lwc,2021-01-10,A live-updating version of the UNIX wc command.
+main,mailsend,2021-01-10,A program to send mail via SMTP from command line.
+main,modd,2021-01-10,A flexible developer tool that runs processes and responds to filesystem changes.
+main,msival2,2021-01-10,MSI Database Validation Tool
+main,nero-aac,2021-01-09,Nero Digital AAC Encoder (Command Line Tools)
+main,netcat,2021-01-09,Read and write from/to network connections
+main,pciutils,2021-01-08,Inspect and manipulate configuration of PCI devices
+main,pdftk,2021-01-08,A command-line tool for working with PDFs.
+main,pkg-config,2021-01-08,A helper tool used when compiling applications and libraries.
+main,pup,2021-01-08,Parsing HTML at the command line
+main,rktools2k3,2021-01-07,"Streamline manage administrator tasks. (troubleshooting OS, manage AD, deploy applications, ...)"
+main,rtmpdump,2021-01-07,"A toolkit for RTMP streams with support for all forms of RTMP (rtmp, rtmpt, rtmpe, rtmpte, and rtmps)."
+main,runat,2021-01-07,A replacement for the at command which Microsoft has deprecated and removed in Windows 2012.
+main,sampler,2021-01-07,"A tool for shell commands execution, visualization and alerting."
+main,scoop-validator,2021-01-07,A Scoop helper program for validating JSON files against a JSON Schema
+main,scriptcs,2021-01-07,Scriptcs makes it easy to write and execute C# with a simple text editor.
+main,sendmail,2021-01-07,Fake sendmail wrapper.
+main,serve,2021-01-07,Starts a simple temporary static file server in your current directory and prints your IP address to share with colleagues
+main,sudo,2021-01-07,An approximation of the Unix sudo command. Shows a UAC popup window unfortunately.
+main,time,2021-01-06,An approximation of the Unix time command.
+main,touch,2021-01-06,A port of the Unix touch command.
+main,unar,2021-01-06,Universal archives extractor.
+main,vbindiff,2021-01-06,Visual Binary Diff displays files in hexadecimal and ASCII (or EBCDIC).
+main,warp,2021-01-05,Create self-contained single binary applications
+main,b2sum,2021-01-03,Tool to create BLAKE2 hashes of files or streams
+main,cowsay,2021-01-03,Cowsay/think in Powershell
+main,csvtosql,2021-01-03,Converts a comma delimitered CSV to a MSSQL script
+main,armor,2020-12-26,"Uncomplicated, modern HTTP server"
+main,awsSts,2020-12-26,Create temporary login session for AWS CLI
+main,tcc,2020-12-11,"The Tiny C Compiler (a.k.a. TCC, tCc, or TinyCC) is an x86, X86-64 and ARM processor C compiler created by Fabrice Bellard. It is designed to work for slow computers with little disk space (e.g. on rescue disks)."
+main,xsv,2020-10-19,A fast CSV command line toolkit written in Rust
+main,yubikey-personalization,2020-10-19,"A command line tool to personalize (i.e., set a AES key) YubiKeys."
+main,zenhan,2020-10-19,Editor input method switcher
+main,gbt,2020-09-14,"Highly configurable prompt builder for Bash, ZSH and PowerShell written in Go."
+main,tldr,2020-09-14,Interactive tldr pages (simplified and community-driven man pages) client
+main,grpc-tools,2020-06-30,A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
+main,gitkube,2020-04-17,Build and deploy docker images to Kubernetes using git push
+main,wttop,2020-04-03,System monitor for the new Windows Terminal
+main,runasti,2019-10-17,Launch processes with TrustedInstaller privilege.
+main,pngcrush,2019-08-02,Optimizer for PNG (Portable Network Graphics) files.
+main,connect,2019-06-29,Simple relaying command to make network connection via SOCKS and https proxy.
+main,nssm,2019-04-24,The Non-Sucking Service Manager.
+main,empty-recycle-bin,2019-04-22,Empty the Windows recycle bin

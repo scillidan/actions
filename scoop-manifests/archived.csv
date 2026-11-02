@@ -1,149 +1,149 @@
-bucket,name,archived_date
-extras,chatall,2026-10-26
-main,pocketbase,2026-10-26
-extras,hemmelig,2026-10-05
-main,armor,2026-09-27
-main,tunnel,2026-09-27
-extras,mesonlsp,2026-09-25
-main,ghcup,2026-09-15
-extras,pot,2026-09-07
-main,rke,2026-08-31
-main,octopustools,2026-08-28
-extras,butane,2026-08-25
-extras,sorayomi,2026-08-20
-extras,wslinternals,2026-08-04
-main,aliyundrive-webdav,2026-08-03
-main,rain,2026-07-29
-extras,mtuner,2026-07-02
-extras,silex-desktop,2026-07-02
-main,aws-copilot,2026-06-22
-main,mdcat,2026-06-19
-extras,bitsmanager,2026-06-11
-extras,gptscript,2026-06-03
-extras,hub-tool,2026-05-22
-main,bbdown,2026-05-14
-extras,boostnote,2026-05-12
-extras,boostnote-local,2026-05-12
-extras,graphql-playground,2026-05-04
-main,guetzli,2026-04-18
-main,camunda-operate,2026-04-06
-main,rcedit,2026-04-06
-main,odo,2026-04-01
-main,redshift,2026-04-01
-main,terraformer,2026-03-16
-extras,win-vind,2026-03-15
-main,mods,2026-03-09
-extras,ds4windows,2026-03-05
-main,rye,2026-02-05
-extras,structurizr-cli,2026-02-04
-main,git-chglog,2026-01-26
-extras,optimizer,2026-01-20
-extras,waterfox-classic,2025-12-19
-main,terrascan,2025-11-20
-main,aws-ecs,2025-11-19
-extras,modernflyouts,2025-11-15
-main,gactions,2025-11-12
-extras,xjoy,2025-10-29
-extras,picocrypt,2025-09-07
-extras,mu-editor,2025-08-31
-extras,falcon-sql-client,2025-08-29
-extras,scoop-sd,2025-08-02
-extras,kui,2025-07-30
-extras,lenovolegiontoolkit,2025-07-24
-extras,kitematic,2025-07-18
-extras,duality,2025-07-11
-extras,buttercup,2025-06-26
-extras,shadowsocksr-hmbsbige,2025-06-25
-extras,taskbarx,2025-06-12
-main,minishift,2025-06-04
-extras,uiforetw,2025-05-29
-main,xsv,2025-04-24
-extras,tsmuxer,2025-04-21
-main,gossm,2025-04-16
-extras,mangal,2025-04-02
-extras,torrenttools,2025-03-12
-extras,winfile,2025-03-04
-extras,winfile-original,2025-03-04
-extras,jpass,2025-02-24
-extras,qtox,2025-02-16
-main,cargo-watch,2025-01-18
-main,spdx-sbom-generator,2025-01-13
-extras,bloop,2025-01-02
-main,mach2,2024-12-14
-main,arc,2024-11-19
-extras,determined,2024-11-12
-extras,subsync,2024-10-01
-main,regula,2024-09-03
-main,kim,2024-09-02
-extras,sonixd,2024-08-23
-extras,classyshark,2024-07-22
-extras,crunchy-cli,2024-07-04
-main,datree,2024-06-06
-main,neofetch,2024-04-26
-main,buffalo,2024-03-27
-main,apimtemplate,2024-02-23
-extras,hexchat,2024-02-10
-main,pdf2djvu,2024-01-08
-extras,micswitch,2024-01-07
-extras,fatty,2024-01-03
-extras,guiscrcpy,2023-12-29
-main,keptn-cli,2023-12-21
-extras,thisiswin11,2023-12-07
-extras,championify,2023-11-07
-extras,clash-verge,2023-11-03
-main,aks-engine,2023-10-24
-extras,raven-reader,2023-09-28
-extras,roundedtb,2023-09-27
-extras,abricotine,2023-08-30
-main,wkhtmltopdf,2023-08-28
-main,r128gain,2023-08-17
-main,butterflow,2023-08-16
-extras,jmkvpropedit,2023-07-31
-extras,moderndeck,2023-07-04
-extras,pscolor,2023-06-26
-main,wapm-cli,2023-06-14
-main,deta,2023-06-06
-extras,wexond,2023-06-04
-main,dart-sass-embedded,2023-05-15
-extras,atom,2023-03-03
-extras,octant,2023-01-19
-extras,antimicro,2023-01-04
-extras,metrogit,2023-01-01
-extras,beaker,2022-12-27
-extras,nsudo,2022-12-23
-extras,win-gpg-agent,2022-12-12
-extras,lighttable,2022-10-21
-extras,harmony,2022-09-12
-main,syncany-cli,2022-07-26
-main,hopp-cli,2022-07-14
-main,waifu2x-converter-cpp,2022-06-02
-extras,svcat,2022-05-06
-extras,locale-emulator,2022-04-15
-extras,search-deflector,2022-04-03
-extras,pskubectlcompletion,2022-01-31
-extras,centertaskbar,2022-01-24
-extras,devdocs,2022-01-08
-extras,sourcetrail,2021-12-14
-extras,vott,2021-12-07
-extras,edex-ui,2021-10-22
-extras,netlifyctl,2021-09-08
-extras,multrin,2021-06-23
-extras,zeebe-modeler,2021-05-12
-extras,ilmerge,2021-03-19
-extras,superpowers-app,2021-03-05
-extras,listenmoeclient,2021-02-19
-extras,bomi,2021-01-21
-extras,dnspy,2020-12-21
-main,srlua,2020-11-20
-extras,devrantron,2020-11-10
-extras,free-manga-downloader,2020-10-31
-extras,symphytum,2020-10-06
-extras,mist,2020-09-05
-main,rancher-compose,2020-08-03
-extras,weasel-pageant,2020-06-15
-extras,cabal-mini,2020-05-31
-extras,oni,2020-04-01
-extras,ssh-agent-wsl,2020-03-15
-extras,noty,2019-11-15
-extras,yubikey-piv-manager,2019-03-12
-extras,notepad2-mod,2018-08-12
+bucket,name,archived_date,description
+extras,chatall,2026-10-26,"Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
+extras,hemmelig,2026-10-05,Share sensitive information securely with client-side encryption and self-destructing messages.
+extras,mesonlsp,2026-09-25,"An unofficial, unendorsed language server for meson written in C++."
+extras,pot,2026-09-07,A powerful text selection translation and OCR software
+extras,butane,2026-08-25,Translates Butane configs into Ignition configs.
+extras,sorayomi,2026-08-20,A flutter manga reader compatible with Tachiyomi extensions and backups
+extras,wslinternals,2026-08-04,A collection of some nifty WSL-related utilities.
+extras,mtuner,2026-07-02,"A C/C++ memory profiler and memory leak finder for Windows, PlayStation 4 and 3, Android and other platforms."
+extras,silex-desktop,2026-07-02,Static WYSIWYG website builder
+extras,bitsmanager,2026-06-11,Manager for BITS (Background Intelligent Transfer Service) for Windows.
+extras,gptscript,2026-06-03,"GPTScript is a new scripting language to automate your interaction with a Large Language Model (LLM), namely OpenAI"
+extras,hub-tool,2026-05-22,The Docker Hub Tool is a CLI tool for interacting with the Docker Hub.
+extras,boostnote,2026-05-12,A collaborative real-time markdown note app for developer teams
+extras,boostnote-local,2026-05-12,A lightspeed workspace for developers
+extras,graphql-playground,2026-05-04,"GraphQL IDE for better development workflows (GraphQL subscriptions, interactive docs and collaboration)"
+extras,win-vind,2026-03-15,A Vim-oriented toy box that allows the user to operate Windows with key bindings like Vim. The app consists of various useful features inspired by Vim and its plugins.
+extras,ds4windows,2026-03-05,Allows to get the best experience while using a DualShock 4 on PC.
+extras,structurizr-cli,2026-02-04,"A command line interface to push/pull workspaces to/from the Structurizr cloud service/on-premises installation, and export views to PlantUML, Mermaid, and WebSequenceDiagrams formats."
+extras,optimizer,2026-01-20,An advanced configuration utility that helps you restore your privacy and increase your security.
+extras,waterfox-classic,2025-12-19,"The 100% fresh, free-range, ethical browser (classic branch)"
+extras,modernflyouts,2025-11-15,"A replacement for the built-in audio flyout UI, with a Modern Fluent Design."
+extras,xjoy,2025-10-29,Gamepad driver for Nintendo Switch Joy-Cons that merges them into one controller.
+extras,picocrypt,2025-09-07,"A small encryption tool with a focus on security, simplicity, and reliability."
+extras,mu-editor,2025-08-31,"A small, simple editor for beginner Python programmers."
+extras,falcon-sql-client,2025-08-29,SQL client with inline data visualization
+extras,scoop-sd,2025-08-02,A program to search for scoop packages. Powered by https://scoopsearch.github.io/
+extras,kui,2025-07-30,A hybrid command-line/UI Kubernetes development experience for cloud-native development
+extras,lenovolegiontoolkit,2025-07-24,A lightweight alternative to the Lenovo Vantage Software created for Lenovo Legion laptops
+extras,kitematic,2025-07-18,A simple application for managing Docker containers.
+extras,duality,2025-07-11,"A modular 2D game engine that provides its own visual editor. It's highly extensible, written entirely in C# and backed by OpenGL."
+extras,buttercup,2025-06-26,Cross-Platform passwords & secrets vault
+extras,shadowsocksr-hmbsbige,2025-06-25,ShadowsocksR for Windows maintained by HMBSbige.
+extras,taskbarx,2025-06-12,Center Windows taskbar icons with a variety of animations and options.
+extras,uiforetw,2025-05-29,User interface for recording and managing ETW traces
+extras,tsmuxer,2025-04-21,Transport stream muxer for remuxing/muxing elementary streams into MPEG-TS format
+extras,mangal,2025-04-02,The ultimate CLI manga downloader
+extras,torrenttools,2025-03-12,"Commandline tool for inspecting, creating and editing BitTorrent metafiles."
+extras,winfile,2025-03-04,Original Windows File Manager (winfile) with enhancements.
+extras,winfile-original,2025-03-04,Original Windows File Manager (winfile) with minimal changes.
+extras,jpass,2025-02-24,Password manager application with strong encryption (AES-256)
+extras,qtox,2025-02-16,"Chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol."
+extras,bloop,2025-01-02,"A code-search engine that uses GPT-4 to answer questions about your code. Search both your local and remote repositories with natural language, regex and filtered queries."
+extras,determined,2024-11-12,The Determined CLI is a command line tool that lets you launch new experiments and interact with a Determined cluster.
+extras,subsync,2024-10-01,An automatic movie subtitle synchronization tool.
+extras,sonixd,2024-08-23,A full-featured Subsonic/Jellyfin compatible desktop music player.
+extras,classyshark,2024-07-22,Standalone binary inspection tool for android apps (APK).
+extras,crunchy-cli,2024-07-04,Command-line downloader for Crunchyroll
+extras,hexchat,2024-02-10,An IRC client based on XChat
+extras,micswitch,2024-01-07,A tool which allows you to mute/unmute your microphone using a predefined hotkey
+extras,fatty,2024-01-03,Cygwin Terminal emulator with tabs
+extras,guiscrcpy,2023-12-29,"A simple, pluggable, graphical user interface for the fastest Android screen mirroring software, scrcpy"
+extras,thisiswin11,2023-12-07,An all-rounder tool to set up and customize Windows 11
+extras,championify,2023-11-07,A little program that downloads all the recent item sets and imports them in to your League of Legends to use within game.
+extras,clash-verge,2023-11-03,A Clash GUI based on Tauri.
+extras,raven-reader,2023-09-28,An open source desktop news/RSS reader with flexible settings to optimize your experience.
+extras,roundedtb,2023-09-27,"A tool to add margins, rounded corners and segments to the taskbar"
+extras,abricotine,2023-08-30,Markdown editor with inline preview
+extras,jmkvpropedit,2023-07-31,A batch GUI for mkvpropedit (part of MKVToolNix) written in Java
+extras,moderndeck,2023-07-04,"A beautiful, powerful Twitter client for desktop that takes TweetDeck to the next level with a Material-inspired theme, customization, performance enhancements, and more."
+extras,pscolor,2023-06-26,Provides color highlighting for some basic PowerShell output.
+extras,wexond,2023-06-04,"A privacy-focused, extensible and beautiful web browser"
+extras,atom,2023-03-03,The hackable text editor
+extras,octant,2023-01-19,"A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters."
+extras,antimicro,2023-01-04,Graphical program used to map keyboard buttons and mouse controls to a gamepad.
+extras,metrogit,2023-01-01,Git visualization tool that's more than just git.
+extras,beaker,2022-12-27,An experimental peer-to-peer Web browser
+extras,nsudo,2022-12-23,Powerful System Administration Tool
+extras,win-gpg-agent,2022-12-12,Simple set of tools to make working with GPG and SSH keys easier on Windows 10/11.
+extras,lighttable,2022-10-21,A customizable code editor that connects you to your creation with instant feedback.
+extras,harmony,2022-09-12,Music player with a sleek UI
+extras,svcat,2022-05-06,Service Catalog lets you provision cloud services directly from the comfort of native Kubernetes tooling.
+extras,locale-emulator,2022-04-15,Yet Another System Region and Language Simulator
+extras,search-deflector,2022-04-03,A small program that forwards searches from Cortana to your preferred browser and search engine
+extras,pskubectlcompletion,2022-01-31,kubectl auto-completion for PowerShell
+extras,centertaskbar,2022-01-24,Centers Windows taskbar icons.
+extras,devdocs,2022-01-08,A full-featured desktop app for DevDocs.io
+extras,sourcetrail,2021-12-14,Interactive source code explorer
+extras,vott,2021-12-07,End to end Object Detection Models builder from Images and Videos
+extras,edex-ui,2021-10-22,A science fiction desktop running everywhere
+extras,netlifyctl,2021-09-08,Legacy command line interface for managing and deploying sites on Netlify without leaving your terminal.
+extras,multrin,2021-06-23,Organize multiple apps in tabs!
+extras,zeebe-modeler,2021-05-12,Desktop Application for modeling Zeebe Workflows with BPMN
+extras,ilmerge,2021-03-19,A static linker for .NET assemblies developed by Microsoft .NET team.
+extras,superpowers-app,2021-03-05,Desktop app for the HTML5 2D+3D game maker
+extras,listenmoeclient,2021-02-19,"Official, Simple and lightweight LISTEN.moe client"
+extras,bomi,2021-01-21,"A powerful and easy-to-use multimedia player, formerly known as CMPlayer."
+extras,dnspy,2020-12-21,.NET debugger and assembly editor
+extras,devrantron,2020-11-10,A cross platform desktop application for devRant
+extras,free-manga-downloader,2020-10-31,Manage and download manga from various websites.
+extras,symphytum,2020-10-06,Personal database software to manage and organize data in an easy and intuitive way.
+extras,mist,2020-09-05,Browse and use apps on the Ethereum network.
+extras,weasel-pageant,2020-06-15,weasel-pageant allows you to use SSH keys held by PuTTY's Pageant in WSL
+extras,cabal-mini,2020-05-31,"A minimalist desktop app for Cabal, the p2p/decentralized/local-first chat platform"
+extras,oni,2020-04-01,"A retro-futuristic editor, combining Vim-style modal editing with the aesthetics and language features of modern editors."
+extras,ssh-agent-wsl,2020-03-15,Use the Windows SSH agent from inside WSL
+extras,noty,2019-11-15,Autosaving sticky note with support for multiple notes without needing multiple windows.
+extras,yubikey-piv-manager,2019-03-12,Graphical application for configuring a PIV-enabled YubiKey.
+extras,notepad2-mod,2018-08-12,"A Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting."
+main,pocketbase,2026-10-26,Open Source realtime backend in 1 file
+main,armor,2026-09-27,"Uncomplicated, modern HTTP server"
+main,tunnel,2026-09-27,Expose local servers to the internet securely.
+main,ghcup,2026-09-15,GHCup is the main installer for the general purpose language Haskell
+main,rke,2026-08-31,CNCF-certified Kubernetes distribution that runs entirely within Docker containers
+main,octopustools,2026-08-28,"Command line manager of Octopus environments, deployments, channels, projects, and workers"
+main,aliyundrive-webdav,2026-08-03,Aliyundrive WebDav Service
+main,rain,2026-07-29,A development workflow tool for working with AWS CloudFormation.
+main,aws-copilot,2026-06-22,"A tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate."
+main,mdcat,2026-06-19,cat for markdown
+main,bbdown,2026-05-14,A CLI-based Bilibili downloader.
+main,guetzli,2026-04-18,Perceptual JPEG encoder
+main,camunda-operate,2026-04-06,Camunda workflow instance monitor/manager
+main,rcedit,2026-04-06,Command-line tool for editing resources of PE executables
+main,odo,2026-04-01,Developer-focused CLI for OpenShift and Kubernetes.
+main,redshift,2026-04-01,Adjusts the color temperature of screen according to surroundings.
+main,terraformer,2026-03-16,"Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code."
+main,mods,2026-03-09,"AI for the command line, built for pipelines."
+main,rye,2026-02-05,A comprehensive project and package management solution for Python
+main,git-chglog,2026-01-26,Changelog generator implemented in Go (Golang)
+main,terrascan,2025-11-20,A static code analyzer for Infrastructure as Code.
+main,aws-ecs,2025-11-19,"AWS ECS CLI enables users to run their applications on ECS/Fargate using the Docker Compose file format, quickly provision resources, push/pull images in ECR, and monitor running applications on ECS/Fargate."
+main,gactions,2025-11-12,Command Line Interface for Google Actions SDK
+main,minishift,2025-06-04,"Minishift is a tool that helps you run OpenShift locally by running a single-node OpenShift cluster inside a VM. You can try out OpenShift or develop with it, day-to-day, on your local host."
+main,xsv,2025-04-24,A fast CSV command line toolkit written in Rust
+main,gossm,2025-04-16,"Interactive CLI tool that you can connect to EC2 using commands same as start-session, SSH in AWS SSM Session Manager"
+main,cargo-watch,2025-01-18,Watches over your Cargo project's source. 
+main,spdx-sbom-generator,2025-01-13,A tool to help those in the community that want to generate SPDX Software Bill of Materials (SBOMs) with current package managers.
+main,mach2,2024-12-14,Feature Control Multi-tool for Windows 10
+main,arc,2024-11-19,"Easily create & extract archives, and compress & decompress files of various formats."
+main,regula,2024-09-03,"A tool to evaluate infrastructure as code files for potential AWS, Azure, Google Cloud, and Kubernetes security and compliance violations prior to deployment."
+main,kim,2024-09-02,"Enables building images locally, natively on your k3s cluster"
+main,datree,2024-06-06,"Prevent Kubernetes misconfigurations from reaching production (again 😤 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations."
+main,neofetch,2024-04-26,A command-line system information tool written in bash 3.2+.
+main,buffalo,2024-03-27,"A Go web development eco-system, designed to make the life of a Go web developer easier."
+main,apimtemplate,2024-02-23,Azure API Management DevOps Resource Kit
+main,pdf2djvu,2024-01-08,PDF to DjVu converter
+main,keptn-cli,2023-12-21,Cloud-native application life-cycle orchestration
+main,aks-engine,2023-10-24,Self-managed Kubernetes cluster provisioning on Azure
+main,wkhtmltopdf,2023-08-28,Render HTML into PDF
+main,r128gain,2023-08-17,Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
+main,butterflow,2023-08-16,Video manipulation tool
+main,wapm-cli,2023-06-14,WebAssembly package manager.
+main,deta,2023-06-06,Command line interface for managing Deta micros and deployments
+main,dart-sass-embedded,2023-05-15,A wrapper for Dart Sass that implements the compiler side of the Embedded Sass protocol
+main,syncany-cli,2022-07-26,An open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage!
+main,hopp-cli,2022-07-14,"An HTTP CLI client for Hoppscotch, an alternative to curl/httpie"
+main,waifu2x-converter-cpp,2022-06-02,Reimplementation of waifu2x in C++ using OpenCL and OpenCV.
+main,srlua,2020-11-20,A tool for building self-running Lua programs
+main,rancher-compose,2020-08-03,A complete software stack for teams adopting containers.
