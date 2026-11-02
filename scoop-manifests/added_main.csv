@@ -1,4 +1,5 @@
 name,added_date,description
+usvg,2026-11-01,An SVG parser that tries to solve most of SVG complexity.
 hashcards,2026-10-30,A plain text-based spaced repetition system.
 ecspresso,2026-10-27,Deployment tool for Amazon ECS
 openai-cli,2026-10-26,Official command-line tool for the OpenAI API
@@ -1024,7 +1025,6 @@ gomplate,2020-03-03,Template renderer with various datasource support
 uutils-coreutils,2020-03-03,"A cross-platform Rust reimplementation of GNU coreutils (binaries compiled with MSVC), with some options or behaviors potentially differing from GNU coreutils."
 evans,2020-02-29,More expressive gRPC client
 symfony-cli,2020-02-26,"Helps Symfony developers manage projects, from local code to remote infrastructure"
-camunda-operate,2020-02-24,Camunda workflow instance monitor/manager
 migrate,2020-02-24,Reads and applies migrations in correct order to a database.
 okteto,2020-02-24,Development platform for Kubernetes applications
 serverless,2020-02-24,Framework for building and operating serverless applications
@@ -1180,7 +1180,6 @@ v2ray,2019-06-19,A platform for building proxies to bypass network restrictions.
 fontreg,2019-06-17,Windows Font Registration & Installation Utility.
 sox,2019-06-17,Command line utility that can convert various formats of computer audio files in to other formats.
 djvulibre,2019-06-13,Web-centric format and software platform for distributing documents and images.
-pdf2djvu,2019-06-11,PDF to DjVu converter
 k9s,2019-06-03,Kubernetes Clusters manager
 kafka,2019-05-28,Apache Kafka. A distributed streaming platform.
 redpen,2019-05-28,A proofreading tool.
@@ -1288,7 +1287,6 @@ edgedriver,2019-04-22,Close the loop on your developer cycle by automating testi
 elixir,2019-04-22,A dynamic and functional programming language designed for building scalable and maintainable applications.
 elm,2019-04-22,Elm language compiler.
 erlang,2019-04-22,A programming language used to build massively scalable soft real-time systems with requirements on high availability.
-eventstore,2019-04-22,"The stream database optimized for event sourcing (Deprecated, please use `main/kurrentdb` instead)."
 exercism,2019-04-22,A Go based command line tool for exercism.io
 exiftool,2019-04-22,"A command-line application for reading, writing and editing meta information in a wide variety of files."
 faas-cli,2019-04-22,A framework for building serverless functions with Docker and Kubernetes which has first class support for metrics. (CLI)
@@ -1528,7 +1526,6 @@ sslscan,2019-04-22,Tests SSL/TLS enabled services to discover supported cipher s
 stack,2019-04-22,The Haskell Tool Stack
 svtplay-dl,2019-04-22,Video downloader from various sites
 swig,2019-04-22,A software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
-syncany-cli,2019-04-22,An open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage!
 syncthing,2019-04-22,Open Source Continuous File Synchronization.
 tar,2019-04-22,File archiver for manipulation with '.tar.*' files.
 teleport,2019-04-22,Privileged access management for cloud-native infrastructure
@@ -1560,7 +1557,6 @@ win-acme,2019-04-22,A Simple ACME Client
 windows-application-driver,2019-04-22,Supports Selenium-like UI Test Automation on Windows Applications.
 winpython,2019-04-22,"Free, open-source and portable Python distribution for Windows"
 wixtoolset,2019-04-22,Set of tools for windows installer creation.
-wkhtmltopdf,2019-04-22,Render HTML into PDF
 wp-cli,2019-04-22,Command-line interface for WordPress
 wuzz,2019-04-22,Interactive cli tool for HTTP inspection
 x264,2019-04-22,H.264/MPEG-4 AVC video encoder

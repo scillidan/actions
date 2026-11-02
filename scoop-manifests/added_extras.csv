@@ -1,4 +1,6 @@
 name,added_date,description
+apps2samsung,2026-11-01,A small cross-platform tool that side-loads any app onto Samsung devices running Tizen OS.
+pebrel,2026-11-01,"AI-native, GPU-accelerated terminal emulator for Windows"
 multica,2026-10-31,Project management for human + agent teams
 multica-cli,2026-10-31,Project management for human + agent teams (CLI)
 usbtreeview,2026-10-29,USB Device Tree Viewer
@@ -242,8 +244,6 @@ cake-wallet,2025-12-21,"An open-source, non-custodial, and private multi-currenc
 sophia-script,2025-12-21,Sophia Script for Windows is the largest PowerShell module on GitHub for Windows 10 and Windows 11 fine-tuning and automating the routine tasks.
 sshfs-win-manager,2025-12-21,A GUI for SSHFS-Win.
 gui-for-singbox,2025-12-20,A GUI program for SingBox developed by vue3 + wails.
-altsendme,2025-12-19,"A peer-to-peer file transfer tool that sends files directly without using cloud storage (Deprecated, please use `extras/dashbeam` instead)."
-hemmelig,2025-12-19,Share sensitive information securely with client-side encryption and self-destructing messages.
 regclient,2025-12-19,"Command line interface and tools for the regclient Go library (regctl, regbot, regsync)."
 any-code,2025-12-14,"Professional AI code assistant desktop app supporting Claude Code, OpenAI Codex and Google Gemini CLI."
 jarkviewer,2025-12-10,"Simple, fast image viewer supporting static, animated, live, and RAW formats."
@@ -655,7 +655,6 @@ neoray,2023-04-16,Simple and lightweight GUI client for Neovim.
 radarr,2023-04-16,A movie collection manager with several features for Usenet and BitTorrent users.
 simpletransfer,2023-04-16,Transfer photos & videos from iPhone or iPad to PC or Mac.
 squirreldisk,2023-04-16,"Free, open-source disk usage analyzer."
-subsync,2023-04-16,An automatic movie subtitle synchronization tool.
 usb-image-tool,2023-04-16,"A utility that can create images of USB flash drives and MP3 players, that are mounted as USB drives. It allows you switch between images with different music styles on your MP3 Player or to make an exact backup image of your USB Stick."
 userbenchmark,2023-04-16,Speed test PC in less than a minute.
 volume2,2023-04-16,"An advanced Windows volume control, which can be used as a complete replacement for the standard Windows volume control."
@@ -2035,7 +2034,6 @@ speedyfox,2019-01-14,"Boosts Firefox, Skype, Chrome, Thunderbird in a single cli
 springboot,2019-01-14,"Create stand-alone, production-grade Spring based Applications that you can ""just run""."
 sql-workbench,2019-01-14,DBMS-independent SQL query tool
 sqlitebrowser,2019-01-14,DB Browser for SQLite (DB4S) project
-sqlitestudio,2019-01-14,"A SQLite database manager. (Deprecated, please use `extras/letos` instead)"
 squirrel-sql,2019-01-14,Universal SQL client
 station,2019-01-14,Open-source smart browser for busy people. A single place for all of your web applications.
 steam-library-manager,2019-01-14,An utility to manage your Steam and Origin libraries in ease of use with multi library support.

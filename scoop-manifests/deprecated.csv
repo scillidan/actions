@@ -1,4 +1,7 @@
 bucket,name,deprecated_date,description
+extras,altsendme,2026-11-01,A peer-to-peer file transfer tool that sends files directly without using cloud storage.
+extras,sqlitestudio,2026-11-01,A SQLite database manager.
+main,eventstore,2026-11-01,The stream database optimized for event sourcing.
 main,scoop-shim,2026-10-16,A Scoop helper program for shimming executables
 main,emplace,2026-09-27,Synchronizes installed packages on multiple machines.
 extras,pscompletions,2026-09-19,A completion manager for a better and simpler tab-completion experience in PowerShell. (Moved to Main bucket)
