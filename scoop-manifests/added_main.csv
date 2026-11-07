@@ -1,4 +1,11 @@
 name,added_date,description
+herdr-core,2026-11-05,Persistent terminal runtime for coding agents that powers the Herdr App.
+tennis,2026-11-05,Render CSV files as stylish tables in the terminal.
+xerj,2026-11-05,AI search engine and MCP server for bots and agents
+zvec-grep,2026-11-05,"Local-first search across your workspace, built for humans and AI agents."
+clang-uml,2026-11-04,Customizable automatic UML diagram generator for C++ based on Clang.
+kotlin-lsp,2026-11-04,Official Kotlin language server based on IntelliJ IDEA.
+noir,2026-11-03,Desktop Android leak auditor that maps app permissions and APK endpoints to data flows and generates rollback-safe remediations over adb.
 usvg,2026-11-01,An SVG parser that tries to solve most of SVG complexity.
 hashcards,2026-10-30,A plain text-based spaced repetition system.
 ecspresso,2026-10-27,Deployment tool for Amazon ECS
@@ -737,7 +744,6 @@ aws-nuke,2022-01-31,Allows deleting all resources of an AWS account.
 go-swagger,2022-01-31,Golang implementation of Swagger 2.0 (OpenAPI 2.0)
 nomino,2022-01-28,Batch rename utility for developers
 pdfcpu,2022-01-27,"A PDF processor written in Go, supporting encryption."
-ninja-kitware,2022-01-26,A small build system with a focus on speed (Kitware fork with jobserver support).
 gotify-cli,2022-01-25,A command line interface for pushing messages to Gotify server
 gotify-server,2022-01-25,"A simple server for sending and receiving messages in real-time per WebSocket, with a sleek web UI"
 ossgadget,2022-01-25,Collection of tools for analyzing open source packages.

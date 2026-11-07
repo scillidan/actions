@@ -1,4 +1,6 @@
 bucket,name,latest_update,description
+extras,sharik,2021-11-03,Sharing files via Wi-Fi or Mobile Hotspot.
+extras,vapoursyntheditor,2021-11-02,An editor for editing and previewing VapourSynth scripts
 extras,robo3t,2021-10-30,The free lightweight GUI for MongoDB enthusiasts
 extras,ddc-toolbox,2021-10-29,ViPER DDC files editor with AutoEQ integration
 extras,svcat,2021-10-25,Service Catalog lets you provision cloud services directly from the comfort of native Kubernetes tooling.

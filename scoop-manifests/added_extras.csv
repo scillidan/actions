@@ -1,4 +1,11 @@
 name,added_date,description
+materialcraft,2026-11-06,"An open-source, node-based material designer written from scratch in pure Rust."
+texturecraft,2026-11-06,"An open-source, 3D texture painting workflow written from scratch in pure Rust."
+herdr-app,2026-11-05,Desktop app for terminals and coding agents.
+motty,2026-11-05,"SSH client with terminal, SFTP, port forwarding and an AI assistant"
+noctis,2026-11-04,"Lossless music player with library management, synced lyrics and streaming support"
+openidea,2026-11-04,An open-source IDE inspired by IntelliJ IDEA.
+craft-anything,2026-11-03,"Understand how software works, then craft your own"
 apps2samsung,2026-11-01,A small cross-platform tool that side-loads any app onto Samsung devices running Tizen OS.
 pebrel,2026-11-01,"AI-native, GPU-accelerated terminal emulator for Windows"
 multica,2026-10-31,Project management for human + agent teams
@@ -241,7 +248,7 @@ rectanglewin,2025-12-27,Spectacle/Rectangle for Windows: Hotkey-driven window sn
 resizer2,2025-12-27,Resize and move windows like in KDE on Windows with Win+Mouse!
 mrrss,2025-12-26,"A modern, cross-platform desktop RSS reader."
 cake-wallet,2025-12-21,"An open-source, non-custodial, and private multi-currency crypto wallet."
-sophia-script,2025-12-21,Sophia Script for Windows is the largest PowerShell module on GitHub for Windows 10 and Windows 11 fine-tuning and automating the routine tasks.
+sophia-script,2025-12-21,"Sophia Script for Windows (Windows 11, PowerShell 5.1). The most advanced PowerShell module on GitHub for fine-tuning Windows and automating routine tasks."
 sshfs-win-manager,2025-12-21,A GUI for SSHFS-Win.
 gui-for-singbox,2025-12-20,A GUI program for SingBox developed by vue3 + wails.
 regclient,2025-12-19,"Command line interface and tools for the regclient Go library (regctl, regbot, regsync)."
@@ -287,7 +294,7 @@ varia,2025-10-06,Download manager based on aria2
 final2x,2025-10-01,A cross-platform image super-resolution tool.
 completionpredictor,2025-09-30,"Command-line intellisense based on PowerShell auto-completion, used as a plugin for PSReadLine."
 krokiet,2025-09-30,"Krokiet is the Slint frontend for Czkawka, helping you remove unnecessary files from your computer."
-servy,2025-09-30,"Servy lets you run any app as a native Windows service with full control over the working directory, startup type, process priority, CPU affinity, logging, health checks, environment variables, dependencies, pre-launch and post-launch hooks, pre-stop and post-stop hooks, and parameters."
+servy,2025-09-30,"Servy lets you run any app as a native Windows service with full control over the working directory, startup type, process priority, CPU affinity, logging, health checks, environment variables with expansion, dependencies, pre-launch and post-launch hooks, pre-stop and post-stop hooks, and parameters. Services can run as Local System, a local or domain account, or a Group Managed Service Account (gMSA)."
 tacky-borders,2025-09-30,Customizable borders for Windows 11 and 10
 helium,2025-09-28,"The Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat and no noise."
 apk-editor-studio,2025-09-24,Powerful yet easy to use APK editor for PC and Mac.
@@ -1224,11 +1231,9 @@ qt-creator-cdb-ext,2021-11-04,Qt Creator CDB Debugger Support
 qt-creator-wininterrupt,2021-11-04,Qt Creator wininterupt
 xampp,2021-11-04,"Apache distribution containing MariaDB, PHP, and Perl"
 figma,2021-11-03,"A vector graphics editor and prototyping tool focusing on use in user interface and user experience design, with an emphasis on real-time collaboration"
-sharik,2021-11-03,Sharing files via Wi-Fi or Mobile Hotspot.
 stellarium,2021-11-03,Real time realistic skies generator
 wincrypt-sshagent,2021-11-03,A SSH Agent based-on Windows CryptoAPI.
 keyferret,2021-11-02,"Type accents, symbols, maths, Cyrillic, Greek, Hebrew and IPA in any Windows application"
-vapoursyntheditor,2021-11-02,An editor for editing and previewing VapourSynth scripts
 youtubedownloader,2021-11-02,Download videos from YouTube.
 text-grab,2021-11-01,"Minimal Windows utility for copying and pasting any visible text, without internet access."
 diagram-designer,2021-10-31,"Vector graphics editor for creating flowcharts, UML class diagrams, illustrations and slide shows."

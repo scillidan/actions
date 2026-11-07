@@ -68,6 +68,7 @@ extras,oh-my-posh,2021-02-20,A prompt theming engine for Powershell running in C
 extras,veonim,2021-01-14,Simple modal IDE built on neovim
 extras,shinjiru,2020-09-12,Make managing your AniList account simple via automatic list updates and episode downloads.
 extras,pureref,2020-07-08,Simple and lightweight tool for artists to organize and view reference images
+main,ninja-kitware,2026-11-04,A small build system with a focus on speed (Kitware fork with jobserver support).
 main,eventstore,2026-11-01,The stream database optimized for event sourcing.
 main,scoop-shim,2026-10-16,A Scoop helper program for shimming executables
 main,emplace,2026-09-27,Synchronizes installed packages on multiple machines.
