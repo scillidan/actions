@@ -341,6 +341,13 @@
     <summary type="html">A JSON incremental digger with auto completions and expressions.</summary>
   </entry>
   <entry>
+    <id>https://terminaltrove.com/feed/chroncal/</id>
+    <title>chroncal</title>
+    <link href="https://github.com/DouglasdeMoura/chroncal" />
+    <updated>2026-09-09T12:00:00Z</updated>
+    <summary type="html">All in one calendar, tasks and journal manager in the terminal.</summary>
+  </entry>
+  <entry>
     <id>https://terminaltrove.com/feed/watchtower/</id>
     <title>watchtower</title>
     <link href="https://github.com/lajosdeme/watchtower" />
