@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CTAN: New Packages</title>
+  <id>urn:rss-preread:ctan-ann</id>
+  <updated>2026-11-07T08:55:42Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/3bca24f3116ce06d@hogwart</id>
+    <title>florilegium</title>
+    <link href="https://ctan.org/pkg/florilegium" />
+    <updated>2026-11-07T08:55:42Z</updated>
+    <summary type="html">Procedurally generated floral page margins for LuaLaTeX, with a TikZ library for pdfLaTeX</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/63cbf0d5bdad5edc@hogwart</id>
+    <title>tikzpizza</title>
+    <link href="https://ctan.org/pkg/tikzpizza" />
+    <updated>2026-11-05T16:57:45Z</updated>
+    <summary type="html">Pizzas for fraction problems, drawn with TikZ</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/63cbf0d31dba864f@hogwart</id>
+    <title>tikzfins</title>
+    <link href="https://ctan.org/pkg/tikzfins" />
+    <updated>2026-11-05T16:57:40Z</updated>
+    <summary type="html">Aquarium fish, invertebrates and aquascapes drawn with TikZ</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/63cbf0cd84e76ed3@hogwart</id>
+    <title>pxpgftate</title>
+    <link href="https://ctan.org/pkg/pxpgftate" />
+    <updated>2026-11-05T16:57:29Z</updated>
+    <summary type="html">Support for PGF/TikZ in the vertical (tate) direction of (u)pLaTeX</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/autZLmpdsK0W51k9@prptp</id>
+    <title>sesameseeds</title>
+    <link href="https://ctan.org/pkg/sesameseeds" />
+    <updated>2026-11-04T16:11:26Z</updated>
+    <summary type="html">Sprinkle roasted sesame seeds and simit crumbs over your pages</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/3e39e8a3555a5fd2@hogwart</id>
+    <title>bibupdate</title>
+    <link href="https://ctan.org/pkg/bibupdate" />
+    <updated>2026-11-04T10:11:09Z</updated>
+    <summary type="html">Automatically update the entries in a BibTeX file</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/aurtWdnUY6S3oCK-@prptp</id>
+    <title>beamertheme-niederrhein</title>
+    <link href="https://ctan.org/pkg/beamertheme-niederrhein" />
+    <updated>2026-11-04T08:31:21Z</updated>
+    <summary type="html">Generic beamer theme in the style of Hochschule Niederrhein</summary>
+  </entry>
+</feed>

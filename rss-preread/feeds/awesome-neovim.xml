@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>awesome-neovim: New Plugins</title>
+  <id>urn:rss-preread:awesome-neovim</id>
+  <updated>2026-11-08T05:25:40Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/741794fbb9083c47e1bfd82d139c53ee33cfe26d#https://github.com/alessandropietrobelli/nuget.nvim</id>
+    <title>alessandropietrobelli/nuget.nvim</title>
+    <link href="https://github.com/alessandropietrobelli/nuget.nvim" />
+    <updated>2026-11-08T05:25:40Z</updated>
+    <summary type="html">NuGet package manager for .NET solutions.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/4e97c362866f9657087e26ea27e4f6a91e5fae91#https://github.com/LFSCamargo/macscroll.nvim</id>
+    <title>LFSCamargo/macscroll.nvim</title>
+    <link href="https://github.com/LFSCamargo/macscroll.nvim" />
+    <updated>2026-11-07T21:10:24Z</updated>
+    <summary type="html">macOS trackpad and mouse-wheel scrolling delivered by a Darwin handler so terminals cannot drop sideways motion.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/f57361aeac4b21eab5054fd9a5d8ded160c66c8a#https://github.com/LFSCamargo/nvim.setup</id>
+    <title>LFSCamargo/nvim.setup</title>
+    <link href="https://github.com/LFSCamargo/nvim.setup" />
+    <updated>2026-11-06T06:44:17Z</updated>
+    <summary type="html">Portable config with a file tree, editor tabs, and independent AI CLI chats in one window.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/0f80f302c4920d75805892fcbc3b23c7d5bd19de#https://github.com/alessandropietrobelli/dotnet-counters.nvim</id>
+    <title>alessandropietrobelli/dotnet-counters.nvim</title>
+    <link href="https://github.com/alessandropietrobelli/dotnet-counters.nvim" />
+    <updated>2026-11-06T06:43:25Z</updated>
+    <summary type="html">Live .NET runtime metrics (CPU, memory, GC, exceptions, HTTP latency) drawn as graphs in a side panel that opens with `nvim-dap` debug sessions.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/188aac2d09005837a622228c090e01fb032ea2b8#https://github.com/LongYinStudio/suda.nvim</id>
+    <title>LongYinStudio/suda.nvim</title>
+    <link href="https://github.com/LongYinStudio/suda.nvim" />
+    <updated>2026-11-04T19:29:33Z</updated>
+    <summary type="html">Transparent, "sudo-like" privilege elevation without virtual URI hacks.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/b13df95dc3af9d1693d32793d8722cc539c91498#https://github.com/alexcloudstar/cheatsheet.nvim</id>
+    <title>alexcloudstar/cheatsheet.nvim</title>
+    <link href="https://github.com/alexcloudstar/cheatsheet.nvim" />
+    <updated>2026-11-04T02:53:39Z</updated>
+    <summary type="html">Telescope cheatsheet for your keybindings; look up a key by task or keyword and add your own keys.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/7ac9f1335dc29bd14898408272c5d9f7e526e60c#https://github.com/javanoo6/intellij-formatter.nvim</id>
+    <title>javanoo6/intellij-formatter.nvim</title>
+    <link href="https://github.com/javanoo6/intellij-formatter.nvim" />
+    <updated>2026-11-04T02:48:17Z</updated>
+    <summary type="html">IntelliJ-powered formatting through conform.nvim, with EditorConfig support, Java import cleanup, and a reusable daemon.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/5ee35d20cf307143c537f93b0c503bfaf1716da6#https://github.com/ywsrock/nvim-md-preview</id>
+    <title>ywsrock/nvim-md-preview</title>
+    <link href="https://github.com/ywsrock/nvim-md-preview" />
+    <updated>2026-11-04T02:46:33Z</updated>
+    <summary type="html">Markdown preview in your browser with two-way cursor sync, Mermaid and KaTeX support, and PDF/DOCX/HTML/EPUB export.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/29a7015d8bf68fd174f21bfa70378cf8e34aef3f#https://github.com/alessandropietrobelli/dotnet-tree.nvim</id>
+    <title>alessandropietrobelli/dotnet-tree.nvim</title>
+    <link href="https://github.com/alessandropietrobelli/dotnet-tree.nvim" />
+    <updated>2026-11-04T02:45:28Z</updated>
+    <summary type="html">A `.NET` solution explorer as a neo-tree source, showing solution folders, projects, project references and package versions, with support for many `dotnet` actions.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/b56561923c8f171e7e75a33a89fcf24aed88dec6#https://github.com/navasvarela/vimdojo</id>
+    <title>navasvarela/vimdojo</title>
+    <link href="https://github.com/navasvarela/vimdojo" />
+    <updated>2026-11-03T08:05:53Z</updated>
+    <summary type="html">Puzzle game for learning Vim motions and workflows, scored on keystrokes against par.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/b9569c68f34477e61e4321ff02c198bf82a1e789#https://github.com/kryptamine/gruber-darker-renaissance</id>
+    <title>kryptamine/gruber-darker-renaissance</title>
+    <link href="https://github.com/kryptamine/gruber-darker-renaissance" />
+    <updated>2026-10-31T19:27:33Z</updated>
+    <summary type="html">**_`[TS][LSP][Lua]`_** A dark, minimal colorscheme based on Gruber Darker.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/af1855956e4f174a7c15eb929bdb3a5b5f6a7d42#https://github.com/sammaji/markdown-preview.nvim</id>
+    <title>sammaji/markdown-preview.nvim</title>
+    <link href="https://github.com/sammaji/markdown-preview.nvim" />
+    <updated>2026-10-30T00:38:07Z</updated>
+    <summary type="html">Preview Markdown files in your browser with support for math and diagrams, and synchronised scrolling.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/c5c3c95889142ada4ada799c231061a53f1e1ca1#https://github.com/heritage-themes/heritage-themes.nvim</id>
+    <title>heritage-themes/heritage-themes.nvim</title>
+    <link href="https://github.com/heritage-themes/heritage-themes.nvim" />
+    <updated>2026-10-30T00:35:39Z</updated>
+    <summary type="html">**_`[TS][LSP][L/D][Lua]`_** A collection of 65 colorschemes drawn from the colour traditions of different cultures, with support for `lualine.nvim` and `gitsigns.nvim`.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/0eab61ca920eb79792fd96413ef9f657a06815f1#https://github.com/dobsontom/dbt-ft.nvim</id>
+    <title>dobsontom/dbt-ft.nvim</title>
+    <link href="https://github.com/dobsontom/dbt-ft.nvim" />
+    <updated>2026-10-29T19:30:38Z</updated>
+    <summary type="html">Jinja-aware filetype for `dbt` models, with Tree-sitter support for highlighting, folding, and indentation.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/6918fd2eb81f5e612bbbc369b67a4be12da509a2#https://github.com/gamjagoon/earlgrey.nvim</id>
+    <title>gamjagoon/earlgrey.nvim</title>
+    <link href="https://github.com/gamjagoon/earlgrey.nvim" />
+    <updated>2026-10-29T01:37:54Z</updated>
+    <summary type="html">A focused configuration with terminal agent notifications, per-language LSP controls, and cross-platform installers.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/5a801eb3017f12302ef0a26af1e4a20ed00c58dc#https://github.com/minhyeoky/tmux-oil.nvim</id>
+    <title>minhyeoky/tmux-oil.nvim</title>
+    <link href="https://github.com/minhyeoky/tmux-oil.nvim" />
+    <updated>2026-10-27T22:50:46Z</updated>
+    <summary type="html">Edit tmux sessions and windows as lines in a buffer, like `oil.nvim`.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/b472f6b390e99acf962211064236a883c4620478#https://github.com/mrwatts88/ghost.nvim</id>
+    <title>mrwatts88/ghost.nvim</title>
+    <link href="https://github.com/mrwatts88/ghost.nvim" />
+    <updated>2026-10-26T17:58:28Z</updated>
+    <summary type="html">Write a question using a comment starting with `?` to get a response from your favourite LLM via virtual text.</summary>
+  </entry>
+</feed>

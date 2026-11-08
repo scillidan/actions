@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>awesome-ratatui: New Additions</title>
+  <id>urn:rss-preread:awesome-ratatui</id>
+  <updated>2026-11-06T13:42:03Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-ratatui.xml" />
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/968f13c81044e2815bee481b163446e8eb8aebce</id>
+    <title>ff</title>
+    <link href="https://github.com/anthonyamaro15/file-finder-rust" />
+    <updated>2026-11-06T13:42:03Z</updated>
+    <summary type="html">Adds ff to Files, Data, and Documents: a terminal file finder that fuzzy-searches every folder under your home, previews what it finds (syntax highlighting, Markdown, images, PDFs, archives), then `cd`s there on exit or opens it in nvim, VS Code or Zed. It can also copy or move files into any folder picked by name. Installs with `brew install anthonyamaro15/tap/ff` or from the GitHub release binaries.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/7e87d76bde28d07459a556459e0abeddb50e4f2e</id>
+    <title>whycodes</title>
+    <link href="https://github.com/whycorporation/whycodes" />
+    <updated>2026-11-04T21:15:25Z</updated>
+    <summary type="html">An open-source (MIT) AI coding agent for the terminal with a full-screen Ratatui TUI. It reads, edits and searches code and runs commands through multi-turn tool use, and works with hosted APIs, local model servers or any OpenAI-compatible endpoint. Runs on Linux, macOS and Windows. Added to Apps &gt; AI and Agents in alphabetical order.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/8a934065ccffaf2d5d09b8dc6f6792341efec157</id>
+    <title>Almavorn</title>
+    <link href="https://github.com/Molten-Zharr/Almavorn" />
+    <updated>2026-11-04T21:14:49Z</updated>
+    <summary type="html">1. Use your keyboard, your mouse, or both at once! 2. An equalizer, playback settings, and background animations! 3. Tooltips, action descriptions, and customizable shortcut highlighting! 4. Remap keys, move panels, choose your own colors, and edit track titles and metadata. **It's all built in!** 5. Two modes: **Order** protects playlists from accidental edits. Switch to **Chaos** to add tracks straight to playlists and folders! 6. The **GUITUI** approach brings terminal and graphical interfaces together. Text panels and keyboard shortcuts form the foundation. A graphics layer adds cover art, waveforms, animations, and large mouse-operated buttons. Text and graphics share one window, while graphical elements can extend beyond the character grid.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/c6fba0c710e2178e07a820a500839159887ad084</id>
+    <title>cloofy</title>
+    <link href="https://github.com/parda21/cloofy" />
+    <updated>2026-11-04T21:14:05Z</updated>
+    <summary type="html">Adds cloofy to Music and Audio: a Spotify and YouTube Music client for the terminal that plays the music itself (librespot for Spotify, mpv and yt-dlp for YouTube Music), with Home, Spotify's DJ, synced lyrics and real cover art through the Kitty, Sixel or iTerm2 protocol. Docs: https://cloofy.app</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/1644591dee3367da1177e4b762e0132691257647</id>
+    <title>wireguard-tui</title>
+    <link href="https://github.com/JamilleJung/wireguard-tui" />
+    <updated>2026-11-04T21:13:14Z</updated>
+    <summary type="html">A Ratatui-based Linux TUI for managing ordinary WireGuard tunnels through `wg` and `wg-quick`, with live status, configuration editing, QR import, and backups. I maintain this project. This adds one entry under **Networking and Internet → Network Operations and Infrastructure**.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/bb7ccc76cf122fdd18ab4049bde7a9b6cc4be29b</id>
+    <title>Ario</title>
+    <link href="https://github.com/peymanAzad/ario" />
+    <updated>2026-11-04T21:10:58Z</updated>
+    <summary type="html">Ario is a terminal download manager built with Rust and Ratatui, powered by aria2. It supports HTTP/HTTPS and BitTorrent downloads, scheduled queues, and batch imports from the clipboard. Its daemon keeps active downloads and enabled schedules running after the interface closes.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/7edbaea22601c30f08c79f02b41121c5ca2274d4</id>
+    <title>cctrail</title>
+    <link href="https://github.com/vladkens/cctrail" />
+    <updated>2026-11-01T12:02:22Z</updated>
+    <summary type="html">Adds [cctrail](https://github.com/vladkens/cctrail) to AI and Agents: a Rust CLI with a Ratatui TUI that shows active time, tokens and estimated cost per project from the local history of Claude Code, Codex, pi and other coding agents.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/90e86f0293b454add69f538df773cd6a567c475c</id>
+    <title>taria-ratatui</title>
+    <link href="https://github.com/y0sif/taria" />
+    <updated>2026-11-01T00:37:20Z</updated>
+    <summary type="html">A ratatui adapter that publishes your app's widget tree, focus and available actions, plus an MCP bridge (taria-mcp) so an agent like Claude Code acts on widgets by id instead of scraping the screen. Works on Linux, macOS and Windows. I built it.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/61616ce42bff58e4d24a7c708ac9823a0c1285c1</id>
+    <title>Invocra</title>
+    <link href="https://github.com/dsszs3333/invocra" />
+    <updated>2026-10-31T11:13:25Z</updated>
+    <summary type="html">Invocra is a Ratatui dashboard for GitLab CI across projects and GitLab instances. It supports per-project branch selection, searchable job logs, and confirmed pipeline/job actions. Install with `cargo install invocra --locked` or `brew install dsszs3333/tap/invocra`; run `invocra --demo` to try it without credentials.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/354b58406943afcaa7b4006cb063179b2f9e1f24</id>
+    <title>sonora-tui</title>
+    <link href="https://github.com/ColinTenaguillo/sonora-tui" />
+    <updated>2026-10-31T11:12:23Z</updated>
+    <summary type="html">A terminal music player for TIDAL, Spotify, Apple Music, Deezer, YouTube Music, Subsonic/Navidrome and local files, built with Ratatui. Hi-res gapless playback, synced lyrics, scrobbling, cover art through the terminal's image protocol.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/fc215ad7cd26933c87450b2af254da98db467043</id>
+    <title>rigtop</title>
+    <link href="https://github.com/akivajp/rigtop" />
+    <updated>2026-10-31T11:09:39Z</updated>
+    <summary type="html">A btop-like system monitor built on Ratatui, with storage health (SMART, btrfs, mdadm, ZFS), per-process GPU memory and disk I/O, alerts, and an overview of many hosts over SSH (no daemon: it runs `rigtop --agent` through your own ssh). There is also a native GUI on the same collector crate.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/a91f955da7f3b4969ac04fa947a993d0caef2777</id>
+    <title>crossfyre-toolchain</title>
+    <link href="https://github.com/clickswave/crossfyre-toolchain" />
+    <updated>2026-10-31T11:07:59Z</updated>
+    <summary type="html">Recon and vulnerability scanning engines. voyage, doorward and ambulo each draw a live Ratatui dashboard while they find subdomains, open ports and hidden web content, and toolmark and plessor have one behind `--tui`. Added under Security and Identity.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/52a71a646eb767df3cfc8ab55d224e102776d9eb</id>
+    <title>hostkeep</title>
+    <link href="https://github.com/volodymyr-malishevskyi/hostkeep" />
+    <updated>2026-10-31T10:58:13Z</updated>
+    <summary type="html">A keyboard-driven editor for `/etc/hosts` on macOS and Linux. Enable/disable entries or whole groups with one key, keep groups as `# @group` markers in the file itself, and save safely with a diff preview, automatic backups and sudo only on save. Lossless: comments and formatting are preserved.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/85a0ba5e8769c57194a87dc805840afd974efd11</id>
+    <title>salti</title>
+    <link href="https://github.com/Sam-Sims/salti" />
+    <updated>2026-10-31T10:55:18Z</updated>
+    <summary type="html">salti is a multiple sequence alignment browser for the terminal. It aims to be fast and feature rich, designed to work on remote servers such as HPC environments, or anytime you dont want to leave the terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/8accd9fe88db00e05970c1e96944fac0a8e599fa</id>
+    <title>voff</title>
+    <link href="https://github.com/orhun/voff" />
+    <updated>2026-10-28T11:41:55Z</updated>
+    <summary type="html">Watch tasks move from plan to implementation with coordinated coding agents!</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/0cdd456a7ab521b02e1575d0f9409726a4f8503e</id>
+    <title>rail</title>
+    <link href="https://github.com/vitosans/rail" />
+    <updated>2026-10-27T08:06:48Z</updated>
+    <summary type="html">A local-first terminal mail client for Gmail and Microsoft 365. Mail is kept in SQLite with full-text search and synced by a small background daemon, so lists, search and opening mail never wait on the network. It has a unified inbox across accounts, a command palette, live theme previews, and an MCP server so an AI agent can help with setup without seeing any secrets. Added under Communications and Social, next to the other mail clients.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/aaaea6719d7edc021250fb2265c33ab387718ade</id>
+    <title>linear-tui</title>
+    <link href="https://github.com/solcreek/linear-tui" />
+    <updated>2026-10-26T18:42:46Z</updated>
+    <summary type="html">A terminal UI for Linear in Rust and Ratatui. It holds no API key and never calls the Linear API itself: every read and write is a `linearctl --json` call, so anything a person does in the TUI an agent can do with the CLI. Currently read-only: issue list with views, paging and a filter, and issue detail with Markdown, sub-issues, relations, attachments and threaded comments. A `--demo` mode needs no Linear account.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/0b60eadc1bed61dc2cac1d619a2dcd50882724ad</id>
+    <title>Xylem</title>
+    <link href="https://github.com/andrelnfernandes/xylem" />
+    <updated>2026-10-25T14:54:17Z</updated>
+    <summary type="html">An XTree/ZTreeWin-style file manager: directory tree with tagging and batch operations (copy, move, delete to trash, batch rename with masks), split windows, compare, ZIP/TAR browsing, a text/hex viewer with syntax highlighting, a built-in terminal whose tree follows the shell's `cd`, and an optional Git menu. Linux and Windows.</summary>
+  </entry>
+</feed>

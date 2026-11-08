@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>awesome-yazi: New Plugins</title>
+  <id>urn:rss-preread:awesome-yazi</id>
+  <updated>2026-10-25T10:50:36Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-yazi.xml" />
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/20880e853c1b5030cdf04c532f1982b02f542ffb#https://github.com/superb-striker/retarget-link.yazi</id>
+    <title>retarget-link.yazi</title>
+    <link href="https://github.com/superb-striker/retarget-link.yazi" />
+    <updated>2026-10-25T10:50:36Z</updated>
+    <summary type="html">Edit symlink targets inline, just like renaming files.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/685c26c0a1a231694742174260ace683295be2f1#https://github.com/DervexDev/f3d.yazi</id>
+    <title>f3d.yazi</title>
+    <link href="https://github.com/DervexDev/f3d.yazi" />
+    <updated>2026-10-20T08:58:15Z</updated>
+    <summary type="html">3D model previewer with orbit, zoom and model stats, powered by &lt;a href="https://f3d.app/"&gt;f3d&lt;/a&gt;. Supports glTF, FBX, OBJ, STL, USD, STEP and more.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/39c7ee63df5a9378bf15ab1a5a5d62b8a9a5d8a8#https://github.com/ThomasVanRiel/repo-status.yazi</id>
+    <title>repo-status.yazi</title>
+    <link href="https://github.com/ThomasVanRiel/repo-status.yazi" />
+    <updated>2026-10-20T08:57:54Z</updated>
+    <summary type="html">Show the branch and Git status next to every repository directory in the file list.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/055a4319cb1c1568fc2c640bee44eee19e7bf039#https://github.com/Geronfir/Bifold.yazi</id>
+    <title>bifold.yazi</title>
+    <link href="https://github.com/Geronfir/Bifold.yazi" />
+    <updated>2026-10-20T08:57:15Z</updated>
+    <summary type="html">Dual-pane view by splitting the screen between two tabs, with a runtime flip between side-by-side and stacked layouts, pane resizing, and cross-pane copy/move. Fork of split-tabs.yazi with bug fixes.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/2d2799fb9d8bdcb00f0c772bae9423e2c9f6fcb8#https://github.com/yohkuri/supaline.yazi</id>
+    <title>supaline.yazi</title>
+    <link href="https://github.com/yohkuri/supaline.yazi" />
+    <updated>2026-10-20T08:56:56Z</updated>
+    <summary type="html">Turn the linemode into as many columns as you like (size, timestamps, permissions, owner and more, or your own), each styled its own way, with gradients across the folder.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/c018b6d9a312e8f9ecfd1dff0218b66e03d64662#https://github.com/lesliek-dev/encapsulate.yazi</id>
+    <title>encapsulate.yazi</title>
+    <link href="https://github.com/lesliek-dev/encapsulate.yazi" />
+    <updated>2026-10-09T16:18:47Z</updated>
+    <summary type="html">Move individual selected files into their own self-named directories.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/556397a6062bd812c70c56085753b1f12fe854a0#https://github.com/tr1v3r/epub-preview.yazi</id>
+    <title>epub-preview.yazi</title>
+    <link href="https://github.com/tr1v3r/epub-preview.yazi" />
+    <updated>2026-10-09T16:18:06Z</updated>
+    <summary type="html">Preview EPUB covers using PyMuPDF, so no Linux-only thumbnailer is needed and it works on macOS too.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/1d75c90ba1f867b34ea055b5c2345740ee52891a#https://github.com/glassjaw/difftool.yazi</id>
+    <title>difftool.yazi</title>
+    <link href="https://github.com/glassjaw/difftool.yazi" />
+    <updated>2026-10-09T16:17:07Z</updated>
+    <summary type="html">Compare two selected files or directories with your configured `git difftool` (Meld, VS Code, Beyond Compare, vimdiff, …).</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/d15cd87142fa6438545eb6ff077858e050cd85e3#https://github.com/skylightlim/gridview.yazi</id>
+    <title>gridview.yazi</title>
+    <link href="https://github.com/skylightlim/gridview.yazi" />
+    <updated>2026-09-29T09:07:41Z</updated>
+    <summary type="html">Browse the current folder's images as a thumbnail grid drawn by &lt;a href="https://github.com/artemsen/swayimg"&gt;swayimg&lt;/a&gt;, then jump to the one you pick (Wayland only).</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/52b90e42da13d3e9517c57ae04740b817a482fce#https://github.com/skylightlim/omniconvert.yazi</id>
+    <title>omniconvert.yazi</title>
+    <link href="https://github.com/skylightlim/omniconvert.yazi" />
+    <updated>2026-09-29T09:04:22Z</updated>
+    <summary type="html">A conversion menu that offers only the formats the hovered or selected files can actually become (images, audio, video, PDF and documents), using &lt;a href="https://imagemagick.org/"&gt;ImageMagick&lt;/a&gt;, &lt;a href="https://ffmpeg.org/"&gt;FFmpeg&lt;/a&gt; and &lt;a href="https://www.libreoffice.org/"&gt;LibreOffice&lt;/a&gt;.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/3c046be752025721cab76731496748244b94969e#https://github.com/nmetschke/recents.yazi</id>
+    <title>recents.yazi</title>
+    <link href="https://github.com/nmetschke/recents.yazi" />
+    <updated>2026-09-22T19:36:52Z</updated>
+    <summary type="html">Recently used files using the &lt;a href="https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec"&gt;desktop-bookmark-spec&lt;/a&gt; (Linux only), supporting viewing, adding and removing.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/3ed12c9c719c325fd1e888e00651bf9ce3407986#https://github.com/tr1v3r/dsh-tui.yazi</id>
+    <title>dsh-tui.yazi</title>
+    <link href="https://github.com/tr1v3r/dsh-tui.yazi" />
+    <updated>2026-09-22T19:36:29Z</updated>
+    <summary type="html">Launch dsh-TUI with explicitly selected Yazi files appended to an editable prompt.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/be152018cf24942f7e49db9532a073ec82bb64eb#https://github.com/volker-schukai/red-table/tree/main/red-table.yazi</id>
+    <title>red-table.yazi</title>
+    <link href="https://github.com/volker-schukai/red-table/tree/main/red-table.yazi" />
+    <updated>2026-09-06T22:19:21Z</updated>
+    <summary type="html">Select images visually in red-table and return the confirmed selection to Yazi.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/fbb6d58dab2c64c611c03809a93bba9b5fb68fe5#https://github.com/alastairsounds/yazi-plugins/tree/main/shell-peek.yazi</id>
+    <title>shell-peek.yazi</title>
+    <link href="https://github.com/alastairsounds/yazi-plugins/tree/main/shell-peek.yazi" />
+    <updated>2026-08-23T12:21:57Z</updated>
+    <summary type="html">Peek a shell command's output as a toast without leaving the file list.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/e70769eea9030bfd1f0ce33e49d8deb55de3700f#https://github.com/PHONE1X/lsblk-mount.yazi</id>
+    <title>lsblk-mount.yazi</title>
+    <link href="https://github.com/PHONE1X/lsblk-mount.yazi" />
+    <updated>2026-08-23T12:21:03Z</updated>
+    <summary type="html">A fork of the official mount.yazi with lsblk-based device discovery, a mountpoint column, and error notifications.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/e70769eea9030bfd1f0ce33e49d8deb55de3700f#https://github.com/PHONE1X/far-too-yazi</id>
+    <title>far-too-yazi</title>
+    <link href="https://github.com/PHONE1X/far-too-yazi" />
+    <updated>2026-08-23T12:21:03Z</updated>
+    <summary type="html">FAR Manager / Norton Commander style dual-pane config distribution for yazi (AstroNvim-style, not a single plugin) — instant vim&lt;-&gt;FAR mode switching, conflict-aware cross-pane transfers, KDE Connect phone browsing.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/c192c19fd40fc25837efd6a669e6e099eb2cf0ba#https://tangled.org/ivelieu.quietism.art/hxjump.yazi</id>
+    <title>hxjump.yazi</title>
+    <link href="https://tangled.org/ivelieu.quietism.art/hxjump.yazi" />
+    <updated>2026-08-07T17:33:08Z</updated>
+    <summary type="html">Helix-like two character jump to any visible file or folder</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/07e2a1e4b05542e3a51e22446a5169127d541ea3#https://github.com/bmcszk/yazi-album-plugin</id>
+    <title>yazi-album-plugin.yazi</title>
+    <link href="https://github.com/bmcszk/yazi-album-plugin" />
+    <updated>2026-08-04T21:01:01Z</updated>
+    <summary type="html">Upload selected photos to a cloud album via &lt;a href="https://rclone.org/"&gt;rclone&lt;/a&gt; through a 3-step fzf wizard (provider → remote → album; existing or create-new).</summary>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Typst Universe: New Packages</title>
+  <id>urn:rss-preread:typst-packages</id>
+  <updated>2026-11-06T11:41:00Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/cab83b27cd3f8aaf37371d2ae5c49a8f28f3ea15</id>
+    <title>ling-handout</title>
+    <link href="https://typst.app/universe/search/?q=ling-handout" />
+    <updated>2026-11-06T11:41:00Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/c2503842f7352011cba7004c49a8a22c3ba8ff70</id>
+    <title>tysty</title>
+    <link href="https://typst.app/universe/search/?q=tysty" />
+    <updated>2026-11-06T11:32:26Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/3015c6601c99eea9a6955c6ca42321fdb9c3ab90</id>
+    <title>hortulus</title>
+    <link href="https://typst.app/universe/search/?q=hortulus" />
+    <updated>2026-11-06T11:03:56Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/c208fed4f85ae588bab138083d549fada6598027</id>
+    <title>clear-mci</title>
+    <link href="https://typst.app/universe/search/?q=clear-mci" />
+    <updated>2026-11-06T10:02:37Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/5da475198fccd7ab805a68759ef2bdcd1652a779</id>
+    <title>idraaak-step-cards</title>
+    <link href="https://typst.app/universe/search/?q=idraaak-step-cards" />
+    <updated>2026-11-04T10:29:45Z</updated>
+  </entry>
+</feed>

@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Terminal Trove: New Tools</title>
+  <id>urn:rss-preread:terminal-trove</id>
+  <updated>2026-11-04T12:00:00Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/terminal-trove.xml" />
+  <entry>
+    <id>https://terminaltrove.com/feed/tennis/</id>
+    <title>tennis</title>
+    <link href="https://github.com/gurgeous/tennis" />
+    <updated>2026-11-04T12:00:00Z</updated>
+    <summary type="html">Stylish CSV tables that previews CSV, TSV, JSON, and SQLite in your terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rail/</id>
+    <title>rail</title>
+    <link href="https://github.com/vitosans/rail" />
+    <updated>2026-11-04T12:00:00Z</updated>
+    <summary type="html">A Terminal email client for Gmail and Microsoft 365.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/jjfx/</id>
+    <title>jjfx</title>
+    <link href="https://github.com/Jarvvski/jjfx" />
+    <updated>2026-11-04T12:00:00Z</updated>
+    <summary type="html">A TUI for managing Jujutsu workspaces.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rmlint/</id>
+    <title>rmlint</title>
+    <link href="https://github.com/sahib/rmlint" />
+    <updated>2026-11-04T12:00:00Z</updated>
+    <summary type="html">Extremely fast tool to remove duplicates and other lint from your filesystem.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/bootvine/</id>
+    <title>bootvine</title>
+    <link href="https://codeberg.org/wvhulle/bootvine" />
+    <updated>2026-11-04T12:00:00Z</updated>
+    <summary type="html">A live tree of systemd jobs on the boot console.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/jotter/</id>
+    <title>jotter</title>
+    <link href="https://github.com/samox73/jotter" />
+    <updated>2026-11-04T12:00:00Z</updated>
+    <summary type="html">A fast Jupyter notebook TUI with inline plots and rendered LaTeX.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/sqlmux/</id>
+    <title>sqlmux</title>
+    <link href="https://github.com/kackerx/sqlmux/" />
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary type="html">A tmux-style terminal database client for SQL and NoSQL databases.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/proxelar/</id>
+    <title>proxelar</title>
+    <link href="https://github.com/emanuele-em/proxelar/" />
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary type="html">A scriptable workbench for inspecting, intercepting, replaying local traffic in the terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/termtastic/</id>
+    <title>termtastic</title>
+    <link href="https://github.com/acelot/termtastic/" />
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary type="html">A terminal client for Meshtastic to chat over radio networks.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/spor/</id>
+    <title>spor</title>
+    <link href="https://github.com/emprcl/spor" />
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary type="html">Infinite undo snapshotting for your whole project.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/kernwatch/</id>
+    <title>kernwatch</title>
+    <link href="https://github.com/matthart1983/kernwatch" />
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary type="html">Linux kernel observability in your terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/clavirio/</id>
+    <title>clavirio</title>
+    <link href="https://github.com/alexylon/clavirio" />
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary type="html">A terminal typing tutor with guided lessons and session tracking.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/eprofiler-tui/</id>
+    <title>eprofiler-tui</title>
+    <link href="https://github.com/rogercoll/eprofiler-tui" />
+    <updated>2026-10-20T23:00:00Z</updated>
+    <summary type="html">A terminal based flamegraph viewer for OTLP and gRPC profiling data.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/llamastash/</id>
+    <title>llamastash</title>
+    <link href="https://github.com/llamastash/llamastash" />
+    <updated>2026-10-20T23:00:00Z</updated>
+    <summary type="html">A zero-overhead, terminal-native local-LLM manager.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/yq/</id>
+    <title>yq</title>
+    <link href="https://github.com/kislyuk/yq" />
+    <updated>2026-10-20T23:00:00Z</updated>
+    <summary type="html">A lightweight and portable command-line YAML, JSON, INI and XML processor.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/mitos/</id>
+    <title>mitos</title>
+    <link href="https://github.com/mitos-editor/mitos" />
+    <updated>2026-10-20T23:00:00Z</updated>
+    <summary type="html">A minimal modern, batteries-included, modal text editor.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rulc/</id>
+    <title>rulc</title>
+    <link href="https://github.com/imizgun/rulc" />
+    <updated>2026-10-20T23:00:00Z</updated>
+    <summary type="html">An easy to use terminal graphing calculator with a REPL.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/edamame/</id>
+    <title>edamame</title>
+    <link href="https://github.com/mijowi/edamame" />
+    <updated>2026-10-20T23:00:00Z</updated>
+    <summary type="html">A terminal Markdown editor that stays rendered while you edit.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/sping/</id>
+    <title>sping</title>
+    <link href="https://github.com/LambdaBytes/sping" />
+    <updated>2026-10-13T23:00:00Z</updated>
+    <summary type="html">An improved ping(8) with network graph visualizations and diagnostics.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/tuicr/</id>
+    <title>tuicr</title>
+    <link href="https://github.com/agavra/tuicr" />
+    <updated>2026-10-13T23:00:00Z</updated>
+    <summary type="html">A human-in-the-loop code review tool in the terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/edma/</id>
+    <title>edma</title>
+    <link href="https://github.com/chungquantin/edma" />
+    <updated>2026-10-13T23:00:00Z</updated>
+    <summary type="html">Inspect embedded databases and decode byte records.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/sofka/</id>
+    <title>sofka</title>
+    <link href="https://github.com/nklmilojevic/sofka" />
+    <updated>2026-10-13T23:00:00Z</updated>
+    <summary type="html">A Kubernetes TUI built with FluxCD.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/comhad/</id>
+    <title>comhad</title>
+    <link href="https://github.com/Eoin-McMahon/comhad" />
+    <updated>2026-10-13T23:00:00Z</updated>
+    <summary type="html">S3 objects file browser and previewer in the terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/sdrtop/</id>
+    <title>sdrtop</title>
+    <link href="https://github.com/musithang/sdrtop" />
+    <updated>2026-10-13T23:00:00Z</updated>
+    <summary type="html">A terminal monitor for software defined radio (SDR) hardware.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/tincan/</id>
+    <title>tincan</title>
+    <link href="https://github.com/bilalyazicioglu/tincan-cli" />
+    <updated>2026-10-07T07:00:00Z</updated>
+    <summary type="html">Serverless peer-to-peer voice and text chat for your terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/ttl/</id>
+    <title>ttl</title>
+    <link href="https://github.com/lance0/ttl" />
+    <updated>2026-10-07T07:00:00Z</updated>
+    <summary type="html">A modern traceroute/mtr-style TUI with ASN and hop statistics.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/packslip/</id>
+    <title>packslip</title>
+    <link href="https://github.com/jdx/packslip" />
+    <updated>2026-10-07T07:00:00Z</updated>
+    <summary type="html">A signed release manifest for vendor binaries.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/mycli/</id>
+    <title>mycli</title>
+    <link href="https://github.com/dbcli/mycli" />
+    <updated>2026-10-07T07:00:00Z</updated>
+    <summary type="html">A rich MySQL terminal client with autocompletion, syntax highlighting, and dataframes.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/sauva/</id>
+    <title>sauva</title>
+    <link href="https://github.com/lusingander/sauva" />
+    <updated>2026-10-07T07:00:00Z</updated>
+    <summary type="html">A unicode explorer and previewer in the terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/siltide/</id>
+    <title>siltide</title>
+    <link href="https://github.com/moezdil/siltide" />
+    <updated>2026-10-07T07:00:00Z</updated>
+    <summary type="html">A terminal fleet monitor for GPUs, NPUs, and 13 other accelerator kinds.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/vy/</id>
+    <title>vy</title>
+    <link href="https://github.com/ynqa/vy" />
+    <updated>2026-09-29T23:00:00Z</updated>
+    <summary type="html">Explore and query JSON and YAML, right in your terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/zsv/</id>
+    <title>zsv</title>
+    <link href="https://github.com/liquidaty/zsv" />
+    <updated>2026-09-29T23:00:00Z</updated>
+    <summary type="html">A SIMD accelerated CLI for querying and exploring CSV data.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/gifski/</id>
+    <title>gifski</title>
+    <link href="https://github.com/imageoptim/gifski" />
+    <updated>2026-09-29T23:00:00Z</updated>
+    <summary type="html">Convert images and videos into highly optimized GIFs</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/sektron/</id>
+    <title>sektron</title>
+    <link href="https://github.com/emprcl/sektron" />
+    <updated>2026-09-29T23:00:00Z</updated>
+    <summary type="html">A midi step sequencer in the terminal, made with live performance in mind.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/zonetimeline-tui/</id>
+    <title>zonetimeline-tui</title>
+    <link href="https://github.com/findyourexit/zonetimeline-tui" />
+    <updated>2026-09-29T11:00:00Z</updated>
+    <summary type="html">A terminal tool for visually comparing time zones around the world.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/matterhorn/</id>
+    <title>matterhorn</title>
+    <link href="https://github.com/matterhorn-chat/matterhorn" />
+    <updated>2026-09-29T07:00:00Z</updated>
+    <summary type="html">A featured rich terminal client for the Mattermost chat system.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/knife/</id>
+    <title>knife</title>
+    <link href="https://github.com/bl4ckr0ss3/knife" />
+    <updated>2026-09-22T23:00:00Z</updated>
+    <summary type="html">A reverse engineering CLI and TUI for PE, ELF and Mach-O binaries.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/abtop/</id>
+    <title>abtop</title>
+    <link href="https://github.com/graykode/abtop" />
+    <updated>2026-09-22T23:00:00Z</updated>
+    <summary type="html">Like btop, but for your AI coding agents.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/grut/</id>
+    <title>grut</title>
+    <link href="https://github.com/jongio/grut/" />
+    <updated>2026-09-22T23:00:00Z</updated>
+    <summary type="html">A terminal file explorer with deep Git integration.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/numr/</id>
+    <title>numr</title>
+    <link href="https://github.com/nasedkinpv/numr" />
+    <updated>2026-09-22T23:00:00Z</updated>
+    <summary type="html">A text calculator for natural language expressions with a vim-style TUI.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/iredis/</id>
+    <title>iredis</title>
+    <link href="https://github.com/laixintao/iredis" />
+    <updated>2026-09-22T23:00:00Z</updated>
+    <summary type="html">An interactive redis client with autocompletion and syntax highlighting.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/upmd/</id>
+    <title>upmd</title>
+    <link href="https://github.com/rezigned/upmd" />
+    <updated>2026-09-22T23:00:00Z</updated>
+    <summary type="html">Run tasks and workflows from Markdown.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/ncgopher/</id>
+    <title>ncgopher</title>
+    <link href="https://github.com/jansc/ncgopher" />
+    <updated>2026-09-15T23:00:00Z</updated>
+    <summary type="html">An ncurses Gopher and Gemini client for the modern internet.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/fzf-make/</id>
+    <title>fzf-make</title>
+    <link href="https://github.com/kyu08/fzf-make/" />
+    <updated>2026-09-15T23:00:00Z</updated>
+    <summary type="html">Find and run multi-project tasks with fuzzy search in the terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rdmatop/</id>
+    <title>rdmatop</title>
+    <link href="https://github.com/uccl-project/rdmatop" />
+    <updated>2026-09-15T23:00:00Z</updated>
+    <summary type="html">A real-time TUI monitor for RDMA network interfaces.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/emplace/</id>
+    <title>emplace</title>
+    <link href="https://codeberg.org/fosk/emplace/" />
+    <updated>2026-09-15T23:00:00Z</updated>
+    <summary type="html">Synchronize installed packages across multiple machines.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/xdgctl/</id>
+    <title>xdgctl</title>
+    <link href="https://github.com/mitjafelicijan/xdgctl" />
+    <updated>2026-09-15T23:00:00Z</updated>
+    <summary type="html">A terminal manager for XDG default applications.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/jid/</id>
+    <title>jid</title>
+    <link href="https://github.com/simeji/jid" />
+    <updated>2026-09-15T23:00:00Z</updated>
+    <summary type="html">A JSON incremental digger with auto completions and expressions.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/watchtower/</id>
+    <title>watchtower</title>
+    <link href="https://github.com/lajosdeme/watchtower" />
+    <updated>2026-09-09T12:00:00Z</updated>
+    <summary type="html">A clean, minimal, terminal-based global intelligence dashboard.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/colorstorm/</id>
+    <title>colorstorm</title>
+    <link href="https://github.com/benbusby/colorstorm" />
+    <updated>2026-09-09T12:00:00Z</updated>
+    <summary type="html">A TUI to generate color themes for Vim, VSCode, and Sublime Text.</summary>
+  </entry>
+</feed>

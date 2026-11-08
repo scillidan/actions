@@ -1,0 +1,1155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>F-Droid: New Apps</title>
+  <id>urn:rss-preread:fdroid-new-apps</id>
+  <updated>2026-09-12T10:58:52Z</updated>
+  <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/fdroid-new-apps.xml" />
+  <entry>
+    <id>https://f-droid.org/packages/unlicense.launcher/</id>
+    <title>UnlicenseLauncher</title>
+    <link href="https://f-droid.org/packages/unlicense.launcher/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Simple and secure FOSS launcher with fully FREE🐍 license</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dk.bjoerckbraun.deltasync/</id>
+    <title>DeltaSync</title>
+    <link href="https://f-droid.org/packages/dk.bjoerckbraun.deltasync/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Encrypted KeePass sync — requires your own self-hosted server.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.tulis.readbear/</id>
+    <title>ReadBear</title>
+    <link href="https://f-droid.org/packages/dev.tulis.readbear/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">A cute&amp;chill CBZ, PDF, EPUB reader that's ridiculously configurable!</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.lenshrv.foss/</id>
+    <title>Lens HRV</title>
+    <link href="https://f-droid.org/packages/com.lenshrv.foss/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Measure heart-rate variability with your phone camera, no extra sensors</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.victorialauncher/</id>
+    <title>Victoria Launcher</title>
+    <link href="https://f-droid.org/packages/dev.victorialauncher/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">A minimal, list-based home screen and open source Niagara Launcher alternative</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.gymmane.app/</id>
+    <title>GymMane</title>
+    <link href="https://f-droid.org/packages/com.gymmane.app/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Dark, offline gym log. Tap the muscle, log your sets, watch your numbers move.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.kingzcheung.xime/</id>
+    <title>Xime IME</title>
+    <link href="https://f-droid.org/packages/com.kingzcheung.xime/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">A Rime-based Chinese IME for Wubi and Pinyin input</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.ashkanrafiee.balance/</id>
+    <title>Balance</title>
+    <link href="https://f-droid.org/packages/com.ashkanrafiee.balance/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Private offline bank balance dashboard</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.baly_groceries_tracker.app/</id>
+    <title>Baly Groceries Tracker</title>
+    <link href="https://f-droid.org/packages/com.baly_groceries_tracker.app/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Track your groceries, without worrying about running out.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/at.j0s.meyercard.app/</id>
+    <title>Fechtkarte</title>
+    <link href="https://f-droid.org/packages/at.j0s.meyercard.app/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Warm-up drill card generator using notation credited to Joachim Meyer</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.saadibra.graymatter/</id>
+    <title>Relatrix</title>
+    <link href="https://f-droid.org/packages/com.saadibra.graymatter/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">An active knowledge-management and multi-modal note-taking platform.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.ashkanrafiee.librecontactsbackup/</id>
+    <title>Libre Contacts Backup</title>
+    <link href="https://f-droid.org/packages/com.ashkanrafiee.librecontactsbackup/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Offline and encrypted contact backups</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.derweh.bayesianbahn/</id>
+    <title>BayesianBahn</title>
+    <link href="https://f-droid.org/packages/io.github.derweh.bayesianbahn/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Empirical arrival-time distributions for Deutsche Bahn trains</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.guiforge.bati/</id>
+    <title>Bati: Fitness RPG</title>
+    <link href="https://f-droid.org/packages/com.guiforge.bati/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">Turn workouts into quests, boss fights and a village built by your training.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.omaawr.tuisku/</id>
+    <title>Tuisku</title>
+    <link href="https://f-droid.org/packages/com.omaawr.tuisku/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">A simple and lightweight encrypted notes app</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.katoaapps.openminilaunch/</id>
+    <title>MinkLauncher OpenSource</title>
+    <link href="https://f-droid.org/packages/com.katoaapps.openminilaunch/" />
+    <updated>2026-09-12T10:58:52Z</updated>
+    <summary type="html">A minimal, keyboard-first Android home-screen launcher</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.dashchan2/</id>
+    <title>Slooop</title>
+    <link href="https://f-droid.org/packages/io.dashchan2/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Imageboard client for Android 11+</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/de.obsp.hostlookup/</id>
+    <title>HostLookup</title>
+    <link href="https://f-droid.org/packages/de.obsp.hostlookup/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Explore DNS records and network information across public resolvers</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.tripperdee.salmontracker/</id>
+    <title>Salmon Tracker</title>
+    <link href="https://f-droid.org/packages/com.tripperdee.salmontracker/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Track official Alaska salmon counts and receive local update alerts</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sidhant.triplematch/</id>
+    <title>Triple Match</title>
+    <link href="https://f-droid.org/packages/com.sidhant.triplematch/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">A minimal, open-source 3D tile-matching puzzle game.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.resurrection.blowtorch2/</id>
+    <title>BlowTorch 2</title>
+    <link href="https://f-droid.org/packages/com.resurrection.blowtorch2/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">MUD client with triggers, aliases, timers, and Lua plugins</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.luchowl.flybook/</id>
+    <title>Flybook</title>
+    <link href="https://f-droid.org/packages/com.luchowl.flybook/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Private offline flight logbook for aviation enthusiasts</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.leadaxe.lxbox/</id>
+    <title>L×Box</title>
+    <link href="https://f-droid.org/packages/com.leadaxe.lxbox/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">VPN client: 12+ protocols, subscriptions, app routing, balancing, traffic stats</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/takagi.ru.monica.fdroid/</id>
+    <title>Monica F-Droid</title>
+    <link href="https://f-droid.org/packages/takagi.ru.monica.fdroid/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Open-source password manager: local encryption, autofill, TOTP, Passkey</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/nl.tjoeke.android/</id>
+    <title>Tjoeke</title>
+    <link href="https://f-droid.org/packages/nl.tjoeke.android/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Quick Dutch train departures for your daily route</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.flashbyte/</id>
+    <title>Flashbyte</title>
+    <link href="https://f-droid.org/packages/com.flashbyte/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">A fast cross-platform file sharing app.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sidhant.screwjam/</id>
+    <title>Screw Jam</title>
+    <link href="https://f-droid.org/packages/com.sidhant.screwjam/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Unscrew plates, match colors with active toolboxes</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.pilcrowmd/</id>
+    <title>Markdown Reader — PilcrowMD</title>
+    <link href="https://f-droid.org/packages/com.pilcrowmd/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Read &amp; edit Markdown beautifully. No ads, no account, open source.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/info.metadude.android.fediday.schedule/</id>
+    <title>FediDay Schedule</title>
+    <link href="https://f-droid.org/packages/info.metadude.android.fediday.schedule/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">A schedule app for the FediDay 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.mgdx.rouelibre/</id>
+    <title>Roue Libre</title>
+    <link href="https://f-droid.org/packages/io.github.mgdx.rouelibre/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Bike sharing: offline map and journeys, with no tracker.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.galaxyrio.sudokusolver/</id>
+    <title>Sudoku You</title>
+    <link href="https://f-droid.org/packages/com.galaxyrio.sudokusolver/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Offline Sudoku with logical hints, advanced notes and flexible import/export</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.kinetica.keyboard/</id>
+    <title>Kinetica</title>
+    <link href="https://f-droid.org/packages/com.kinetica.keyboard/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Two-thumb keyboard: both thumbs swipe and tap at once. No network access.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.enclavd.app/</id>
+    <title>Enclavd</title>
+    <link href="https://f-droid.org/packages/com.enclavd.app/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Personality Social Network</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/nl.renzit.emborg/</id>
+    <title>Emborg</title>
+    <link href="https://f-droid.org/packages/nl.renzit.emborg/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Org-mode viewer and task manager</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.rotundtapir.fivehundred/</id>
+    <title>500 - Multiplayer card game</title>
+    <link href="https://f-droid.org/packages/io.github.rotundtapir.fivehundred/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Play 500, the Australian trick-taking card game — bots or friends online.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.conanizer.pockettracker/</id>
+    <title>PocketTracker</title>
+    <link href="https://f-droid.org/packages/com.conanizer.pockettracker/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Tracker-style music maker for handhelds and phones — sampler, SF2, 8 tracks</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.aeidolon.vaultexplorer/</id>
+    <title>Vault Explorer</title>
+    <link href="https://f-droid.org/packages/com.aeidolon.vaultexplorer/" />
+    <updated>2026-09-11T02:24:53Z</updated>
+    <summary type="html">Encrypted container explorer: VeraCrypt, LUKS, BitLocker, and more.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/uk.org.retallack.slimbook/</id>
+    <title>SlimBook</title>
+    <link href="https://f-droid.org/packages/uk.org.retallack.slimbook/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Clean, ad-free Facebook feed with real-time content filtering</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.astermail.android/</id>
+    <title>Aster Mail: Encrypted Email</title>
+    <link href="https://f-droid.org/packages/org.astermail.android/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Private email app with end-to-end encryption, aliases, and custom domains</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.mouse233.localsendkotlin/</id>
+    <title>LocalSend Kotlin</title>
+    <link href="https://f-droid.org/packages/io.github.mouse233.localsendkotlin/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">An unofficial, lightweight Kotlin LocalSend client for older Android devices.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.choganhq.chogan/</id>
+    <title>Chogan</title>
+    <link href="https://f-droid.org/packages/io.github.choganhq.chogan/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Offline game collection: tower defence, sudoku, minesweeper, dots.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.serge.textlog/</id>
+    <title>textlog</title>
+    <link href="https://f-droid.org/packages/dev.serge.textlog/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A text-first mobile client for textlog.cc — no algorithm, no metrics, no ads</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.otaj.zelp/</id>
+    <title>Zelp</title>
+    <link href="https://f-droid.org/packages/dev.otaj.zelp/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Amazfit pairing keys, GPS packs, firmware, and watch apps for Gadgetbridge</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/de.singular.recorder/</id>
+    <title>Title Track</title>
+    <link href="https://f-droid.org/packages/de.singular.recorder/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A recorder for music memos.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sidhant.huesort/</id>
+    <title>Hue Sort</title>
+    <link href="https://f-droid.org/packages/com.sidhant.huesort/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A color sorting puzzle game. Swap tiles to reconstruct the hidden gradient.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sidhant.bubbleshooter/</id>
+    <title>Bubble Shooter</title>
+    <link href="https://f-droid.org/packages/com.sidhant.bubbleshooter/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A modern 2D bubble shooter puzzle game</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.saad2134.dosezy/</id>
+    <title>Dosezy</title>
+    <link href="https://f-droid.org/packages/com.saad2134.dosezy/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Simple medicine tracker &amp; reminders. Enter details, we'll handle the rest.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.quantum_prof.vtscansuite/</id>
+    <title>Veto</title>
+    <link href="https://f-droid.org/packages/com.quantum_prof.vtscansuite/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Open source, native VirusTotal client. Scan files, links and apps in style.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.megamaced.crate/</id>
+    <title>Crate</title>
+    <link href="https://f-droid.org/packages/com.megamaced.crate/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Catalogue your physical media collection — stored on your own Nextcloud.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.mathclock/</id>
+    <title>Math Clock</title>
+    <link href="https://f-droid.org/packages/com.mathclock/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Widget, which shows the time in German words based on fractions</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.kepat.unscopemydata/</id>
+    <title>UnscopeMyData</title>
+    <link href="https://f-droid.org/packages/com.kepat.unscopemydata/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Sync protected Android folders to public storage using Shizuku.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.joaohouto.assistivemenutool/</id>
+    <title>Assistive Menu Tool</title>
+    <link href="https://f-droid.org/packages/com.joaohouto.assistivemenutool/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Floating accessibility button with quick system actions for Android</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.hazel.android/</id>
+    <title>Hazel</title>
+    <link href="https://f-droid.org/packages/com.hazel.android/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Download video and audio from over 1000 sites, powered by yt-dlp.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.georgernstgraf.polishedrecognition/</id>
+    <title>Polished Recognition</title>
+    <link href="https://f-droid.org/packages/com.georgernstgraf.polishedrecognition/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Voice input for any keyboard — transcribe with your own API endpoints</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.duetto/</id>
+    <title>Duetto</title>
+    <link href="https://f-droid.org/packages/com.duetto/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A permanent voice and video channel for two people, on your own server.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.circadiandisplay.app/</id>
+    <title>Circadian Display</title>
+    <link href="https://f-droid.org/packages/com.circadiandisplay.app/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Adaptive screen warmth and dimming curves for better evening comfort and sleep.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.bookstash.app/</id>
+    <title>BookStash</title>
+    <link href="https://f-droid.org/packages/com.bookstash.app/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A private, offline-first reader and library for web fiction and books.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.anindra.messages/</id>
+    <title>Messages</title>
+    <link href="https://f-droid.org/packages/com.anindra.messages/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Simple, private SMS messaging. Offline-first, no ads, no tracking.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/br.com.jotdown/</id>
+    <title>Jotdown</title>
+    <link href="https://f-droid.org/packages/br.com.jotdown/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Offline PDF reader with OCR and academic annotations.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.pic38.veilleuse/</id>
+    <title>Night Light</title>
+    <link href="https://f-droid.org/packages/io.github.pic38.veilleuse/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Minimal OLED night light, flash or screen, settings, 26 languages.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/si.jakobkreft.exifremove/</id>
+    <title>EXIF Remove - Strip, Randomize &amp; View Metadata</title>
+    <link href="https://f-droid.org/packages/si.jakobkreft.exifremove/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Remove or scramble photo metadata before sharing, with configurable templates</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.braniik.slate/</id>
+    <title>Slate</title>
+    <link href="https://f-droid.org/packages/com.braniik.slate/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Minimal customisable launcher. A blank slate where your apps go anywhere.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/ca.ilianokokoro.umihi.music/</id>
+    <title>Umihi Music</title>
+    <link href="https://f-droid.org/packages/ca.ilianokokoro.umihi.music/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A simple Material YouTube Music player</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.buildsbyben.shoppinglistcalc/</id>
+    <title>Shopping List Calculator</title>
+    <link href="https://f-droid.org/packages/io.github.buildsbyben.shoppinglistcalc/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Plan grocery trips and track the total as you shop.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/es.manifold.sidedeck/</id>
+    <title>SideDeck</title>
+    <link href="https://f-droid.org/packages/es.manifold.sidedeck/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Free DJ app. Mix on your phone. No subscriptions.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.tokyoxpa3.androidproxy/</id>
+    <title>5G Proxy Pro</title>
+    <link href="https://f-droid.org/packages/com.tokyoxpa3.androidproxy/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Share your phone's 5G/4G over Wi-Fi via SOCKS5 proxy. No root, TCP/UDP, LAN-only</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.anopticlabs.gravel/</id>
+    <title>Gravel</title>
+    <link href="https://f-droid.org/packages/com.anopticlabs.gravel/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">A de-googled, hardened fork of the Pebble companion app for de-googled phones</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/it.belloworld.mercurygram.plugin.tor/</id>
+    <title>Mercurygram Tor Plugin</title>
+    <link href="https://f-droid.org/packages/it.belloworld.mercurygram.plugin.tor/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Tor companion plugin that routes Mercurygram traffic through the Tor network</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/it.rfmariano.denaro/</id>
+    <title>Denaro</title>
+    <link href="https://f-droid.org/packages/it.rfmariano.denaro/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Private, offline personal finance with accounts, categories and insights.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/es.jjrh.bikeradar/</id>
+    <title>Bike Radar</title>
+    <link href="https://f-droid.org/packages/es.jjrh.bikeradar/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Overlay and audio alerts for BLE bike radars. Offline, no account, no cloud.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.martinhammer.tickdroid/</id>
+    <title>Tickdroid</title>
+    <link href="https://f-droid.org/packages/com.martinhammer.tickdroid/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Daily habit tracker for Nextcloud</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.luc4n3x.levyra/</id>
+    <title>Levyra</title>
+    <link href="https://f-droid.org/packages/com.luc4n3x.levyra/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Native music streaming, playback, lyrics, downloads, and private insights</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/ekklesia.gr/</id>
+    <title>ekklesia — Direct Democracy</title>
+    <link href="https://f-droid.org/packages/ekklesia.gr/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Anonymous civic participation for Greek citizens</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.autopi/</id>
+    <title>AutoPie</title>
+    <link href="https://f-droid.org/packages/com.autopi/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Turn Linux commands into Android apps.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.aradar.vibecheck/</id>
+    <title>Vibecheck: Private Mood Tracker</title>
+    <link href="https://f-droid.org/packages/com.aradar.vibecheck/" />
+    <updated>2026-09-09T11:36:54Z</updated>
+    <summary type="html">Private, local-first mood and symptom tracker. No account, no cloud.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.thunderdog.challegram/</id>
+    <title>Telegram X FOSS</title>
+    <link href="https://f-droid.org/packages/org.thunderdog.challegram/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">An unofficial FOSS-friendly fork of Telegram X</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/jp.nonbili.meron/</id>
+    <title>Meron</title>
+    <link href="https://f-droid.org/packages/jp.nonbili.meron/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Mail app that sparks joy</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.akarimarisa.tumblrdownloader/</id>
+    <title>Tumblr Downloader</title>
+    <link href="https://f-droid.org/packages/io.github.akarimarisa.tumblrdownloader/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Download images and videos from Tumblr posts</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.acidefluorhydrique.carrot/</id>
+    <title>The Last Carrot</title>
+    <link href="https://f-droid.org/packages/io.github.acidefluorhydrique.carrot/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">A cheerful tower defence game with no ads, no trackers and no permissions</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.soul_99.suIMD/</id>
+    <title>IMD - It's My Device (supercharged fork of Geto)</title>
+    <link href="https://f-droid.org/packages/com.soul_99.suIMD/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Settings manager/ hide settings from apps</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sidhant.learnmath/</id>
+    <title>Learn Math</title>
+    <link href="https://f-droid.org/packages/com.sidhant.learnmath/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">A modern, fast, and tactile mental math training game</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.podxboq.yahora/</id>
+    <title>Yahora</title>
+    <link href="https://f-droid.org/packages/com.podxboq.yahora/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">One tap records that something happened. There is nothing else to fill in</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/ca.asmat.foggymaps/</id>
+    <title>Foggy Maps</title>
+    <link href="https://f-droid.org/packages/ca.asmat.foggymaps/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">A personal exploration map where fog dissipates where you have walked.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/paige.navic/</id>
+    <title>Navic</title>
+    <link href="https://f-droid.org/packages/paige.navic/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">A modern Navidrome client for Android and iOS</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.codeberg.scovillo.bubble/</id>
+    <title>Bubble Penetration</title>
+    <link href="https://f-droid.org/packages/org.codeberg.scovillo.bubble/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Fast arcade action: collect colors, chain combos, beat the highscore.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/page.tine.app/</id>
+    <title>Tine</title>
+    <link href="https://f-droid.org/packages/page.tine.app/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Fast local-first Logseq-compatible outliner</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.jimvixx.smsecure/</id>
+    <title>SMSecure</title>
+    <link href="https://f-droid.org/packages/org.jimvixx.smsecure/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Privacy-focused SMS app with encrypted conversations</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/net.yumicoradio.android/</id>
+    <title>Yumi Co. Radio</title>
+    <link href="https://f-droid.org/packages/net.yumicoradio.android/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">Future Funk, City Pop and more, live 24/7 with chat and Android Auto.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.dtsykunov.pause/</id>
+    <title>Pause</title>
+    <link href="https://f-droid.org/packages/com.dtsykunov.pause/" />
+    <updated>2026-09-07T02:14:53Z</updated>
+    <summary type="html">A short, timed pause before chosen apps open, so opening is deliberate.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/fr.framagit.jeromeo.etagere/</id>
+    <title>Étagère</title>
+    <link href="https://f-droid.org/packages/fr.framagit.jeromeo.etagere/" />
+    <updated>2026-09-05T10:15:14Z</updated>
+    <summary type="html">Browse a Calibre library on your Nextcloud and download EPUBs</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.clearsms/</id>
+    <title>Clear SMS</title>
+    <link href="https://f-droid.org/packages/app.clearsms/" />
+    <updated>2026-09-05T10:15:14Z</updated>
+    <summary type="html">Privacy-first SMS app with smart inbox, finance dashboard and bill reminders</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.iris.gallery/</id>
+    <title>Iris Gallery</title>
+    <link href="https://f-droid.org/packages/com.iris.gallery/" />
+    <updated>2026-09-05T10:15:14Z</updated>
+    <summary type="html">Fast, private, 100% offline gallery with photo editor and EXIF inspector</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/fr.luteal.app/</id>
+    <title>Luteal</title>
+    <link href="https://f-droid.org/packages/fr.luteal.app/" />
+    <updated>2026-09-05T10:15:14Z</updated>
+    <summary type="html">Private, offline-first cycle tracker separating facts from estimates</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/net.dege.salmon/</id>
+    <title>Salmon</title>
+    <link href="https://f-droid.org/packages/net.dege.salmon/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">An open-source guitar tuner that just works</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/net.carcoop.app/</id>
+    <title>Car Coop</title>
+    <link href="https://f-droid.org/packages/net.carcoop.app/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Self-hosted car sharing companion for bookings, trips, expenses, and messages.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.gitlab.jrock902.cypherleaf/</id>
+    <title>CypherLeaf</title>
+    <link href="https://f-droid.org/packages/io.gitlab.jrock902.cypherleaf/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Private, offline notes with folders, tags, and a lock for sensitive entries.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/de.goraran.astroclock/</id>
+    <title>AstroClock</title>
+    <link href="https://f-droid.org/packages/de.goraran.astroclock/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Astronomically correct 24-hour clock: the Sun is the hand, the star sky turns</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.xmission.trevin.android.tangram/</id>
+    <title>Tangram</title>
+    <link href="https://f-droid.org/packages/com.xmission.trevin.android.tangram/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Make or solve Tangram puzzles</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.terokarvinen.x54ask/</id>
+    <title>0x54ask</title>
+    <link href="https://f-droid.org/packages/com.terokarvinen.x54ask/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Todo.txt manager. Offline, works with Syncthing. Fork of SimpleTask Cloudless</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.solar.aquarellnotes/</id>
+    <title>AquarellNotes</title>
+    <link href="https://f-droid.org/packages/com.solar.aquarellnotes/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Calm local notes and shopping lists with watercolor-inspired design</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/bilalsul.rzr/</id>
+    <title>RZR</title>
+    <link href="https://f-droid.org/packages/bilalsul.rzr/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Beautifully made mobile code and markdown reader.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.xcy7e.contextium/</id>
+    <title>Contextium</title>
+    <link href="https://f-droid.org/packages/app.xcy7e.contextium/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Configurable Android context menu helper</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.marmalade.tts/</id>
+    <title>Marmalade TTS</title>
+    <link href="https://f-droid.org/packages/app.marmalade.tts/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Fast, natural, private text-to-speech for your whole phone. Works offline.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.fiedri.vibe/</id>
+    <title>Vibe - Music Player</title>
+    <link href="https://f-droid.org/packages/dev.fiedri.vibe/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">Fast, minimalist local music player, 100% offline.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.bg.skylib/</id>
+    <title>Skylib</title>
+    <link href="https://f-droid.org/packages/dev.bg.skylib/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">An alternative Bluesky frontend</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/info.metadude.android.inselchaos.schedule/</id>
+    <title>InselChaos Schedule</title>
+    <link href="https://f-droid.org/packages/info.metadude.android.inselchaos.schedule/" />
+    <updated>2026-09-03T09:22:46Z</updated>
+    <summary type="html">A schedule app for the InselChaos</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.bitsrc.schussel/</id>
+    <title>Schussel</title>
+    <link href="https://f-droid.org/packages/org.bitsrc.schussel/" />
+    <updated>2026-09-02T07:32:46Z</updated>
+    <summary type="html">Bluetooth-triggered checklists that remind you of what you forgot.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.lexip.hecate/</id>
+    <title>Adaptive Theme</title>
+    <link href="https://f-droid.org/packages/dev.lexip.hecate/" />
+    <updated>2026-09-02T07:32:46Z</updated>
+    <summary type="html">Auto-switch dark theme &amp; wallpapers using the ambient light sensor</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/de.hexenwoche.audiolex/</id>
+    <title>AudioLex</title>
+    <link href="https://f-droid.org/packages/de.hexenwoche.audiolex/" />
+    <updated>2026-09-02T07:32:46Z</updated>
+    <summary type="html">Hearing training for word recognition: listen, identify, repeat. Fully offline.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sidhant.matrixpuzzle/</id>
+    <title>Matrix Puzzle</title>
+    <link href="https://f-droid.org/packages/com.sidhant.matrixpuzzle/" />
+    <updated>2026-09-02T07:32:46Z</updated>
+    <summary type="html">A minimal, open-source matrix puzzle game also known as floor puzzle</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.argus/</id>
+    <title>Argus</title>
+    <link href="https://f-droid.org/packages/dev.argus/" />
+    <updated>2026-09-02T07:32:46Z</updated>
+    <summary type="html">Natural-language automation compiled by an LLM, run by a deterministic engine.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/camp.werewolf.infraarcana/</id>
+    <title>Infra Arcana</title>
+    <link href="https://f-droid.org/packages/camp.werewolf.infraarcana/" />
+    <updated>2026-09-02T07:32:46Z</updated>
+    <summary type="html">Infra Arcana - a Lovecraftian horror roguelike</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.fossify.documents/</id>
+    <title>Fossify Documents Beta</title>
+    <link href="https://f-droid.org/packages/org.fossify.documents/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">Read PDF, DOCX, text, Markdown, CSV and HTML files privately and offline.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.smallthingz.reverb/</id>
+    <title>Reverb</title>
+    <link href="https://f-droid.org/packages/app.smallthingz.reverb/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">Rolling audio recorder for Android</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.crome.forecastpoint/</id>
+    <title>Point Forecast</title>
+    <link href="https://f-droid.org/packages/com.crome.forecastpoint/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">NWS point forecasts with maps, tides, and weather hazards</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.hazelhope.dubster.hamtest/</id>
+    <title>Ham Test</title>
+    <link href="https://f-droid.org/packages/com.hazelhope.dubster.hamtest/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">Prepare for and pass all three US Amateur Radio license exams</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/eus.ordunte.app/</id>
+    <title>Ordunte: Karrantza weather</title>
+    <link href="https://f-droid.org/packages/eus.ordunte.app/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">Weather at your location and four hyperlocal Karrantza/Ordunte sections</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.limecore.workouttracker/</id>
+    <title>LimeLog</title>
+    <link href="https://f-droid.org/packages/com.limecore.workouttracker/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">Track your lifts and beat your personal records</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.girino.frac.android.foss/</id>
+    <title>Fractals by Girino FOSS</title>
+    <link href="https://f-droid.org/packages/org.girino.frac.android.foss/" />
+    <updated>2026-08-31T22:42:43Z</updated>
+    <summary type="html">Explore Mandelbrot and related fractals offline</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.osservatorionessuno.bugbane.beta/</id>
+    <title>Bugbane Beta</title>
+    <link href="https://f-droid.org/packages/org.osservatorionessuno.bugbane.beta/" />
+    <updated>2026-08-31T07:44:45Z</updated>
+    <summary type="html">Beta channel of Bugbane, a guided forensic self-triage tool for Android</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/cc.zachy.pulse/</id>
+    <title>Pulse</title>
+    <link href="https://f-droid.org/packages/cc.zachy.pulse/" />
+    <updated>2026-08-31T07:44:45Z</updated>
+    <summary type="html">Garmin watch companion — your data stays on your phone</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.kaii.photos/</id>
+    <title>Lavender Photos</title>
+    <link href="https://f-droid.org/packages/com.kaii.photos/" />
+    <updated>2026-08-31T07:44:45Z</updated>
+    <summary type="html">A no non-sense, stylish, and performant gallery app</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.k2040.escaagnellis/</id>
+    <title>Esca Agnellis</title>
+    <link href="https://f-droid.org/packages/com.k2040.escaagnellis/" />
+    <updated>2026-08-31T07:44:45Z</updated>
+    <summary type="html">Local food-pyramid tracking with backup, PDF and an optional companion</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/de.schwarz.boardgamepal/</id>
+    <title>Boardgame Pal</title>
+    <link href="https://f-droid.org/packages/de.schwarz.boardgamepal/" />
+    <updated>2026-08-30T08:14:42Z</updated>
+    <summary type="html">Dice, score counter, starting-player draw &amp; more – 100% free and ad-free!</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.rouf.saht/</id>
+    <title>Sehat</title>
+    <link href="https://f-droid.org/packages/com.rouf.saht/" />
+    <updated>2026-08-30T08:14:42Z</updated>
+    <summary type="html">Sehat (Urdu for health): Track steps, heart rate, and meditation, all privately.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.renkinProject.renkin/</id>
+    <title>Renkin</title>
+    <link href="https://f-droid.org/packages/dev.renkinProject.renkin/" />
+    <updated>2026-08-29T12:50:42Z</updated>
+    <summary type="html">Make your own icon pack, on your phone</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.maegley.megrim/</id>
+    <title>Megrim: Migraine Log</title>
+    <link href="https://f-droid.org/packages/org.maegley.megrim/" />
+    <updated>2026-08-29T12:50:42Z</updated>
+    <summary type="html">Private, offline migraine log with automatic on-device pattern insights.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.rastislavpapp.justopenlinksinabrowser/</id>
+    <title>just open links in a browser</title>
+    <link href="https://f-droid.org/packages/io.github.rastislavpapp.justopenlinksinabrowser/" />
+    <updated>2026-08-28T14:22:46Z</updated>
+    <summary type="html">Sends links to your real browser instead of an app's built-in one</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.hello.randomname/</id>
+    <title>随机姓名</title>
+    <link href="https://f-droid.org/packages/com.hello.randomname/" />
+    <updated>2026-08-28T14:22:46Z</updated>
+    <summary type="html">随机中文姓名生成器</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.vadhod.apkextractor/</id>
+    <title>Vadhod APK Extractor</title>
+    <link href="https://f-droid.org/packages/com.vadhod.apkextractor/" />
+    <updated>2026-08-27T21:28:46Z</updated>
+    <summary type="html">Offline, privacy-first APK extractor with proper split-APK support.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.zengtao.fortunetelling/</id>
+    <title>Fortune Telling</title>
+    <link href="https://f-droid.org/packages/com.zengtao.fortunetelling/" />
+    <updated>2026-08-27T21:28:46Z</updated>
+    <summary type="html">Offline Western astrology, I Ching divination, and Chinese daily almanac</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.luminaapps.cairn/</id>
+    <title>Cairn: Health Aggregator</title>
+    <link href="https://f-droid.org/packages/com.luminaapps.cairn/" />
+    <updated>2026-08-27T09:22:47Z</updated>
+    <summary type="html">Aggregate your health data into open files in your own Nextcloud</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.laert.qrscanner/</id>
+    <title>Privacy QR And Barcode Scanner</title>
+    <link href="https://f-droid.org/packages/com.laert.qrscanner/" />
+    <updated>2026-08-27T09:22:47Z</updated>
+    <summary type="html">Fast, offline QR code and barcode scanner - no tracking, no ads</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.mqvpn.app/</id>
+    <title>mqvpn</title>
+    <link href="https://f-droid.org/packages/org.mqvpn.app/" />
+    <updated>2026-08-27T09:22:47Z</updated>
+    <summary type="html">Multipath VPN combining Wi-Fi and cellular for bonding and failover</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/nabu.iris.keyboard/</id>
+    <title>Iris Keyboard</title>
+    <link href="https://f-droid.org/packages/nabu.iris.keyboard/" />
+    <updated>2026-08-27T09:22:47Z</updated>
+    <summary type="html">Advanced FOSS keyboard with AI Copilot, translation, and key sound synthesis</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/fr.croustillapp/</id>
+    <title>Croustillapp</title>
+    <link href="https://f-droid.org/packages/fr.croustillapp/" />
+    <updated>2026-08-26T01:30:18Z</updated>
+    <summary type="html">Access menus, addresses, and contact info for nearly 1,000 CROUS restaurants.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.stopptanz.app/</id>
+    <title>Stopptanz</title>
+    <link href="https://f-droid.org/packages/com.stopptanz.app/" />
+    <updated>2026-08-26T01:30:18Z</updated>
+    <summary type="html">Freeze Dance &amp; Musical Chairs music timer, fully offline</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.ivylopez.authsrng/</id>
+    <title>auth's RNG</title>
+    <link href="https://f-droid.org/packages/com.ivylopez.authsrng/" />
+    <updated>2026-08-26T01:30:18Z</updated>
+    <summary type="html">roll for rarities, sell them, buy upgrades. an incremental RNG game.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.jumascola.filmflip/</id>
+    <title>FilmFlip</title>
+    <link href="https://f-droid.org/packages/org.jumascola.filmflip/" />
+    <updated>2026-08-26T01:30:18Z</updated>
+    <summary type="html">Film negative photo recovery app</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.fireflame.dream/</id>
+    <title>I Keep Having This Dream</title>
+    <link href="https://f-droid.org/packages/com.fireflame.dream/" />
+    <updated>2026-08-26T01:30:18Z</updated>
+    <summary type="html">Build a path of tiles to escape each cycle of a dangerous recurring dream</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.github.nynosy.adiresy_mobile/</id>
+    <title>Adiresy</title>
+    <link href="https://f-droid.org/packages/org.github.nynosy.adiresy_mobile/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Find, share and navigate to Madagascar's community address codes</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.janekbt.Meditate/</id>
+    <title>Meditate</title>
+    <link href="https://f-droid.org/packages/io.github.janekbt.Meditate/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Meditation timer with session log, stats, and Nextcloud sync</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/eu.radio_science_institute.smart_radio_telescope/</id>
+    <title>Smart Radio Telescope</title>
+    <link href="https://f-droid.org/packages/eu.radio_science_institute.smart_radio_telescope/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Control an Az/El/polarization radio telescope mount over your local WiFi</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.aw.huda/</id>
+    <title>Huda</title>
+    <link href="https://f-droid.org/packages/com.aw.huda/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Prayer times, Quran, Qibla, Tasbih, Adhkar and more — your Islamic companion</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.rapidsplit/</id>
+    <title>RapidSplit</title>
+    <link href="https://f-droid.org/packages/app.rapidsplit/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Split trip costs fairly: per leg, not flat. Offline, no account needed.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.mcevoy.syncrecordapp/</id>
+    <title>SyncRecord</title>
+    <link href="https://f-droid.org/packages/app.mcevoy.syncrecordapp/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Create synchronised ad-hoc microphone arrays using multiple smartphones.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.librenotes.app/</id>
+    <title>LibreNotes</title>
+    <link href="https://f-droid.org/packages/dev.librenotes.app/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Private, self-hosted, end-to-end encrypted note-taking.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/dev.daika.davy/</id>
+    <title>DAVY - Daika Anime Viewer because YOLO</title>
+    <link href="https://f-droid.org/packages/dev.daika.davy/" />
+    <updated>2026-08-23T17:37:03Z</updated>
+    <summary type="html">Lightweight, open-source anime player for Android TV.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.tushar.voidplayer/</id>
+    <title>Void Player</title>
+    <link href="https://f-droid.org/packages/com.tushar.voidplayer/" />
+    <updated>2026-08-21T12:02:48Z</updated>
+    <summary type="html">﻿Modern, high-performance music player with dynamic UI</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.sal.privacykit.lite/</id>
+    <title>Privacy Kit Lite</title>
+    <link href="https://f-droid.org/packages/com.sal.privacykit.lite/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">Configure local privacy-related runtime hooks for LSPosed</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.jbgsoft.ambio/</id>
+    <title>Ambio: Focus Timer &amp; Sounds</title>
+    <link href="https://f-droid.org/packages/com.jbgsoft.ambio/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">Blend up to 3 of 12 ambient sounds into a focus soundscape you build yourself</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.hexcorp.ringr/</id>
+    <title>Ring-R</title>
+    <link href="https://f-droid.org/packages/com.hexcorp.ringr/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">Create custom ringtones from your favorite youtube videos</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.gitlab.mudlej.MjPdfReader/</id>
+    <title>MJ PDF</title>
+    <link href="https://f-droid.org/packages/com.gitlab.mudlej.MjPdfReader/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">A simple PDF viewer</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.erfangholami.solidshare/</id>
+    <title>Solid Share</title>
+    <link href="https://f-droid.org/packages/com.erfangholami.solidshare/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">Files, contacts and passes on your own Solid pod, shared on your terms</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.bobek.tuner/</id>
+    <title>Tuner</title>
+    <link href="https://f-droid.org/packages/com.bobek.tuner/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">A simple and precise tuner</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/io.github.snood21.workprofilevpnswitcher/</id>
+    <title>Work Profile VPN Switcher</title>
+    <link href="https://f-droid.org/packages/io.github.snood21.workprofilevpnswitcher/" />
+    <updated>2026-08-19T14:30:45Z</updated>
+    <summary type="html">Automatically manage work profile when VPN connects or disconnects</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/org.t2decode.app/</id>
+    <title>T2DECODE</title>
+    <link href="https://f-droid.org/packages/org.t2decode.app/" />
+    <updated>2026-08-17T11:14:49Z</updated>
+    <summary type="html">Offline interactive learning platform for IT, Cybersecurity, and Networking.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/ee.malt.diadem/</id>
+    <title>Diadem</title>
+    <link href="https://f-droid.org/packages/ee.malt.diadem/" />
+    <updated>2026-08-17T11:14:49Z</updated>
+    <summary type="html">Connect to any Diadem Map</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/at.hackmas.android.schedule/</id>
+    <title>Håck mas Castle 2026 Fahrplan</title>
+    <link href="https://f-droid.org/packages/at.hackmas.android.schedule/" />
+    <updated>2026-08-17T11:14:49Z</updated>
+    <summary type="html">Eine Fahrplan-App für Håck ma’s Castle 2026</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/fr.hellpc.mirror/</id>
+    <title>Mirror</title>
+    <link href="https://f-droid.org/packages/fr.hellpc.mirror/" />
+    <updated>2026-08-16T07:52:55Z</updated>
+    <summary type="html">Multiprotocol backup application (NFS, SMB, FTP, SFTP, WebDAV)</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.rouf.freeview/</id>
+    <title>FreeView</title>
+    <link href="https://f-droid.org/packages/com.rouf.freeview/" />
+    <updated>2026-08-16T07:52:55Z</updated>
+    <summary type="html">Read Medium articles for free through your choice of reader service</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/com.chatroom.app/</id>
+    <title>Chat Room</title>
+    <link href="https://f-droid.org/packages/com.chatroom.app/" />
+    <updated>2026-08-16T07:52:55Z</updated>
+    <summary type="html">Real-time messaging client with text and file sharing.</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.status.mobile/</id>
+    <title>Status - Chat, Wallet, Browser</title>
+    <link href="https://f-droid.org/packages/app.status.mobile/" />
+    <updated>2026-08-16T07:52:55Z</updated>
+    <summary type="html">Privacy super app with messenger, crypto wallet, browser, communities &amp; more</summary>
+  </entry>
+  <entry>
+    <id>https://f-droid.org/packages/app.nightdrop/</id>
+    <title>Night Drop</title>
+    <link href="https://f-droid.org/packages/app.nightdrop/" />
+    <updated>2026-08-16T07:52:55Z</updated>
+    <summary type="html">Anonymous, end-to-end encrypted 1:1 chat over Tor</summary>
+  </entry>
+</feed>
