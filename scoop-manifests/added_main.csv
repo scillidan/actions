@@ -1,4 +1,6 @@
 name,added_date,description
+cosmopolitan,2026-11-09,Cosmopolitan C/C++ toolchain + Cosmos POSIX userland
+editorconfig-checker,2026-11-08,A tool to verify that your files are in harmony with your .editorconfig
 herdr-core,2026-11-05,Persistent terminal runtime for coding agents that powers the Herdr App.
 tennis,2026-11-05,Render CSV files as stylish tables in the terminal.
 xerj,2026-11-05,AI search engine and MCP server for bots and agents
@@ -687,6 +689,7 @@ difftastic,2022-05-25,A structural diff that understands syntax
 bc,2022-05-23,Arbitrary precision numeric processing language
 awsqueue,2022-05-21,Simple queue lister for AWS SQS
 mandoc,2022-05-19,UNIX manpage compiler toolset
+watchman,2022-05-18,A file watching service by Facebook
 mpd,2022-05-17,Music Player Daemon
 cue,2022-05-16,CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.
 quarkus-cli,2022-05-16,A CLI for Quarkus Java framework
@@ -1207,7 +1210,6 @@ httping,2019-04-24,Ping with HTTP requests.
 osslsigncode,2019-04-24,OpenSSL based Authenticode signing for PE/MSI/Java CAB files
 unxutils,2019-04-24,GNU utilities for Win32.
 7zip,2019-04-22,A multi-format file archiver with high compression ratios.
-ack,2019-04-22,"A tool like grep, optimized for programmers"
 acmesharp,2019-04-22,An ACME (Let's Encrypt) client library and PowerShell client for the .NET platform
 adb,2019-04-22,"Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot"
 ag,2019-04-22,A tool for searching code. Fork of The Silver Searcher; dedicated to building a well behaved version for Windows.
@@ -1580,3 +1582,4 @@ yubico-piv-tool,2019-04-22,A tool to interact with the Privilege and Identificat
 zip,2019-04-22,Zip compression utilities
 zola,2019-04-22,A fast static site generator in a single binary with everything built-in
 zookeeper,2019-04-22,High-performance coordination service for distributed applications
+zstd,2019-04-22,High compression ratios compression algorithm

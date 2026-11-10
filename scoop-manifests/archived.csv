@@ -1,4 +1,5 @@
 bucket,name,archived_date,description
+extras,hyper,2026-11-04,A terminal built on web technologies
 extras,chatall,2026-10-26,"Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
 extras,hemmelig,2026-10-05,Share sensitive information securely with client-side encryption and self-destructing messages.
 extras,mesonlsp,2026-09-25,"An unofficial, unendorsed language server for meson written in C++."
