@@ -40,13 +40,14 @@ UA = {
 }
 
 CTAN_EXCLUDE = (
+    "chemical",
+    "letter",
+    "math",
+    "physics",
+    "resume",
     "thesis",
     "university",
-    "math",
-    "chemical",
-    "physics",
-    "letter",
-    "resume",
+    "unofficial"
 )
 TYPST_FIRST_RELEASE = {"1.0.0", "0.1.0", "0.0.1"}
 
