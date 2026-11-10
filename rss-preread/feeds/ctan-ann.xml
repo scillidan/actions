@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-08T18:17:22Z</updated>
+  <updated>2026-11-09T16:43:12Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/avH4IDdMTcuHcuBl@prptp</id>
+    <title>Kanban Board</title>
+    <link href="https://ctan.org/pkg/kanban-board" />
+    <updated>2026-11-09T16:43:12Z</updated>
+    <summary type="html">Write Kanban boards in LaTeX</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/avC8sn4CvniDVAsy@prptp</id>
     <title>import-citation-cff</title>

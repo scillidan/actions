@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-06T11:41:00Z</updated>
+  <updated>2026-11-09T17:02:30Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/55d5191b3259d303701274c0f1ff2366d7ba0f13</id>
+    <title>sdu-smpl-slides</title>
+    <link href="https://typst.app/universe/search/?q=sdu-smpl-slides" />
+    <updated>2026-11-09T17:02:30Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/2f7a57461b0d02ad4b8572837f0469e91f23841b</id>
+    <title>milanovic-resume</title>
+    <link href="https://typst.app/universe/search/?q=milanovic-resume" />
+    <updated>2026-11-09T15:58:32Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/c2e3ca3e0b274ba000f9ea92807e426d4415745f</id>
+    <title>tl-modern-report</title>
+    <link href="https://typst.app/universe/search/?q=tl-modern-report" />
+    <updated>2026-11-09T15:37:53Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/954267d6a37f06c432c511b1e32f8f27b4b35697</id>
+    <title>pzai-expose-unofficial</title>
+    <link href="https://typst.app/universe/search/?q=pzai-expose-unofficial" />
+    <updated>2026-11-09T15:13:09Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/cab83b27cd3f8aaf37371d2ae5c49a8f28f3ea15</id>
     <title>ling-handout</title>

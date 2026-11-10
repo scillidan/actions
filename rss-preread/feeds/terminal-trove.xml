@@ -341,6 +341,13 @@
     <summary type="html">A JSON incremental digger with auto completions and expressions.</summary>
   </entry>
   <entry>
+    <id>https://terminaltrove.com/feed/emeraldian/</id>
+    <title>emeraldian</title>
+    <link href="https://github.com/iamrohithrnair/emeraldian" />
+    <updated>2026-09-09T12:00:00Z</updated>
+    <summary type="html">A terminal UI for Obsidian with graphical live-preview notes</summary>
+  </entry>
+  <entry>
     <id>https://terminaltrove.com/feed/chroncal/</id>
     <title>chroncal</title>
     <link href="https://github.com/DouglasdeMoura/chroncal" />

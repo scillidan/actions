@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-08T05:25:40Z</updated>
+  <updated>2026-11-09T06:45:14Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/5ca946055b6f1146e5d826e735866ec1e0bed653#https://github.com/tiagovla/projet.nvim</id>
+    <title>tiagovla/projet.nvim</title>
+    <link href="https://github.com/tiagovla/projet.nvim" />
+    <updated>2026-11-09T06:45:14Z</updated>
+    <summary type="html">A minimalist tool for managing your projects, with just enough French to feel fancy.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/a5497ca2f16e8d512bf0df4a910c6c18c5dd7144#https://github.com/tiagovla/tokyodark.nvim</id>
+    <title>tiagovla/tokyodark.nvim</title>
+    <link href="https://github.com/tiagovla/tokyodark.nvim" />
+    <updated>2026-11-09T04:50:14Z</updated>
+    <summary type="html">**_`[TS][LSP][Lua]`_** A clean and customizable dark colorscheme.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/c492b9d9997c8cfd1947507af9ffd8f428afe411#https://github.com/tiagovla/scope.nvim</id>
+    <title>tiagovla/scope.nvim</title>
+    <link href="https://github.com/tiagovla/scope.nvim" />
+    <updated>2026-11-09T04:46:32Z</updated>
+    <summary type="html">Scope buffers to individual tabs while keeping native buffer navigation commands.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/741794fbb9083c47e1bfd82d139c53ee33cfe26d#https://github.com/alessandropietrobelli/nuget.nvim</id>
     <title>alessandropietrobelli/nuget.nvim</title>
