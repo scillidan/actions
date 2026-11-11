@@ -2,8 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Terminal Trove: New Tools</title>
   <id>urn:rss-preread:terminal-trove</id>
-  <updated>2026-11-04T12:00:00Z</updated>
+  <updated>2026-11-11T12:00:00Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/terminal-trove.xml" />
+  <entry>
+    <id>https://terminaltrove.com/feed/rumdl/</id>
+    <title>rumdl</title>
+    <link href="https://github.com/rvben/rumdl" />
+    <updated>2026-11-11T12:00:00Z</updated>
+    <summary type="html">A fast linter for checking and formatting Markdown documents.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/tidemail/</id>
+    <title>tidemail</title>
+    <link href="https://github.com/allisonhere/tidemail" />
+    <updated>2026-11-11T12:00:00Z</updated>
+    <summary type="html">Keyboard-first terminal email client with Gmail and Outlook support.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rat-commander/</id>
+    <title>rat-commander</title>
+    <link href="https://github.com/dividebysandwich/rat-commander" />
+    <updated>2026-11-11T12:00:00Z</updated>
+    <summary type="html">The all-in-one advanced terminal file manager.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rustel/</id>
+    <title>rustel</title>
+    <link href="https://github.com/tzfm/rustel" />
+    <updated>2026-11-11T12:00:00Z</updated>
+    <summary type="html">Live code music with strudel in your terminal.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/dasel/</id>
+    <title>dasel</title>
+    <link href="https://github.com/TomWright/dasel" />
+    <updated>2026-11-11T12:00:00Z</updated>
+    <summary type="html">A command-line tool for unified querying and converting structured data.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/adbtop/</id>
+    <title>adbtop</title>
+    <link href="https://github.com/aabolfazl/adbtop" />
+    <updated>2026-11-11T12:00:00Z</updated>
+    <summary type="html">Live performance monitoring for Android apps in your terminal and your CI.</summary>
+  </entry>
   <entry>
     <id>https://terminaltrove.com/feed/tennis/</id>
     <title>tennis</title>

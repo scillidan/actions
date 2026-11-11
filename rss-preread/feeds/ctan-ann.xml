@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-09T16:43:12Z</updated>
+  <updated>2026-11-10T21:00:17Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/45a796a8e6945937@hogwart</id>
+    <title>vardadieniai</title>
+    <link href="https://ctan.org/pkg/vardadieniai" />
+    <updated>2026-11-10T21:00:17Z</updated>
+    <summary type="html">Lithuanian name days for every day of the year</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/avH4IDdMTcuHcuBl@prptp</id>
     <title>Kanban Board</title>
