@@ -30,6 +30,7 @@ https://github.com/Guilherme-Costa-Dev/rusted_ascii_filter
 https://github.com/kackerx/sqlmux
 https://github.com/kl/sub-batch
 https://github.com/Supervertaler/Supervertaler-Workbench
+https://github.com/allisonhere/tidemail
 https://github.com/ArturTkaczuk/toggle-screen-autohotkey
 https://github.com/upscayl/upscayl-ncnn
 https://github.com/alexheretic/vimg
