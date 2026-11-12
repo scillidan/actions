@@ -12,7 +12,6 @@ https://github.com/godotengine/godot - releases
 https://github.com/love2d/love - releases
 https://github.com/lxgw/LxgwSeal - releases
 https://github.com/lightningpixel/modly - releases
-https://github.com/woelper/oculante - releases
 https://github.com/ad-si/Perspec - releases
 https://github.com/DaCatBeam/procnetmon - releases
 https://github.com/hrhrng/readio - releases
