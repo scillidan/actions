@@ -1,4 +1,6 @@
 name,added_date,description
+freerouting-cli,2026-11-11,Advanced autorouter (CLI Version) for all PCB programs that support the standard Specctra or Electra DSN interface.
+nub,2026-11-11,The fast all-in-one Node.js toolkit
 cosmopolitan,2026-11-09,Cosmopolitan C/C++ toolchain + Cosmos POSIX userland
 editorconfig-checker,2026-11-08,A tool to verify that your files are in harmony with your .editorconfig
 herdr-core,2026-11-05,Persistent terminal runtime for coding agents that powers the Herdr App.
@@ -296,7 +298,7 @@ speedtest-go,2026-01-29,Full-featured Command Line Interface to Test Internet Sp
 atuin,2026-01-22,"Shell history tool featuring advanced context-aware search, along with secure sync and backup."
 moon,2026-01-22,"A task runner and monorepo management tool for the web ecosystem, written in Rust."
 claude-code,2026-01-19,"An agentic coding tool built by Anthropic that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows."
-opencode,2026-01-18,The open source AI coding agent.
+opencode,2026-01-18,The open source AI coding agent
 vmr,2026-01-13,A general version manager for thousands of SDKs with TUI inspired by lazygit.
 tombi,2026-01-12,Feature-Rich TOML Toolkit.
 logcli,2026-01-11,Command-line tool for querying and exploring logs in Grafana Loki.

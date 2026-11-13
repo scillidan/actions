@@ -1,4 +1,5 @@
 name,added_date,description
+am-deadlink,2026-11-12,Check URLs for dead links and redirections.
 caldir,2026-11-10,Tool for storing your calendar as a directory of ICS files and sync with cloud providers
 cemu,2026-11-10,"TI-84 Plus CE / TI-83 Premium CE emulator, focused on developer features."
 clonespy,2026-11-10,A free duplicate file cleanup tool for Windows© XP/Vista/7/8/8.1/10.
@@ -233,7 +234,7 @@ pear-desktop,2026-02-11,Unofficial YouTube Music Desktop App bundled with custom
 iwck,2026-02-10,Block the keyboard input while you were eating instant noodles on your laptop keyboard.
 pastebar,2026-02-05,"Limitless, Free Clipboard Manager for Mac and Windows"
 kelivo,2026-01-18,A Flutter LLM Chat Client.
-opencode-desktop,2026-01-18,The open source AI coding agent.
+opencode-desktop,2026-01-18,The open source AI coding agent
 zedis,2026-01-18,"A blazing-fast, native Redis GUI built with Rust and GPUI."
 claude,2026-01-15,Next generation AI assistant built by Anthropic.
 hotkey-detective,2026-01-11,A small program for investigating stolen key combinations under Windows 7 and later.
@@ -1230,7 +1231,6 @@ colorcontrol,2021-11-15,Easily change NVIDIA display settings and/or control LG 
 keepass-plugin-kpenhentryview,2021-11-15,Plugin for KeePass 2.x that provides an enhanced entry view
 synology-surveillance-station,2021-11-13,Desktop client for Synology Surveillance Station
 tuxguitar,2021-11-13,Multitrack guitar tablature editor and player
-lite,2021-11-11,A lightweight text editor written in Lua.
 lite-xl,2021-11-11,"A lightweight text editor written in Lua, adapted from lite."
 neovim-qt,2021-11-11,"Neovim client library and GUI, in Qt5"
 jcpicker,2021-11-08,Just Color Picker - Free portable offline colour picker and colour editor for web designers and digital artists.
@@ -1418,7 +1418,6 @@ tftpd,2020-03-21,"Lightweight multi-threaded TFTP, DNS, SNTP, SYSLOG and DHCP se
 fsresizer,2020-03-18,An image converter and renaming tool
 color-cop,2020-03-06,Multi-purpose color picker for web designers and programmers
 azure-iot-explorer,2020-03-05,Azure IoT devices manager
-shadered,2020-03-05,"Lightweight, cross-platform & full-featured desktop IDE for HLSL and GLSL shaders"
 wizmouse,2020-03-05,Mouse enhancement utility that makes mouse wheel work on the window currently under the mouse pointer.
 picpick,2020-03-01,"A full-featured screen capture tool, intuitive image editor, color picker and more"
 fileoptimizer,2020-02-21,Lossless file size reduction utility

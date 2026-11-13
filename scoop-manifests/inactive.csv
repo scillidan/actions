@@ -1,4 +1,6 @@
 bucket,name,latest_update,description
+extras,lite,2021-11-11,A lightweight text editor written in Lua.
+extras,shadered,2021-11-10,"Lightweight, cross-platform & full-featured desktop IDE for HLSL and GLSL shaders"
 extras,sharik,2021-11-03,Sharing files via Wi-Fi or Mobile Hotspot.
 extras,vapoursyntheditor,2021-11-02,An editor for editing and previewing VapourSynth scripts
 extras,robo3t,2021-10-30,The free lightweight GUI for MongoDB enthusiasts
