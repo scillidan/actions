@@ -2,8 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-ratatui: New Additions</title>
   <id>urn:rss-preread:awesome-ratatui</id>
-  <updated>2026-11-06T13:42:03Z</updated>
+  <updated>2026-11-12T12:09:38Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-ratatui.xml" />
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/2f99f475b3c8263239f54ea019ebc3d626853f98</id>
+    <title>Borg Commander</title>
+    <link href="https://github.com/0xcd21h/borg-commander" />
+    <updated>2026-11-12T12:09:38Z</updated>
+    <summary type="html">A two-panel file manager for macOS and Linux with your shell built in. The same panels also show Docker containers, processes and memory, open ports and traffic, and startup items. You can link machines and reach a remote one behind a firewall or NAT, and AI agents can work in it over MCP with every change approved by you.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/799a8733b4788a76163b162e1a7b8e7be3c43427</id>
+    <title>zch</title>
+    <link href="https://github.com/prsweet/zch" />
+    <updated>2026-11-12T12:09:07Z</updated>
+    <summary type="html">Adds [zch](https://github.com/prsweet/zch) to Development Tools → APIs, Databases, Build, and Debugging.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/e0f4680e1f61f932b85ec1fb623b3d6f2822c8d2</id>
+    <title>graph-tui</title>
+    <link href="https://github.com/mixsoulgithub/graph-tui" />
+    <updated>2026-11-12T12:08:40Z</updated>
+    <summary type="html">Adds graph-tui to Terminal Workflow: a terminal graph editor for boxes-and-arrows diagrams. Edges are routed orthogonally (port anchors, box avoidance, one-cell jogs, and a break where one edge passes under another), the canvas is infinite with mouse pan/zoom, and vim-like keys sit on top. Documents are plain text with integer cell coordinates, so a diagram diffs like code. It imports `.dot` and JSON Canvas, exports `.svg` / `.png` / `.canvas` / lossy `.dot`, and has a headless NDJSON mode. Built on ratatui + crossterm.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/a63a5a6ca8455b494e414aef2cefebf90229ebeb</id>
+    <title>mobicat</title>
+    <link href="https://github.com/yamamoto7/mobicat" />
+    <updated>2026-11-12T12:08:02Z</updated>
+    <summary type="html">A terminal log viewer for mobile developers. It follows one app's logs on Android devices and iOS simulators, hides system noise, and shows crashes as one block with the stack trace. Added to Monitoring, Diagnostics, and Logs. I'm the author.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/105470300bb4c1184e568e65bf0ae487a1904b35</id>
+    <title>plurimus</title>
+    <link href="https://github.com/kenianbei/plurimus" />
+    <updated>2026-11-12T12:04:39Z</updated>
+    <summary type="html">A Bevy-native terminal renderer: cameras, widgets, and 2d/3d pipelines drawn to terminal cells.</summary>
+  </entry>
   <entry>
     <id>https://github.com/ratatui/awesome-ratatui/commit/968f13c81044e2815bee481b163446e8eb8aebce</id>
     <title>ff</title>

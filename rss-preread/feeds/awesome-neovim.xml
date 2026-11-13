@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-09T06:45:14Z</updated>
+  <updated>2026-11-12T16:56:40Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/8165852125c486f99ea22443f92ca7862449f7fd#https://github.com/kova1max/float-claude.nvim</id>
+    <title>kova1max/float-claude.nvim</title>
+    <link href="https://github.com/kova1max/float-claude.nvim" />
+    <updated>2026-11-12T16:56:40Z</updated>
+    <summary type="html">Ask Claude Code about the current file or selection from a popup, using the `claude` CLI subscription instead of an API key.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/2d0ff18f7f240d8322733f248167fc2c1c8d66ca#https://github.com/jtprogru/pack-ui.nvim</id>
+    <title>jtprogru/pack-ui.nvim</title>
+    <link href="https://github.com/jtprogru/pack-ui.nvim" />
+    <updated>2026-11-12T16:55:26Z</updated>
+    <summary type="html">A simple UI on top of `vim.pack` for managing plugins.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/5ca946055b6f1146e5d826e735866ec1e0bed653#https://github.com/tiagovla/projet.nvim</id>
     <title>tiagovla/projet.nvim</title>

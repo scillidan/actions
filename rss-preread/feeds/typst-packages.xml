@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-09T17:02:30Z</updated>
+  <updated>2026-11-12T14:30:48Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/2ad7210abb81ce5e8d43a52971af86d59cbe81dd</id>
+    <title>mtt-thesis</title>
+    <link href="https://typst.app/universe/search/?q=mtt-thesis" />
+    <updated>2026-11-12T14:30:48Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/b49480f84ae55a1cfcd0f8192307938d352e381e</id>
+    <title>based-schemes</title>
+    <link href="https://typst.app/universe/search/?q=based-schemes" />
+    <updated>2026-11-12T13:12:26Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/55d5191b3259d303701274c0f1ff2366d7ba0f13</id>
     <title>sdu-smpl-slides</title>
