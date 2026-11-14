@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-12T14:30:48Z</updated>
+  <updated>2026-11-13T09:19:38Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/76fcf18ad1d1f5fed315dcca23c64d8a0c62f814</id>
+    <title>unofficial-monash-report</title>
+    <link href="https://typst.app/universe/search/?q=unofficial-monash-report" />
+    <updated>2026-11-13T09:19:38Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/781b8674fb696b4972cf6d5c352a77907ff5d8e8</id>
+    <title>pandect-apa7</title>
+    <link href="https://typst.app/universe/search/?q=pandect-apa7" />
+    <updated>2026-11-13T08:34:48Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/b5d64f0d303a896a9d00065d433851ac27c50c31</id>
+    <title>biznaga-uma-tfe</title>
+    <link href="https://typst.app/universe/search/?q=biznaga-uma-tfe" />
+    <updated>2026-11-13T08:33:27Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/2ad7210abb81ce5e8d43a52971af86d59cbe81dd</id>
     <title>mtt-thesis</title>

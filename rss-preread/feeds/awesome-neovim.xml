@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-12T16:56:40Z</updated>
+  <updated>2026-11-13T21:03:42Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/2eaec18ba16074ee6d0692494d8d809ab3d4a99e#https://github.com/anirbanchakraborty-dev/swara</id>
+    <title>anirbanchakraborty-dev/swara</title>
+    <link href="https://github.com/anirbanchakraborty-dev/swara" />
+    <updated>2026-11-13T21:03:42Z</updated>
+    <summary type="html">LilyPond support with its own Tree-sitter grammar and LSP server.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/8165852125c486f99ea22443f92ca7862449f7fd#https://github.com/kova1max/float-claude.nvim</id>
     <title>kova1max/float-claude.nvim</title>
