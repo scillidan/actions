@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-13T21:03:42Z</updated>
+  <updated>2026-11-15T01:23:34Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/4d15c9ff9222fab8495bdb08488055b795322590#https://github.com/xheisenbugx/org.nvim</id>
+    <title>xheisenbugx/org.nvim</title>
+    <link href="https://github.com/xheisenbugx/org.nvim" />
+    <updated>2026-11-15T01:23:34Z</updated>
+    <summary type="html">Fully-featured reimplementation of Emacs' `org-mode`.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/7750e9b35bc5fb0f772dd0263b4f974b7cecfc4a#https://github.com/leblocks/treetags.nvim</id>
+    <title>leblocks/treetags.nvim</title>
+    <link href="https://github.com/leblocks/treetags.nvim" />
+    <updated>2026-11-14T17:24:32Z</updated>
+    <summary type="html">Fast, Tree-sitter-based code tags and symbol navigation.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/2eaec18ba16074ee6d0692494d8d809ab3d4a99e#https://github.com/anirbanchakraborty-dev/swara</id>
     <title>anirbanchakraborty-dev/swara</title>

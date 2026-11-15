@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-12T16:19:24Z</updated>
+  <updated>2026-11-14T10:11:56Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/c5a8e1d2fd0b6c75@hogwart</id>
+    <title>beamer2html</title>
+    <link href="https://ctan.org/pkg/beamer2html" />
+    <updated>2026-11-14T10:11:56Z</updated>
+    <summary type="html">Convert beamer presentations into offline HTML slide decks</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/c5a8e1964e100af9@hogwart</id>
+    <title>acousticintervals</title>
+    <link href="https://ctan.org/pkg/acousticintervals" />
+    <updated>2026-11-14T08:44:30Z</updated>
+    <summary type="html">Duration-weighted acoustic interval tables and energy means</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/c5a8e19178f0cc0d@hogwart</id>
+    <title>kanruby</title>
+    <link href="https://ctan.org/pkg/kanruby" />
+    <updated>2026-11-14T08:43:56Z</updated>
+    <summary type="html">Typeset kunten reading marks in Kanbun (Classical Chinese) texts</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/avXnDMjfk_R5whRu@prptp</id>
     <title>LuaCJK</title>
