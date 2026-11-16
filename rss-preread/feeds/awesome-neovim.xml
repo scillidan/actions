@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-15T01:23:34Z</updated>
+  <updated>2026-11-15T20:30:24Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/447a45602ae293f35fead12ce876df2f20a5cce2#https://github.com/vshulcz/deja-vu</id>
+    <title>vshulcz/deja-vu</title>
+    <link href="https://github.com/vshulcz/deja-vu" />
+    <updated>2026-11-15T20:30:24Z</updated>
+    <summary type="html">Local session search, line-level blame, and cross-agent handoff via Snacks, Telescope, or `fzf-lua`.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/4d15c9ff9222fab8495bdb08488055b795322590#https://github.com/xheisenbugx/org.nvim</id>
     <title>xheisenbugx/org.nvim</title>
