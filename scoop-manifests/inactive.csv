@@ -1,4 +1,5 @@
 bucket,name,latest_update,description
+extras,keepass-plugin-yafd,2021-11-14,Yet Another Favicon Downloader (YAFD for short) is a plugin for KeePass 2.x that allows you to quickly download favicons for your password entries.
 extras,lite,2021-11-11,A lightweight text editor written in Lua.
 extras,shadered,2021-11-10,"Lightweight, cross-platform & full-featured desktop IDE for HLSL and GLSL shaders"
 extras,sharik,2021-11-03,Sharing files via Wi-Fi or Mobile Hotspot.

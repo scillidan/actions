@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-13T04:55:54Z",
+  "generated": "2026-11-16T04:36:49Z",
   "buckets": {
     "main": {
       "url": "https://github.com/ScoopInstaller/Main",
-      "added": 1586,
+      "added": 1587,
       "deprecated": 40,
       "archived": 50,
       "broken_home": 13,
@@ -15,7 +15,7 @@
       "deprecated": 69,
       "archived": 99,
       "broken_home": 65,
-      "inactive": 223
+      "inactive": 224
     }
   }
 }

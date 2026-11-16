@@ -1,4 +1,5 @@
 name,added_date,description
+markview,2026-11-15,"A fast, native Markdown reader with publication-quality typography"
 am-deadlink,2026-11-12,Check URLs for dead links and redirections.
 caldir,2026-11-10,Tool for storing your calendar as a directory of ICS files and sync with cloud providers
 cemu,2026-11-10,"TI-84 Plus CE / TI-83 Premium CE emulator, focused on developer features."
@@ -1530,7 +1531,6 @@ clavier-plus,2019-10-14,Keyboard shortcuts manager
 gog-galaxy-plugin-downloader,2019-10-14,GOG Galaxy 2.0 plugin downloader
 http-downloader,2019-10-14,A download manager for the HTTP(S) and FTP(S) protocols.
 snappy-driver-installer-origin,2019-10-14,Device drivers installer and updater
-keepass-plugin-yafd,2019-10-09,Yet Another Favicon Downloader (YAFD for short) is a plugin for KeePass 2.x that allows you to quickly download favicons for your password entries.
 deadbeef,2019-09-29,DeaDBeeF (as in 0xDEADBEEF) is a modular cross-platform audio player.
 digikam,2019-09-29,Professional Photo Management
 poedit,2019-09-29,Gettext translations editor.

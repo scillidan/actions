@@ -1,4 +1,5 @@
 name,added_date,description
+nsq,2026-11-14,A realtime distributed messaging platform
 freerouting-cli,2026-11-11,Advanced autorouter (CLI Version) for all PCB programs that support the standard Specctra or Electra DSN interface.
 nub,2026-11-11,The fast all-in-one Node.js toolkit
 cosmopolitan,2026-11-09,Cosmopolitan C/C++ toolchain + Cosmos POSIX userland
