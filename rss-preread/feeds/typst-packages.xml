@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-13T09:19:38Z</updated>
+  <updated>2026-11-16T13:41:27Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/a0b00e4f6d708be7607bf8870772885ee7bb505c</id>
+    <title>ransom</title>
+    <link href="https://typst.app/universe/search/?q=ransom" />
+    <updated>2026-11-16T13:41:27Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/b9a67dd7ec42ebbf428eeab16446ead269819d26</id>
+    <title>pretty-cuni-thesis</title>
+    <link href="https://typst.app/universe/search/?q=pretty-cuni-thesis" />
+    <updated>2026-11-16T13:06:23Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/9f8dbf8f41dc2048df1d87f83f0d7b218c0a5186</id>
+    <title>thyme</title>
+    <link href="https://typst.app/universe/search/?q=thyme" />
+    <updated>2026-11-16T10:35:55Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/a645d83cb2bc3ccb25ecc4a55eb01b3bb1365928</id>
+    <title>unofficial-monash-touying</title>
+    <link href="https://typst.app/universe/search/?q=unofficial-monash-touying" />
+    <updated>2026-11-16T09:04:51Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/76fcf18ad1d1f5fed315dcca23c64d8a0c62f814</id>
     <title>unofficial-monash-report</title>
