@@ -8,3 +8,4 @@
 2026-11-17T02:40:41.385Z https://www.vicinae.com/extensions/davidseptimus/game-launcher Game Launcher - David Septimus
 2026-11-17T02:02:55.742Z https://www.vicinae.com/extensions/professormahi/bang Bang - Mahdi Fooladgar
 2026-11-17T01:47:09.877Z https://www.vicinae.com/extensions/atybdot/keysmith Keysmith - ateeb a.
+2026-11-17T15:01:54.429Z https://www.vicinae.com/extensions/xiaozhuai/vicinae-clash Clash - xiaozhuai

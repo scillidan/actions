@@ -1266,6 +1266,18 @@
     "Developer Tools",
     "Productivity"
    ]
+  },
+  "mZyzvBwbogGjIJdbMSfZE": {
+   "name": "vicinae-clash",
+   "title": "Clash",
+   "description": "Monitor and control Clash from Vicinae.",
+   "author": "xiaozhuai",
+   "url": "https://www.vicinae.com/extensions/xiaozhuai/vicinae-clash",
+   "date": "2026-11-17T15:01:54.429Z",
+   "categories": [
+    "Developer Tools",
+    "System"
+   ]
   }
  }
 }

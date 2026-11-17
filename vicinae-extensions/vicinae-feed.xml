@@ -5,7 +5,15 @@
 <link>https://www.vicinae.com/extensions</link>
 <description>Vicinae new extensions</description>
 <language>en</language>
-<lastBuildDate>Tue, 17 Nov 2026 07:53:39 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 20:54:24 +0000</lastBuildDate>
+<item>
+<title>Clash</title>
+<link>https://www.vicinae.com/extensions/xiaozhuai/vicinae-clash</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/xiaozhuai/vicinae-clash</guid>
+<pubDate>Tue, 17 Nov 2026 15:01:54 +0000</pubDate>
+<description>Monitor and control Clash from Vicinae. — xiaozhuai</description>
+<category>Developer Tools</category><category>System</category>
+</item>
 <item>
 <title>OpenCode</title>
 <link>https://www.vicinae.com/extensions/adityazxxx/opencode</link>
@@ -797,14 +805,6 @@
 <pubDate>Mon, 03 Nov 2025 07:25:16 +0000</pubDate>
 <description>File search using fuzzy matching — ibro</description>
 <category>Productivity</category><category>System</category>
-</item>
-<item>
-<title>Firefox</title>
-<link>https://www.vicinae.com/extensions/knoopx/firefox</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/knoopx/firefox</guid>
-<pubDate>Sun, 02 Nov 2025 10:53:32 +0000</pubDate>
-<description>Firefox integration — Víctor Martínez</description>
-<category>Web</category>
 </item>
 </channel>
 </rss>
