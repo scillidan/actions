@@ -2,8 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-15T12:36:08Z</updated>
+  <updated>2026-11-16T12:19:52Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/avr06E0pj2JswN1Y@prptp</id>
+    <title>tblnotes</title>
+    <link href="https://ctan.org/pkg/tblnotes" />
+    <updated>2026-11-16T12:19:52Z</updated>
+    <summary type="html">Footnotes in tables as table notes or page footnotes</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/c5a8e27dd18e585a@hogwart</id>
+    <title>uprightsubs</title>
+    <link href="https://ctan.org/pkg/uprightsubs" />
+    <updated>2026-11-16T09:09:33Z</updated>
+    <summary type="html">Eases the input of upright descriptive subscripts</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/c5a8e27849de34fd@hogwart</id>
+    <title>moepTikZ</title>
+    <link href="https://ctan.org/pkg/moeptikz" />
+    <updated>2026-11-16T09:09:14Z</updated>
+    <summary type="html">TikZ shapes for computer network diagrams</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/ace9c38f-7073-8d58-27a0-4abfc7e5453e@ctan.org</id>
+    <title>beamer-textbox-emph</title>
+    <link href="https://ctan.org/pkg/beamer-textbox-emph" />
+    <updated>2026-11-16T08:12:16Z</updated>
+    <summary type="html">Simple textbox environments for Beamer</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/37b4f66e-5ead-4bab-ad79-2c2741eade68@ctan.org</id>
     <title>cacography</title>
