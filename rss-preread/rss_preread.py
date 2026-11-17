@@ -42,7 +42,7 @@ UA = {
 CTAN_EXCLUDE = (
     "chemical",
     "letter",
-    "math",
+    "maths",
     "physics",
     "resume",
     "thesis",
