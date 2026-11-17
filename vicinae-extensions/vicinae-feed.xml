@@ -5,7 +5,87 @@
 <link>https://www.vicinae.com/extensions</link>
 <description>Vicinae new extensions</description>
 <language>en</language>
-<lastBuildDate>Tue, 20 Oct 2026 16:07:29 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 07:53:39 +0000</lastBuildDate>
+<item>
+<title>OpenCode</title>
+<link>https://www.vicinae.com/extensions/adityazxxx/opencode</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/adityazxxx/opencode</guid>
+<pubDate>Tue, 17 Nov 2026 05:54:02 +0000</pubDate>
+<description>Control OpenCode from the launcher: browse and resume sessions, create new work, ask questions, and review changes. OpenCode stays the coding environment. — Aditya Rahmad</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>AI Token Usage</title>
+<link>https://www.vicinae.com/extensions/asm0dey/ai-token-usage</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/asm0dey/ai-token-usage</guid>
+<pubDate>Tue, 17 Nov 2026 05:23:24 +0000</pubDate>
+<description>Token usage and cost for Claude Code, OpenCode and Codex per day, project and session, plus Claude subscription limits and OpenRouter credits. Requires tokscale. — Pasha Finkelshteyn</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>Coding Agent Sessions</title>
+<link>https://www.vicinae.com/extensions/coffebar/claude-tmux</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/coffebar/claude-tmux</guid>
+<pubDate>Tue, 17 Nov 2026 04:39:30 +0000</pubDate>
+<description>Browse Claude Code and Codex sessions running in tmux and jump to their windows — Mykyta</description>
+<category>Developer Tools</category>
+</item>
+<item>
+<title>PDF Tools</title>
+<link>https://www.vicinae.com/extensions/manuelcontrera/pdf-tools</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/manuelcontrera/pdf-tools</guid>
+<pubDate>Tue, 17 Nov 2026 02:51:19 +0000</pubDate>
+<description>Your all-in-one PDF toolkit: split, merge, protect, unlock, and watermark PDFs — manuelcontrera</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Color Picker</title>
+<link>https://www.vicinae.com/extensions/manuelcontrera/color-picker</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/manuelcontrera/color-picker</guid>
+<pubDate>Tue, 17 Nov 2026 02:42:48 +0000</pubDate>
+<description>Pick, organize, and convert colors on Linux — manuelcontrera</description>
+<category>Design Tools</category><category>Developer Tools</category>
+</item>
+<item>
+<title>Scryfall</title>
+<link>https://www.vicinae.com/extensions/untraceablez/scryfall</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/untraceablez/scryfall</guid>
+<pubDate>Tue, 17 Nov 2026 02:41:15 +0000</pubDate>
+<description>Search Magic: The Gathering cards on Scryfall by name or search syntax — Taylor Cohron</description>
+<category>Fun</category><category>Web</category>
+</item>
+<item>
+<title>ArchSeek</title>
+<link>https://www.vicinae.com/extensions/hash-ak/archseek</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/hash-ak/archseek</guid>
+<pubDate>Tue, 17 Nov 2026 02:40:55 +0000</pubDate>
+<description>Search the Arch Wiki, official repositories, and AUR on Arch Linux — Hash-AK</description>
+<category>Developer Tools</category><category>System</category>
+</item>
+<item>
+<title>Game Launcher</title>
+<link>https://www.vicinae.com/extensions/davidseptimus/game-launcher</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/davidseptimus/game-launcher</guid>
+<pubDate>Tue, 17 Nov 2026 02:40:41 +0000</pubDate>
+<description>Search and launch your installed games from Steam, Lutris and Heroic. — David Septimus</description>
+<category>Applications</category><category>Fun</category>
+</item>
+<item>
+<title>Bang</title>
+<link>https://www.vicinae.com/extensions/professormahi/bang</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/professormahi/bang</guid>
+<pubDate>Tue, 17 Nov 2026 02:02:55 +0000</pubDate>
+<description>Search local Bash, Zsh and Fish history, then review and run commands in a terminal — Mahdi Fooladgar</description>
+<category>Developer Tools</category><category>Productivity</category>
+</item>
+<item>
+<title>Keysmith</title>
+<link>https://www.vicinae.com/extensions/atybdot/keysmith</link>
+<guid isPermaLink="true">https://www.vicinae.com/extensions/atybdot/keysmith</guid>
+<pubDate>Tue, 17 Nov 2026 01:47:09 +0000</pubDate>
+<description>Search Keysmith OTP accounts and copy the current TOTP or HOTP code — ateeb a.</description>
+<category>Data</category><category>Security</category>
+</item>
 <item>
 <title>fff Search</title>
 <link>https://www.vicinae.com/extensions/selfxplanatorium/fff-search</link>
@@ -725,86 +805,6 @@
 <pubDate>Sun, 02 Nov 2025 10:53:32 +0000</pubDate>
 <description>Firefox integration — Víctor Martínez</description>
 <category>Web</category>
-</item>
-<item>
-<title>Arch Packages</title>
-<link>https://www.vicinae.com/extensions/rithvikvibhu/arch-packages</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/rithvikvibhu/arch-packages</guid>
-<pubDate>Sun, 02 Nov 2025 05:22:17 +0000</pubDate>
-<description>Search Arch and AUR Packages — Rithvik Vibhu</description>
-<category>System</category>
-</item>
-<item>
-<title>Mullvad VPN</title>
-<link>https://www.vicinae.com/extensions/aurelleb/mullvad</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/aurelleb/mullvad</guid>
-<pubDate>Sat, 01 Nov 2025 00:59:15 +0000</pubDate>
-<description>Connect, disconnect, and check if you are connected to Mullvad VPN. — Aurelle</description>
-<category>Security</category>
-</item>
-<item>
-<title>Wifi Commander</title>
-<link>https://www.vicinae.com/extensions/dagimg-dot/wifi-commander</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/wifi-commander</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:18 +0000</pubDate>
-<description>Complete wifi management - toggle wifi and scan networks using nmcli — Dagim G. Astatkie</description>
-<category>System</category>
-</item>
-<item>
-<title>Case converter</title>
-<link>https://www.vicinae.com/extensions/alan7a/case-converter</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/alan7a/case-converter</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:10 +0000</pubDate>
-<description>Quickly convert any string into various formats, such as snake_case, camelCase, PascalCase, kebab-case, or UPPER_CASE, among many others — Alan Delgado</description>
-<category>Developer Tools</category><category>Productivity</category>
-</item>
-<item>
-<title>Player Pilot</title>
-<link>https://www.vicinae.com/extensions/dagimg-dot/player-pilot</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/player-pilot</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:09 +0000</pubDate>
-<description>A comprehensive media player controller supporting multiple players with grid view, metadata display, and customizable player filtering. — Dagim G. Astatkie</description>
-<category>Media</category>
-</item>
-<item>
-<title>Floww</title>
-<link>https://www.vicinae.com/extensions/dagimg-dot/floww</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/floww</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:08 +0000</pubDate>
-<description>Vicinae extension for Floww CLI - manage and apply workflows across workspaces — Dagim G. Astatkie</description>
-<category>Productivity</category>
-</item>
-<item>
-<title>Kill Port</title>
-<link>https://www.vicinae.com/extensions/luggapugga/port-killer</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/luggapugga/port-killer</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:06 +0000</pubDate>
-<description>Kills a process by port — Luca Fischer</description>
-<category>Developer Tools</category>
-</item>
-<item>
-<title>Bluetooth</title>
-<link>https://www.vicinae.com/extensions/gelei/bluetooth</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/gelei/bluetooth</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:05 +0000</pubDate>
-<description>Vicinae bluetooth extension for managing bluetooth devices using org.bluez via dbus-next — Mate Gelei</description>
-<category>System</category>
-</item>
-<item>
-<title>GNOME Settings</title>
-<link>https://www.vicinae.com/extensions/dagimg-dot/gnome-settings</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/dagimg-dot/gnome-settings</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:01 +0000</pubDate>
-<description>Lists and opens GNOME Control Center panels for easy access — Dagim G. Astatkie</description>
-<category>System</category>
-</item>
-<item>
-<title>hypr keybinds</title>
-<link>https://www.vicinae.com/extensions/sovereign/hypr-keybinds</link>
-<guid isPermaLink="true">https://www.vicinae.com/extensions/sovereign/hypr-keybinds</guid>
-<pubDate>Fri, 31 Oct 2025 18:39:01 +0000</pubDate>
-<description>Will show you your hyprland keybinds in case you forget. — sovereign</description>
-<category>System</category>
 </item>
 </channel>
 </rss>
