@@ -1148,6 +1148,124 @@
    "categories": [
     "Productivity"
    ]
+  },
+  "617t4kY32Mlkb-kGkbQS1": {
+   "name": "game-launcher",
+   "title": "Game Launcher",
+   "description": "Search and launch your installed games from Steam, Lutris and Heroic.",
+   "author": "David Septimus",
+   "url": "https://www.vicinae.com/extensions/davidseptimus/game-launcher",
+   "date": "2026-11-17T02:40:41.385Z",
+   "categories": [
+    "Applications",
+    "Fun"
+   ]
+  },
+  "H7OCG-dx6IKnML4VVNdlU": {
+   "name": "bang",
+   "title": "Bang",
+   "description": "Search local Bash, Zsh and Fish history, then review and run commands in a terminal",
+   "author": "Mahdi Fooladgar",
+   "url": "https://www.vicinae.com/extensions/professormahi/bang",
+   "date": "2026-11-17T02:02:55.742Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "NqwnqR8zAFaqb0LDQBk2A": {
+   "name": "archseek",
+   "title": "ArchSeek",
+   "description": "Search the Arch Wiki, official repositories, and AUR on Arch Linux",
+   "author": "Hash-AK",
+   "url": "https://www.vicinae.com/extensions/hash-ak/archseek",
+   "date": "2026-11-17T02:40:55.536Z",
+   "categories": [
+    "Developer Tools",
+    "System"
+   ]
+  },
+  "r8ZXOrTty4DrX-0QhXgUj": {
+   "name": "scryfall",
+   "title": "Scryfall",
+   "description": "Search Magic: The Gathering cards on Scryfall by name or search syntax",
+   "author": "Taylor Cohron",
+   "url": "https://www.vicinae.com/extensions/untraceablez/scryfall",
+   "date": "2026-11-17T02:41:15.760Z",
+   "categories": [
+    "Fun",
+    "Web"
+   ]
+  },
+  "75isLgS8JDsEjJ5PdIjXu": {
+   "name": "ai-token-usage",
+   "title": "AI Token Usage",
+   "description": "Token usage and cost for Claude Code, OpenCode and Codex per day, project and session, plus Claude subscription limits and OpenRouter credits. Requires tokscale.",
+   "author": "Pasha Finkelshteyn",
+   "url": "https://www.vicinae.com/extensions/asm0dey/ai-token-usage",
+   "date": "2026-11-17T05:23:24.176Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "A971-Bm6oDCT4OAD4VsO0": {
+   "name": "keysmith",
+   "title": "Keysmith",
+   "description": "Search Keysmith OTP accounts and copy the current TOTP or HOTP code",
+   "author": "ateeb a.",
+   "url": "https://www.vicinae.com/extensions/atybdot/keysmith",
+   "date": "2026-11-17T01:47:09.877Z",
+   "categories": [
+    "Data",
+    "Security"
+   ]
+  },
+  "vyN3mjbnLVtyM4xApQp22": {
+   "name": "color-picker",
+   "title": "Color Picker",
+   "description": "Pick, organize, and convert colors on Linux",
+   "author": "manuelcontrera",
+   "url": "https://www.vicinae.com/extensions/manuelcontrera/color-picker",
+   "date": "2026-11-17T02:42:48.508Z",
+   "categories": [
+    "Design Tools",
+    "Developer Tools"
+   ]
+  },
+  "louKYYosjQdc_LifPNkvx": {
+   "name": "pdf-tools",
+   "title": "PDF Tools",
+   "description": "Your all-in-one PDF toolkit: split, merge, protect, unlock, and watermark PDFs",
+   "author": "manuelcontrera",
+   "url": "https://www.vicinae.com/extensions/manuelcontrera/pdf-tools",
+   "date": "2026-11-17T02:51:19.650Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
+  },
+  "ansQRhP31kwxyk0bXCy_5": {
+   "name": "claude-tmux",
+   "title": "Coding Agent Sessions",
+   "description": "Browse Claude Code and Codex sessions running in tmux and jump to their windows",
+   "author": "Mykyta",
+   "url": "https://www.vicinae.com/extensions/coffebar/claude-tmux",
+   "date": "2026-11-17T04:39:30.900Z",
+   "categories": [
+    "Developer Tools"
+   ]
+  },
+  "W6VFzk-C6qStd-jEvEbJ9": {
+   "name": "opencode",
+   "title": "OpenCode",
+   "description": "Control OpenCode from the launcher: browse and resume sessions, create new work, ask questions, and review changes. OpenCode stays the coding environment.",
+   "author": "Aditya Rahmad",
+   "url": "https://www.vicinae.com/extensions/adityazxxx/opencode",
+   "date": "2026-11-17T05:54:02.385Z",
+   "categories": [
+    "Developer Tools",
+    "Productivity"
+   ]
   }
  }
 }
