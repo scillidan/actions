@@ -49,6 +49,16 @@ CTAN_EXCLUDE = (
     "university",
     "unofficial"
 )
+TYPST_EXCLUDE = (
+    "chemical",
+    "letter",
+    "maths",
+    "physics",
+    "resume",
+    "thesis",
+    "university",
+    "unofficial"
+)
 TYPST_FIRST_RELEASE = {"1.0.0", "0.1.0", "0.0.1"}
 
 YAZI_LINK = re.compile(r'^\s*<a href="(https?://[^"]+)">([^<]+)</a>\s*-\s*(.+)')
@@ -371,6 +381,8 @@ def handle_typst_packages(feed, known):
         if not match:
             continue
         pkg, version = match.group(1).strip(), match.group(2)
+        if any(word in pkg.lower() for word in TYPST_EXCLUDE):
+            continue
         if version not in TYPST_FIRST_RELEASE:
             continue
         url = f"https://typst.app/universe/search/?q={quote(pkg, safe='')}"
