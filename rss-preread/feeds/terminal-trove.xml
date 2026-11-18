@@ -2,8 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Terminal Trove: New Tools</title>
   <id>urn:rss-preread:terminal-trove</id>
-  <updated>2026-11-11T12:00:00Z</updated>
+  <updated>2026-11-18T00:00:00Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/terminal-trove.xml" />
+  <entry>
+    <id>https://terminaltrove.com/feed/iptraf-ng/</id>
+    <title>iptraf-ng</title>
+    <link href="https://github.com/iptraf-ng/iptraf-ng/" />
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary type="html">A console-based low-level packet and IP traffic monitoring program.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/ipatool/</id>
+    <title>ipatool</title>
+    <link href="https://github.com/majd/ipatool/" />
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary type="html">A CLI tool for interacting with Apple's IPA files.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/terrascope/</id>
+    <title>terrascope</title>
+    <link href="https://github.com/a-shygun/terrascope/" />
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary type="html">Live weather, aircraft, and earthquake layers in a terminal map.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/llm-visuals/</id>
+    <title>llm-visuals</title>
+    <link href="https://github.com/DingoOz/llm-visuals/" />
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary type="html">A live terminal dashboard for local LLMs running on your machine.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/gnat/</id>
+    <title>gnat</title>
+    <link href="https://github.com/galaxy-io/gnat/" />
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary type="html">A keyboard-driven TUI for managing and monitoring NATS streams.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/ytunnel/</id>
+    <title>ytunnel</title>
+    <link href="https://github.com/yetidevworks/ytunnel/" />
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary type="html">Manage Cloudflare Tunnels with custom domains in a terminal UI.</summary>
+  </entry>
   <entry>
     <id>https://terminaltrove.com/feed/rumdl/</id>
     <title>rumdl</title>

@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-yazi: New Plugins</title>
   <id>urn:rss-preread:awesome-yazi</id>
-  <updated>2026-10-25T10:50:36Z</updated>
+  <updated>2026-11-17T12:57:06Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-yazi.xml" />
+  <entry>
+    <id>https://github.com/AnirudhG07/awesome-yazi/commit/6b26e70712b4aeba75cb683f4a066a0bf6129b21#https://github.com/hawkff/zippity</id>
+    <title>zippity.yazi</title>
+    <link href="https://github.com/hawkff/zippity" />
+    <updated>2026-11-17T12:57:06Z</updated>
+    <summary type="html">Browse archives as folders through Yazi's virtual filesystem, preview and extract members, and create or edit ZIP, 7z, and RAR archives with 7-Zip. Linux and macOS.</summary>
+  </entry>
   <entry>
     <id>https://github.com/AnirudhG07/awesome-yazi/commit/20880e853c1b5030cdf04c532f1982b02f542ffb#https://github.com/superb-striker/retarget-link.yazi</id>
     <title>retarget-link.yazi</title>

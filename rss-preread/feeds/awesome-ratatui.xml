@@ -2,8 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-ratatui: New Additions</title>
   <id>urn:rss-preread:awesome-ratatui</id>
-  <updated>2026-11-12T12:09:38Z</updated>
+  <updated>2026-11-17T12:10:27Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-ratatui.xml" />
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/136c0e2e7e11c2b1c084539f6ed150af1e4b1584</id>
+    <title>diffler</title>
+    <link href="https://github.com/matheusfillipe/diffler" />
+    <updated>2026-11-17T12:10:27Z</updated>
+    <summary type="html">A magit-style git TUI. You stage files, hunks or single lines, review pull requests and their CI logs from GitHub, GitLab or Forgejo, and leave comments in the diff that your coding agent answers in place.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/aa331aa254f97dc85a9e539f288b932b4b54b5b0</id>
+    <title>rtg</title>
+    <link href="https://github.com/bercly0b/rtg" />
+    <updated>2026-11-17T12:09:57Z</updated>
+    <summary type="html">Fast, vim-like Telegram TUI client built on TDLib and ratatui. Added to Apps → Communications and Social. I'm the author.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/b920024edd7562635f700e91051a5c3046366ac3</id>
+    <title>CHAOS RPG</title>
+    <link href="https://github.com/Mattbusel/chaos-rpg" />
+    <updated>2026-11-17T12:09:33Z</updated>
+    <summary type="html">A terminal roguelike built on Ratatui (with a bracket-lib frontend too) where each roll is a traceable chain of real equations shown in the combat log. Free, one-line install on Windows, macOS and Linux. Added under Games and Entertainment in alphabetical order. I am the author.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/59d7d5eef61dba094018ce1361c406e838767d0f</id>
+    <title>every-other-token</title>
+    <link href="https://github.com/Mattbusel/Every-Other-Token" />
+    <updated>2026-11-17T12:08:52Z</updated>
+    <summary type="html">`every-other-token "prompt" --tui` streams a model's answer in a full-screen Ratatui view: tokens coloured by confidence (green sure, yellow unsure, red guessing), side panels with stats, a confidence sparkline and the alternatives for the latest token. Works with OpenAI, OpenRouter, Ollama, or `--provider mock` with no key. Added under AI and Agents. I am the author.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/be700fd6475d5a2f99cc49fe8b18d13bdd86324b</id>
+    <title>llm-cost-dashboard</title>
+    <link href="https://github.com/Mattbusel/llm-cost-dashboard" />
+    <updated>2026-11-17T12:08:12Z</updated>
+    <summary type="html">Reads request logs you already have (OpenAI, Anthropic, Claude Code), prices each call with cache-aware pricing for 105 models, and shows spend, budget, a month-end forecast and unusually expensive calls in a Ratatui dashboard (`llm-dash --demo` runs without logs). Added under AI and Agents. I am the author.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/2e4fdaf62e5f6d17de50bfe672a1f517a4afbec7</id>
+    <title>kktypr</title>
+    <link href="https://github.com/kk376/kktypr" />
+    <updated>2026-11-17T12:07:42Z</updated>
+    <summary type="html">Terminal touch typing academy and developer code syntax trainer in pure Rust with real-time weak-key analytics.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/1987ea7f49e3835cd5d38262ecdc4e3b7171ed27</id>
+    <title>ratclone</title>
+    <link href="https://github.com/SyscallBrain/ratclone" />
+    <updated>2026-11-17T12:07:23Z</updated>
+    <summary type="html">A terminal UI for rclone, added to *Networking and Internet → Remote Access, APIs, and File Transfer*. It browses remotes and the local disk in one or two panes, and runs copies and moves as rclone jobs that keep going in the background, even after the app is closed.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/7d8df983dee61e82bee7ef224954d151108766b7</id>
+    <title>lazybw</title>
+    <link href="https://github.com/SyscallBrain/lazybw" />
+    <updated>2026-11-17T12:07:05Z</updated>
+    <summary type="html">A terminal UI for the Bitwarden vault, added to *Security and Identity*. Browse, search, copy and edit items with Vim-style keys. It runs the official Bitwarden CLI (`bw`) underneath and leaves all vault cryptography to it.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/208fee8fec35d5e9284738c1e86b713c282bbd58</id>
+    <title>virsh-tui</title>
+    <link href="https://github.com/SyscallBrain/virsh-tui" />
+    <updated>2026-11-17T12:06:47Z</updated>
+    <summary type="html">A terminal UI for libvirt, added to *System Administration → Containers and Orchestration*. It covers the domain lifecycle, live per-domain graphs, a hardware editor with an XML diff, snapshots, migration, and host, network and storage views. Every action is a `virsh` command that is shown before it runs.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/bca1aa47284776dfefed2d13907a11d3416a443a</id>
+    <title>miniam</title>
+    <link href="https://github.com/Wian1977/miniam" />
+    <updated>2026-11-17T12:06:27Z</updated>
+    <summary type="html">miniam plays Apple Music in the terminal. A hidden Firefox/Chrome window streams the audio, while the terminal shows true-color album art rendered with Unicode quadrant blocks and a live spectrum that follows each frequency band. Keyboard controls cover play/pause, next and previous.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/9a6b930fb6472a23b46f46955b0ca1cecb117aaf</id>
+    <title>proxy-scraper-checker</title>
+    <link href="https://github.com/monosans/proxy-scraper-checker" />
+    <updated>2026-11-17T12:05:58Z</updated>
+    <summary type="html">An async Rust tool that collects HTTP, SOCKS4 and SOCKS5 proxies from any number of sources and checks which ones actually work. The ratatui TUI follows the run through scraping, checking and saving, with per-protocol progress, the fastest proxies so far, speed and time left, and it rearranges itself for narrow screens, so it also fits a phone held upright. Added under Apps, Networking and Internet, Network Operations and Infrastructure, in alphabetical order between procnetmon and prt.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/1ddf739f1680832b70271ab5fe6cc63e6c33cd3c</id>
+    <title>Tonus</title>
+    <link href="https://github.com/lekspa/tonus" />
+    <updated>2026-11-17T12:05:33Z</updated>
+    <summary type="html">minimal terminal music player for offline playback.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/b45bb9d0e511401313c84703fae820367b4f2e1a</id>
+    <title>clavirio</title>
+    <link href="https://github.com/ratatui/awesome-ratatui/commit/b45bb9d0e511401313c84703fae820367b4f2e1a" />
+    <updated>2026-11-17T12:03:46Z</updated>
+    <summary type="html">A terminal typing tutor built with Ratatui.</summary>
+  </entry>
   <entry>
     <id>https://github.com/ratatui/awesome-ratatui/commit/2f99f475b3c8263239f54ea019ebc3d626853f98</id>
     <title>Borg Commander</title>

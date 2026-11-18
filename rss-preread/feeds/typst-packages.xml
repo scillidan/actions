@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-16T13:41:27Z</updated>
+  <updated>2026-11-17T15:34:20Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/af8430d3f8ebab567736326362355b35fd6639f4</id>
+    <title>karnaugh-express</title>
+    <link href="https://typst.app/universe/search/?q=karnaugh-express" />
+    <updated>2026-11-17T15:34:20Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/ed12087609a1155f99c342dde2199fb0a8c40c1e</id>
+    <title>academic-uiu-fydp</title>
+    <link href="https://typst.app/universe/search/?q=academic-uiu-fydp" />
+    <updated>2026-11-17T15:26:47Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/a0b00e4f6d708be7607bf8870772885ee7bb505c</id>
     <title>ransom</title>
