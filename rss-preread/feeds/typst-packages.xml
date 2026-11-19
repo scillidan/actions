@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-17T15:34:20Z</updated>
+  <updated>2026-11-18T15:50:31Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/24fd036ae9d0a4b29b44d251a30d6753a76e4c3a</id>
+    <title>aatts</title>
+    <link href="https://typst.app/universe/search/?q=aatts" />
+    <updated>2026-11-18T15:50:31Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/eecd15cbf17de13c132eaeb1a6153bc7c90f089e</id>
+    <title>dh-sheets</title>
+    <link href="https://typst.app/universe/search/?q=dh-sheets" />
+    <updated>2026-11-18T15:48:16Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/73f2916e02844167ed9cecd7faaa813d2c295572</id>
+    <title>itemplate</title>
+    <link href="https://typst.app/universe/search/?q=itemplate" />
+    <updated>2026-11-18T13:02:05Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/af8430d3f8ebab567736326362355b35fd6639f4</id>
     <title>karnaugh-express</title>
