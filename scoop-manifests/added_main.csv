@@ -1,4 +1,9 @@
 name,added_date,description
+clice,2026-11-18,A C/C++ language server and command-line tool built on Clang
+wifit3,2026-11-18,"A standalone USB Wi-Fi auditor for Linux, Windows, and macOS."
+winappcli,2026-11-18,"The Windows App Development CLI for managing SDKs, packaging, app identity, manifests, certificates, and build tools."
+plannotator,2026-11-17,"Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent."
+sql-studio,2026-11-16,"Single binary SQL database explorer for SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB and Microsoft SQL Server"
 nsq,2026-11-14,A realtime distributed messaging platform
 freerouting-cli,2026-11-11,Advanced autorouter (CLI Version) for all PCB programs that support the standard Specctra or Electra DSN interface.
 nub,2026-11-11,The fast all-in-one Node.js toolkit
@@ -126,7 +131,6 @@ pgstream,2026-07-02,An open source CDC command-line tool and library that offers
 turso,2026-07-02,"An open-source, SQLite-compatible database written in Rust that lets developers create millions of small, file-based databases for AI agents, multi-tenant SaaS applications, and edge workloads."
 typespec,2026-07-02,"Compiler CLI for TypeSpec, a language for defining cloud service APIs and shapes."
 xata,2026-07-02,"The official command-line interface for Xata, an open source Postgres platform."
-reasonix,2026-06-28,"Reasonix CLI, official CLI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 hunk,2026-06-27,Review-first terminal diff viewer for agentic coders.
 no-mistakes,2026-06-27,"A local Git proxy that AI-validates your code before push, forwarding only clean commits upstream."
 grok-cli,2026-06-26,"An extensible coding agent that can be used interactively, in scripts, or through the Agent Client Protocol"
@@ -991,6 +995,7 @@ ipopt,2020-07-31,Software package for large-scale nonlinear optimization
 prince,2020-07-31,Convert HTML to PDF with CSS
 ispc,2020-07-27,Intel® Implicit SPMD (Single Program Multiple Data) Compiler
 mockery,2020-07-27,A mock code autogenerator for Golang
+postgrest,2020-07-27,REST API for any Postgres database
 zoxide,2020-07-27,A faster way to navigate your filesystem
 tokei,2020-07-22,"Count your code, quickly."
 vswhere,2020-07-11,Locate Visual Studio 2017 and newer installations
@@ -1213,6 +1218,7 @@ httping,2019-04-24,Ping with HTTP requests.
 osslsigncode,2019-04-24,OpenSSL based Authenticode signing for PE/MSI/Java CAB files
 unxutils,2019-04-24,GNU utilities for Win32.
 7zip,2019-04-22,A multi-format file archiver with high compression ratios.
+ack,2019-04-22,"A tool like grep, optimized for programmers"
 acmesharp,2019-04-22,An ACME (Let's Encrypt) client library and PowerShell client for the .NET platform
 adb,2019-04-22,"Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot"
 ag,2019-04-22,A tool for searching code. Fork of The Silver Searcher; dedicated to building a well behaved version for Windows.
@@ -1438,6 +1444,7 @@ nano,2019-04-22,"The legendary small and friendly GNU editor, UTF-8 and mouse re
 nasm,2019-04-22,80x86 and x86-64 assembler designed for portability and modularity.
 neko,2019-04-22,A high-level dynamically typed programming language
 neovim,2019-04-22,Vim-fork focused on extensibility and usability
+netcat,2019-04-22,Read and write from/to network connections
 nginx,2019-04-22,"An HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server."
 ngrok,2019-04-22,"ngrok is your app's front door. ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them. ngrok supports delivering HTTP, TLS or TCP-based applications."
 nim,2019-04-22,"A statically typed compiled systems programming language, which combines successful concepts from mature languages like Python, Ada and Modula."

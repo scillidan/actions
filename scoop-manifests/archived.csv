@@ -1,4 +1,5 @@
 bucket,name,archived_date,description
+extras,reasonix-desktop,2026-11-12,"Reasonix Desktop, official GUI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 extras,hyper,2026-11-04,A terminal built on web technologies
 extras,chatall,2026-10-26,"Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
 extras,hemmelig,2026-10-05,Share sensitive information securely with client-side encryption and self-destructing messages.
@@ -18,7 +19,6 @@ extras,graphql-playground,2026-05-04,"GraphQL IDE for better development workflo
 extras,win-vind,2026-03-15,A Vim-oriented toy box that allows the user to operate Windows with key bindings like Vim. The app consists of various useful features inspired by Vim and its plugins.
 extras,ds4windows,2026-03-05,Allows to get the best experience while using a DualShock 4 on PC.
 extras,structurizr-cli,2026-02-04,"A command line interface to push/pull workspaces to/from the Structurizr cloud service/on-premises installation, and export views to PlantUML, Mermaid, and WebSequenceDiagrams formats."
-extras,optimizer,2026-01-20,An advanced configuration utility that helps you restore your privacy and increase your security.
 extras,waterfox-classic,2025-12-19,"The 100% fresh, free-range, ethical browser (classic branch)"
 extras,modernflyouts,2025-11-15,"A replacement for the built-in audio flyout UI, with a Modern Fluent Design."
 extras,xjoy,2025-10-29,Gamepad driver for Nintendo Switch Joy-Cons that merges them into one controller.
@@ -98,6 +98,7 @@ extras,ssh-agent-wsl,2020-03-15,Use the Windows SSH agent from inside WSL
 extras,noty,2019-11-15,Autosaving sticky note with support for multiple notes without needing multiple windows.
 extras,yubikey-piv-manager,2019-03-12,Graphical application for configuring a PIV-enabled YubiKey.
 extras,notepad2-mod,2018-08-12,"A Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting."
+main,reasonix,2026-11-12,"Reasonix CLI, official CLI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 main,pocketbase,2026-10-26,Open Source realtime backend in 1 file
 main,armor,2026-09-27,"Uncomplicated, modern HTTP server"
 main,tunnel,2026-09-27,Expose local servers to the internet securely.

@@ -252,7 +252,6 @@ main,mailsend,2021-01-10,A program to send mail via SMTP from command line.
 main,modd,2021-01-10,A flexible developer tool that runs processes and responds to filesystem changes.
 main,msival2,2021-01-10,MSI Database Validation Tool
 main,nero-aac,2021-01-09,Nero Digital AAC Encoder (Command Line Tools)
-main,netcat,2021-01-09,Read and write from/to network connections
 main,pciutils,2021-01-08,Inspect and manipulate configuration of PCI devices
 main,pdftk,2021-01-08,A command-line tool for working with PDFs.
 main,pkg-config,2021-01-08,A helper tool used when compiling applications and libraries.

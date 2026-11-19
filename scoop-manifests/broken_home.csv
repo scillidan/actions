@@ -15,11 +15,13 @@ extras,exeinfo-pe,http://www.exeinfo.xn.pl/,"EXE analyzer inspired by PEiD. Desi
 extras,falconx,https://chrisandriessen.nl/web/FalconX.html,Center Windows taskbar icons with a variety of animations and options.
 extras,firedm,https://github.com/firedm/FireDM,Multi-connections download manager
 extras,foto-mosaik-edda,https://fmedda.com/en/home,Photo mosaic picture maker
+extras,gitnuro,https://gitnuro.com/,A FOSS Git multiplatform client for newbies and pros
 extras,glogg,https://glogg.bonnefon.org,"A fast, advanced log explorer"
-extras,gnucash,https://www.gnucash.org/,Personal and small-business financial-accounting software
 extras,gridea,https://gridea.dev/en/,A static blog writing client
 extras,harmony,https://getharmony.xyz/,Music player with a sleek UI
-extras,ida-free,https://hex-rays.com/ida-free/,A multi-processor disassembler and debugger that offers so many features it is hard to describe them all
+extras,hxd,https://mh-nexus.de/en/hxd/,Hex and Disk Editor
+extras,inkscape,https://inkscape.org,Professional vector graphics editor
+extras,kopuz,https://kopuz.temidara.rocks,Your next music player
 extras,lighttpd,http://lighttpd.dtech.hu,An HTTP server designed and optimized for high performance environments. Here is the Cygwin compilation migrated from WLMP project
 extras,liteide,http://liteide.org,"Simple, open source, cross-platform Go IDE"
 extras,lunarvim,https://www.lunarvim.org/,"Lunarvim is a community-driven framework for neovim, written in lua. It is a full-featured IDE, with a focus on simplicity and ease of use."
@@ -38,14 +40,21 @@ extras,picotorrent,https://picotorrent.org,"A tiny, hackable BitTorrent client w
 extras,potplayer,https://potplayer.daum.net,Highly customizable media player
 extras,privatezilla,https://www.builtbybel.com/ms-apps/privatezilla,Security and privacy checker for Windows 10
 extras,qmk-toolbox,https://qmk.fm/toolbox/,Toolbox to flash and manage keyboards running the QMK firmware.
+extras,quassel,https://quassel-irc.org,"Modern, cross-platform, distributed IRC client based on the Qt framework."
+extras,quickclipboard,https://quickclipboard.cn/en,"Efficient clipboard management tool with support for text, images, and file history."
 extras,rclone-manager,https://zarestia-dev.github.io/rclone-manager/,"A powerful, cross-platform GUI for managing Rclone remotes with style and ease."
+extras,reasonix-desktop,https://reasonix.io,"Reasonix Desktop, official GUI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
+extras,resource-tuner,https://www.restuner.com/,"Visual resource editor for EXE/DLL files. View and edit strings, bitmaps, dialogs and icons."
+extras,resource-tuner-console,https://www.restuner.com/,"Console version of Resource Tuner, a resource editor for EXE/DLL files."
 extras,ripme,https://github.com/ripmeapp2/ripme,Downloads image albums from various websites in bulk.
 extras,ryzen-controller,https://ryzencontroller.com/,Utility for tweaking AMD Ryzen laptops.
+extras,safebrowser,https://github.com/maidsafe/safe_browser,SAFE Browser Application
 extras,sikulix,https://sikulix.github.io/,Visual Automation and Testing
 extras,simple-dnscrypt,https://simplednscrypt.org/,An easy to use GUI for dnscrypt-proxy
 extras,spytify,https://jwallet.github.io/spy-spotify/overview.html,Records Spotify while it plays without ads.
 extras,strokesplus,https://www.strokesplus.com,Mouse gesture recognition utility for Windows which allows you to create powerful mouse gestures that save you time.
 extras,svcat,https://svc-cat.io/,Service Catalog lets you provision cloud services directly from the comfort of native Kubernetes tooling.
+extras,tagscanner,https://www.xdlab.ru/en/,TagScanner is a powerful tool for organizing and managing your music collection.
 extras,taskbarx,https://chrisandriessen.nl/taskbarx,Center Windows taskbar icons with a variety of animations and options.
 extras,trojita,http://trojita.flaska.net/,IMAP e-mail client with lightweight GUI
 extras,tusk,https://klaussinani.tech/tusk/,Refined Evernote desktop app
@@ -59,20 +68,19 @@ extras,vcredist2013,https://support.microsoft.com/en-us/help/2977003/the-latest-
 extras,vitrite,http://www.vanmiddlesworth.org/vitrite/,Configures the level of transparency for almost any visible window.
 extras,webpicmd,https://docs.microsoft.com/en-us/iis/install/web-platform-installer,A little tool for deploying your favorite open-source web applications and all the necessary platform components required to get you up and running quickly and seamlessly.
 extras,wexond,https://wexond.net,"A privacy-focused, extensible and beautiful web browser"
-extras,wire,https://wire.com/,"Secure messaging, file sharing, voice calls and video conferences"
 extras,wordmark,https://wordmarkapp.com,Real time Markdown editor for bloggers
 extras,xcas,https://www-fourier.ujf-grenoble.fr/~parisse/giac.html,Giac/Xcas is a free computer algebra system.
 extras,yubikey-piv-manager,https://developers.yubico.com/yubikey-piv-manager/,Graphical application for configuring a PIV-enabled YubiKey.
 extras,zeronet,https://zeronet.io/,Decentralized websites using Bitcoin crypto and BitTorrent network
-main,ack,https://beyondgrep.com/,"A tool like grep, optimized for programmers"
 main,aptos-cli,https://aptosnetwork.com,Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience. (CLI)
 main,byenow,https://iobureau.com/byenow/,Utility for folder removal
 main,hygen,https://www.hygen.io,The scalable code generator that saves you time
 main,kubeval,https://kubeval.instrumenta.dev,Kubernetes resource files linter
 main,lean-cli,https://leancloud.cn/docs/leanengine_cli.html,LeanEngine Command Line Tool
+main,nssm,https://nssm.cc/,The Non-Sucking Service Manager.
 main,plow,https://deepwiki.com/six-ddc/plow,A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display.
-main,postgrest,https://postgrest.org,REST API for any Postgres database
 main,puppet-agent,https://puppetlabs.com,An open-core software configuration management tool.
+main,reasonix,https://reasonix.io,"Reasonix CLI, official CLI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 main,sentinel,https://www.hashicorp.com/sentinel,"An embeddable policy as code framework to enable fine-grained, logic-based policy decisions."
 main,x265,https://www.x265.org,Encodes video or images into an H.265 / HEVC bitstream.
 main,xpdf-tools,https://www.xpdfreader.com,Several command-line utilities to read and extract data from PDF files

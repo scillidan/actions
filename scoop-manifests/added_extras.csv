@@ -1,4 +1,9 @@
 name,added_date,description
+freerouting,2026-11-18,An advanced autorouter for all PCB programs that support the standard Specctra or Electra DSN interface.
+alma,2026-11-17,"A powerful harness of its own, and the best herdr GUI."
+igir,2026-11-17,"A zero-setup ROM collection manager that sorts, filters, extracts or archives, patches, and reports on collections of various size."
+rattler-build,2026-11-17,"A universal Conda package builder for Windows, macOS and Linux"
+winsetview,2026-11-16,Tool that will let you easily set File Explorer default folder views.
 markview,2026-11-15,"A fast, native Markdown reader with publication-quality typography"
 am-deadlink,2026-11-12,Check URLs for dead links and redirections.
 caldir,2026-11-10,Tool for storing your calendar as a directory of ICS files and sync with cloud providers
@@ -150,8 +155,6 @@ letos,2026-07-03,A SQLite database manager. (Formerly known as SQLiteStudio.)
 vale-ls,2026-07-03,The Vale Language Server (vale-ls) is an implementation of the Language Server Protocol (LSP) for Vale.
 github-copilot,2026-06-30,"GitHub Copilot, an agent-native desktop development environment."
 hongdown,2026-06-29,A Markdown formatter that enforces Hong Minhee's Markdown style conventions
-quickclipboard,2026-06-29,"Efficient clipboard management tool with support for text, images, and file history."
-reasonix-desktop,2026-06-28,"Reasonix Desktop, official GUI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 gmic-qt,2026-06-27,A full-featured open-source framework for digital image processing.
 snoretoast,2026-06-27,A command line application capable of creating Windows Toast notifications.
 bloatynosy,2026-06-26,Universal debloater and PC manager for Windows 11
@@ -169,7 +172,6 @@ dz6,2026-06-12,Fast Vim-inspired TUI hex editor
 codex-monitor,2026-06-11,An app to monitor the (Codex) situation.
 picocrypt-ng,2026-06-11,"A very small, very simple, yet very secure encryption tool."
 gtoolkit,2026-06-09,A moldable development environment.
-kopuz,2026-06-09,Your next music player
 oryxis,2026-06-09,"Modern SSH client built in Rust (encrypted vault, P2P sync, AI, Kubernetes)"
 ferrite,2026-06-08,"A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files."
 nip4,2026-06-04,A spreadsheet-like interface to the libvips image processing library
@@ -536,6 +538,7 @@ restic-browser,2024-02-10,A GUI to browse and restore restic backup repositories
 clever-ffmpeg,2024-02-09,"A small, but powerful GUI for FFmpeg that processes audio and video streams separately."
 fastflix,2024-02-09,"A free GUI for HEVC and AV1 encoding, GIF/WebP/AVIF creation, and more!"
 nmkoder,2024-02-09,"A video encoding, muxing, and analysis GUI in Winforms, built around FFmpeg, FFprobe, and av1an."
+optimizer,2024-02-09,An advanced configuration utility that helps you restore your privacy and increase your security.
 tiddlydesktop,2024-02-08," A custom desktop browser for TiddlyWiki 5 and TiddlyWiki Classic, based on nw.js"
 wxformbuilder,2024-02-08,A GUI builder for the wxWidgets framework.
 i2pdbrowser,2024-02-05,i2pd browser bundle
@@ -760,7 +763,6 @@ jenv,2022-12-17,Change your current Java version with one line
 nunustudio,2022-12-17,"Web powered cross-platform 3D, WebXR game engine."
 oculante,2022-12-17,A minimalistic crossplatform image viewer written in Rust
 threema,2022-12-17,"The official desktop client for Threema, a messenger application that puts security and privacy first."
-gitnuro,2022-12-09,A FOSS Git multiplatform client for newbies and pros
 duplicati,2022-12-08,"A free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers."
 telegram-downloader,2022-12-08,"A cli utility for downloading files from Telegram, backing up your Telegram data, uploading files to Telegram, and recovering your Telegram data."
 gdevelop,2022-12-07,"A full-featured, no-code, open-source game development software."
@@ -869,8 +871,6 @@ cloudcompare,2022-08-01,3D point cloud and mesh processing software
 spotube,2022-08-01,"A lightweight free Spotify client, which handles playback manually, streams music using Youtube & no Spotify premium account is needed."
 diskcheckup,2022-07-30,Monitors SMART attributes of a particular hard disk drive.
 pinta,2022-07-27,Open source program for drawing and image editing.
-resource-tuner,2022-07-27,"Visual resource editor for EXE/DLL files. View and edit strings, bitmaps, dialogs and icons."
-resource-tuner-console,2022-07-27,"Console version of Resource Tuner, a resource editor for EXE/DLL files."
 sbom-tool,2022-07-27,The SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.
 komokana,2022-07-26,An automatic application-aware keyboard layer switcher for Windows
 vosviewer,2022-07-26,VOSviewer is a software tool for constructing and visualizing bibliometric networks.
@@ -1018,7 +1018,6 @@ g-assist,2022-03-30,Unofficial desktop client for Google Assistant
 twinkle-tray,2022-03-29,Easily manage the brightness of your monitors in Windows from the system tray
 shutter-encoder,2022-03-27,"A professional video compression tool accessible to all, mostly based on FFmpeg."
 msedgeredirect,2022-03-26,"A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser"
-quassel,2022-03-26,"Modern, cross-platform, distributed IRC client based on the Qt framework."
 yesplaymusic,2022-03-26,"Cloud music player based on NetEase Player, featuring more elegant UI"
 hysteria,2022-03-25,"Network utility optimized for networks of poor quality (e.g. satellite connections, congested public Wi-Fi, connecting from China to servers abroad)"
 sirikali,2022-03-25,"A Qt/C++ GUI front end to sshfs, ecryptfs-simple, cryfs, gocryptfs, securefs, fscrypt and encfs"
@@ -1599,6 +1598,7 @@ gimagex,2019-07-21,A free GUI tool for working with WIM files.
 workrave,2019-07-21,Recovery and prevention of Repetitive Strain Injury (RSI)
 diskgenius,2019-07-16,"Utility for data recovery, disk partition management, backup & restore"
 jitsi-meet,2019-07-16,"Secure, Simple and Scalable Video Conferences."
+wire,2019-07-16,"Secure messaging, file sharing, voice calls and video conferences"
 jami,2019-07-14,A free and universal communication platform which preserves the user's privacy and freedoms.
 gretl,2019-07-12,"Gnu Regression, Econometrics and Time-series Library"
 sc1,2019-07-12,SCIntilla based Text Editor
@@ -1654,7 +1654,6 @@ praat,2019-05-09,The scientific analysis of speech in phonetics
 listen1desktop,2019-05-07,One for all free music in China
 msbuild-structured-log-viewer,2019-05-06,"A logger for MSBuild that records a structured representation of executed targets, tasks, property and item values."
 streamlabs-chatbot,2019-05-06,Open Broadcaster Software for Gamers
-tagscanner,2019-05-06,TagScanner is a powerful tool for organizing and managing your music collection.
 i2pd,2019-05-03,End-to-End encrypted and anonymous Internet
 islc,2019-05-03,Utility that will monitor and clear the memory standby list when it is > 1000mb (1gb).
 marktext,2019-05-03,A simple and elegant markdown editor
@@ -1869,6 +1868,7 @@ gimp,2019-01-14,GNU Image Manipulation Program
 gitextensions,2019-01-14,A graphical user interface for Git that allows you to control Git without using the commandline.
 github,2019-01-14,Extend your GitHub workflow beyond your browser.
 gitkraken,2019-01-14,A Git client which helps you track and manage changes to your code.
+gnucash,2019-01-14,Personal and small-business financial-accounting software
 godot,2019-01-14,"A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface."
 godot-mono,2019-01-14,"A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface."
 goldendict,2019-01-14,A feature-rich dictionary lookup program
@@ -1886,11 +1886,10 @@ honeyview,2019-01-14,A fast image viewer
 hosts-file-editor,2019-01-14,Easily edit and manage the hosts file
 hwinfo,2019-01-14,"Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS."
 hwmonitor,2019-01-14,"A hardware monitoring program that reads PC systems main health sensors : voltages, temperatures, fans speed."
-hxd,2019-01-14,Hex and Disk Editor
+ida-free,2019-01-14,A multi-processor disassembler and debugger that offers so many features it is hard to describe them all
 idea,2019-01-14,Cross-Platform IDE for Java by JetBrains.
 ilspy,2019-01-14,.NET assembly browser and decompiler.
 imageglass,2019-01-14,"A lightweight, versatile image viewer"
-inkscape,2019-01-14,Professional vector graphics editor
 insomnia,2019-01-14,HTTP and GraphQL client
 iographica,2019-01-14,An application that turns mouse movements into modern art.
 ios-webkit-debug-proxy,2019-01-14,A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).
