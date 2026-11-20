@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-18T18:45:34Z</updated>
+  <updated>2026-11-19T12:31:29Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/c6cef8e124e1edd4@hogwart</id>
+    <title>wrapblock</title>
+    <link href="https://ctan.org/pkg/wrapblock" />
+    <updated>2026-11-19T12:31:29Z</updated>
+    <summary type="html">Wrap a closed block of text, including lists and equations, around an image</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/c6cef8cfd59d2066@hogwart</id>
     <title>ua-jecon</title>
