@@ -2,8 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-15T20:30:24Z</updated>
+  <updated>2026-11-20T02:47:52Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/5584bd8d1559577e8856442259cf7890aa599756#https://github.com/refine-sh/refine.nvim</id>
+    <title>refine-sh/refine.nvim</title>
+    <link href="https://github.com/refine-sh/refine.nvim" />
+    <updated>2026-11-20T02:47:52Z</updated>
+    <summary type="html">Grammar and fluency checks with a local LLM, powered by the `Refine` app for macOS.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/35baa0a3799323e1d1f95d03407f3ae414010789#https://editorthemes.com/editors/neovim</id>
+    <title>editortheme/editorthemes.com</title>
+    <link href="https://editorthemes.com/editors/neovim" />
+    <updated>2026-11-19T09:19:06Z</updated>
+    <summary type="html">Directory for various colorschemes, with live previews and install snippets.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/074995b799814867727a3829a0dd59e137200a93#https://github.com/bradley101/nvim-remote-ssh</id>
+    <title>bradley101/nvim-remote-ssh</title>
+    <link href="https://github.com/bradley101/nvim-remote-ssh" />
+    <updated>2026-11-19T09:17:12Z</updated>
+    <summary type="html">Work on a remote machine, similar to VSCode's "Remote-SSH" plugin.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/4612d336ad44b194d49fd46aa5541e337e950771#https://github.com/cxwx/rslime.nvim</id>
+    <title>cxwx/rslime.nvim</title>
+    <link href="https://github.com/cxwx/rslime.nvim" />
+    <updated>2026-11-19T07:01:49Z</updated>
+    <summary type="html">Slime-style REPL for the CERN ROOT C++ interpreter (Cling); send `// %%` cells to `root -l`, with kernel restart, `.undo`, and `THttpServer` inspection.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/447a45602ae293f35fead12ce876df2f20a5cce2#https://github.com/vshulcz/deja-vu</id>
     <title>vshulcz/deja-vu</title>
