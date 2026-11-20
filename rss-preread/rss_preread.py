@@ -40,16 +40,17 @@ UA = {
 }
 
 CTAN_EXCLUDE = (
-    "chemical",
-    "letter",
-    "maths",
-    "physics",
-    "resume",
-    "thesis",
-    "university",
-    "unofficial"
+    r"\bchem(?:ical|istry)?\b",
+    r"\bletters?\b",
+    r"\bmath(?:s|ematical|ematics)?\b",
+    r"\bphysics\b",
+    r"\b(?:resume|résumé|curriculum\s+vitae|cv)\b",
+    r"\b(?:thesis|theses|dissertation)\b",
+    r"\buniversit(?:y|ies)\b",
+    r"\bunofficial\b",
 )
 TYPST_EXCLUDE = (
+	  "academic",
     "chemical",
     "letter",
     "maths",
@@ -345,6 +346,39 @@ def handle_awesome_neovim(feed, known):
     return handle_add_commits(feed, known, NEOVIM_LINK, lambda m: m.groups())
 
 
+def ctan_topics(page):
+    """Extract topic labels and slugs from the package page's Topics row."""
+    row = re.search(
+        r"<tr\b[^>]*>\s*"
+        r"<td\b[^>]*>\s*Topics\s*</td>\s*"
+        r"<td\b[^>]*>(.*?)</td>\s*</tr>",
+        page or "",
+        re.S | re.I,
+    )
+    if not row:
+        return []
+
+    topics = []
+    links = re.findall(
+        r'<a\b[^>]*href="([^"]*/topic/[^"]+)"[^>]*>(.*?)</a>',
+        row.group(1),
+        re.S | re.I,
+    )
+    for href, label in links:
+        label = html.unescape(re.sub(r"<[^>]+>", "", label)).strip()
+        slug = href.rstrip("/").rsplit("/", 1)[-1]
+        topics.append(f"{label} {slug}")
+    return topics
+
+
+def ctan_topics_excluded(page):
+    return any(
+        re.search(pattern, topic, re.I)
+        for topic in ctan_topics(page)
+        for pattern in CTAN_EXCLUDE
+    )
+
+
 def handle_ctan(feed, known):
     todo = []
     for e in feed.entries:
@@ -352,21 +386,37 @@ def handle_ctan(feed, known):
             continue
         if source_known(known, e.link):
             continue
+
         text = pre_text(e)
         description = re.search(r"Summary description:\s*(.+)", text)
         summary = description.group(1).strip() if description else ""
-        blob = f"{e.title} {summary}".lower()
-        if any(word in blob for word in CTAN_EXCLUDE):
-            continue
-        todo.append((e, summary))
-
-    pages = get_many([e.link for e, _ in todo])
-    out = []
-    for (e, summary), page in zip(todo, pages):
         title = re.sub(r"(?i)^new on ctan:\s*", "", e.title).strip()
-        pkg = re.search(r"https://ctan\.org/pkg/[A-Za-z0-9._\-]+", page or "")
-        link = pkg.group(0) if pkg else f"https://ctan.org/pkg/{quote(title)}"
+        todo.append((e, title, summary))
+
+    announcements = get_many([e.link for e, _, _ in todo])
+    packages = []
+    for (e, title, summary), announcement in zip(todo, announcements):
+        pkg = re.search(
+            r"https://ctan\.org/pkg/[A-Za-z0-9._\-]+",
+            announcement or "",
+        )
+        link = (
+            pkg.group(0)
+            if pkg
+            else f"https://ctan.org/pkg/{quote(title, safe='')}"
+        )
+        packages.append((e, title, summary, link))
+
+    pages = get_many([link for _, _, _, link in packages])
+    out = []
+    for (e, title, summary, link), page in zip(packages, pages):
+        if page is None:
+            continue
+        if ctan_topics_excluded(page):
+            continue
+
         out.append(build(e, e.link, title, link, summary))
+
     return out
 
 
