@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-20T02:47:52Z</updated>
+  <updated>2026-11-20T12:33:19Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/0c160033536aa472374b1aac9c4ba83217f5158c#https://git.sr.ht/~foosoft/boomer.nvim</id>
+    <title>~foosoft/boomer.nvim</title>
+    <link href="https://git.sr.ht/~foosoft/boomer.nvim" />
+    <updated>2026-11-20T12:33:19Z</updated>
+    <summary type="html">Minimalist agent chat buffer for Codex and ACP agents such as Copilot CLI, Gemini CLI, and Claude Agent.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/5584bd8d1559577e8856442259cf7890aa599756#https://github.com/refine-sh/refine.nvim</id>
     <title>refine-sh/refine.nvim</title>

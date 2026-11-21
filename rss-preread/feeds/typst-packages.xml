@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-19T16:11:46Z</updated>
+  <updated>2026-11-20T11:07:11Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/bde4aaf4c80912c8876bd5b80360a7acc459fd92</id>
+    <title>gairm-import</title>
+    <link href="https://typst.app/universe/search/?q=gairm-import" />
+    <updated>2026-11-20T11:07:11Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/22702923b3f217575d7b3de2a5ff8da2ee77ea20</id>
+    <title>sapling</title>
+    <link href="https://typst.app/universe/search/?q=sapling" />
+    <updated>2026-11-20T10:34:20Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/b90a17ffeb3c632a0180d8a459b0065430551fef</id>
+    <title>na-examen</title>
+    <link href="https://typst.app/universe/search/?q=na-examen" />
+    <updated>2026-11-20T10:27:25Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/8b4a66016382beea37ed537b3e09a857cda92e7b</id>
     <title>unimola</title>
