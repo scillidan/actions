@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-20T06:40:55Z</updated>
+  <updated>2026-11-21T18:54:23Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/1b9cc1580bc1fd0c@hogwart</id>
+    <title>framecite</title>
+    <link href="https://ctan.org/pkg/framecite" />
+    <updated>2026-11-21T18:54:23Z</updated>
+    <summary type="html">Show the sources cited on a beamer slide in a small block on the same slide</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/b1921cd1d4732c44@hogwart</id>
+    <title>beltmap</title>
+    <link href="https://ctan.org/pkg/beltmap" />
+    <updated>2026-11-21T10:31:14Z</updated>
+    <summary type="html">Schematic pictures of Factorio belt layouts in LuaLaTeX</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/c6cef91bf61f5df1@hogwart</id>
     <title>tenkana</title>
