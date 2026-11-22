@@ -405,6 +405,7 @@ garnet,2024-05-31,A high-performance cache-store from Microsoft Research.
 go-size-analyzer,2024-05-31,A tool for analyzing the dependencies in compiled Golang binaries.
 algol68g,2024-05-08,Algol 68 compiler-interpreter
 csvlens,2024-05-08,Command line csv viewer
+pocketbase,2024-05-07,Open Source realtime backend in 1 file
 mysql-shell,2024-05-06,Advanced client and code editor for MySQL
 butler,2024-04-30,butler is the itch.io command-line tools - all by itself.
 granted,2024-04-30,Granted is a command line interface (CLI) application which simplifies access to cloud roles and allows multiple cloud accounts to be opened in your web browser simultaneously.

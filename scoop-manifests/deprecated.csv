@@ -1,4 +1,5 @@
 bucket,name,deprecated_date,description
+extras,vncviewer,2026-11-20,Control VNC enabled computers.
 extras,altsendme,2026-11-01,A peer-to-peer file transfer tool that sends files directly without using cloud storage.
 extras,sqlitestudio,2026-11-01,A SQLite database manager.
 extras,pscompletions,2026-09-19,A completion manager for a better and simpler tab-completion experience in PowerShell. (Moved to Main bucket)
