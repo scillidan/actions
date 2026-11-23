@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-21T18:54:23Z</updated>
+  <updated>2026-11-22T18:58:09Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/ef404934284f7670@hogwart</id>
+    <title>lc-visualizer</title>
+    <link href="https://ctan.org/pkg/lc-visualizer" />
+    <updated>2026-11-22T18:58:09Z</updated>
+    <summary type="html">Visualize and reduce lambda calculus terms</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/awMjKg1owlupSJGL@prptp</id>
+    <title>VowelChart</title>
+    <link href="https://ctan.org/pkg/vowelchart" />
+    <updated>2026-11-22T17:15:22Z</updated>
+    <summary type="html">Vowel charts with TikZ</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/awKniVPNsY39MrSF@prptp</id>
+    <title>Contributor CRediTs</title>
+    <link href="https://ctan.org/pkg/contributor-credits" />
+    <updated>2026-11-22T08:27:53Z</updated>
+    <summary type="html">Generate CRediT (Contributor Role Taxonomy) statements</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/1b9cc1580bc1fd0c@hogwart</id>
     <title>framecite</title>

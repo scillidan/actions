@@ -2,8 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-ratatui: New Additions</title>
   <id>urn:rss-preread:awesome-ratatui</id>
-  <updated>2026-11-17T12:10:27Z</updated>
+  <updated>2026-11-22T20:36:19Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-ratatui.xml" />
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/9394d32d14a7d4f44a5eebbc3737687dbd38f10e</id>
+    <title>scribe</title>
+    <link href="https://github.com/programmersd21/scribe" />
+    <updated>2026-11-22T20:36:19Z</updated>
+    <summary type="html">## Summary</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/7f9c03bf064822a3ccf89b3010830c713ab394c4</id>
+    <title>neboto</title>
+    <link href="https://github.com/neboto/neboto-tui" />
+    <updated>2026-11-22T20:35:30Z</updated>
+    <summary type="html">A read-only terminal UI for browsing AWS: search across services, follow links between related resources (a service to its load balancer, a role to its policies), live-tail logs and chart CloudWatch metrics. Built on Ratatui 0.30. `neboto --demo` runs against a made-up account, so it can be tried without AWS credentials. Added to System Administration → Monitoring, Diagnostics, and Logs, next to vTUI. I'm the author.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/1b1cbebff7f706b2e659b7b10a4ee1913941d7bc</id>
+    <title>Open Max</title>
+    <link href="https://github.com/Max17190/open-max" />
+    <updated>2026-11-22T20:35:04Z</updated>
+    <summary type="html">## Why</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/9fb1f779249df82e6abe478834712a5b2780ee24</id>
+    <title>pova</title>
+    <link href="https://github.com/P0r0ro/pova" />
+    <updated>2026-11-22T20:34:02Z</updated>
+    <summary type="html">pova plays YouTube Music in the terminal with a btop-style layout. The visualizer is a Rust port of cava's cavacore that listens only to pova's own audio stream (via PipeWire). It also has synced lyrics from LRCLIB, album art through the kitty graphics protocol, a queue, likes, and support for every btop theme.</summary>
+  </entry>
   <entry>
     <id>https://github.com/ratatui/awesome-ratatui/commit/136c0e2e7e11c2b1c084539f6ed150af1e4b1584</id>
     <title>diffler</title>
