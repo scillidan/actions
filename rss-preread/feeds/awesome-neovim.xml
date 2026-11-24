@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-20T12:33:19Z</updated>
+  <updated>2026-11-24T03:33:48Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/c2c19d4d131cd7bf213c29242ef91f35029610e9#https://github.com/harukikuri/tsconfig-lens.nvim</id>
+    <title>harukikuri/tsconfig-lens.nvim</title>
+    <link href="https://github.com/harukikuri/tsconfig-lens.nvim" />
+    <updated>2026-11-24T03:33:48Z</updated>
+    <summary type="html">Show which `tsconfig` file applies to the current file, its `extends` chain and final compiler options.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/0c160033536aa472374b1aac9c4ba83217f5158c#https://git.sr.ht/~foosoft/boomer.nvim</id>
     <title>~foosoft/boomer.nvim</title>

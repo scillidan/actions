@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-ratatui: New Additions</title>
   <id>urn:rss-preread:awesome-ratatui</id>
-  <updated>2026-11-22T20:36:19Z</updated>
+  <updated>2026-11-23T16:41:23Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-ratatui.xml" />
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/ab027d7ec3204d286b7aefabad3b24e13306610f</id>
+    <title>atlassian</title>
+    <link href="https://github.com/BiteFoundry/atlassian" />
+    <updated>2026-11-23T16:41:23Z</updated>
+    <summary type="html">Adds [atlassian](https://github.com/BiteFoundry/atlassian) (@bitefoundry/atlassian), a Ratatui-based Jira and Confluence TUI, CLI, local HTTP API, and MCP server backed by SQLite FTS5, to **Tasks, Projects, and Calendars** in alphabetical order.</summary>
+  </entry>
   <entry>
     <id>https://github.com/ratatui/awesome-ratatui/commit/9394d32d14a7d4f44a5eebbc3737687dbd38f10e</id>
     <title>scribe</title>

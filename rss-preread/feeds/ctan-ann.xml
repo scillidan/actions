@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-22T18:58:09Z</updated>
+  <updated>2026-11-23T17:57:36Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/awR-kMtXEiAfVsEk@prptp</id>
+    <title>Fandol Braille</title>
+    <link href="https://ctan.org/pkg/fandol-braille" />
+    <updated>2026-11-23T17:57:36Z</updated>
+    <summary type="html">Two fonts that support the Braille range in Unicode</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/ef404934284f7670@hogwart</id>
     <title>lc-visualizer</title>
