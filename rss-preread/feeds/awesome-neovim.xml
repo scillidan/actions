@@ -2,8 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-24T03:33:48Z</updated>
+  <updated>2026-11-25T05:31:24Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/008914e992ba968ec8d7b6e44202df2e10fb0862#https://github.com/mistgc/sshdev.nvim</id>
+    <title>mistgc/sshdev.nvim</title>
+    <link href="https://github.com/mistgc/sshdev.nvim" />
+    <updated>2026-11-25T05:31:24Z</updated>
+    <summary type="html">Happily develop on a remote machine, similar to VSCode's "Remote-SSH" plugin.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/a4ad44e8b6c344958c49aa6ba8cdfafd11a60767#https://github.com/Irdis/swimd</id>
+    <title>Irdis/swimd</title>
+    <link href="https://github.com/Irdis/swimd" />
+    <updated>2026-11-24T11:09:27Z</updated>
+    <summary type="html">A fast C-based fuzzy file finder with SIMD acceleration, Git integration, and file watching.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/3c51050fa450956d685129431527dbb25b7a0275#https://github.com/kochetkov-ma/brewpage-nvim</id>
+    <title>kochetkov-ma/brewpage-nvim</title>
+    <link href="https://github.com/kochetkov-ma/brewpage-nvim" />
+    <updated>2026-11-24T11:08:27Z</updated>
+    <summary type="html">Publish buffers or selections to BrewPage as shareable web pages and copy the link.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/32be21b6662ea4436298af42a958a0b15618493e#https://github.com/Malick-Tammal/chroma.nvim</id>
+    <title>Malick-Tammal/chroma.nvim</title>
+    <link href="https://github.com/Malick-Tammal/chroma.nvim" />
+    <updated>2026-11-24T11:06:26Z</updated>
+    <summary type="html">Fast, customizable Lua theming engine for Neovim with 99+ base46-compatible colorschemes.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/c2c19d4d131cd7bf213c29242ef91f35029610e9#https://github.com/harukikuri/tsconfig-lens.nvim</id>
     <title>harukikuri/tsconfig-lens.nvim</title>

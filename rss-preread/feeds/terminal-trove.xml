@@ -2,8 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Terminal Trove: New Tools</title>
   <id>urn:rss-preread:terminal-trove</id>
-  <updated>2026-11-18T00:00:00Z</updated>
+  <updated>2026-11-25T00:00:00Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/terminal-trove.xml" />
+  <entry>
+    <id>https://terminaltrove.com/feed/sipnab/</id>
+    <title>sipnab</title>
+    <link href="https://github.com/NormB/sipnab" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="html">SIP &amp; RTP capture, analysis, and security tool.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/slackdump/</id>
+    <title>slackdump</title>
+    <link href="https://github.com/rusq/slackdump" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="html">A local save and export utility for your Slack workspace contents.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/tokui/</id>
+    <title>tokui</title>
+    <link href="https://github.com/zdyxry/tokui" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="html">An interactive TUI for visualizing code statistics from tokei.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rmpc/</id>
+    <title>rmpc</title>
+    <link href="https://github.com/mierak/rmpc" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="html">A beautiful and configurable TUI client for music player daemon (mpd).</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/rustic/</id>
+    <title>rustic</title>
+    <link href="http://github.com/rustic-rs/rustic" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="html">Fast, encrypted, and deduplicated backups.</summary>
+  </entry>
+  <entry>
+    <id>https://terminaltrove.com/feed/trurl/</id>
+    <title>trurl</title>
+    <link href="https://github.com/curl/trurl" />
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary type="html">A command line tool for URL parsing and manipulation.</summary>
+  </entry>
   <entry>
     <id>https://terminaltrove.com/feed/iptraf-ng/</id>
     <title>iptraf-ng</title>

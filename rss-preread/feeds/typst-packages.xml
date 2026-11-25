@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-20T11:07:11Z</updated>
+  <updated>2026-11-24T10:02:26Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/a43279cbe8105db3d3182c7e2efce2dee8af066a</id>
+    <title>scholarline-cv</title>
+    <link href="https://typst.app/universe/search/?q=scholarline-cv" />
+    <updated>2026-11-24T10:02:26Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/d1fd66cfa01d0655c8f7a3cea88545c4b8724b8a</id>
+    <title>blue-ledger</title>
+    <link href="https://typst.app/universe/search/?q=blue-ledger" />
+    <updated>2026-11-24T09:19:48Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/2febc652e90c320b99a87aaa507e75992cabd5c5</id>
+    <title>frosted-facts</title>
+    <link href="https://typst.app/universe/search/?q=frosted-facts" />
+    <updated>2026-11-24T09:17:33Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/bde4aaf4c80912c8876bd5b80360a7acc459fd92</id>
     <title>gairm-import</title>
