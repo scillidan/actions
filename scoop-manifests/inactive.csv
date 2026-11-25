@@ -1,4 +1,6 @@
 bucket,name,latest_update,description
+extras,horcrux,2021-11-24,A tool that splits files into encrypted fragments.
+extras,touchcursor,2021-11-24,Lets you use the home keys as cursor keys.
 extras,keepass-plugin-yafd,2021-11-14,Yet Another Favicon Downloader (YAFD for short) is a plugin for KeePass 2.x that allows you to quickly download favicons for your password entries.
 extras,lite,2021-11-11,A lightweight text editor written in Lua.
 extras,shadered,2021-11-10,"Lightweight, cross-platform & full-featured desktop IDE for HLSL and GLSL shaders"
@@ -223,6 +225,7 @@ extras,pocketsphinx,2019-07-28,"Lightweight speech recognition engine, specifica
 extras,sphinxtrain,2019-07-28,Open source acoustic model trainer.
 extras,sandman,2019-07-23,An application built with late night developers in mind.
 extras,markn,2019-02-07,Lightweight markdown viewer.
+main,lftp,2021-11-24,"File transfer program supporting a number of network protocols(ftp, http, sftp, fish, torrent), mirroring, scripting, queueing and other features"
 main,aws-ecs,2021-10-21,"AWS ECS CLI enables users to run their applications on ECS/Fargate using the Docker Compose file format, quickly provision resources, push/pull images in ECR, and monitor running applications on ECS/Fargate."
 main,legit,2021-10-04,Complementary command-line interface for Git.
 main,nunit-extension-nunit-v2-driver,2021-09-29,NUnit V2 Framework Driver Extension

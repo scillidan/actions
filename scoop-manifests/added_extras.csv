@@ -1,4 +1,6 @@
 name,added_date,description
+media-tester,2026-11-24,"An utility designed to test any media (SD, microSD, thumb drives, memory sticks, etc.) and verify it stores the expected number of bytes."
+winc,2026-11-24,"A lighter, faster, more comfortable desktop editor"
 bitwarden-oss,2026-11-22,"Password management solutions for individuals, teams, and business organizations"
 tigervnc-viewer,2026-11-21,A standalone portable Virtual Network Computing (VNC) client that lets you view and interact with remote computer desktops.
 realvnc-connect-viewer,2026-11-20,Remote desktop viewer application focusing on security (formerly VNC Viewer).
@@ -176,6 +178,7 @@ dz6,2026-06-12,Fast Vim-inspired TUI hex editor
 codex-monitor,2026-06-11,An app to monitor the (Codex) situation.
 picocrypt-ng,2026-06-11,"A very small, very simple, yet very secure encryption tool."
 gtoolkit,2026-06-09,A moldable development environment.
+kopuz,2026-06-09,"A modern, lightweight, music player"
 oryxis,2026-06-09,"Modern SSH client built in Rust (encrypted vault, P2P sync, AI, Kubernetes)"
 ferrite,2026-06-08,"A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files."
 nip4,2026-06-04,A spreadsheet-like interface to the libvips image processing library
@@ -1221,8 +1224,6 @@ superslicer,2021-11-30,"G-code generator for 3D printers (Prusa, Voron, Creality
 deskreen,2021-11-29,Turn any device into a secondary screen for your computer (Community edition).
 languagetool-java,2021-11-28,"Grammar, Style and Spell Checker for +25 languages"
 geogebra,2021-11-24,"A dynamic mathematics software for education that brings together geometry, algebra, spreadsheets, graphing, statistics and calculus."
-horcrux,2021-11-24,A tool that splits files into encrypted fragments.
-touchcursor,2021-11-24,Lets you use the home keys as cursor keys.
 featherwallet,2021-11-23,A Monero SPV Wallet
 qownnotes,2021-11-20,Plain-text notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration
 ghidra,2021-11-19,a software reverse engineering (SRE) framework

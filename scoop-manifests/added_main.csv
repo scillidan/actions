@@ -1,4 +1,6 @@
 name,added_date,description
+argc,2026-11-24,A bash CLI framework and command runner
+gemini-api-cli,2026-11-24,CLI for the Gemini API
 clice,2026-11-18,A C/C++ language server and command-line tool built on Clang
 wifit3,2026-11-18,"A standalone USB Wi-Fi auditor for Linux, Windows, and macOS."
 winappcli,2026-11-18,"The Windows App Development CLI for managing SDKs, packaging, app identity, manifests, certificates, and build tools."
@@ -833,7 +835,6 @@ qr,2021-11-30,A command line for generating QR-code from console.
 sourcegraph-cli,2021-11-30,Command line interface to Sourcegraph
 diffsitter,2021-11-29,A tree-sitter based AST difftool to get meaningful semantic diffs
 get-iplayer,2021-11-26,Utility for downloading TV and radio programmes from BBC iPlayer and BBC Sounds
-lftp,2021-11-24,"File transfer program supporting a number of network protocols(ftp, http, sftp, fish, torrent), mirroring, scripting, queueing and other features"
 offlineinsiderenroll,2021-11-24,A script to enable access to the Windows Insider Program on machines not signed in with Microsoft Account
 freepascal,2021-11-23,Professional Pascal compiler.
 mingw-winlibs,2021-11-23,GNU Compiler Collection (WinLibs build)
