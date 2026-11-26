@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-ratatui: New Additions</title>
   <id>urn:rss-preread:awesome-ratatui</id>
-  <updated>2026-11-23T16:41:23Z</updated>
+  <updated>2026-11-25T11:57:20Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-ratatui.xml" />
+  <entry>
+    <id>https://github.com/ratatui/awesome-ratatui/commit/6977b4484200f531644e80921f7a18de99110104</id>
+    <title>linux-boot-analyzer</title>
+    <link href="https://github.com/06ergin06/linux_boot_analyzer_tui" />
+    <updated>2026-11-25T11:57:20Z</updated>
+    <summary type="html">A Ratatui terminal UI that analyses Linux boot time and manages systemd services, autostart entries, profiles and restore points.</summary>
+  </entry>
   <entry>
     <id>https://github.com/ratatui/awesome-ratatui/commit/ab027d7ec3204d286b7aefabad3b24e13306610f</id>
     <title>atlassian</title>

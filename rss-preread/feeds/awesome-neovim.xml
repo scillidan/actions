@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-25T05:31:24Z</updated>
+  <updated>2026-11-25T23:34:29Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/c04392ea33069efc21ad286cd01cdeb1ca5f99d4#https://github.com/Kepler2024/iterm-preview.nvim</id>
+    <title>Kepler2024/iterm-preview.nvim</title>
+    <link href="https://github.com/Kepler2024/iterm-preview.nvim" />
+    <updated>2026-11-25T23:34:29Z</updated>
+    <summary type="html">Route `markdown-preview.nvim` live previews into an iTerm2 browser split pane instead of an external browser window, with scroll sync.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/008914e992ba968ec8d7b6e44202df2e10fb0862#https://github.com/mistgc/sshdev.nvim</id>
     <title>mistgc/sshdev.nvim</title>

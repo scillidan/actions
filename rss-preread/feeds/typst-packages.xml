@@ -2,8 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-24T10:02:26Z</updated>
+  <updated>2026-11-25T10:09:20Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/3782a65eecc8099dbbc3432fb700dec00e9cf76d</id>
+    <title>na-courbe</title>
+    <link href="https://typst.app/universe/search/?q=na-courbe" />
+    <updated>2026-11-25T10:09:20Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/a43279cbe8105db3d3182c7e2efce2dee8af066a</id>
     <title>scholarline-cv</title>

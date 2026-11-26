@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-23T17:57:36Z</updated>
+  <updated>2026-11-25T14:35:14Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/04ce3711-972d-b1ed-a414-9768fd958e32@ctan.org</id>
+    <title>ncolumn</title>
+    <link href="https://ctan.org/pkg/ncolumn" />
+    <updated>2026-11-25T14:35:14Z</updated>
+    <summary type="html">N columns in the way of twocolumn, with spanning material</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/88284975-3ff6-32d2-9d11-82775cdf5c92@ctan.org</id>
+    <title>tcbnestbreak</title>
+    <link href="https://ctan.org/pkg/tcbnestbreak" />
+    <updated>2026-11-25T12:07:03Z</updated>
+    <summary type="html">Breakable tcolorboxes inside breakable tcolorboxes</summary>
+  </entry>
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/f7a15385-ef86-513c-86ed-7754e73e527c@ctan.org</id>
+    <title>deckblatt</title>
+    <link href="https://ctan.org/pkg/deckblatt" />
+    <updated>2026-11-25T06:03:36Z</updated>
+    <summary type="html">Cover pages for self-archived publications from BibTeX data</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/awR-kMtXEiAfVsEk@prptp</id>
     <title>Fandol Braille</title>
