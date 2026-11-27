@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CTAN: New Packages</title>
   <id>urn:rss-preread:ctan-ann</id>
-  <updated>2026-11-25T14:35:14Z</updated>
+  <updated>2026-11-26T10:16:19Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/ctan-ann.xml" />
+  <entry>
+    <id>https://www.ctan.org/ctan-ann/id/d93f9f409f8c50c4@hogwart</id>
+    <title>devicon</title>
+    <link href="https://ctan.org/pkg/devicon" />
+    <updated>2026-11-26T10:16:19Z</updated>
+    <summary type="html">The Devicon icon font with LaTeX support</summary>
+  </entry>
   <entry>
     <id>https://www.ctan.org/ctan-ann/id/04ce3711-972d-b1ed-a414-9768fd958e32@ctan.org</id>
     <title>ncolumn</title>

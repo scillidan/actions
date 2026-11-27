@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Typst Universe: New Packages</title>
   <id>urn:rss-preread:typst-packages</id>
-  <updated>2026-11-25T10:09:20Z</updated>
+  <updated>2026-11-26T10:16:17Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/typst-packages.xml" />
+  <entry>
+    <id>https://github.com/typst/packages/commit/9a420ab26b3fcf2b04cbce5ed04441d398021780</id>
+    <title>yuhina</title>
+    <link href="https://typst.app/universe/search/?q=yuhina" />
+    <updated>2026-11-26T10:16:17Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/9aa6087557a2cb9c38abacc2a5d46d43ae7ddb96</id>
+    <title>ultraw</title>
+    <link href="https://typst.app/universe/search/?q=ultraw" />
+    <updated>2026-11-26T10:10:47Z</updated>
+  </entry>
+  <entry>
+    <id>https://github.com/typst/packages/commit/20f702b79993499b8a4fcdfebf3afbe94125fd70</id>
+    <title>obelisk-estudos</title>
+    <link href="https://typst.app/universe/search/?q=obelisk-estudos" />
+    <updated>2026-11-26T10:04:52Z</updated>
+  </entry>
   <entry>
     <id>https://github.com/typst/packages/commit/3782a65eecc8099dbbc3432fb700dec00e9cf76d</id>
     <title>na-courbe</title>

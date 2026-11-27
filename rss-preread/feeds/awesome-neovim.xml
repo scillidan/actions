@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>awesome-neovim: New Plugins</title>
   <id>urn:rss-preread:awesome-neovim</id>
-  <updated>2026-11-25T23:34:29Z</updated>
+  <updated>2026-11-26T18:40:16Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/scillidan/actions/main/rss-preread/feeds/awesome-neovim.xml" />
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/5b28590a6892d2b13448ef59a6b6cd45e35b8c7a#https://github.com/drumandbytes/dbt-lens.nvim</id>
+    <title>drumandbytes/dbt-lens.nvim</title>
+    <link href="https://github.com/drumandbytes/dbt-lens.nvim" />
+    <updated>2026-11-26T18:40:16Z</updated>
+    <summary type="html">Run dbt models, read compiled SQL, and jump to `ref()`, `source()` and macro definitions.</summary>
+  </entry>
+  <entry>
+    <id>https://github.com/rockerBOO/awesome-neovim/commit/1621a7dbd7c6795bcadc2a7bd59f68a1b4e1470d#https://github.com/ryanjayleyva/kasumi.nvim</id>
+    <title>ryanjayleyva/kasumi.nvim</title>
+    <link href="https://github.com/ryanjayleyva/kasumi.nvim" />
+    <updated>2026-11-26T18:35:44Z</updated>
+    <summary type="html">**_`[TS][LSP][Lua]`_** Muted dark colorscheme of dusty pinks, sages and greys, with matching themes for Ghostty, WezTerm, tmux and Zsh.</summary>
+  </entry>
   <entry>
     <id>https://github.com/rockerBOO/awesome-neovim/commit/c04392ea33069efc21ad286cd01cdeb1ca5f99d4#https://github.com/Kepler2024/iterm-preview.nvim</id>
     <title>Kepler2024/iterm-preview.nvim</title>
