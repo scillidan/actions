@@ -1,4 +1,12 @@
 name,added_date,description
+agent-desktop,2026-11-27,Computer use CLI for AI agents.
+forgejo-cli,2026-11-27,CLI application for interacting with Forgejo
+forgit,2026-11-27,A utility tool powered by fzf for using git interactively.
+git-open,2026-11-27,Open the GitHub page or website for a repository in your browser.
+has,2026-11-27,Checks presence of various command line tools and their versions on the path.
+multi-git-status,2026-11-27,"Show uncommitted, untracked and unpushed changes for multiple Git repos."
+ugit,2026-11-27,Undo your last oopsie in git.
+yadm,2026-11-25,Yet Another Dotfiles Manager.
 argc,2026-11-24,A bash CLI framework and command runner
 gemini-api-cli,2026-11-24,CLI for the Gemini API
 clice,2026-11-18,A C/C++ language server and command-line tool built on Clang
@@ -333,7 +341,6 @@ openconnect,2025-08-03,Multi-protocol SSL VPN client
 yara-x,2025-07-23,"A malware samples pattern matching tool, re-incarnation of YARA."
 dioxus,2025-07-08,"A fullstack app framework for web, desktop, mobile, and more."
 ghdl,2025-07-08,"Free and open-source analyzer, compiler, simulator and (experimental) synthesizer for VHDL"
-localstack,2025-07-08,A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 openlist,2025-07-08,"A file list program that supports multiple storages, powered by Gin and SolidJS, fork of AList."
 rebar3,2025-07-08,"An Erlang tool that makes it easy to create, develop, and release Erlang libraries, applications, and systems in a repeatable manner."
 mcfly,2025-06-05,Fly through your shell history. Great Scott!
@@ -579,7 +586,6 @@ jwt-cli,2023-02-02,A super fast CLI tool to decode and encode JWTs built in Rust
 agg,2023-01-31,Asciinema GIF generator
 surrealdb,2023-01-29,"A scalable, distributed, collaborative, document-graph database, for the realtime web."
 winget-ps,2023-01-25,A PowerShell Module for the Windows Package Manager Client.
-rage,2023-01-21,"A simple, secure and modern encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability."
 rust-gnu,2023-01-20,A language empowering everyone to build reliable and efficient software. (GNU toolchain)
 rustup-gnu,2023-01-20,Manage multiple rust installations with ease
 d2,2023-01-17,A modern diagram scripting language that turns text to diagrams.
@@ -997,7 +1003,6 @@ ipopt,2020-07-31,Software package for large-scale nonlinear optimization
 prince,2020-07-31,Convert HTML to PDF with CSS
 ispc,2020-07-27,Intel® Implicit SPMD (Single Program Multiple Data) Compiler
 mockery,2020-07-27,A mock code autogenerator for Golang
-postgrest,2020-07-27,REST API for any Postgres database
 zoxide,2020-07-27,A faster way to navigate your filesystem
 tokei,2020-07-22,"Count your code, quickly."
 vswhere,2020-07-11,Locate Visual Studio 2017 and newer installations

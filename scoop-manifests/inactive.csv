@@ -19,7 +19,6 @@ extras,locale-emulator,2021-08-25,Yet Another System Region and Language Simulat
 extras,eclipse-javascript,2021-08-07,Eclipse IDE for JavaScript and Web Developers
 extras,eclipse-rust,2021-08-07,Eclipse for Rust Developers
 extras,eclipse-testing,2021-08-07,Eclipse IDE for Testers
-extras,wordmark,2021-08-07,Real time Markdown editor for bloggers
 extras,tikzit,2021-07-18,Graphical tool for rapidly creating graphs and string diagrams using PGF/TikZ
 extras,pathod,2021-07-16,A pathological HTTP daemon designed to let you craft almost any conceivable HTTP response.
 extras,pulseview,2021-07-03,A logic analyzer GUI for sigrok

@@ -35,7 +35,6 @@ multica-cli,2026-10-31,Project management for human + agent teams (CLI)
 usbtreeview,2026-10-29,USB Device Tree Viewer
 gitea-importer,2026-10-25,"CLI tool for migrating repositories, organizations, or entire installations from third-party Git hosting providers into Gitea."
 netcatty,2026-10-23,"AI-powered SSH client, SFTP browser, and terminal manager"
-snitch,2026-10-23,Open-source application firewall and network observer with Sigma rules
 vacuumtube,2026-10-23,Unofficial YouTube Leanback (the Smart TV interface) desktop wrapper with a built-in ad blocker and enhancements.
 dpanel-desktop-ce,2026-10-22,DPanel Community Edition desktop app for managing Docker and Podman containers.
 dpanel-desktop-pe,2026-10-22,DPanel Pro Edition desktop app for managing Docker and Podman containers.
@@ -254,7 +253,6 @@ browseros,2026-01-10,"BrowserOS is an open-source chromium fork that runs AI age
 chatboxai,2026-01-10,"Powerful AI desktop client with support for ChatGPT, Claude and other LLMs."
 cpu-z-arm64,2026-01-10,ARM64 native version of CPU-Z.
 leetsolv,2026-01-10,"A CLI tool for DSA problem revision with spaced repetition, powered by a customized SuperMemo 2 algorithm."
-quicksfv,2026-01-10,QuickSFV is a small Windows program that checks file integrity using checksum files such as SFV.
 stack-wallet,2026-01-10,"An open source, non-custodial, and private multi-currency crypto wallet."
 tablacus-explorer,2026-01-10,A tabbed file manager with Add-on support.
 virgo,2026-01-10,Virtual desktops for Windows.
@@ -652,7 +650,6 @@ qmplay2,2023-06-14,A video and audio player which can play most formats and code
 qflipper,2023-05-27,Graphical desktop application for updating Flipper Zero firmware.
 activitywatch,2023-05-23,Open-source automated time tracker
 icechat,2023-05-14,A full-featured graphical IRC client.
-apifox,2023-05-12,"All-in-one collaboration platform for API documentation, API debugging, API Mock and API test automation."
 dn-famitracker,2023-05-11,A fork of 0CC-FamiTracker that incorporates numerous fixes and features
 hideul,2023-05-02,A tiny utility designed to help you mask applications in the Add/Remove Programs of Windows.
 deew,2023-04-30,Dolby Encoding Engine Wrapper
@@ -667,6 +664,7 @@ avogadro2,2023-04-16,"The official continuation of the advanced molecule editor 
 azd,2023-04-16,"A developer CLI that accelerates the time it takes for you to get started on Azure. It provides a set of developer-friendly commands that map to key stages in your workflow - code, build, deploy, monitor, repeat."
 beebeep,2023-04-16,Office messaging application with security and privacy that does not need an external server
 blobsaver,2023-04-16,A GUI and CLI app for automatically saving SHSH blobs.
+bluetooth-cli-tools,2023-04-16,"A suite of command line utilities for Microsoft Windows that can be used to configure your bluetooth adapter, discover remote bluetooth devices and services, transfer files to OBEX capable devices."
 bytecode-viewer,2023-04-16,"A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)."
 debugtron,2023-04-16,An app to debug in-production Electron-based apps.
 droidcam,2023-04-16,A simple tool that allows users to use their phone as a webcam.
@@ -770,6 +768,7 @@ jenv,2022-12-17,Change your current Java version with one line
 nunustudio,2022-12-17,"Web powered cross-platform 3D, WebXR game engine."
 oculante,2022-12-17,A minimalistic crossplatform image viewer written in Rust
 threema,2022-12-17,"The official desktop client for Threema, a messenger application that puts security and privacy first."
+gitnuro,2022-12-09,A FOSS Git multiplatform client for newbies and pros
 duplicati,2022-12-08,"A free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers."
 telegram-downloader,2022-12-08,"A cli utility for downloading files from Telegram, backing up your Telegram data, uploading files to Telegram, and recovering your Telegram data."
 gdevelop,2022-12-07,"A full-featured, no-code, open-source game development software."
@@ -878,6 +877,8 @@ cloudcompare,2022-08-01,3D point cloud and mesh processing software
 spotube,2022-08-01,"A lightweight free Spotify client, which handles playback manually, streams music using Youtube & no Spotify premium account is needed."
 diskcheckup,2022-07-30,Monitors SMART attributes of a particular hard disk drive.
 pinta,2022-07-27,Open source program for drawing and image editing.
+resource-tuner,2022-07-27,"Visual resource editor for EXE/DLL files. View and edit strings, bitmaps, dialogs and icons."
+resource-tuner-console,2022-07-27,"Console version of Resource Tuner, a resource editor for EXE/DLL files."
 sbom-tool,2022-07-27,The SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.
 komokana,2022-07-26,An automatic application-aware keyboard layer switcher for Windows
 vosviewer,2022-07-26,VOSviewer is a software tool for constructing and visualizing bibliometric networks.
@@ -951,6 +952,7 @@ quarto,2022-06-15,Open-source scientific and technical publishing system built o
 explorer-suite,2022-06-14,A suite of tools including a PE editor called CFF Explorer and a process viewer.
 opennetmeter,2022-06-13,A simple program to monitor your network/data usage.
 phoenix-protector,2022-06-13,Code obfuscator for .NET assemblies
+exeinfo-pe,2022-06-10,"EXE analyzer inspired by PEiD. Designed to detect exe signatures, compressor format and dump internal information."
 mpress,2022-06-10,High-performance executable packer for PE32+ and .NET
 sidebar-diagnostics,2022-06-10,A simple sidebar that displays hardware diagnostic information.
 arcwelder,2022-06-09,Arc welder simplifies gcode for Marlin and Klipper 3D Printer
@@ -969,6 +971,7 @@ office-tool-plus,2022-05-29,A powerful and useful tool for Office deployments
 twitchtest,2022-05-29,A lightweight program that performs a bandwidth test for Twitch
 ncmpc,2022-05-28,Curses Music Player Daemon (MPD) client
 icecast,2022-05-27,"A streaming media (audio/video) server which supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams."
+midicsv,2022-05-27,Convert MIDI audio files to human-readable CSV format
 mpc,2022-05-27,Command-line music player client for mpd
 dnspyex,2022-05-25,"Continuation of the dnSpy project, a .NET debugger and assembly editor."
 speedtest,2022-05-25,Internet Speedtest GUI for Windows
@@ -1553,7 +1556,6 @@ filebot,2019-09-02,"Movies, TV Shows and Anime files organizer and renamer"
 linphone,2019-09-02,A free VoIP and video softphone based on the SIP protocol.
 megui,2019-09-02,MPEG-4 encoding/muxing solution.
 mumble,2019-09-02,Low-latency and high quality voice chat primarily intended for use while gaming.
-nextcloud,2019-09-02,"Desktop sync client for Nextcloud, a self-hosted productivity platform"
 pdf-xchange-editor,2019-09-02,A fast and feature-rich PDF viewer/editor.
 pencil,2019-09-02,GUI prototyping tool
 photodemon,2019-09-02,"Photo editor focused on pro-grade features, high performance, and maximum usability."
@@ -1629,6 +1631,7 @@ httptoolkit,2019-06-21,"HTTP(S) debugging proxy, analyzer and client"
 jasper,2019-06-21,A flexible and powerful issue reader for GitHub.
 open-log-viewer,2019-06-21,Multi-platform log viewer built with Electron and styled with Material Design.
 timeseriesadmin,2019-06-21,Administration panel and querying interface for InfluxDB databases
+wordmark,2019-06-21,Real time Markdown editor for bloggers
 zettlr,2019-06-21,Powerful markdown editor
 omegat,2019-06-20,The free translation memory tool.
 jetbrains-toolbox,2019-06-19,Toolbox App. A control panel for all JetBrains tools.
@@ -1659,6 +1662,7 @@ praat,2019-05-09,The scientific analysis of speech in phonetics
 listen1desktop,2019-05-07,One for all free music in China
 msbuild-structured-log-viewer,2019-05-06,"A logger for MSBuild that records a structured representation of executed targets, tasks, property and item values."
 streamlabs-chatbot,2019-05-06,Open Broadcaster Software for Gamers
+tagscanner,2019-05-06,TagScanner is a powerful tool for organizing and managing your music collection.
 i2pd,2019-05-03,End-to-End encrypted and anonymous Internet
 islc,2019-05-03,Utility that will monitor and clear the memory standby list when it is > 1000mb (1gb).
 marktext,2019-05-03,A simple and elegant markdown editor
@@ -1895,6 +1899,7 @@ ida-free,2019-01-14,A multi-processor disassembler and debugger that offers so m
 idea,2019-01-14,Cross-Platform IDE for Java by JetBrains.
 ilspy,2019-01-14,.NET assembly browser and decompiler.
 imageglass,2019-01-14,"A lightweight, versatile image viewer"
+inkscape,2019-01-14,Professional vector graphics editor
 insomnia,2019-01-14,HTTP and GraphQL client
 iographica,2019-01-14,An application that turns mouse movements into modern art.
 ios-webkit-debug-proxy,2019-01-14,A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).

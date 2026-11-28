@@ -1,4 +1,6 @@
 bucket,name,archived_date,description
+extras,silex-desktop,2026-11-26,Static WYSIWYG website builder
+extras,sorayomi,2026-11-22,A flutter manga reader compatible with Tachiyomi extensions and backups
 extras,reasonix-desktop,2026-11-12,"Reasonix Desktop, official GUI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 extras,hyper,2026-11-04,A terminal built on web technologies
 extras,chatall,2026-10-26,"Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
@@ -6,10 +8,8 @@ extras,hemmelig,2026-10-05,Share sensitive information securely with client-side
 extras,mesonlsp,2026-09-25,"An unofficial, unendorsed language server for meson written in C++."
 extras,pot,2026-09-07,A powerful text selection translation and OCR software
 extras,butane,2026-08-25,Translates Butane configs into Ignition configs.
-extras,sorayomi,2026-08-20,A flutter manga reader compatible with Tachiyomi extensions and backups
 extras,wslinternals,2026-08-04,A collection of some nifty WSL-related utilities.
 extras,mtuner,2026-07-02,"A C/C++ memory profiler and memory leak finder for Windows, PlayStation 4 and 3, Android and other platforms."
-extras,silex-desktop,2026-07-02,Static WYSIWYG website builder
 extras,bitsmanager,2026-06-11,Manager for BITS (Background Intelligent Transfer Service) for Windows.
 extras,gptscript,2026-06-03,"GPTScript is a new scripting language to automate your interaction with a Large Language Model (LLM), namely OpenAI"
 extras,hub-tool,2026-05-22,The Docker Hub Tool is a CLI tool for interacting with the Docker Hub.
@@ -98,6 +98,7 @@ extras,ssh-agent-wsl,2020-03-15,Use the Windows SSH agent from inside WSL
 extras,noty,2019-11-15,Autosaving sticky note with support for multiple notes without needing multiple windows.
 extras,yubikey-piv-manager,2019-03-12,Graphical application for configuring a PIV-enabled YubiKey.
 extras,notepad2-mod,2018-08-12,"A Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting."
+main,localstack,2026-11-26,A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 main,reasonix,2026-11-12,"Reasonix CLI, official CLI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching."
 main,armor,2026-09-27,"Uncomplicated, modern HTTP server"
 main,tunnel,2026-09-27,Expose local servers to the internet securely.
